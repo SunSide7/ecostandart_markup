@@ -8,6 +8,8 @@
   padding: 8px
   border-radius: 16px
 
+  transition: all 0.4s ease
+
   hr
     height: 1px
     margin: 0 1px
@@ -21,13 +23,13 @@
   & > *:first-child::after
     content: ""
     display: block
-    border: solid 1px
     width: 12px
     height: 12px
     margin-left: auto
-    //background: blue
-    background: url(../../../img/components/dropdown/dropdown-arrow.svg) center center no-repeat
+    background-image: url(../../../img/components/dropdown/dropdown-arrow.svg)
     background-size: 100%
+    transition: transform 0.2s ease
+    transform: rotate(180deg)
 
   &.active
     background: $color_neutral_white
@@ -37,5 +39,8 @@
 
     hr
       border-bottom: 1px solid $color_neutral_grey
+
+    & > *:first-child::after
+      transform: rotate(0deg)
 
 

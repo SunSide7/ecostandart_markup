@@ -11,23 +11,24 @@ $color_direct_journal: #2F8672
 $color_direct_certification: #2CCA97
 $color_direct_people: #A380FF
 $color_direct_life: #1CB8E4
+
 $color_neutral_background_white: #f2f2f2
 $color_neutral_white: #f8f8f8
 $color_neutral_error: #FF4D25
 
-$color_neutral_black: #3a434d
-$color_neutral_grey: #727882
 $color_neutral_light_grey: #b7bbc3
+$color_neutral_grey: #727882
 $color_neutral_dark_grey: #4b535c
+$color_neutral_black: #3a434d
 
-// GRADIENTS BASE
+// GRADIENTS PRIMARY
 $gradient_horizontal_primary: linear-gradient(to right, #42AD8E, #74DD4F)
 $gradient_vertical_primary: linear-gradient(to top, #74DD4F, #42AD8E)
 
-$hover_horizontal_primary: linear-gradient(to right, $color_primary_dark_green, $color_primary_light_green)
+$hover_horizontal_primary: linear-gradient(to right, #74DD4F, #74DD4F)
+$hover_vertical_primary: linear-gradient(to top, #74DD4F, #74DD4F)
 
-
-// GRADIENTS PALITRA
+// GRADIENTS DIRECTS
 $gradient_safety: linear-gradient(128deg, #ffa734, #f24868)
 $gradient_ecology: linear-gradient(133deg, #cbf26e, #74dd4f, #4bbb24)
 $gradient_surveys: linear-gradient(132deg, #929292, #4b4b4b)
@@ -50,222 +51,428 @@ $hover_certification: linear-gradient(119deg, #3eb8a3, #3eb8a3)
 $hover_people: linear-gradient(131deg, #a380ff, #a380ff)
 $hover_life: linear-gradient(128deg, #1cb8e4, #1cb8e4)
 
+/* UNIVERSAL CLASSES - TEXT NEUTRAL COLORS
+
+.color
+  &-background-white
+    color: $color_neutral_background_white
+
+  &-white
+    color: $color_neutral_white
+
+  &-error
+    color: $color_neutral_error
+
+  &-light-grey
+    color: $color_neutral_light_grey
+
+  &-grey
+    color: $color_neutral_grey
+
+  &-dark-grey
+    color: $color_neutral_dark_grey
+
+  &-black
+    color: $color_neutral_black
+
+/* UNIVERSAL CLASSES - HOVER TEXT NEUTRAL COLORS
+
+.hover-color
+  &-background-white:hover
+    color: $color_neutral_background_white
+
+  &-white:hover
+    color: $color_neutral_white
+
+  &-error:hover
+    color: $color_neutral_error
+
+  &-light-grey:hover
+    color: $color_neutral_light_grey
+
+  &-grey:hover
+    color: $color_neutral_grey
+
+  &-dark-grey:hover
+    color: $color_neutral_dark_grey
+
+  &-black:hover
+    color: $color_neutral_black
+
+/* UNIVERSAL CLASSES - BACKGROUND NEUTRAL COLORS
+
+.bg-color
+  &-background-white
+    background-color: $color_neutral_background_white
+
+  &-white
+    background-color: $color_neutral_white
+
+  &-error
+    background-color: $color_neutral_error
+
+  &-light-grey
+    background-color: $color_neutral_light_grey
+
+  &-grey
+    background-color: $color_neutral_grey
+
+  &-dark-grey
+    background-color: $color_neutral_dark_grey
+
+  &-black
+    background-color: $color_neutral_black
+
+/* UNIVERSAL CLASSES - HOVER BACKGROUND NEUTRAL COLORS
+
+.hover-bg-color
+  &-background-white:hover
+    background-color: $color_neutral_background_white
+
+  &-white:hover
+    background-color: $color_neutral_white
+
+  &-error:hover
+    background-color: $color_neutral_error
+
+  &-light-grey:hover
+    background-color: $color_neutral_light_grey
+
+  &-grey:hover
+    background-color: $color_neutral_grey
+
+  &-dark-grey:hover
+    background-color: $color_neutral_dark_grey
+
+  &-black:hover
+    background-color: $color_neutral_black
+
+/* UNIVERSAL CLASSES - TEXT COLORS
+
+.color
+  &-primary-light-green
+    color: $color_primary_light_green
+
+  &-primary-dark-green
+    color: $color_primary_dark_green
+
+  &-safety
+    color: $color_direct_safety
+
+  &-ecology
+    color: $color_direct_ecology
+
+  &-surveys
+    color: $color_direct_surveys
+
+  &-academy
+    color: $color_direct_academy
+
+  &-soft
+    color: $color_direct_soft
+
+  &-foundation
+    color: $color_direct_foundation
+
+  &-journal
+    color: $color_direct_journal
+
+  &-certification
+    color: $color_direct_certification
+
+  &-people
+    color: $color_direct_people
+
+  &-life
+    color: $color_direct_life
+
+/* UNIVERSAL CLASSES - HOVER TEXT COLORS
+
+.hover-color
+  &-primary-light-green:hover
+    color: $color_primary_light_green
+
+  &-primary-dark-green:hover
+    color: $color_primary_dark_green
+
+  &-safety:hover
+    color: $color_direct_safety
+
+  &-ecology:hover
+    color: $color_direct_ecology
+
+  &-surveys:hover
+    color: $color_direct_surveys
+
+  &-academy:hover
+    color: $color_direct_academy
+
+  &-soft:hover
+    color: $color_direct_soft
+
+  &-foundation:hover
+    color: $color_direct_foundation
+
+  &-journal:hover
+    color: $color_direct_journal
+
+  &-certification:hover
+    color: $color_direct_certification
+
+  &-people:hover
+    color: $color_direct_people
+
+  &-life:hover
+    color: $color_direct_life
+
+/* UNIVERSAL CLASSES - BACKGROUND COLORS
+
+.bg-color
+  &-primary-light-green
+    background-color: $color_primary_light_green
+
+  &-primary-dark-green
+    background-color: $color_primary_dark_green
+
+  &-safety
+    background-color: $color_direct_safety
+
+  &-ecology
+    background-color: $color_direct_ecology
+
+  &-surveys
+    background-color: $color_direct_surveys
+
+  &-academy
+    background-color: $color_direct_academy
+
+  &-soft
+    background-color: $color_direct_soft
+
+  &-foundation
+    background-color: $color_direct_foundation
+
+  &-journal
+    background-color: $color_direct_journal
+
+  &-certification
+    background-color: $color_direct_certification
+
+  &-people
+    background-color: $color_direct_people
+
+  &-life
+    background-color: $color_direct_life
+
+/* UNIVERSAL CLASSES - HOVER BACKGROUND COLORS
+
+.hover-bg-color
+  &-primary-light-green:hover
+    background-color: $color_primary_light_green
+
+  &-primary-dark-green:hover
+    background-color: $color_primary_dark_green
+
+  &-safety:hover
+    background-color: $color_direct_safety
+
+  &-ecology:hover
+    background-color: $color_direct_ecology
+
+  &-surveys:hover
+    background-color: $color_direct_surveys
+
+  &-academy:hover
+    background-color: $color_direct_academy
+
+  &-soft:hover
+    background-color: $color_direct_soft
+
+  &-foundation:hover
+    background-color: $color_direct_foundation
+
+  &-journal:hover
+    background-color: $color_direct_journal
+
+  &-certification:hover
+    background-color: $color_direct_certification
+
+  &-people:hover
+    background-color: $color_direct_people
+
+  &-life:hover
+    background-color: $color_direct_life
 
 /* UNIVERSAL CLASSES - TEXT GRADIENTS
 
-.gradient-horizontal-primary
-  background: $gradient_horizontal_primary
-  background-clip: text
-  color: transparent
+.gradient
+  &-horizontal-primary
+    background: $gradient_horizontal_primary
+    background-clip: text
+    color: transparent
+
+    &.hoverable:hover
+      background: $hover_horizontal_primary
 
-.gradient-vertical-primary
-  background: $gradient_vertical_primary
-  background-clip: text
-  color: transparent
+  &-vertical-primary
+    background: $gradient_vertical_primary
+    background-clip: text
+    color: transparent
 
+    &.hoverable:hover
+      background: $hover_vertical_primary
 
+  &-safety
+    background: $gradient_safety
+    background-clip: text
+    color: transparent
 
-.gradient-safety
-  background: $gradient_safety
-  background-clip: text
-  color: transparent
+    &.hoverable:hover
+      background: $hover_safety
 
-.gradient-ecology
-  background: $gradient_ecology
-  background-clip: text
-  color: transparent
+  &-ecology
+    background: $gradient_ecology
+    background-clip: text
+    color: transparent
 
-.gradient-surveys
-  background: $gradient_surveys
-  background-clip: text
-  color: transparent
+    &.hoverable:hover
+      background: $hover_ecology
 
-.gradient-academy
-  background: $gradient_academy
-  background-clip: text
-  color: transparent
+  &-surveys
+    background: $gradient_surveys
+    background-clip: text
+    color: transparent
 
-.gradient-soft
-  background: $gradient_soft
-  background-clip: text
-  color: transparent
+    &.hoverable:hover
+      background: $hover_surveys
 
-.gradient-foundation
-  background: $gradient_foundation
-  background-clip: text
-  color: transparent
+  &-academy
+    background: $gradient_academy
+    background-clip: text
+    color: transparent
 
-.gradient-journal
-  background: $gradient_journal
-  background-clip: text
-  color: transparent
+    &.hoverable:hover
+      background: $hover_academy
 
-.gradient-certification
-  background: $gradient_certification
-  background-clip: text
-  color: transparent
+  &-soft
+    background: $gradient_soft
+    background-clip: text
+    color: transparent
 
-.gradient-people
-  background: $gradient_people
-  background-clip: text
-  color: transparent
+    &.hoverable:hover
+      background: $hover_soft
 
-.gradient-life
-  background: $gradient_life
-  background-clip: text
-  color: transparent
+  &-foundation
+    background: $gradient_foundation
+    background-clip: text
+    color: transparent
 
+    &.hoverable:hover
+      background: $hover_foundation
 
+  &-journal
+    background: $gradient_journal
+    background-clip: text
+    color: transparent
 
+    &.hoverable:hover
+      background: $hover_life
 
-// TODO -> ПЕРЕНЕСТИ В CSS/COMPONENTS/BTN.SASS
-// HOVERS
-.btn-def-white
-  &::before
-    background: $color-neutral-white !important
+  &-certification
+    background: $gradient_certification
+    background-clip: text
+    color: transparent
 
-  background: $color-neutral-white !important
+    &.hoverable:hover
+      background: $hover_certification
 
-.btn-def-black
-  &::before
-    background: $color-neutral-dark-grey !important
+  &-people
+    background: $gradient_people
+    background-clip: text
+    color: transparent
 
-  background: $color-neutral-grey !important
+    &.hoverable:hover
+      background: $hover_people
 
+  &-life
+    background: $gradient_life
+    background-clip: text
+    color: transparent
 
-// GRADIENTAL
-.btn-def-safety
-  &::before
-    background: $gradient_safety !important
+    &.hoverable:hover
+      background: $hover_life
 
-  background: $hover_safety !important
+/* UNIVERSAL CLASSES - BACKGROUND GRADIENTS
 
-.btn-def-ecology
-  &::before
-    background: $gradient_ecology !important
+.bg-gradient
+  &-horizontal-primary
+    background: $gradient_horizontal_primary
 
-  background: $hover_ecology !important
+    &.hoverable:hover
+      background: $hover_horizontal_primary
 
-.btn-def-surveys
-  &::before
-    background: $gradient_surveys !important
+  &-vertical-primary
+    background: $gradient_vertical_primary
 
-  background: $hover_surveys !important
+    &.hoverable:hover
+      background: $hover_vertical_primary
 
-.btn-def-academy
-  &::before
-    background: $gradient_academy !important
+  &-safety
+    background: $gradient_safety
 
-  background: $hover_academy !important
+    &.hoverable:hover
+      background: $hover_safety
 
-.btn-def-soft
-  &::before
-    background: $gradient_soft !important
+  &-ecology
+    background: $gradient_ecology
 
-  background: $hover_soft !important
+    &.hoverable:hover
+      background: $hover_ecology
 
-.btn-def-foundation
-  &::before
-    background: $gradient_foundation !important
+  &-surveys
+    background: $gradient_surveys
 
-  background: $hover_foundation !important
+    &.hoverable:hover
+      background: $hover_surveys
 
-.btn-def-journal
-  &::before
-    background: $gradient_journal !important
+  &-academy
+    background: $gradient_academy
 
-  background: $hover_journal !important
+    &.hoverable:hover
+      background: $hover_academy
 
-.btn-def-certification
-  &::before
-    background: $gradient_certification !important
+  &-soft
+    background: $gradient_soft
 
-  background: $hover_certification !important
+    &.hoverable:hover
+      background: $hover_soft
 
-.btn-def-people
-  &::before
-    background: $gradient_people !important
+  &-foundation
+    background: $gradient_foundation
 
-  background: $hover_people !important
+    &.hoverable:hover
+      background: $hover_foundation
 
-.btn-def-life
-  &::before
-    background: $gradient_life !important
+  &-journal
+    background: $gradient_journal
 
-  background: $hover_life !important
+    &.hoverable:hover
+      background: $hover_journal
 
+  &-certification
+    background: $gradient_certification
 
-.btn-img-white
-  &::before
-    background: $color-neutral-white !important
+    &.hoverable:hover
+      background: $hover_certification
 
-  background: $color-neutral-white !important
+  &-people
+    background: $gradient_people
 
-.btn-img-black
-  &::before
-    background: $color-neutral-grey !important
+    &.hoverable:hover
+      background: $hover_people
 
-  background: $color-neutral-dark-grey !important
+  &-life
+    background: $gradient_life
 
-
-// GRADIENTAL
-.btn-img-safety
-  background: $gradient_safety !important
-
-  &::before
-    background: $hover_safety !important
-
-.btn-img-ecology
-  background: $gradient_ecology !important
-
-  &::before
-    background: $hover_ecology !important
-
-.btn-img-surveys
-  background: $gradient_surveys !important
-
-  &::before
-    background: $hover_surveys !important
-
-.btn-img-academy
-  background: $gradient_academy !important
-
-  &::before
-    background: $hover_academy !important
-
-.btn-img-soft
-  background: $gradient_soft !important
-
-  &::before
-    background: $hover_soft !important
-
-.btn-img-foundation
-  background: $gradient_foundation !important
-
-  &::before
-    background: $hover_foundation !important
-
-.btn-img-journal
-  background: $gradient_journal !important
-
-  &::before
-    background: $hover_journal !important
-
-.btn-img-certification
-  background: $gradient_certification !important
-
-  &::before
-    background: $hover_certification !important
-
-.btn-img-people
-  background: $gradient_people !important
-
-  &::before
-    background: $hover_people !important
-
-.btn-img-life
-  background: $gradient_life !important
-
-  &::before
-    background: $hover_life !important
-
+    &.hoverable:hover
+      background: $hover_life
