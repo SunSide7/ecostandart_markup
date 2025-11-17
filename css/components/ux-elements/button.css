@@ -239,7 +239,7 @@
   background: linear-gradient(128deg, #1cb8e4, #1cb8e4) !important;
 }
 
-.btn {
+.btn-white, .btn-black, .btn-safety, .btn-ecology, .btn-surveys, .btn-academy, .btn-soft, .btn-foundation, .btn-journal, .btn-certification, .btn-people, .btn-life {
   display: inline-block;
   padding: 0;
   text-decoration: none;
@@ -256,7 +256,7 @@
   position: relative;
   transition: all 0.35s ease-out;
 }
-.btn span {
+.btn-white span, .btn-black span, .btn-safety span, .btn-ecology span, .btn-surveys span, .btn-academy span, .btn-soft span, .btn-foundation span, .btn-journal span, .btn-certification span, .btn-people span, .btn-life span {
   display: block;
   padding: 16.5px 24px;
   padding-right: 52px;
@@ -272,24 +272,47 @@
   -o-transition: all 0.55s ease-in-out;
   transition: all 0.55s ease-in-out;
 }
-.btn:not(.btn-img) span {
+.btn-white span, .btn-black span, .btn-safety span, .btn-ecology span, .btn-surveys span, .btn-academy span, .btn-soft span, .btn-foundation span, .btn-journal span, .btn-certification span, .btn-people span, .btn-life span {
   padding-right: 24px;
 }
-.btn:before {
-  content: "";
+.btn-white span {
+  color: #3a434d;
+}
+
+.btn-img-white, .btn-img-black, .btn-img-safety, .btn-img-ecology, .btn-img-surveys, .btn-img-academy, .btn-img-soft, .btn-img-foundation, .btn-img-journal, .btn-img-certification, .btn-img-people, .btn-img-life {
   display: inline-block;
-  width: 100%;
+  padding: 0;
+  text-decoration: none;
+  background: linear-gradient(128deg, #ffa734, #f24868);
+  border-radius: 50px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 100%;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s ease-out;
+}
+.btn-img-white span, .btn-img-black span, .btn-img-safety span, .btn-img-ecology span, .btn-img-surveys span, .btn-img-academy span, .btn-img-soft span, .btn-img-foundation span, .btn-img-journal span, .btn-img-certification span, .btn-img-people span, .btn-img-life span {
+  display: block;
+  padding: 16.5px 24px;
+  padding-right: 52px;
   height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 100%;
   background: transparent;
-  z-index: 2;
+  -webkit-transition: all 0.55s ease-in-out;
+  -moz-transition: all 0.55s ease-in-out;
+  -ms-transition: all 0.55s ease-in-out;
+  -o-transition: all 0.55s ease-in-out;
+  transition: all 0.55s ease-in-out;
 }
-.btn:hover span {
-  background: linear-gradient(128deg, #ffa734, #ffa734);
-}
-.btn.btn-img:after {
+.btn-img-white:after, .btn-img-black:after, .btn-img-safety:after, .btn-img-ecology:after, .btn-img-surveys:after, .btn-img-academy:after, .btn-img-soft:after, .btn-img-foundation:after, .btn-img-journal:after, .btn-img-certification:after, .btn-img-people:after, .btn-img-life:after {
   content: "";
   width: 29px;
   height: 29px;
@@ -299,6 +322,109 @@
   top: 0;
   bottom: 0;
   margin: auto;
+}
+.btn-img-white.btn-arrow:after, .btn-img-black.btn-arrow:after, .btn-img-safety.btn-arrow:after, .btn-img-ecology.btn-arrow:after, .btn-img-surveys.btn-arrow:after, .btn-img-academy.btn-arrow:after, .btn-img-soft.btn-arrow:after, .btn-img-foundation.btn-arrow:after, .btn-img-journal.btn-arrow:after, .btn-img-certification.btn-arrow:after, .btn-img-people.btn-arrow:after, .btn-img-life.btn-arrow:after {
+  background-image: url(../../../img/components/btn/icon_arrow_circle.svg);
+}
+.btn-img-white span {
+  color: #3a434d;
+}
+
+.btn-white span,
+.btn-img-white span {
+  background: #f8f8f8 !important;
+}
+.btn-white:hover span,
+.btn-img-white:hover span {
+  background: #f8f8f8 !important;
+}
+.btn-black span,
+.btn-img-black span {
+  background: #4b535c !important;
+}
+.btn-black:hover span,
+.btn-img-black:hover span {
+  background: #727882 !important;
+}
+.btn-safety span,
+.btn-img-safety span {
+  background: linear-gradient(128deg, #ffa734, #f24868) !important;
+}
+.btn-safety:hover span,
+.btn-img-safety:hover span {
+  background: linear-gradient(128deg, #ffa734, #ffa734) !important;
+}
+.btn-ecology span,
+.btn-img-ecology span {
+  background: linear-gradient(133deg, #cbf26e, #74dd4f, #4bbb24) !important;
+}
+.btn-ecology:hover span,
+.btn-img-ecology:hover span {
+  background: linear-gradient(133deg, #cbf26e, #cbf26e, #cbf26e) !important;
+}
+.btn-surveys span,
+.btn-img-surveys span {
+  background: linear-gradient(132deg, #929292, #4b4b4b) !important;
+}
+.btn-surveys:hover span,
+.btn-img-surveys:hover span {
+  background: linear-gradient(132deg, #929292, #929292) !important;
+}
+.btn-academy span,
+.btn-img-academy span {
+  background: linear-gradient(131deg, #8cb7ff, #1069fe) !important;
+}
+.btn-academy:hover span,
+.btn-img-academy:hover span {
+  background: linear-gradient(131deg, #8cb7ff, #8cb7ff) !important;
+}
+.btn-soft span,
+.btn-img-soft span {
+  background: linear-gradient(131deg, #c4cde1, #748aab) !important;
+}
+.btn-soft:hover span,
+.btn-img-soft:hover span {
+  background: linear-gradient(131deg, #c4cde1, #c4cde1) !important;
+}
+.btn-foundation span,
+.btn-img-foundation span {
+  background: linear-gradient(to right, #ffad31, #ff6614) !important;
+}
+.btn-foundation:hover span,
+.btn-img-foundation:hover span {
+  background: linear-gradient(to right, #ffad31, #ff6614) !important;
+}
+.btn-journal span,
+.btn-img-journal span {
+  background: linear-gradient(147deg, #2fd8b1, #2f8672) !important;
+}
+.btn-journal:hover span,
+.btn-img-journal:hover span {
+  background: linear-gradient(147deg, #2fd8b1, #2fd8b1) !important;
+}
+.btn-certification span,
+.btn-img-certification span {
+  background: linear-gradient(119deg, #3eb8a3, #175fab) !important;
+}
+.btn-certification:hover span,
+.btn-img-certification:hover span {
+  background: linear-gradient(119deg, #3eb8a3, #3eb8a3) !important;
+}
+.btn-people span,
+.btn-img-people span {
+  background: linear-gradient(131deg, #a380ff, #3934c7) !important;
+}
+.btn-people:hover span,
+.btn-img-people:hover span {
+  background: linear-gradient(131deg, #a380ff, #a380ff) !important;
+}
+.btn-life span,
+.btn-img-life span {
+  background: linear-gradient(128deg, #1cb8e4, #1e6fd9) !important;
+}
+.btn-life:hover span,
+.btn-img-life:hover span {
+  background: linear-gradient(128deg, #1cb8e4, #1cb8e4) !important;
 }
 
 /*# sourceMappingURL=button.css.map */

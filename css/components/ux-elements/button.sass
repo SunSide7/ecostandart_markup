@@ -1,11 +1,13 @@
 @import ../../colors.sass
 
-.btn
+$icon-size: 29px
+
+@mixin btn_base
+
   display: inline-block
-  $icon-size: 29px
+
   padding: 0
   text-decoration: none
-
 
   background: $gradient-safety
   border-radius: 50px
@@ -43,30 +45,47 @@
     transition: all .55s ease-in-out
 
 
-  &:not(.btn-img)
+
+.btn
+  &-white,
+  &-black,
+
+  &-safety,
+  &-ecology,
+  &-surveys,
+  &-academy,
+  &-soft,
+  &-foundation,
+  &-journal,
+  &-certification,
+  &-people,
+  &-life
+    @include btn_base
+
     & span
       padding-right: 24px
 
 
-
-  &:before
-    content: ''
-    display: inline-block
-    width: 100%
-    height: 100%
-    position: absolute
-    top: 0
-    left: 0
-    background: transparent
-    z-index: 2
-
-
-  &:hover
-
+  &-white
     & span
-      background: $hover_safety
+      color: $color-neutral-black
 
-  &.btn-img
+
+.btn-img
+  &-white,
+  &-black,
+  &-safety,
+  &-ecology,
+  &-surveys,
+  &-academy,
+  &-soft,
+  &-foundation,
+  &-journal,
+  &-certification,
+  &-people,
+  &-life
+    @include btn_base
+
     &:after
       content: ''
       width: $icon-size
@@ -77,3 +96,119 @@
       top: 0
       bottom: 0
       margin: auto
+
+    &.btn-arrow
+      &:after
+        background-image: url(../../../img/components/btn/icon_arrow_circle.svg)
+
+  &-white
+    & span
+      color: $color-neutral-black
+
+
+
+
+// HOVERS
+.btn,
+.btn-img
+
+  // BASE
+  &-white
+    & span
+      background: $color-neutral-white !important
+
+    &:hover
+      & span
+        background: $color-neutral-white !important
+
+  &-black
+    & span
+      background: $color-neutral-dark-grey !important
+
+    &:hover
+      & span
+        background: $color-neutral-grey !important
+
+
+  // GRADIENTAL
+  &-safety
+    & span
+      background: $gradient_safety !important
+
+    &:hover
+      & span
+        background: $hover_safety !important
+
+  &-ecology
+    & span
+      background: $gradient_ecology !important
+
+    &:hover
+      & span
+        background: $hover_ecology !important
+
+  &-surveys
+    & span
+      background: $gradient_surveys !important
+
+    &:hover
+      & span
+        background: $hover_surveys !important
+
+  &-academy
+    & span
+      background: $gradient_academy !important
+
+    &:hover
+      & span
+        background: $hover_academy !important
+
+  &-soft
+    & span
+      background: $gradient_soft !important
+
+    &:hover
+      & span
+        background: $hover_soft !important
+
+  &-foundation
+    & span
+      background: $gradient_foundation !important
+
+    &:hover
+      & span
+        background: $hover_foundation !important
+
+  &-journal
+    & span
+      background: $gradient_journal !important
+
+    &:hover
+      & span
+        background: $hover_journal !important
+
+  &-certification
+    & span
+      background: $gradient_certification !important
+
+    &:hover
+      & span
+        background: $hover_certification !important
+
+  &-people
+    & span
+      background: $gradient_people !important
+
+    &:hover
+      & span
+        background: $hover_people !important
+
+  &-life
+    & span
+      background: $gradient_life !important
+
+    &:hover
+      & span
+        background: $hover_life !important
+
+
