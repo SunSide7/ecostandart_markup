@@ -1,0 +1,29 @@
+@import ../../colors.sass
+
+.cards
+  $card-width: 48%
+  $cards-gap: 16px
+
+  display: flex
+  flex-wrap: wrap
+
+  &-item
+    width: calc($card-width - $cards-gap / 2)
+    margin-bottom: $cards-gap
+
+    &:nth-child(2n-1)
+      margin-right: $cards-gap
+
+@media(max-width: 640px)
+  .cards
+
+    &-item
+      width: 100%
+      margin-bottom: 8px
+
+      &:nth-child(2n-1)
+        margin-right: 0
+        margin-bottom: 8px
+
+      &:last-child
+        margin-bottom: 0

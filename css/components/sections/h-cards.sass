@@ -1,0 +1,68 @@
+.h-cards
+  &-item
+    display: flex
+    margin-bottom: 16px
+
+    & > .d-flex
+      position: relative
+
+    &-text
+      width: calc(100% - 404px - 24px)
+      margin-right: 24px
+    &-img
+      width: 404px
+      -webkit-border-radius: 12px
+      -moz-border-radius: 12px
+      border-radius: 12px
+      overflow: hidden
+
+      position: absolute
+      right: 0
+      top: 0
+      bottom: 0
+      margin: auto
+
+      img
+        height: 100%
+        width: 100%
+        object-fit: cover
+
+@media(max-width: 1280px)
+  .h-cards
+    &-item
+      &-text,
+      &-img
+        width: calc(50% - 24px / 2)
+
+//@media(max-width: 960px)
+
+@media(max-width: 960px)
+  .h-cards
+    &-item
+      flex-wrap: wrap
+
+      & > .d-flex
+        flex-direction: column
+
+      &-text,
+      &-img
+        width: 100%
+        margin: 0
+      &-text
+        margin-bottom: 32px
+
+      &-img
+        position: static
+        max-height: 50vw
+
+@media(max-width: 640px)
+  .h-cards
+    &-item
+      display: flex
+      margin-bottom: 8px
+      &:last-child
+        margin-bottom: 0
+
+
+      &-img
+        max-height: 50vw

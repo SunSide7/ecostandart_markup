@@ -1,0 +1,271 @@
+// COLORS
+$color_primary_light_green: #74dd4f
+$color_primary_dark_green: #44af8c
+$color_direct_safety: #F25B39
+$color_direct_ecology: #74dd4f
+$color_direct_surveys: #929292
+$color_direct_academy: #1069FE
+$color_direct_soft: #748AAB
+$color_direct_foundation: #FFAD31
+$color_direct_journal: #2F8672
+$color_direct_certification: #2CCA97
+$color_direct_people: #A380FF
+$color_direct_life: #1CB8E4
+$color_neutral_background_white: #f2f2f2
+$color_neutral_white: #f8f8f8
+$color_neutral_error: #FF4D25
+
+$color_neutral_black: #3a434d
+$color_neutral_grey: #727882
+$color_neutral_light_grey: #b7bbc3
+$color_neutral_dark_grey: #4b535c
+
+// GRADIENTS BASE
+$gradient_horizontal_primary: linear-gradient(to right, #42AD8E, #74DD4F)
+$gradient_vertical_primary: linear-gradient(to top, #74DD4F, #42AD8E)
+
+$hover_horizontal_primary: linear-gradient(to right, $color_primary_dark_green, $color_primary_light_green)
+
+
+// GRADIENTS PALITRA
+$gradient_safety: linear-gradient(128deg, #ffa734, #f24868)
+$gradient_ecology: linear-gradient(133deg, #cbf26e, #74dd4f, #4bbb24)
+$gradient_surveys: linear-gradient(132deg, #929292, #4b4b4b)
+$gradient_academy: linear-gradient(131deg, #8cb7ff, #1069fe)
+$gradient_soft: linear-gradient(131deg, #c4cde1, #748aab)
+$gradient_foundation: linear-gradient(to right, #ffad31, #ff6614)
+$gradient_journal: linear-gradient(147deg, #2fd8b1, #2f8672)
+$gradient_certification: linear-gradient(119deg, #3eb8a3, #175fab)
+$gradient_people: linear-gradient(131deg, #a380ff, #3934c7)
+$gradient_life: linear-gradient(128deg, #1cb8e4, #1e6fd9)
+
+$hover_safety: linear-gradient(128deg, #ffa734, #ffa734)
+$hover_ecology: linear-gradient(133deg, #cbf26e, #cbf26e, #cbf26e)
+$hover_surveys: linear-gradient(132deg, #929292, #929292)
+$hover_academy: linear-gradient(131deg, #8cb7ff, #8cb7ff)
+$hover_soft: linear-gradient(131deg, #c4cde1, #c4cde1)
+$hover_foundation: linear-gradient(to right, #ffad31, #ff6614)
+$hover_journal: linear-gradient(147deg, #2fd8b1, #2fd8b1)
+$hover_certification: linear-gradient(119deg, #3eb8a3, #3eb8a3)
+$hover_people: linear-gradient(131deg, #a380ff, #a380ff)
+$hover_life: linear-gradient(128deg, #1cb8e4, #1cb8e4)
+
+
+/* UNIVERSAL CLASSES - TEXT GRADIENTS
+
+.gradient-horizontal-primary
+  background: $gradient_horizontal_primary
+  background-clip: text
+  color: transparent
+
+.gradient-vertical-primary
+  background: $gradient_vertical_primary
+  background-clip: text
+  color: transparent
+
+
+
+.gradient-safety
+  background: $gradient_safety
+  background-clip: text
+  color: transparent
+
+.gradient-ecology
+  background: $gradient_ecology
+  background-clip: text
+  color: transparent
+
+.gradient-surveys
+  background: $gradient_surveys
+  background-clip: text
+  color: transparent
+
+.gradient-academy
+  background: $gradient_academy
+  background-clip: text
+  color: transparent
+
+.gradient-soft
+  background: $gradient_soft
+  background-clip: text
+  color: transparent
+
+.gradient-foundation
+  background: $gradient_foundation
+  background-clip: text
+  color: transparent
+
+.gradient-journal
+  background: $gradient_journal
+  background-clip: text
+  color: transparent
+
+.gradient-certification
+  background: $gradient_certification
+  background-clip: text
+  color: transparent
+
+.gradient-people
+  background: $gradient_people
+  background-clip: text
+  color: transparent
+
+.gradient-life
+  background: $gradient_life
+  background-clip: text
+  color: transparent
+
+
+
+
+// TODO -> ПЕРЕНЕСТИ В CSS/COMPONENTS/BTN.SASS
+// HOVERS
+.btn-def-white
+  &::before
+    background: $color-neutral-white !important
+
+  background: $color-neutral-white !important
+
+.btn-def-black
+  &::before
+    background: $color-neutral-dark-grey !important
+
+  background: $color-neutral-grey !important
+
+
+// GRADIENTAL
+.btn-def-safety
+  &::before
+    background: $gradient_safety !important
+
+  background: $hover_safety !important
+
+.btn-def-ecology
+  &::before
+    background: $gradient_ecology !important
+
+  background: $hover_ecology !important
+
+.btn-def-surveys
+  &::before
+    background: $gradient_surveys !important
+
+  background: $hover_surveys !important
+
+.btn-def-academy
+  &::before
+    background: $gradient_academy !important
+
+  background: $hover_academy !important
+
+.btn-def-soft
+  &::before
+    background: $gradient_soft !important
+
+  background: $hover_soft !important
+
+.btn-def-foundation
+  &::before
+    background: $gradient_foundation !important
+
+  background: $hover_foundation !important
+
+.btn-def-journal
+  &::before
+    background: $gradient_journal !important
+
+  background: $hover_journal !important
+
+.btn-def-certification
+  &::before
+    background: $gradient_certification !important
+
+  background: $hover_certification !important
+
+.btn-def-people
+  &::before
+    background: $gradient_people !important
+
+  background: $hover_people !important
+
+.btn-def-life
+  &::before
+    background: $gradient_life !important
+
+  background: $hover_life !important
+
+
+.btn-img-white
+  &::before
+    background: $color-neutral-white !important
+
+  background: $color-neutral-white !important
+
+.btn-img-black
+  &::before
+    background: $color-neutral-grey !important
+
+  background: $color-neutral-dark-grey !important
+
+
+// GRADIENTAL
+.btn-img-safety
+  background: $gradient_safety !important
+
+  &::before
+    background: $hover_safety !important
+
+.btn-img-ecology
+  background: $gradient_ecology !important
+
+  &::before
+    background: $hover_ecology !important
+
+.btn-img-surveys
+  background: $gradient_surveys !important
+
+  &::before
+    background: $hover_surveys !important
+
+.btn-img-academy
+  background: $gradient_academy !important
+
+  &::before
+    background: $hover_academy !important
+
+.btn-img-soft
+  background: $gradient_soft !important
+
+  &::before
+    background: $hover_soft !important
+
+.btn-img-foundation
+  background: $gradient_foundation !important
+
+  &::before
+    background: $hover_foundation !important
+
+.btn-img-journal
+  background: $gradient_journal !important
+
+  &::before
+    background: $hover_journal !important
+
+.btn-img-certification
+  background: $gradient_certification !important
+
+  &::before
+    background: $hover_certification !important
+
+.btn-img-people
+  background: $gradient_people !important
+
+  &::before
+    background: $hover_people !important
+
+.btn-img-life
+  background: $gradient_life !important
+
+  &::before
+    background: $hover_life !important
+

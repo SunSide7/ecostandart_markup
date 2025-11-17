@@ -1,0 +1,82 @@
+.container
+  max-width: calc(1920px - 64px * 2)
+  //padding: 0 64px
+  margin: 0 auto
+
+  &-fluid
+    max-width: initial
+
+@media(max-width: 1920px)
+  .container
+    max-width: calc(100% - 32px * 2)
+
+    &-fluid
+      max-width: initial
+
+@media(max-width: 640px)
+  .container
+    max-width: calc(100% - 24px * 2)
+
+    &-fluid
+      max-width: initial
+
+.section
+  margin-bottom: 100px
+
+  &:last-of-type
+    margin-bottom: 0
+
+
+
+
+.text-center
+  text-align: center
+
+.m-0
+  margin: 0 !important
+
+.pt
+  &-20
+    padding-top: 20px
+
+  &-30
+    padding-top: 30px
+
+  &-40
+    padding-top: 40px
+
+
+
+
+
+
+
+.d-none
+  display: none !important
+
+.d-flex
+  display: flex
+
+.flex-jcc
+  display: flex
+  justify-content: center
+
+.flex-aic
+  display: flex
+  align-items: center
+
+.flex-cc
+  display: flex
+  justify-content: center
+  align-items: center
+
+
+.fxd-col
+  flex-direction: column
+
+.row
+  display: flex
+  gap: 16px
+
+.el-50
+  width: calc(50% - 16px / 2)

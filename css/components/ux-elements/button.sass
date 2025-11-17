@@ -1,0 +1,79 @@
+@import ../../colors.sass
+
+.btn
+  display: inline-block
+  $icon-size: 29px
+  padding: 0
+  text-decoration: none
+
+
+  background: $gradient-safety
+  border-radius: 50px
+
+  color: #fff
+  font-size: 14px
+  font-weight: 500
+  line-height: 100%
+
+  overflow: hidden
+
+  border: none
+  outline: none
+  cursor: pointer
+
+  position: relative
+
+  transition: all .35s ease-out
+
+  & span
+    display: block
+    padding: 16.5px 24px
+    padding-right: calc(16px + $icon-size + 7px)
+    height: 100%
+    color: #fff
+    font-size: 14px
+    font-weight: 500
+    line-height: 100%
+
+    background: transparent
+    -webkit-transition: all .55s ease-in-out
+    -moz-transition: all .55s ease-in-out
+    -ms-transition: all .55s ease-in-out
+    -o-transition: all .55s ease-in-out
+    transition: all .55s ease-in-out
+
+
+  &:not(.btn-img)
+    & span
+      padding-right: 24px
+
+
+
+  &:before
+    content: ''
+    display: inline-block
+    width: 100%
+    height: 100%
+    position: absolute
+    top: 0
+    left: 0
+    background: transparent
+    z-index: 2
+
+
+  &:hover
+
+    & span
+      background: $hover_safety
+
+  &.btn-img
+    &:after
+      content: ''
+      width: $icon-size
+      height: $icon-size
+      background-image: url(../../../img/components/btn/icon_plus_circle.svg)
+      position: absolute
+      right: 7px
+      top: 0
+      bottom: 0
+      margin: auto

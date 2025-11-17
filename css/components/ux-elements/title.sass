@@ -1,0 +1,55 @@
+@import ../../colors.sass
+
+.title
+  font-family: 'Wix Madefor Display'
+  margin-bottom: 52px
+  font-weight: bold
+
+  color: $color_neutral_black
+
+  &-card
+    font-family: 'Wix Madefor Display'
+    font-weight: 600
+    margin-bottom: 20px
+    background-image: $gradient-safety
+    color: transparent
+    background-clip: text
+    line-height: 100%
+
+  & span
+    background-image: $gradient-safety
+    color: transparent
+    background-clip: text
+
+h2.title
+  font-size: 40px
+  line-height: 45px
+
+h4.title
+  margin-bottom: 20px
+  font-size: 22px
+  line-height: 28px
+
+.title + .subtitle
+  font-size: 16px
+  line-height: 22px
+  margin-bottom: 52px
+
+.title ~ p
+  font-size: 16px
+  line-height: 22px
+  margin-bottom: 20px
+
+  &:last-of-type
+    margin-bottom: 0
+
+
+
+@media(max-width: 640px)
+  h2.title
+    font-size: 28px
+    line-height: 32px
+    margin-bottom: 32px
+
+    & ~ p
+      padding-top: calc(52px - 32px)

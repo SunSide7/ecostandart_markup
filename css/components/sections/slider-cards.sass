@@ -1,0 +1,101 @@
+.slider-cards
+
+  .row
+    flex-direction: column
+    gap: 0
+
+  &-abs-img
+    position: absolute
+    right: 0
+    top: 0
+    bottom: 0
+    margin: auto
+    max-height: 100%
+
+  & .el-50:last-child
+    .card-gray.card-icon
+      margin-bottom: 0
+
+  &-img
+    display: flex
+    border-radius: 36px
+    overflow: hidden
+    align-self: auto
+    flex: 1
+    max-height: 100%
+    width: calc(50% - 8px)
+
+
+
+
+    img
+      width: 100%
+      object-fit: cover
+
+  .top
+    position: relative
+
+    > .card-gray:not(:nth-child(2))
+      margin-bottom: 16px
+
+      p
+        font-weight: 700
+
+  .slider
+    padding-top: 52px
+
+
+@media(max-width: 1280px)
+  .slider-cards
+
+    & .el-50:last-child
+      display: flex
+      flex-direction: row-reverse
+      width: 100%
+      position: relative
+
+      & > div
+        width: calc(50% - 16px / 2)
+        margin-bottom: 0
+
+        &:nth-child(1)
+        &:nth-child(2)
+
+    & .row
+      flex-direction: row
+      flex-wrap: wrap
+
+    & .el-50:first-child
+      width: 100%
+
+    &-abs-img
+      margin: 0
+
+      right: initial
+      left: 0
+
+
+@media(max-width: 960px)
+  .slider-cards
+
+    .row
+      gap: 8px
+
+    .top .card-gray:not(:nth-child(2))
+      margin-bottom: 0
+
+    & .el-50:last-child
+      flex-direction: column-reverse
+
+      & > div
+        width: 100%
+
+      .slider-cards-abs-img
+        position: static
+        max-height: 60vw
+        margin-bottom: 8px
+
+@media(max-width: 640px)
+  .slider-cards
+    .slider
+      padding-top: 32px

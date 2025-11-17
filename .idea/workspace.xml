@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ec7b5231-ec41-4ccf-97da-ed0f4ab9bb94" name="Changes" comment="[18:30 14.11.2025] UC lib added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/uc/text.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/uc/text.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pug-assets/components/section_04.pug" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\php8\php.exe" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="35HfwROGoOFvHsmKkIqU6f9RIJZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Popov/Desktop/BX MARKUP/img/typed-img-dev&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Popov\Desktop\BX MARKUP\img\typed-img-dev" />
+      <recent name="C:\Users\Popov\Desktop\BX MARKUP\plugins" />
+      <recent name="C:\Users\Popov\Desktop\BX MARKUP\img\components\slider\content_1" />
+      <recent name="C:\Users\Popov\Desktop\BX MARKUP\css" />
+      <recent name="C:\Users\Popov\Desktop\BX MARKUP\img\section_04" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Popov\Desktop\BX MARKUP\css\components\sliders" />
+      <recent name="C:\Users\Popov\Desktop\BX MARKUP\img\components\plus-icon-list" />
+      <recent name="C:\Users\Popov\Desktop\BX MARKUP\img\components\btn" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PS-241.14494.237" />
+        <option value="bundled-php-predefined-ba97393d7c68-8f0632a2a215-com.jetbrains.php.sharedIndexes-PS-241.14494.237" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec7b5231-ec41-4ccf-97da-ed0f4ab9bb94" name="Changes" comment="" />
+      <created>1762772157872</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762772157872</updated>
+      <workItem from="1762772158347" duration="23391000" />
+      <workItem from="1762796927456" duration="30958000" />
+      <workItem from="1762868298995" duration="7821000" />
+      <workItem from="1762889013634" duration="374000" />
+      <workItem from="1762889430438" duration="5000" />
+      <workItem from="1762889490270" duration="7725000" />
+      <workItem from="1762935299869" duration="8000" />
+      <workItem from="1762949594937" duration="8732000" />
+      <workItem from="1763043276322" duration="4755000" />
+      <workItem from="1763048897195" duration="7000" />
+      <workItem from="1763048905012" duration="7000" />
+      <workItem from="1763050433790" duration="5290000" />
+      <workItem from="1763110155790" duration="25322000" />
+      <workItem from="1763367469797" duration="2011000" />
+    </task>
+    <task id="LOCAL-00001" summary="Desktop First">
+      <option name="closed" value="true" />
+      <created>1762851173455</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1762851173455</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Desktop First Media Refactoring">
+      <option name="closed" value="true" />
+      <created>1762854811391</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1762854811391</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Media Refactoring">
+      <option name="closed" value="true" />
+      <created>1762854849746</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1762854849746</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[10:16 14.11.2025] Result">
+      <option name="closed" value="true" />
+      <created>1763108215369</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1763108215369</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[16:14 14.11.2025] Result">
+      <option name="closed" value="true" />
+      <created>1763129696627</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1763129696627</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[17:40 14.11.2025] Result">
+      <option name="closed" value="true" />
+      <created>1763134852427</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1763134852427</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Desktop First" />
+    <MESSAGE value="Desktop First Media Refactoring" />
+    <MESSAGE value="Media Refactoring" />
+    <MESSAGE value="[10:16 14.11.2025] Result" />
+    <MESSAGE value="[16:14 14.11.2025] Result" />
+    <MESSAGE value="[17:40 14.11.2025] Result" />
+    <option name="LAST_COMMIT_MESSAGE" value="[17:40 14.11.2025] Result" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

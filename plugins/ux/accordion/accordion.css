@@ -1,0 +1,68 @@
+.accordion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2em;
+}
+.accordion__item:not(:first-child) {
+  margin-top: 20px;
+}
+.accordion-item__header {
+  position: relative;
+  width: 50rem;
+  padding: 10px 8px;
+  background-color: #E7D6C9;
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #000;
+  font-size: 14px;
+  cursor: pointer;
+}
+.accordion-item__header:hover {
+  background-color: #f5e3d6;
+}
+.accordion-item__chevron-img {
+  position: absolute;
+  top: 50%;
+  right: 0.3rem;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s ease-out;
+  transform-origin: center center;
+}
+.accordion-item__content {
+  width: 50rem;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+  background: transparent;
+  color: #000;
+}
+.accordion-item__content-inner {
+  padding: 20px 8px;
+}
+
+.accordion__item--active .accordion-item__chevron-img {
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.accordion__item--active .accordion-item__content {
+  transition: max-height 0.3s ease-in-out;
+}
+
+@media (max-width: 33em) {
+  .accordion-item__header, .accordion-item__content {
+    width: 35rem;
+  }
+}
+@media (max-width: 23em) {
+  .accordion-item__header, .accordion-item__content {
+    width: 30rem;
+  }
+}
+
+/*# sourceMappingURL=accordion.css.map */

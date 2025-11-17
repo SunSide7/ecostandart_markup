@@ -1,0 +1,18 @@
+.card-icon .img {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.card-icon .img img {
+  height: 100%;
+  object-fit: cover;
+}
+.card-icon p {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=card-icon.css.map */

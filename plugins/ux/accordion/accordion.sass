@@ -1,0 +1,84 @@
+$bg: #E7D6C9
+$bg-hover: #f5e3d6
+$icon-size: 20px
+$color: #000
+
+$item-margin-top: 20px
+
+$font-size-header: 14px
+$padding-header: 10px 8px
+$border-header: none
+
+$font-size-content: 12px
+$bg-content: transparent
+$color-content: #000
+$padding-content: 20px 8px
+
+$transition-icon: transform 0.3s ease-out
+$transition-content: max-height 0.3s ease-in-out
+
+
+.accordion
+  display: flex
+  flex-direction: column
+  justify-content: center
+  //align-items: center
+  margin-top: 2rem
+  margin-bottom: 2em
+
+  &__item
+    &:not(:first-child)
+      margin-top: $item-margin-top
+
+  &-item
+      &__header
+        position: relative
+        width: 50rem
+        padding: $padding-header
+        background-color: $bg
+        border: $border-header
+        font-family: Verdana, Geneva, Tahoma, sans-serif
+        font-size: 2.5rem
+        font-weight: 600
+        color: $color
+        font-size: $font-size-header
+        cursor: pointer
+
+        &:hover
+          background-color: $bg-hover
+
+      &__chevron-img
+        position: absolute
+        top: 50%
+        right: 0.3rem
+        transform: translateY(-50%)
+        width: $icon-size
+        height: $icon-size
+        transition: $transition-icon
+        transform-origin: center center
+
+      &__content
+        width: 50rem
+        max-height: 0
+        overflow: hidden
+        transition: $transition-content
+        background: $bg-content
+        color: $color-content
+
+      &__content-inner
+          padding: $padding-content
+
+    
+.accordion__item--active .accordion-item__chevron-img
+  transform: translateY(-50%) rotate(45deg)
+
+.accordion__item--active .accordion-item__content
+  transition: $transition-content
+
+@media (max-width: 33em)
+  .accordion-item__header, .accordion-item__content
+    width: 35rem
+
+@media (max-width: 23em)
+  .accordion-item__header, .accordion-item__content
+    width: 30rem
