@@ -476,67 +476,427 @@
   background: linear-gradient(128deg, #1cb8e4, #1cb8e4);
 }
 
-.tariff-cards {
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 52px;
+/* UNIVERSAL CLASSES - TEXT */
+.h-1 {
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 52px;
+  line-height: 66px;
+  font-weight: 600;
 }
-.tariff-cards-top {
-  margin-bottom: 32px;
+.h-2 {
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
 }
-.tariff-cards-item {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: calc(33.3333333333% - 10.6666666667px);
-  margin-right: 16px;
+.h-3 {
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 28px;
+  line-height: 35px;
+  font-weight: 600;
+}
+.h-4 {
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.text-body {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+}
+.text-body-bold {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+}
+.text-caption {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 500;
+}
+.text-caption-bold {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  line-height: 19.1px;
+  font-weight: 600;
+}
+.text-label {
+  font-family: "Manrope", sans-serif;
+  font-size: 12px;
+  line-height: 17px;
+  font-weight: 500;
+}
+.text-hint {
+  font-family: "Manrope", sans-serif;
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: 500;
+}
+
+@media (min-width: 0px) {
+  .h-sm-1 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 52px !important;
+    line-height: 66px !important;
+    font-weight: 600 !important;
+  }
+  .h-sm-2 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 40px !important;
+    line-height: 50px !important;
+    font-weight: 600 !important;
+  }
+  .h-sm-3 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 28px !important;
+    line-height: 35px !important;
+    font-weight: 600 !important;
+  }
+  .h-sm-4 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 22px !important;
+    line-height: 28px !important;
+    font-weight: 600 !important;
+  }
+  .text-sm-body {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    font-weight: 500 !important;
+  }
+  .text-sm-body-bold {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    font-weight: 600 !important;
+  }
+  .text-sm-caption {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    font-weight: 500 !important;
+  }
+  .text-sm-caption-bold {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 14px !important;
+    line-height: 19.1px !important;
+    font-weight: 600 !important;
+  }
+  .text-sm-label {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 12px !important;
+    line-height: 17px !important;
+    font-weight: 500 !important;
+  }
+  .text-sm-hint {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 10px !important;
+    line-height: 14px !important;
+    font-weight: 500 !important;
+  }
+}
+@media (min-width: 640px) {
+  .h-md-1 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 52px !important;
+    line-height: 66px !important;
+    font-weight: 600 !important;
+  }
+  .h-md-2 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 40px !important;
+    line-height: 50px !important;
+    font-weight: 600 !important;
+  }
+  .h-md-3 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 28px !important;
+    line-height: 35px !important;
+    font-weight: 600 !important;
+  }
+  .h-md-4 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 22px !important;
+    line-height: 28px !important;
+    font-weight: 600 !important;
+  }
+  .text-md-body {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    font-weight: 500 !important;
+  }
+  .text-md-bold {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    font-weight: 600 !important;
+  }
+  .text-md-caption {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    font-weight: 500 !important;
+  }
+  .text-md-bold {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 14px !important;
+    line-height: 19.1px !important;
+    font-weight: 600 !important;
+  }
+  .text-md-label {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 12px !important;
+    line-height: 17px !important;
+    font-weight: 500 !important;
+  }
+  .text-md-hint {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 10px !important;
+    line-height: 14px !important;
+    font-weight: 500 !important;
+  }
+}
+@media (min-width: 960px) {
+  .h-lg-1 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 52px !important;
+    line-height: 66px !important;
+    font-weight: 600 !important;
+  }
+  .h-lg-2 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 40px !important;
+    line-height: 50px !important;
+    font-weight: 600 !important;
+  }
+  .h-lg-3 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 28px !important;
+    line-height: 35px !important;
+    font-weight: 600 !important;
+  }
+  .h-lg-4 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 22px !important;
+    line-height: 28px !important;
+    font-weight: 600 !important;
+  }
+  .text-lg-body {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    font-weight: 500 !important;
+  }
+  .text-lg-body-bold {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    font-weight: 600 !important;
+  }
+  .text-lg-body-lg-caption {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    font-weight: 500 !important;
+  }
+  .text-lg-body-bold {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 14px !important;
+    line-height: 19.1px !important;
+    font-weight: 600 !important;
+  }
+  .text-lg-label {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 12px !important;
+    line-height: 17px !important;
+    font-weight: 500 !important;
+  }
+  .text-lg-hint {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 10px !important;
+    line-height: 14px !important;
+    font-weight: 500 !important;
+  }
+}
+@media (min-width: 1280px) {
+  .h-xl-1 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 52px !important;
+    line-height: 66px !important;
+    font-weight: 600 !important;
+  }
+  .h-xl-2 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 40px !important;
+    line-height: 50px !important;
+    font-weight: 600 !important;
+  }
+  .h-xl-3 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 28px !important;
+    line-height: 35px !important;
+    font-weight: 600 !important;
+  }
+  .h-xl-4 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 22px !important;
+    line-height: 28px !important;
+    font-weight: 600 !important;
+  }
+  .text-xl-body {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    font-weight: 500 !important;
+  }
+  .text-xl-body-bold {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    font-weight: 600 !important;
+  }
+  .text-xl-caption {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    font-weight: 500 !important;
+  }
+  .text-xl-caption-bold {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 14px !important;
+    line-height: 19.1px !important;
+    font-weight: 600 !important;
+  }
+  .text-xl-label {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 12px !important;
+    line-height: 17px !important;
+    font-weight: 500 !important;
+  }
+  .text-xl-hint {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 10px !important;
+    line-height: 14px !important;
+    font-weight: 500 !important;
+  }
+}
+@media (min-width: 1920px) {
+  .h-xxl-1 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 52px !important;
+    line-height: 66px !important;
+    font-weight: 600 !important;
+  }
+  .h-xxl-2 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 40px !important;
+    line-height: 50px !important;
+    font-weight: 600 !important;
+  }
+  .h-xxl-3 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 28px !important;
+    line-height: 35px !important;
+    font-weight: 600 !important;
+  }
+  .h-xxl-4 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 22px !important;
+    line-height: 28px !important;
+    font-weight: 600 !important;
+  }
+  .text-xxl-body {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    font-weight: 500 !important;
+  }
+  .text-xxl-body-bold {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    font-weight: 600 !important;
+  }
+  .text-xxl-caption {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    font-weight: 500 !important;
+  }
+  .text-xxl-caption-bold {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 14px !important;
+    line-height: 19.1px !important;
+    font-weight: 600 !important;
+  }
+  .text-xxl-label {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 12px !important;
+    line-height: 17px !important;
+    font-weight: 500 !important;
+  }
+  .text-xxl-hint {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 10px !important;
+    line-height: 14px !important;
+    font-weight: 500 !important;
+  }
+}
+.diagram-round {
+  --fill: 50;
+  width: 200px;
+  aspect-ratio: 1;
+  position: relative;
+  display: inline-flex;
+  place-content: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.diagram-round:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: #f8f8f8;
+  z-index: 1;
+  mask: radial-gradient(farthest-side, rgba(0, 0, 0, 0) calc(99% - 28px), #000 calc(100% - 28px)), conic-gradient(#000, transparent 0);
+}
+.diagram-round:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: linear-gradient(#3EB8A3, #175FAB);
+  mask: radial-gradient(farthest-side, rgba(0, 0, 0, 0) calc(99% - 28px), #000 calc(100% - 28px)), conic-gradient(#000 calc(var(--fill) * 1%), transparent 0);
+  mask-composite: intersect;
+  -webkit-mask-composite: source-in;
+  z-index: 2;
+}
+.diagram-round .diagram-round-text {
+  content: attr(data-fill) "%";
+  align-self: center;
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 52px;
+  line-height: 66px;
+  font-weight: 600;
+  background: linear-gradient(119deg, #3eb8a3, #175fab);
+  background-clip: text;
+  color: transparent;
+  z-index: 3;
   position: relative;
 }
-.tariff-cards-item.active {
-  box-shadow: 0 14px 10px rgba(0, 0, 0, 0.04);
-  background: linear-gradient(#f8f8f8, #f8f8f8) padding-box, linear-gradient(128deg, #ffa734, #f24868) border-box;
-  border: 2px solid transparent;
-}
-.tariff-cards-item:nth-child(3n) {
-  margin-right: 0;
-}
-.tariff-cards-item .btn {
-  width: 245px;
-  margin: 0 auto;
-}
-.tariff-cards .owl-carousel .owl-stage {
-  display: flex;
-  padding-bottom: 20px;
-}
-.tariff-cards .owl-carousel .tariff-cards-item {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-}
 
-@media (max-width: 1279.5px) {
-  .tariff-cards-item {
-    width: 100%;
-    height: 100%;
-    margin-right: 0;
-  }
-  .tariff-cards .owl-stage {
-    display: flex;
-    padding-bottom: 20px;
-  }
-}
-@media (max-width: 640px) {
-  .tariff-cards {
-    padding-top: 32px;
-  }
-  .tariff-cards-item {
-    width: 100%;
-    margin-bottom: 16px;
-    margin-right: 0;
-  }
-  .tariff-cards-item:last-child {
-    margin-bottom: 0;
+@media (min-width: 640px) {
+  .diagram-round {
+    width: 250px;
   }
 }
 
-/*# sourceMappingURL=tariffs.css.map */
+/*# sourceMappingURL=diagram-round.css.map */

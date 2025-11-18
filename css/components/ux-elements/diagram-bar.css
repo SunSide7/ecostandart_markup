@@ -476,67 +476,21 @@
   background: linear-gradient(128deg, #1cb8e4, #1cb8e4);
 }
 
-.tariff-cards {
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 52px;
-}
-.tariff-cards-top {
-  margin-bottom: 32px;
-}
-.tariff-cards-item {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: calc(33.3333333333% - 10.6666666667px);
-  margin-right: 16px;
-  position: relative;
-}
-.tariff-cards-item.active {
-  box-shadow: 0 14px 10px rgba(0, 0, 0, 0.04);
-  background: linear-gradient(#f8f8f8, #f8f8f8) padding-box, linear-gradient(128deg, #ffa734, #f24868) border-box;
-  border: 2px solid transparent;
-}
-.tariff-cards-item:nth-child(3n) {
-  margin-right: 0;
-}
-.tariff-cards-item .btn {
-  width: 245px;
-  margin: 0 auto;
-}
-.tariff-cards .owl-carousel .owl-stage {
-  display: flex;
-  padding-bottom: 20px;
-}
-.tariff-cards .owl-carousel .tariff-cards-item {
+.diagram-bar {
+  --fill: 50;
   width: 100%;
-  height: 100%;
-  margin: 0;
+  height: 40px;
+  border-radius: 8px;
+  background: #f8f8f8;
+  position: relative;
+  overflow: hidden;
+}
+.diagram-bar::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: calc(var(--fill) * 1%);
+  background: linear-gradient(119deg, #3eb8a3, #175fab);
 }
 
-@media (max-width: 1279.5px) {
-  .tariff-cards-item {
-    width: 100%;
-    height: 100%;
-    margin-right: 0;
-  }
-  .tariff-cards .owl-stage {
-    display: flex;
-    padding-bottom: 20px;
-  }
-}
-@media (max-width: 640px) {
-  .tariff-cards {
-    padding-top: 32px;
-  }
-  .tariff-cards-item {
-    width: 100%;
-    margin-bottom: 16px;
-    margin-right: 0;
-  }
-  .tariff-cards-item:last-child {
-    margin-bottom: 0;
-  }
-}
-
-/*# sourceMappingURL=tariffs.css.map */
+/*# sourceMappingURL=diagram-bar.css.map */

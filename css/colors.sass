@@ -1,3 +1,5 @@
+@import animations.sass
+
 // COLORS
 $color_primary_light_green: #74dd4f
 $color_primary_dark_green: #44af8c
@@ -56,24 +58,31 @@ $hover_life: linear-gradient(128deg, #1cb8e4, #1cb8e4)
 .color
   &-background-white
     color: $color_neutral_background_white
+    @include hover-transition
 
   &-white
     color: $color_neutral_white
+    @include hover-transition
 
   &-error
     color: $color_neutral_error
+    @include hover-transition
 
   &-light-grey
     color: $color_neutral_light_grey
+    @include hover-transition
 
   &-grey
     color: $color_neutral_grey
+    @include hover-transition
 
   &-dark-grey
     color: $color_neutral_dark_grey
+    @include hover-transition
 
   &-black
     color: $color_neutral_black
+    @include hover-transition
 
 /* UNIVERSAL CLASSES - HOVER TEXT NEUTRAL COLORS
 
@@ -104,24 +113,31 @@ $hover_life: linear-gradient(128deg, #1cb8e4, #1cb8e4)
 .bg-color
   &-background-white
     background-color: $color_neutral_background_white
+    @include hover-transition
 
   &-white
     background-color: $color_neutral_white
+    @include hover-transition
 
   &-error
     background-color: $color_neutral_error
+    @include hover-transition
 
   &-light-grey
     background-color: $color_neutral_light_grey
+    @include hover-transition
 
   &-grey
     background-color: $color_neutral_grey
+    @include hover-transition
 
   &-dark-grey
     background-color: $color_neutral_dark_grey
+    @include hover-transition
 
   &-black
     background-color: $color_neutral_black
+    @include hover-transition
 
 /* UNIVERSAL CLASSES - HOVER BACKGROUND NEUTRAL COLORS
 
@@ -152,39 +168,51 @@ $hover_life: linear-gradient(128deg, #1cb8e4, #1cb8e4)
 .color
   &-primary-light-green
     color: $color_primary_light_green
+    @include hover-transition
 
   &-primary-dark-green
     color: $color_primary_dark_green
+    @include hover-transition
 
   &-safety
     color: $color_direct_safety
+    @include hover-transition
 
   &-ecology
     color: $color_direct_ecology
+    @include hover-transition
 
   &-surveys
     color: $color_direct_surveys
+    @include hover-transition
 
   &-academy
     color: $color_direct_academy
+    @include hover-transition
 
   &-soft
     color: $color_direct_soft
+    @include hover-transition
 
   &-foundation
     color: $color_direct_foundation
+    @include hover-transition
 
   &-journal
     color: $color_direct_journal
+    @include hover-transition
 
   &-certification
     color: $color_direct_certification
+    @include hover-transition
 
   &-people
     color: $color_direct_people
+    @include hover-transition
 
   &-life
     color: $color_direct_life
+    @include hover-transition
 
 /* UNIVERSAL CLASSES - HOVER TEXT COLORS
 
@@ -230,39 +258,51 @@ $hover_life: linear-gradient(128deg, #1cb8e4, #1cb8e4)
 .bg-color
   &-primary-light-green
     background-color: $color_primary_light_green
+    @include hover-transition
 
   &-primary-dark-green
     background-color: $color_primary_dark_green
+    @include hover-transition
 
   &-safety
     background-color: $color_direct_safety
+    @include hover-transition
 
   &-ecology
     background-color: $color_direct_ecology
+    @include hover-transition
 
   &-surveys
     background-color: $color_direct_surveys
+    @include hover-transition
 
   &-academy
     background-color: $color_direct_academy
+    @include hover-transition
 
   &-soft
     background-color: $color_direct_soft
+    @include hover-transition
 
   &-foundation
     background-color: $color_direct_foundation
+    @include hover-transition
 
   &-journal
     background-color: $color_direct_journal
+    @include hover-transition
 
   &-certification
     background-color: $color_direct_certification
+    @include hover-transition
 
   &-people
     background-color: $color_direct_people
+    @include hover-transition
 
   &-life
     background-color: $color_direct_life
+    @include hover-transition
 
 /* UNIVERSAL CLASSES - HOVER BACKGROUND COLORS
 
@@ -310,6 +350,7 @@ $hover_life: linear-gradient(128deg, #1cb8e4, #1cb8e4)
     background: $gradient_horizontal_primary
     background-clip: text
     color: transparent
+    @include hover-transition
 
     &.hoverable:hover
       background: $hover_horizontal_primary
@@ -318,6 +359,7 @@ $hover_life: linear-gradient(128deg, #1cb8e4, #1cb8e4)
     background: $gradient_vertical_primary
     background-clip: text
     color: transparent
+    @include hover-transition
 
     &.hoverable:hover
       background: $hover_vertical_primary
@@ -326,6 +368,7 @@ $hover_life: linear-gradient(128deg, #1cb8e4, #1cb8e4)
     background: $gradient_safety
     background-clip: text
     color: transparent
+    @include hover-transition
 
     &.hoverable:hover
       background: $hover_safety
@@ -334,6 +377,7 @@ $hover_life: linear-gradient(128deg, #1cb8e4, #1cb8e4)
     background: $gradient_ecology
     background-clip: text
     color: transparent
+    @include hover-transition
 
     &.hoverable:hover
       background: $hover_ecology
@@ -342,6 +386,7 @@ $hover_life: linear-gradient(128deg, #1cb8e4, #1cb8e4)
     background: $gradient_surveys
     background-clip: text
     color: transparent
+    @include hover-transition
 
     &.hoverable:hover
       background: $hover_surveys
@@ -350,6 +395,7 @@ $hover_life: linear-gradient(128deg, #1cb8e4, #1cb8e4)
     background: $gradient_academy
     background-clip: text
     color: transparent
+    @include hover-transition
 
     &.hoverable:hover
       background: $hover_academy
@@ -358,6 +404,7 @@ $hover_life: linear-gradient(128deg, #1cb8e4, #1cb8e4)
     background: $gradient_soft
     background-clip: text
     color: transparent
+    @include hover-transition
 
     &.hoverable:hover
       background: $hover_soft
@@ -366,6 +413,7 @@ $hover_life: linear-gradient(128deg, #1cb8e4, #1cb8e4)
     background: $gradient_foundation
     background-clip: text
     color: transparent
+    @include hover-transition
 
     &.hoverable:hover
       background: $hover_foundation
@@ -374,6 +422,7 @@ $hover_life: linear-gradient(128deg, #1cb8e4, #1cb8e4)
     background: $gradient_journal
     background-clip: text
     color: transparent
+    @include hover-transition
 
     &.hoverable:hover
       background: $hover_life
@@ -382,6 +431,7 @@ $hover_life: linear-gradient(128deg, #1cb8e4, #1cb8e4)
     background: $gradient_certification
     background-clip: text
     color: transparent
+    @include hover-transition
 
     &.hoverable:hover
       background: $hover_certification
@@ -390,6 +440,7 @@ $hover_life: linear-gradient(128deg, #1cb8e4, #1cb8e4)
     background: $gradient_people
     background-clip: text
     color: transparent
+    @include hover-transition
 
     &.hoverable:hover
       background: $hover_people
@@ -398,6 +449,7 @@ $hover_life: linear-gradient(128deg, #1cb8e4, #1cb8e4)
     background: $gradient_life
     background-clip: text
     color: transparent
+    @include hover-transition
 
     &.hoverable:hover
       background: $hover_life
@@ -407,72 +459,84 @@ $hover_life: linear-gradient(128deg, #1cb8e4, #1cb8e4)
 .bg-gradient
   &-horizontal-primary
     background: $gradient_horizontal_primary
+    @include hover-transition
 
     &.hoverable:hover
       background: $hover_horizontal_primary
 
   &-vertical-primary
     background: $gradient_vertical_primary
+    @include hover-transition
 
     &.hoverable:hover
       background: $hover_vertical_primary
 
   &-safety
     background: $gradient_safety
+    @include hover-transition
 
     &.hoverable:hover
       background: $hover_safety
 
   &-ecology
     background: $gradient_ecology
+    @include hover-transition
 
     &.hoverable:hover
       background: $hover_ecology
 
   &-surveys
     background: $gradient_surveys
+    @include hover-transition
 
     &.hoverable:hover
       background: $hover_surveys
 
   &-academy
     background: $gradient_academy
+    @include hover-transition
 
     &.hoverable:hover
       background: $hover_academy
 
   &-soft
     background: $gradient_soft
+    @include hover-transition
 
     &.hoverable:hover
       background: $hover_soft
 
   &-foundation
     background: $gradient_foundation
+    @include hover-transition
 
     &.hoverable:hover
       background: $hover_foundation
 
   &-journal
     background: $gradient_journal
+    @include hover-transition
 
     &.hoverable:hover
       background: $hover_journal
 
   &-certification
     background: $gradient_certification
+    @include hover-transition
 
     &.hoverable:hover
       background: $hover_certification
 
   &-people
     background: $gradient_people
+    @include hover-transition
 
     &.hoverable:hover
       background: $hover_people
 
   &-life
     background: $gradient_life
+    @include hover-transition
 
     &.hoverable:hover
       background: $hover_life
