@@ -262,7 +262,7 @@
 .tariff-cards-item:nth-child(3n) {
   margin-right: 0;
 }
-.tariff-cards-item .btn {
+.tariff-cards-item .btn-img-safety {
   width: 245px;
   margin: 0 auto;
 }
