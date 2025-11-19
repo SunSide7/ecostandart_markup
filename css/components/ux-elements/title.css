@@ -239,63 +239,195 @@
   background: linear-gradient(128deg, #1cb8e4, #1cb8e4) !important;
 }
 
-.title {
+.title-safety, .title-ecology, .title-surveys, .title-academy, .title-soft, .title-foundation, .title-journal, .title-certification, .title-people, .title-life {
   font-family: "Wix Madefor Display";
   margin-bottom: 52px;
   font-weight: bold;
   color: #3a434d;
 }
-.title-card {
-  font-family: "Wix Madefor Display";
-  font-weight: 600;
-  margin-bottom: 20px;
+.title-safety span, .title-ecology span, .title-surveys span, .title-academy span, .title-soft span, .title-foundation span, .title-journal span, .title-certification span, .title-people span, .title-life span {
   background-image: linear-gradient(128deg, #ffa734, #f24868);
   color: transparent;
   background-clip: text;
-  line-height: 100%;
 }
-.title span {
+.title-card-safety {
+  font-family: "Wix Madefor Display";
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: transparent;
+  background-clip: text;
+  line-height: 100%;
   background-image: linear-gradient(128deg, #ffa734, #f24868);
+}
+.title-card-ecology {
+  font-family: "Wix Madefor Display";
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: transparent;
+  background-clip: text;
+  line-height: 100%;
+  background-image: linear-gradient(133deg, #cbf26e, #74dd4f, #4bbb24);
+}
+.title-card-surveys {
+  font-family: "Wix Madefor Display";
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: transparent;
+  background-clip: text;
+  line-height: 100%;
+  background-image: linear-gradient(132deg, #929292, #4b4b4b);
+}
+.title-card-academy {
+  font-family: "Wix Madefor Display";
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: transparent;
+  background-clip: text;
+  line-height: 100%;
+  background-image: linear-gradient(131deg, #8cb7ff, #1069fe);
+}
+.title-card-soft {
+  font-family: "Wix Madefor Display";
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: transparent;
+  background-clip: text;
+  line-height: 100%;
+  background-image: linear-gradient(131deg, #c4cde1, #748aab);
+}
+.title-card-foundation {
+  font-family: "Wix Madefor Display";
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: transparent;
+  background-clip: text;
+  line-height: 100%;
+  background-image: linear-gradient(to right, #ffad31, #ff6614);
+}
+.title-card-journal {
+  font-family: "Wix Madefor Display";
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: transparent;
+  background-clip: text;
+  line-height: 100%;
+  background-image: linear-gradient(147deg, #2fd8b1, #2f8672);
+}
+.title-card-certification {
+  font-family: "Wix Madefor Display";
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: transparent;
+  background-clip: text;
+  line-height: 100%;
+  background-image: linear-gradient(119deg, #3eb8a3, #175fab);
+}
+.title-card-people {
+  font-family: "Wix Madefor Display";
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: transparent;
+  background-clip: text;
+  line-height: 100%;
+  background-image: linear-gradient(131deg, #a380ff, #3934c7);
+}
+.title-card-life {
+  font-family: "Wix Madefor Display";
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: transparent;
+  background-clip: text;
+  line-height: 100%;
+  background-image: linear-gradient(128deg, #1cb8e4, #1e6fd9);
+}
+
+.title-safety span {
+  background-image: linear-gradient(128deg, #ffa734, #f24868);
+  color: transparent;
+  background-clip: text;
+}
+.title-ecology span {
+  background-image: linear-gradient(133deg, #cbf26e, #74dd4f, #4bbb24);
+  color: transparent;
+  background-clip: text;
+}
+.title-surveys span {
+  background-image: linear-gradient(132deg, #929292, #4b4b4b);
+  color: transparent;
+  background-clip: text;
+}
+.title-academy span {
+  background-image: linear-gradient(131deg, #8cb7ff, #1069fe);
+  color: transparent;
+  background-clip: text;
+}
+.title-soft span {
+  background-image: linear-gradient(131deg, #c4cde1, #748aab);
+  color: transparent;
+  background-clip: text;
+}
+.title-foundation span {
+  background-image: linear-gradient(to right, #ffad31, #ff6614);
+  color: transparent;
+  background-clip: text;
+}
+.title-journal span {
+  background-image: linear-gradient(147deg, #2fd8b1, #2f8672);
+  color: transparent;
+  background-clip: text;
+}
+.title-certification span {
+  background-image: linear-gradient(119deg, #3eb8a3, #175fab);
+  color: transparent;
+  background-clip: text;
+}
+.title-people span {
+  background-image: linear-gradient(131deg, #a380ff, #3934c7);
+  color: transparent;
+  background-clip: text;
+}
+.title-life span {
+  background-image: linear-gradient(128deg, #1cb8e4, #1e6fd9);
   color: transparent;
   background-clip: text;
 }
 
-h2.title {
+h2.title-safety, h2.title-ecology, h2.title-surveys, h2.title-academy, h2.title-soft, h2.title-foundation, h2.title-journal, h2.title-certification, h2.title-people, h2.title-life {
   font-size: 40px;
   line-height: 45px;
 }
 
-h4.title {
+h4.title-safety, h4.title-ecology, h4.title-surveys, h4.title-academy, h4.title-soft, h4.title-foundation, h4.title-journal, h4.title-certification, h4.title-people, h4.title-life {
   margin-bottom: 20px;
   font-size: 22px;
   line-height: 28px;
 }
 
-.title + .subtitle {
+.title-safety + .subtitle, .title-ecology + .subtitle, .title-surveys + .subtitle, .title-academy + .subtitle, .title-soft + .subtitle, .title-foundation + .subtitle, .title-journal + .subtitle, .title-certification + .subtitle, .title-people + .subtitle, .title-life + .subtitle {
   font-size: 16px;
   line-height: 22px;
   margin-bottom: 52px;
 }
 
-.title ~ p {
+.title-safety ~ p, .title-ecology ~ p, .title-surveys ~ p, .title-academy ~ p, .title-soft ~ p, .title-foundation ~ p, .title-journal ~ p, .title-certification ~ p, .title-people ~ p, .title-life ~ p {
   font-size: 16px;
   line-height: 22px;
   margin-bottom: 20px;
 }
-.title ~ p:last-of-type {
+.title-safety:last-of-type, .title-ecology:last-of-type, .title-surveys:last-of-type, .title-academy:last-of-type, .title-soft:last-of-type, .title-foundation:last-of-type, .title-journal:last-of-type, .title-certification:last-of-type, .title-people:last-of-type, .title-life:last-of-type {
   margin-bottom: 52px;
 }
 
 @media (max-width: 640px) {
-  h2.title {
+  h2.title-safety, h2.title-ecology, h2.title-surveys, h2.title-academy, h2.title-soft, h2.title-foundation, h2.title-journal, h2.title-certification, h2.title-people, h2.title-life {
     font-size: 28px;
     line-height: 32px;
     margin-bottom: 32px;
   }
-  h2.title ~ p {
+  h2.title-safety ~ p, h2.title-ecology ~ p, h2.title-surveys ~ p, h2.title-academy ~ p, h2.title-soft ~ p, h2.title-foundation ~ p, h2.title-journal ~ p, h2.title-certification ~ p, h2.title-people ~ p, h2.title-life ~ p {
     padding-top: 20px;
   }
-  h2.title ~ p:last-of-type {
+  h2.title-safety ~ p:last-of-type, h2.title-ecology ~ p:last-of-type, h2.title-surveys ~ p:last-of-type, h2.title-academy ~ p:last-of-type, h2.title-soft ~ p:last-of-type, h2.title-foundation ~ p:last-of-type, h2.title-journal ~ p:last-of-type, h2.title-certification ~ p:last-of-type, h2.title-people ~ p:last-of-type, h2.title-life ~ p:last-of-type {
     margin-bottom: 32px;
   }
 }

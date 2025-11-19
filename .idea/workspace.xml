@@ -6,18 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="ec7b5231-ec41-4ccf-97da-ed0f4ab9bb94" name="Changes" comment="[18:30 14.11.2025] UC lib added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/sections/tariffs.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/sections/tariffs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/sections/tariffs.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/sections/tariffs.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/sections/tariffs.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/sections/tariffs.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/ux-elements/title.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ux-elements/title.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/ux-elements/title.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ux-elements/title.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/ux-elements/title.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ux-elements/title.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grid.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug-assets/components/section_01.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug-assets/components/section_01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug-assets/components/section_01.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug-assets/components/section_01.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug-assets/components/section_02.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug-assets/components/section_02.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug-assets/components/section_02.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug-assets/components/section_02.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug-assets/components/section_03.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug-assets/components/section_03.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug-assets/components/section_04.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug-assets/components/section_04.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug-assets/pages/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug-assets/pages/main.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
