@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec7b5231-ec41-4ccf-97da-ed0f4ab9bb94" name="Changes" comment="[18:30 14.11.2025] UC lib added">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/ux-elements/diagram-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ux-elements/diagram-bar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/ux-elements/diagram-bar.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ux-elements/diagram-bar.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/ux-elements/diagram-bar.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ux-elements/diagram-bar.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +98,7 @@
       <workItem from="1763367469797" duration="2011000" />
       <workItem from="1763370621101" duration="19670000" />
       <workItem from="1763461908200" duration="17298000" />
-      <workItem from="1763544401060" duration="1128000" />
+      <workItem from="1763544401060" duration="1820000" />
     </task>
     <task id="LOCAL-00001" summary="Desktop First">
       <option name="closed" value="true" />
