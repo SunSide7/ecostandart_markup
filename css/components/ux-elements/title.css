@@ -414,7 +414,7 @@ h4.title-safety, h4.title-ecology, h4.title-surveys, h4.title-academy, h4.title-
   line-height: 22px;
   margin-bottom: 20px;
 }
-.title-safety:last-of-type, .title-ecology:last-of-type, .title-surveys:last-of-type, .title-academy:last-of-type, .title-soft:last-of-type, .title-foundation:last-of-type, .title-journal:last-of-type, .title-certification:last-of-type, .title-people:last-of-type, .title-life:last-of-type {
+.title-safety ~ p:last-of-type, .title-ecology ~ p:last-of-type, .title-surveys ~ p:last-of-type, .title-academy ~ p:last-of-type, .title-soft ~ p:last-of-type, .title-foundation ~ p:last-of-type, .title-journal ~ p:last-of-type, .title-certification ~ p:last-of-type, .title-people ~ p:last-of-type, .title-life ~ p:last-of-type {
   margin-bottom: 52px;
 }
 

@@ -75,6 +75,11 @@
   align-items: center;
 }
 
+.d-flex-w {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .fxd-col {
   flex-direction: column;
 }
