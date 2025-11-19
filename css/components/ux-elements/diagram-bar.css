@@ -493,4 +493,16 @@
   background: linear-gradient(119deg, #3eb8a3, #175fab);
 }
 
+@media (min-width: 960px) {
+  .diagram-bar {
+    width: 40px;
+    height: 250px;
+  }
+  .diagram-bar::after {
+    width: 40px;
+    height: calc(var(--fill) * 1%);
+    align-self: end;
+  }
+}
+
 /*# sourceMappingURL=diagram-bar.css.map */

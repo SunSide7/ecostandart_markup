@@ -16,3 +16,13 @@
     inset: 0
     width: calc(var(--fill) * 1%)
     background: $gradient-certification
+
+@media (min-width: 960px)
+  .diagram-bar
+    width: 40px
+    height: 250px
+
+    &::after
+      width: 40px
+      height: calc(var(--fill) * 1%)
+      align-self: end
