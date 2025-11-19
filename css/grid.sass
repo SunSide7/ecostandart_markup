@@ -78,5 +78,19 @@
   display: flex
   gap: 16px
 
+.el-100
+  width: calc(100% - 16px / 2)
+
 .el-50
   width: calc(50% - 16px / 2)
+
+.el-33
+  width: calc(100% / 3 - 16px * 2 / 3)
+  margin-right: 16px
+
+  &:nth-child(3n)
+    margin-right: 0
+
+.el-25
+  width: calc(25% - 16px / 2)
+

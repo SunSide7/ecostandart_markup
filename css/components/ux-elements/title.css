@@ -283,7 +283,7 @@ h4.title {
   margin-bottom: 20px;
 }
 .title ~ p:last-of-type {
-  margin-bottom: 0;
+  margin-bottom: 52px;
 }
 
 @media (max-width: 640px) {
@@ -294,6 +294,9 @@ h4.title {
   }
   h2.title ~ p {
     padding-top: 20px;
+  }
+  h2.title ~ p:last-of-type {
+    margin-bottom: 32px;
   }
 }
 

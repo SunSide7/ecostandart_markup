@@ -80,8 +80,24 @@
   gap: 16px;
 }
 
+.el-100 {
+  width: calc(100% - 8px);
+}
+
 .el-50 {
   width: calc(50% - 8px);
+}
+
+.el-33 {
+  width: calc(33.3333333333% - 10.6666666667px);
+  margin-right: 16px;
+}
+.el-33:nth-child(3n) {
+  margin-right: 0;
+}
+
+.el-25 {
+  width: calc(25% - 8px);
 }
 
 /*# sourceMappingURL=grid.css.map */
