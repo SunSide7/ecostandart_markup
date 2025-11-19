@@ -7,7 +7,7 @@ br
 
         .flex-aic.fxd-col
 
-            h2.title input.input
+            h4.title-journal input.input
             // Code example
             input.input(placeholder="Email *")
             br
@@ -15,25 +15,25 @@ br
             br
             br
 
-            h2.title h2.title
+            h4.title-journal h2.title-<span>*color_style</span>
             // Code example
-            h2.title H2 <span>TITLE</span>
+            h2.title-safety H2 <span>TITLE</span>
             br
             br
             br
             br
 
-            h2.title h2.title
+            h4.title-journal h2.title-<span>*color_style</span>
             // Code example
-            h4.title H4 TITLE
+            h4.title-safety H4 TITLE
             br
             br
             br
             br
 
-            h2.title h4.title-card
+            h4.title-journal h4.title-card-<span>*color_style</span>
             // Code example
-            h4.title-card CARD TITLE
+            h4.title-card-safety CARD TITLE
             br
             br
             br
@@ -41,7 +41,7 @@ br
 
     .container
         .flex-aic.fxd-col
-            h2.title .btn
+            h4.title-journal .btn
             // Code example
             button.btn-black <span>Получить консультацию</span>
             br
@@ -49,13 +49,37 @@ br
             br
             br
 
-            h2.title .btn-img
+            h4.title-journal .btn-img
+            // Code example
+            button.btn-img-black <span>Получить консультацию</span>
+            br
+            br
+            br
+            br
+
+            h4.title-journal .btn-img.btn-arrow
             // Code example
             button.btn-img-black.btn-arrow <span>Получить консультацию</span>
             br
             br
             br
             br
+
+
+            h4.title-journal .tag-black + .tag-black.active
+            // Code example
+            .p-40.bg-dark
+                .tag-black tag
+                .tag-black.active tag active
+            br
+            br
+            br
+            br
+
+
+
+
+
 
 
 
@@ -108,6 +132,8 @@ br
     br
     br
     .container
+        .flex-aic.fxd-col
+            h4.title-journal SLIDER
         .owl-carousel.img-slider.owl-theme
             .slide-item
                 .img

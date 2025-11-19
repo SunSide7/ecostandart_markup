@@ -37,6 +37,10 @@
   margin: 0 !important;
 }
 
+.p-40 {
+  padding: 40px;
+}
+
 .pt-20 {
   padding-top: 20px;
 }
@@ -98,6 +102,10 @@
 
 .el-25 {
   width: calc(25% - 8px);
+}
+
+.bg-dark {
+  background: #1e1e1e;
 }
 
 /*# sourceMappingURL=grid.css.map */
