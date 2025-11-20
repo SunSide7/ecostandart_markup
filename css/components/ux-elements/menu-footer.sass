@@ -1,0 +1,31 @@
+@import ../../colors.sass
+@import ../../uc/text.sass
+
+.menu-footer
+  display: flex
+  flex-direction: column
+  gap: 16px
+
+  & > *
+    text-decoration: none
+    color: $color_neutral_white
+
+  & > *:first-child::after
+    content: ""
+    display: block
+    width: 12px
+    height: 12px
+    margin-left: auto
+    background-image: url(../../../img/components/dropdown/dropdown-arrow.svg)
+    background-size: 100%
+    transition: transform 0.2s ease
+    transform: rotate(180deg)
+
+.menu-footer-list
+    display: flex
+    flex-direction: column
+    gap: 12px
+
+    & > *
+      text-decoration: none
+      color: $color_neutral_white

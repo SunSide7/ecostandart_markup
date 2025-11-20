@@ -1,0 +1,30 @@
+@import ../../colors.sass
+@import ../../animations.sass
+@import ../../uc/text.sass
+
+.menu-header
+  display: flex
+  font-family: $font-main
+  font-size: 14px
+  line-height: 19.1px
+  font-weight: 600
+
+  &.horizontal
+    flex-direction: row
+    gap: 48px
+
+  &.vertical
+    flex-direction: column
+    gap: 20px
+
+  & > *
+    color: $color_neutral_black
+    cursor: pointer
+    text-decoration: none
+    @include hover-transition
+
+  & > *:hover
+    color: $color_primary_dark_green
+
+  & > *.active
+    color: $color_primary_dark_green

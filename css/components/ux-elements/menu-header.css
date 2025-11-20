@@ -843,54 +843,32 @@
     font-weight: 500 !important;
   }
 }
-.diagram-round {
-  --fill: 50;
-  width: 200px;
-  aspect-ratio: 1;
-  position: relative;
-  display: inline-flex;
-  place-content: center;
-  justify-content: center;
-  border-radius: 50%;
-}
-.diagram-round:before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: 50%;
-  background: #f8f8f8;
-  z-index: 1;
-  mask: radial-gradient(farthest-side, rgba(0, 0, 0, 0) calc(99% - 28px), #000 calc(100% - 28px)), conic-gradient(#000, transparent 0);
-}
-.diagram-round:after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: 50%;
-  background: linear-gradient(#3EB8A3, #175FAB);
-  mask: radial-gradient(farthest-side, rgba(0, 0, 0, 0) calc(99% - 28px), #000 calc(100% - 28px)), conic-gradient(#000 calc(var(--fill) * 1%), transparent 0);
-  mask-composite: intersect;
-  -webkit-mask-composite: source-in;
-  z-index: 2;
-}
-.diagram-round .diagram-round-text {
-  content: attr(data-fill) "%";
-  align-self: center;
-  font-family: "Wix Madefor Display", sans-serif;
-  font-size: 52px;
-  line-height: 66px;
+.menu-header {
+  display: flex;
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  line-height: 19.1px;
   font-weight: 600;
-  background: linear-gradient(119deg, #3eb8a3, #175fab);
-  background-clip: text;
-  color: transparent;
-  z-index: 3;
-  position: relative;
+}
+.menu-header.horizontal {
+  flex-direction: row;
+  gap: 48px;
+}
+.menu-header.vertical {
+  flex-direction: column;
+  gap: 20px;
+}
+.menu-header > * {
+  color: #3a434d;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.35s ease-out;
+}
+.menu-header > *:hover {
+  color: #44af8c;
+}
+.menu-header > *.active {
+  color: #44af8c;
 }
 
-@media (min-width: 640px) {
-  .diagram-round {
-    width: 250px;
-  }
-}
-
-/*# sourceMappingURL=diagram-round.css.map */
+/*# sourceMappingURL=menu-header.css.map */
