@@ -37,6 +37,10 @@
   margin: 0 !important;
 }
 
+.p-40 {
+  padding: 40px;
+}
+
 .pt-20 {
   padding-top: 20px;
 }
@@ -71,6 +75,11 @@
   align-items: center;
 }
 
+.d-flex-w {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .fxd-col {
   flex-direction: column;
 }
@@ -80,8 +89,28 @@
   gap: 16px;
 }
 
+.el-100 {
+  width: calc(100% - 8px);
+}
+
 .el-50 {
   width: calc(50% - 8px);
+}
+
+.el-33 {
+  width: calc(33.3333333333% - 10.6666666667px);
+  margin-right: 16px;
+}
+.el-33:nth-child(3n) {
+  margin-right: 0;
+}
+
+.el-25 {
+  width: calc(25% - 8px);
+}
+
+.bg-dark {
+  background: #1e1e1e;
 }
 
 /*# sourceMappingURL=grid.css.map */

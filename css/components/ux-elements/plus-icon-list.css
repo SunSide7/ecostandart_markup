@@ -476,29 +476,36 @@
   background: linear-gradient(128deg, #1cb8e4, #1cb8e4);
 }
 
-ul.plus-list li {
+ul.plus-list-safety li, ul.plus-list-life li {
   display: flex;
   padding: 4px 0;
   margin-bottom: 4px;
   font-size: 16px;
   line-height: 22px;
 }
-ul.plus-list li:before {
+ul.plus-list-safety li:before, ul.plus-list-life li:before {
   content: "";
   display: inline-block;
   min-width: 11.4px;
   height: 18px;
   margin-right: 8.4px;
   list-style: none;
-  background: url(../../../img/components/plus-icon-list/icon_plus.svg) center center no-repeat;
+  fill: blue;
+  stroke: blue;
 }
-ul.plus-list li span {
+ul.plus-list-safety li span, ul.plus-list-life li span {
   font-size: 16px;
   line-height: 22px;
 }
-ul.plus-list li b {
+ul.plus-list-safety li b, ul.plus-list-life li b {
   font-weight: 500;
   color: #3a434d;
+}
+ul.plus-list-safety li:before {
+  background: url(../../../img/components/plus-icon-list/icon_plus_safety.svg) center center no-repeat;
+}
+ul.plus-list-life li:before {
+  background: url(../../../img/components/plus-icon-list/icon_plus_life.svg) center center no-repeat;
 }
 
 /*# sourceMappingURL=plus-icon-list.css.map */

@@ -476,19 +476,74 @@
   background: linear-gradient(128deg, #1cb8e4, #1cb8e4);
 }
 
-.card-gray {
-  padding: 32px;
+.tag-white, .tag-black, .tag-outline, .tag-safety, .tag-ecology, .tag-surveys, .tag-academy, .tag-soft, .tag-foundation, .tag-journal, .tag-certification, .tag-people, .tag-life {
+  display: inline-block;
+  padding: 12px 24px;
+  margin-right: 8px;
+  text-decoration: none;
+  border-radius: 50px;
   background: #f8f8f8;
-  border-radius: 36px;
+  color: #3a434d;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 100%;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s ease-out;
 }
 
-@media (max-width: 640px) {
-  .card-gray {
-    padding: 20px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    border-radius: 30px;
-  }
+.tag-black.active {
+  color: #f8f8f8;
+  background: #4b535c;
+}
+.tag-outline.active {
+  color: #f8f8f8;
+  background: transparent;
+  color: #3a434d;
+  border: 1px solid #3a434d;
+}
+.tag-safety.active {
+  color: #f8f8f8;
+  background: #F25B39;
+}
+.tag-ecology.active {
+  color: #f8f8f8;
+  background: #74dd4f;
+}
+.tag-surveys.active {
+  color: #f8f8f8;
+  background: #929292;
+}
+.tag-academy.active {
+  color: #f8f8f8;
+  background: #1069FE;
+}
+.tag-soft.active {
+  color: #f8f8f8;
+  background: #748AAB;
+}
+.tag-foundation.active {
+  color: #f8f8f8;
+  background: #FFAD31;
+}
+.tag-journal.active {
+  color: #f8f8f8;
+  background: #2F8672;
+}
+.tag-certification.active {
+  color: #f8f8f8;
+  background: #2CCA97;
+}
+.tag-people.active {
+  color: #f8f8f8;
+  background: #A380FF;
+}
+.tag-life.active {
+  color: #f8f8f8;
+  background: #1CB8E4;
 }
 
-/*# sourceMappingURL=card-gray.css.map */
+/*# sourceMappingURL=tag.css.map */
