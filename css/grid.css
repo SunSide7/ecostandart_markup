@@ -80,6 +80,11 @@
   flex-wrap: wrap;
 }
 
+.d-flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
 .fxd-col {
   flex-direction: column;
 }

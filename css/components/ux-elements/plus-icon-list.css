@@ -476,6 +476,9 @@
   background: linear-gradient(128deg, #1cb8e4, #1cb8e4);
 }
 
+ul.plus-list-safety, ul.plus-list-life {
+  padding: 0;
+}
 ul.plus-list-safety li, ul.plus-list-life li {
   display: flex;
   padding: 4px 0;

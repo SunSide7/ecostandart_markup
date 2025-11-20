@@ -1,7 +1,6 @@
 .slider-cards
 
-  .row
-    flex-direction: column
+  .d-flex-col
     gap: 0
 
   &-abs-img
@@ -13,7 +12,7 @@
     max-height: 100%
 
   & .el-50:last-child
-    .card-gray.card-icon
+    .card-neutral-white.card-icon
       margin-bottom: 0
 
   &-img
@@ -35,7 +34,7 @@
   .top
     position: relative
 
-    > .card-gray:not(:nth-child(2))
+    > .card-neutral-white:not(:nth-child(2))
       margin-bottom: 16px
 
       p
@@ -81,8 +80,11 @@
     .row
       gap: 8px
 
-    .top .card-gray:not(:nth-child(2))
-      margin-bottom: 0
+    .top .card-neutral-white
+      &:not(:nth-child(2))
+        margin-bottom: 0
+      &:first-child
+        margin-bottom: 8px
 
     & .el-50:last-child
       flex-direction: column-reverse
