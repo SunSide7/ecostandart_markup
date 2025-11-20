@@ -495,9 +495,13 @@
   transition: all 0.35s ease-out;
 }
 
-.tag-black.active {
+.tag-black:not(.active) {
   color: #f8f8f8;
   background: #4b535c;
+}
+.tag-black.active {
+  background: #f8f8f8;
+  color: #3a434d;
 }
 .tag-outline.active {
   color: #f8f8f8;

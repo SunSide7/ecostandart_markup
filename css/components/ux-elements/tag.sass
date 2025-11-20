@@ -28,6 +28,7 @@ $icon-size: 29px
 
   transition: all .35s ease-out
 
+
 .tag
   &-white,
   &-black,
@@ -50,9 +51,13 @@ $icon-size: 29px
 // ACTIVE STATE
 .tag
 
-  &-black.active
-    color: $color_neutral_white
-    background: $color-neutral-dark-grey
+  &-black
+    &:not(.active)
+      color: $color_neutral_white
+      background: $color-neutral-dark-grey
+    &.active
+      background: $color_neutral_white
+      color: $color_neutral_black
 
   &-outline.active
     color: $color_neutral_white
