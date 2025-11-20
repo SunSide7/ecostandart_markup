@@ -5,27 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec7b5231-ec41-4ccf-97da-ed0f4ab9bb94" name="Changes" comment="[17:42 17.11.2025] Buttons">
+      <change afterPath="$PROJECT_DIR$/css/components/ux-elements/tag.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/components/dropdown/dropdown-arrow-black.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/components/dropdown/dropdown-arrow-white.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_11_2025_16_57__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_11_2025_16_57__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_11_2025_16_57__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_11_2025_16_57__Changes_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/sections/slider-cards.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/sections/slider-cards.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/sections/slider-cards.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/sections/slider-cards.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/sections/slider-cards.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/sections/slider-cards.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/ux-elements/plus-icon-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ux-elements/plus-icon-list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/ux-elements/plus-icon-list.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ux-elements/plus-icon-list.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/ux-elements/plus-icon-list.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ux-elements/plus-icon-list.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/ux-elements/title.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ux-elements/title.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/ux-elements/title.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ux-elements/title.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grid.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/ux-elements/diagram-round.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ux-elements/diagram-round.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/ux-elements/diagram-round.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ux-elements/diagram-round.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/ux-elements/dropdown-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ux-elements/dropdown-header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/ux-elements/dropdown-header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ux-elements/dropdown-header.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/ux-elements/menu-footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ux-elements/menu-footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/ux-elements/menu-footer.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ux-elements/menu-footer.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/ux-elements/menu-footer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ux-elements/menu-footer.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/ux-elements/menu-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ux-elements/menu-header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/ux-elements/menu-header.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ux-elements/menu-header.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/ux-elements/menu-header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ux-elements/menu-header.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/ux-elements/tag.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ux-elements/tag.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/ux-elements/tag.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ux-elements/tag.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/uc/text.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/uc/text.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/components/dropdown/dropdown-arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/components/dropdown/dropdown-arrow-grey.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug-assets/components/section_02.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug-assets/components/section_02.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug-assets/components/section_03.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug-assets/components/section_03.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug-assets/components/section_03.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug-assets/components/section_03.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug-assets/components/section_04.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug-assets/components/section_04.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug-assets/components/section_04.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug-assets/components/section_04.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug-assets/components/section_05.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug-assets/components/section_05.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug-assets/components/section_05.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug-assets/components/section_05.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug-assets/pages/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug-assets/pages/main.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug-assets/pages/ux.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug-assets/pages/ux.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,22 +55,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Popov/Desktop/BX MARKUP/pug-assets/pages&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Evan/Desktop/ecostandart_markup/img/components",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Popov\Desktop\BX MARKUP\pug-assets\pages" />
@@ -119,6 +121,7 @@
       <workItem from="1763461908200" duration="17298000" />
       <workItem from="1763544401060" duration="15563000" />
       <workItem from="1763624027540" duration="1683000" />
+      <workItem from="1763642877543" duration="676000" />
     </task>
     <task id="LOCAL-00001" summary="Desktop First">
       <option name="closed" value="true" />

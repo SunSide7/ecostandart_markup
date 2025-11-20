@@ -477,6 +477,12 @@
 }
 
 /* UNIVERSAL CLASSES - TEXT */
+.h-1 {
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 52px;
+  line-height: 66px;
+  font-weight: 600;
+}
 .h-2 {
   font-family: "Wix Madefor Display", sans-serif;
   font-size: 40px;
@@ -847,8 +853,12 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+  width: 100%;
+  transition: transform 0.2s ease;
 }
-.menu-footer > * {
+.menu-footer > *:first-child {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   color: #f8f8f8;
 }
@@ -857,21 +867,46 @@
   display: block;
   width: 12px;
   height: 12px;
-  margin-left: auto;
-  background-image: url(../../../img/components/dropdown/dropdown-arrow.svg);
+  margin-left: 4px;
+  background-image: url(../../../img/components/dropdown/dropdown-arrow-white.svg);
   background-size: 100%;
   transition: transform 0.2s ease;
+  transform: rotate(0deg);
+}
+.menu-footer > *:not(:first-child) {
+  display: none;
+}
+.menu-footer.active > *:not(:first-child) {
+  display: flex;
+}
+.menu-footer.active > *:first-child::after {
   transform: rotate(180deg);
 }
 
 .menu-footer-list {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 8px;
+  margin-left: 12px;
+  display: inline-flex;
 }
 .menu-footer-list > * {
   text-decoration: none;
-  color: #f8f8f8;
+  color: #b7bbc3;
+}
+
+@media (min-width: 960px) {
+  .menu-footer-list {
+    margin-left: 0px;
+    display: flex !important;
+  }
+  .menu-footer-list > *:hover {
+    color: #f8f8f8;
+    width: auto;
+  }
+  .menu-footer > *:first-child::after {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=menu-footer.css.map */

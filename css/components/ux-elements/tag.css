@@ -476,46 +476,74 @@
   background: linear-gradient(128deg, #1cb8e4, #1cb8e4);
 }
 
-.dropdown-header {
-  display: flex;
-  flex-direction: column;
-  width: 181px;
-  padding: 8px;
-  border-radius: 16px;
-  transition: all 0.4s ease;
-}
-.dropdown-header hr {
-  height: 1px;
-  margin: 0 1px;
-  width: 100%;
-  border: 0;
-  border-bottom: 1px dashed #727882;
-}
-.dropdown-header > *:not(:nth-child(-n+2)) {
-  display: none;
-}
-.dropdown-header > *:first-child::after {
-  content: "";
-  display: block;
-  width: 12px;
-  height: 12px;
-  margin-left: auto;
-  background-image: url(../../../img/components/dropdown/dropdown-arrow-grey.svg);
-  background-size: 100%;
-  transition: transform 0.2s ease;
-  transform: rotate(180deg);
-}
-.dropdown-header.active {
+.tag-white, .tag-black, .tag-outline, .tag-safety, .tag-ecology, .tag-surveys, .tag-academy, .tag-soft, .tag-foundation, .tag-journal, .tag-certification, .tag-people, .tag-life {
+  display: inline-block;
+  padding: 12px 24px;
+  margin-right: 8px;
+  text-decoration: none;
+  border-radius: 50px;
   background: #f8f8f8;
-}
-.dropdown-header.active > *:not(:nth-child(-n+2)) {
-  display: flex;
-}
-.dropdown-header.active hr {
-  border-bottom: 1px solid #727882;
-}
-.dropdown-header.active > *:first-child::after {
-  transform: rotate(0deg);
+  color: #3a434d;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 100%;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s ease-out;
 }
 
-/*# sourceMappingURL=dropdown-header.css.map */
+.tag-black.active {
+  color: #f8f8f8;
+  background: #4b535c;
+}
+.tag-outline.active {
+  color: #f8f8f8;
+  background: transparent;
+  color: #3a434d;
+  border: 1px solid #3a434d;
+}
+.tag-safety.active {
+  color: #f8f8f8;
+  background: #F25B39;
+}
+.tag-ecology.active {
+  color: #f8f8f8;
+  background: #74dd4f;
+}
+.tag-surveys.active {
+  color: #f8f8f8;
+  background: #929292;
+}
+.tag-academy.active {
+  color: #f8f8f8;
+  background: #1069FE;
+}
+.tag-soft.active {
+  color: #f8f8f8;
+  background: #748AAB;
+}
+.tag-foundation.active {
+  color: #f8f8f8;
+  background: #FFAD31;
+}
+.tag-journal.active {
+  color: #f8f8f8;
+  background: #2F8672;
+}
+.tag-certification.active {
+  color: #f8f8f8;
+  background: #2CCA97;
+}
+.tag-people.active {
+  color: #f8f8f8;
+  background: #A380FF;
+}
+.tag-life.active {
+  color: #f8f8f8;
+  background: #1CB8E4;
+}
+
+/*# sourceMappingURL=tag.css.map */

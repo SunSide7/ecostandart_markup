@@ -477,6 +477,12 @@
 }
 
 /* UNIVERSAL CLASSES - TEXT */
+.h-1 {
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 52px;
+  line-height: 66px;
+  font-weight: 600;
+}
 .h-2 {
   font-family: "Wix Madefor Display", sans-serif;
   font-size: 40px;
