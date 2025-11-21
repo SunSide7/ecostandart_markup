@@ -51,6 +51,15 @@
   padding-top: 40px;
 }
 
+.mb-design {
+  margin-bottom: 52px !important;
+}
+
+@media (max-width: 639px) {
+  .mb-design {
+    margin-bottom: 32px !important;
+  }
+}
 .d-none {
   display: none !important;
 }
@@ -87,11 +96,6 @@
 
 .fxd-col {
   flex-direction: column;
-}
-
-.row {
-  display: flex;
-  gap: 16px;
 }
 
 .el-100 {

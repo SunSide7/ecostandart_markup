@@ -4,32 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec7b5231-ec41-4ccf-97da-ed0f4ab9bb94" name="Changes" comment="[17:42 17.11.2025] Buttons">
-      <change afterPath="$PROJECT_DIR$/css/components/ux-elements/card-policy.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/components/ux-elements/card-policy.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/components/ux-elements/card-policy.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/img-dev/card/card_policy_img_01.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/img-dev/card/card_policy_img_02.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/img-dev/card/card_policy_img_03.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/img-dev/card/card_policy_img_04.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/img-dev/card/card_policy_img_05.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pug-assets/components/legend_30.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pug-assets/components/legend_30.pug" afterDir="false" />
+    <list default="true" id="ec7b5231-ec41-4ccf-97da-ed0f4ab9bb94" name="Changes" comment="[18:30 14.11.2025] UC lib added">
+      <change afterPath="$PROJECT_DIR$/pug-assets/components/legend_41.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug-assets/components/legend_41.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/ux-elements/card-base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ux-elements/card-base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/ux-elements/card-icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ux-elements/card-icon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/ux-elements/dropdown-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ux-elements/dropdown-header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/ux-elements/dropdown-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ux-elements/dropdown-item.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/ux-elements/menu-footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ux-elements/menu-footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/ux-elements/menu-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ux-elements/menu-header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/ux-elements/plus-icon-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ux-elements/plus-icon-list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/ux-elements/title.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ux-elements/title.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/grid.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug-assets/base/vars/styles.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug-assets/base/vars/styles.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug-assets/pages/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug-assets/pages/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug-assets/pages/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug-assets/pages/main.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug-assets/pages/ux.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug-assets/pages/ux.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +46,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Evan/Desktop/ecostandart_markup/img/components&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Popov/Desktop/BX MARKUP/pug-assets/components&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -75,11 +58,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Popov\Desktop\BX MARKUP\pug-assets\components" />
       <recent name="C:\Users\Popov\Desktop\BX MARKUP\pug-assets\pages" />
       <recent name="C:\Users\Popov\Desktop\BX MARKUP\img\typed-img-dev" />
       <recent name="C:\Users\Popov\Desktop\BX MARKUP\plugins" />
       <recent name="C:\Users\Popov\Desktop\BX MARKUP\img\components\slider\content_1" />
-      <recent name="C:\Users\Popov\Desktop\BX MARKUP\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Popov\Desktop\BX MARKUP\css\components\ux-elements\text" />
@@ -124,6 +107,7 @@
       <workItem from="1763544401060" duration="15563000" />
       <workItem from="1763624027540" duration="1683000" />
       <workItem from="1763642877543" duration="676000" />
+      <workItem from="1763721187720" duration="4490000" />
     </task>
     <task id="LOCAL-00001" summary="Desktop First">
       <option name="closed" value="true" />
