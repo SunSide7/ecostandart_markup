@@ -1,0 +1,21 @@
+.phone-header
+  .phone-header-text
+    max-height: 49px
+    min-width: 140px
+    padding: 4px 8px
+    align-items: center
+    display: flex
+    flex-direction: column
+
+    & > *
+      margin: 0
+
+  .ghost
+    display: none
+
+  &.active
+    .phone-header-text
+      display: none
+
+    .ghost
+      display: flex

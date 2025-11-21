@@ -1,0 +1,22 @@
+.phone-header .phone-header-text {
+  max-height: 49px;
+  min-width: 140px;
+  padding: 4px 8px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.phone-header .phone-header-text > * {
+  margin: 0;
+}
+.phone-header .ghost {
+  display: none;
+}
+.phone-header.active .phone-header-text {
+  display: none;
+}
+.phone-header.active .ghost {
+  display: flex;
+}
+
+/*# sourceMappingURL=phone-header.css.map */

@@ -11,7 +11,7 @@
 
   &.horizontal
     flex-direction: row
-    gap: 48px
+    gap: 16px
 
   &.vertical
     flex-direction: column
@@ -106,3 +106,8 @@
           & > *
             text-decoration: none
             color: $color_neutral_grey
+
+@media (min-width: 1920px)
+  .menu-header
+    &.horizontal
+      gap: 48px

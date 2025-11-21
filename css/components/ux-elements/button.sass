@@ -28,7 +28,7 @@ $icon-size: 29px
 
   & span
     display: block
-    padding: 16.5px 24px
+    padding: 14.5px 24px
     padding-right: calc(16px + $icon-size + 7px)
     height: 100%
     color: #fff
@@ -51,6 +51,7 @@ $icon-size: 29px
   &-black,
   &-outline,
 
+  &-primary,
   &-safety,
   &-ecology,
   &-surveys,
@@ -77,6 +78,7 @@ $icon-size: 29px
   &-black,
   &-outline,
 
+  &-primary,
   &-safety,
   &-ecology,
   &-surveys,
@@ -204,6 +206,14 @@ $icon-size: 29px
 
 
   // GRADIENTAL
+  &-primary
+    & span
+      background: $gradient_horizontal_primary
+
+    &:hover
+      & span
+        background: $hover_horizontal_primary
+
   &-safety
     & span
       background: $gradient_safety
