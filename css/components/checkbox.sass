@@ -1,0 +1,49 @@
+@import ../assets/colors.sass
+
+$checkbox-color-bg: #E7D6C9
+
+/* custom checkbox
+
+input[type="checkbox"]
+  display: flex
+  justify-content: center
+  align-items: center
+  height: 15px
+  width: 15px
+  margin: 0
+  padding: 0
+  opacity: 1
+  appearance: none
+  border: 2px solid $checkbox-color-bg
+  border-radius: 50px
+  background: transparent
+  position: relative
+  margin-right: 10px
+
+  cursor: pointer
+
+  &:checked
+    //border: 2px solid #3f51b5
+    //background: #3f51b5
+    background: $checkbox-color-bg
+
+    &:before, &:after
+      //content: ""
+      //position: absolute
+      //height: 8px
+
+    &:before
+      width: 8px
+      top: 11px
+      left: 2px
+      //transform: rotate(44deg)
+      border-radius: 50px
+
+    //&:after
+    //  width: 14px
+    //  top: 8px
+    //  left: 5px
+    //  transform: rotate(-55deg)
+
+  &:focus
+    outline: none

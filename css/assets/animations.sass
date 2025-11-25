@@ -1,0 +1,85 @@
+@mixin hover-transition
+  transition: all .35s ease-out
+
+.trans
+
+  &-ease
+    transition: ease !important
+
+  &-ease-in
+    transition: ease-in !important
+
+  &-ease-in-out
+    transition: ease-in-out !important
+
+  &-ease-out
+    transition: ease-out !important
+
+  &-step-end
+    transition: step-end !important
+
+  &-100
+    transition: all 0.1s ease !important
+
+  &-200
+    transition: all 0.2s ease !important
+
+  &-300
+    transition: all 0.3s ease !important
+
+  &-400
+    transition: all 0.4s ease !important
+
+  &-500
+    transition: all 0.5s ease !important
+
+  &-600
+    transition: all 0.6s ease !important
+
+  &-700
+    transition: all 0.7s ease !important
+
+  &-800
+    transition: all 0.8s ease !important
+
+  &-900
+    transition: all 0.9s ease !important
+
+  &-1000
+    transition: all 1s ease !important
+
+  &-1250
+    transition: all 1.25s ease !important
+
+  &-1500
+    transition: all 1.5s ease !important
+
+  &-2000
+    transition: all 2s ease !important
+
+  &-3000
+    transition: all 3s ease !important
+
+.hover-rotate
+  &-45:hover
+    transform: rotate(45deg) !important
+
+  &-90:hover
+    transform: rotate(90deg) !important
+
+  &-180:hover
+    transform: rotate(180deg) !important
+
+.hover-change-child:hover
+  &.child-rotate
+    &-0
+      transform: rotate(0deg) !important
+
+    &-45
+      transform: rotate(45deg) !important
+
+    &-90
+      transform: rotate(90deg) !important
+
+    &-180
+      transform: rotate(180deg) !important

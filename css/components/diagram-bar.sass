@@ -1,0 +1,28 @@
+@import ../assets/colors.sass
+
+.diagram-bar
+  --fill: 50
+
+  width: 100%
+  height: 40px
+  border-radius: 8px
+  background: $color_neutral_white
+  position: relative
+  overflow: hidden
+
+  &::after
+    content: ""
+    position: absolute
+    inset: 0
+    width: calc(var(--fill) * 1%)
+    background: $gradient-certification
+
+@media (min-width: 960px)
+  .diagram-bar
+    width: 40px
+    height: 250px
+
+    &::after
+      width: 40px
+      height: calc(var(--fill) * 1%)
+      align-self: end

@@ -1,0 +1,19 @@
+@import ../assets/colors.sass
+
+.ghost
+  display: flex
+  align-items: center
+  justify-content: center
+  padding: 9px
+  border-radius: 100%
+
+  &.big
+    padding: 14px
+
+  &.disabled
+    background-color: $color_neutral_light_grey !important
+    filter: grayscale(1)
+
+    &.hover
+      background-color: $color_neutral_light_grey !important
+      filter: grayscale(1)

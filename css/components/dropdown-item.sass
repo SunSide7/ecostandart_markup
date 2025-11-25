@@ -1,0 +1,22 @@
+@import ../assets/colors.sass
+
+.dropdown-item
+  display: flex !important
+  justify-content: space-between
+  align-items: center
+
+  padding: 4px 8px !important
+  border-radius: 8px !important
+
+  span
+    color: $color_neutral_grey
+
+  &:hover
+    cursor: pointer
+
+    &:not(:first-child)
+      background: $color_neutral_background_white
+
+      span
+        color: $color_neutral_black !important
+

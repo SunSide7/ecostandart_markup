@@ -1,0 +1,52 @@
+@import ../assets/colors.sass
+@import ../assets/text.sass
+
+.diagram-round
+  --fill: 50
+
+  width: 200px
+  aspect-ratio: 1
+  position: relative
+  display: inline-flex
+  place-content: center
+  justify-content: center
+  border-radius: 50%
+
+  &:before
+    content: ""
+    position: absolute
+    inset: 0
+    border-radius: 50%
+    background: $color_neutral_white
+    z-index: 1
+    mask: radial-gradient(farthest-side, #0000 calc(99% - 28px), #000 calc(100% - 28px)), conic-gradient(#000, transparent 0)
+
+  &:after
+    content: ""
+    position: absolute
+    inset: 0
+    border-radius: 50%
+    background: linear-gradient(#3EB8A3, #175FAB)
+
+    mask: radial-gradient(farthest-side, #0000 calc(99% - 28px), #000 calc(100% - 28px)), conic-gradient(#000 calc(var(--fill) * 1%), transparent 0)
+
+    mask-composite: intersect
+    -webkit-mask-composite: source-in
+    z-index: 2
+
+  .diagram-round-text
+    content: attr(data-fill) "%"
+    align-self: center
+    font-family: $font-secondary
+    font-size: 52px
+    line-height: 66px
+    font-weight: 600
+    background: $gradient_certification
+    background-clip: text
+    color: transparent
+    z-index: 3
+    position: relative
+
+@media (min-width: 640px)
+  .diagram-round
+    width: 250px
