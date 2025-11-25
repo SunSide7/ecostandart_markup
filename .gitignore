@@ -1,7 +1,6 @@
+/.idea
 *.tar.gz
 *.log
 *.xml
 *.csv
 *.xls
-/.idea
-/.idea

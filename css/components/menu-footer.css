@@ -625,7 +625,7 @@
 /* UNIVERSAL CLASSES - TEXT GRADIENTS */
 .gradient-horizontal-primary {
   background: linear-gradient(to left, #42AD8E, #74DD4F) !important;
-  background-clip: text;
+  background-clip: text !important;
   color: transparent;
   transition: all 0.35s ease-out;
 }
@@ -634,7 +634,7 @@
 }
 .gradient-vertical-primary {
   background: linear-gradient(to top, #74DD4F, #42AD8E) !important;
-  background-clip: text;
+  background-clip: text !important;
   color: transparent;
   transition: all 0.35s ease-out;
 }
@@ -643,7 +643,7 @@
 }
 .gradient-safety {
   background: linear-gradient(128deg, #ffa734, #f24868) !important;
-  background-clip: text;
+  background-clip: text !important;
   color: transparent;
   transition: all 0.35s ease-out;
 }
@@ -652,7 +652,7 @@
 }
 .gradient-ecology {
   background: linear-gradient(133deg, #cbf26e, #74dd4f, #4bbb24) !important;
-  background-clip: text;
+  background-clip: text !important;
   color: transparent;
   transition: all 0.35s ease-out;
 }
@@ -661,7 +661,7 @@
 }
 .gradient-surveys {
   background: linear-gradient(132deg, #929292, #4b4b4b) !important;
-  background-clip: text;
+  background-clip: text !important;
   color: transparent;
   transition: all 0.35s ease-out;
 }
@@ -670,7 +670,7 @@
 }
 .gradient-academy {
   background: linear-gradient(131deg, #8cb7ff, #1069fe) !important;
-  background-clip: text;
+  background-clip: text !important;
   color: transparent;
   transition: all 0.35s ease-out;
 }
@@ -679,7 +679,7 @@
 }
 .gradient-soft {
   background: linear-gradient(131deg, #c4cde1, #748aab) !important;
-  background-clip: text;
+  background-clip: text !important;
   color: transparent;
   transition: all 0.35s ease-out;
 }
@@ -688,7 +688,7 @@
 }
 .gradient-foundation {
   background: linear-gradient(to right, #ffad31, #ff6614) !important;
-  background-clip: text;
+  background-clip: text !important;
   color: transparent;
   transition: all 0.35s ease-out;
 }
@@ -697,7 +697,7 @@
 }
 .gradient-journal {
   background: linear-gradient(147deg, #2fd8b1, #2f8672) !important;
-  background-clip: text;
+  background-clip: text !important;
   color: transparent;
   transition: all 0.35s ease-out;
 }
@@ -706,7 +706,7 @@
 }
 .gradient-certification {
   background: linear-gradient(119deg, #3eb8a3, #175fab) !important;
-  background-clip: text;
+  background-clip: text !important;
   color: transparent;
   transition: all 0.35s ease-out;
 }
@@ -715,7 +715,7 @@
 }
 .gradient-people {
   background: linear-gradient(131deg, #a380ff, #3934c7) !important;
-  background-clip: text;
+  background-clip: text !important;
   color: transparent;
   transition: all 0.35s ease-out;
 }
@@ -724,7 +724,7 @@
 }
 .gradient-life {
   background: linear-gradient(128deg, #1cb8e4, #1e6fd9) !important;
-  background-clip: text;
+  background-clip: text !important;
   color: transparent;
   transition: all 0.35s ease-out;
 }
@@ -1210,7 +1210,7 @@
   width: 12px;
   height: 12px;
   margin-left: 4px;
-  background-image: url(../../img/assets/icons/small/icon_arrow_bottom_white.svg);
+  background-image: url(../../img/assets/icons/small/arrow_down_white.svg);
   background-size: 100%;
   transition: transform 0.2s ease;
   transform: rotate(0deg);
