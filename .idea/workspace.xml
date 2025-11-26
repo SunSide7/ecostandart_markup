@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec7b5231-ec41-4ccf-97da-ed0f4ab9bb94" name="Changes" comment="[17:42 17.11.2025] Buttons" />
+    <list default="true" id="ec7b5231-ec41-4ccf-97da-ed0f4ab9bb94" name="Changes" comment="[18:30 14.11.2025] UC lib added">
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_56.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card-icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-icon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card-icon.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-icon.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card-icon.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-icon.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/pages/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main.pug" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +45,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Evan/Desktop/ecostandart_markup/pug-assets/components&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Popov/Desktop/BX MARKUP/pug/pages&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -49,11 +57,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Popov\Desktop\BX MARKUP\pug\pages" />
+      <recent name="C:\Users\Popov\Desktop\BX MARKUP\css\assets" />
+      <recent name="C:\Users\Popov\Desktop\BX MARKUP\css" />
+      <recent name="C:\Users\Popov\Desktop\BX MARKUP\pug\sections" />
       <recent name="C:\Users\Evan\Desktop\ecostandart_markup\pug-assets\components" />
-      <recent name="C:\Users\Popov\Desktop\BX MARKUP\pug-assets\pages" />
-      <recent name="C:\Users\Popov\Desktop\BX MARKUP\img\typed-img-dev" />
-      <recent name="C:\Users\Popov\Desktop\BX MARKUP\plugins" />
-      <recent name="C:\Users\Popov\Desktop\BX MARKUP\img\components\slider\content_1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Evan\Desktop\ecostandart_markup\img\section_footer" />
@@ -102,6 +110,7 @@
       <workItem from="1763658523564" duration="6470000" />
       <workItem from="1763715190017" duration="22583000" />
       <workItem from="1764057751128" duration="319000" />
+      <workItem from="1764146976970" duration="5513000" />
     </task>
     <task id="LOCAL-00001" summary="Desktop First">
       <option name="closed" value="true" />
