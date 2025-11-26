@@ -1,7 +1,7 @@
 @import ../assets/colors.sass
 
 .card
-  &-neutral-white
+  &-neutral-white:not(.no-card)
     padding: 20px
     border-radius: 30px
     background: $color_neutral_white
@@ -125,8 +125,9 @@ $cards-gap: 8px
   $cards-gap: 8px
   .card
     &-neutral-white
-      padding: 32px
-      border-radius: 36px
+      &:not(.no-card)
+        padding: 32px
+        border-radius: 36px
 
       & > .col-md-6,
       & > .col-md-5,
@@ -238,8 +239,9 @@ $cards-gap: 8px
   $cards-gap: 16px
   .card
     &-neutral-white
-      padding: 32px
-      border-radius: 36px
+      &:not(.no-card)
+        padding: 32px
+        border-radius: 36px
 
       & > .col-lg-6,
       & > .col-lg-5,
@@ -351,8 +353,9 @@ $cards-gap: 8px
   $cards-gap: 16px
   .card
     &-neutral-white
-      padding: 32px
-      border-radius: 36px
+      &:not(.no-card)
+        padding: 32px
+        border-radius: 36px
 
       & > .col-xl-6,
       & > .col-xl-5,
@@ -464,8 +467,9 @@ $cards-gap: 8px
   $cards-gap: 16px
   .card
     &-neutral-white
-      padding: 32px
-      border-radius: 36px
+      &:not(.no-card)
+        padding: 32px
+        border-radius: 36px
 
       &.col-xxl-12
         width: 100%

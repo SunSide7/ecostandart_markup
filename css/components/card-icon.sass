@@ -1,4 +1,10 @@
+@import ../assets/colors.sass
+@import ../assets/animations.sass
+
+$hover-img-position: 32px
+
 .card-icon
+  position: relative
 
   .img
     width: 24px
@@ -16,6 +22,83 @@
     font-size: 16px
     line-height: 22px
     margin-bottom: 20px
+
+  &.card-hover
+    &-life
+      cursor: pointer
+
+      &:after
+        content: ''
+        display: block
+        width: 20px
+        height: 20px
+
+        background-image: url(../../img/assets/icons/medium/arrow_go_right_up_life.svg)
+        background-repeat: no-repeat
+        background-position: center center
+
+        position: absolute
+        top: $hover-img-position
+        right: $hover-img-position
+
+        opacity: 1
+
+      &:after,
+      & h4
+        @include hover-transition
+        
+
+
+  &.card-hover
+    &-life:not(:hover)
+      &:after
+        opacity: 1
+
+      & h4
+        color: $color_neutral_black
+
+
+
+
+
+
+@media(min-width: 360px) and (max-width: 639px)
+  $hover-img-position: 20px
+
+  .card-icon
+    &.card-hover
+      &-life
+        cursor: pointer
+
+        &:after
+          top: calc($hover-img-position + 2px)
+          right: $hover-img-position
+
+@media(min-width: 640px)
+@media(min-width: 960px)
+  .card-icon
+    &.card-hover
+      &-life
+        &:after
+          opacity: 0
+@media(min-width: 1280px)
+  .card-icon
+    &.card-hover
+      &-life:not(:hover)
+
+        & h4
+          color: $color_neutral_grey
+
+    &.card-hover
+      &-life:hover
+        &:after
+          opacity: 1
+
+        & h4
+          color: $color_neutral_black
+
+
+@media(min-width: 1920px)
 
 
 //@media(max-width: 960px)

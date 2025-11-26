@@ -824,6 +824,9 @@
   font-weight: bold;
   color: #3a434d;
 }
+.title-safety.font-md, .title-ecology.font-md, .title-surveys.font-md, .title-academy.font-md, .title-soft.font-md, .title-foundation.font-md, .title-journal.font-md, .title-certification.font-md, .title-people.font-md, .title-life.font-md {
+  font-weight: 500 !important;
+}
 .title-safety span, .title-ecology span, .title-surveys span, .title-academy span, .title-soft span, .title-foundation span, .title-journal span, .title-certification span, .title-people span, .title-life span {
   background-image: linear-gradient(128deg, #ffa734, #f24868);
   color: transparent;
@@ -837,6 +840,9 @@
   background-clip: text;
   line-height: 100%;
   background-image: linear-gradient(128deg, #ffa734, #f24868);
+}
+.title-card-safety.font-md {
+  font-weight: 500 !important;
 }
 .title-card-ecology {
   font-family: "Wix Madefor Display";
