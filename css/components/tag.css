@@ -821,7 +821,6 @@
 .tag-white, .tag-black, .tag-outline, .tag-safety, .tag-ecology, .tag-surveys, .tag-academy, .tag-soft, .tag-foundation, .tag-journal, .tag-certification, .tag-people, .tag-life {
   display: inline-block;
   padding: 12px 24px;
-  margin-right: 8px;
   text-decoration: none;
   border-radius: 50px;
   background: #f8f8f8;
@@ -829,6 +828,7 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 100%;
+  min-width: fit-content;
   overflow: hidden;
   border: none;
   outline: none;

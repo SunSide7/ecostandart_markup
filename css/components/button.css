@@ -833,6 +833,7 @@
   outline: none;
   cursor: pointer;
   position: relative;
+  background: transparent;
   transition: all 0.35s ease-out;
 }
 .btn-white span, .btn-black span, .btn-outline span, .btn-primary span, .btn-safety span, .btn-ecology span, .btn-surveys span, .btn-academy span, .btn-soft span, .btn-foundation span, .btn-journal span, .btn-certification span, .btn-people span, .btn-life span {
@@ -874,6 +875,7 @@
   outline: none;
   cursor: pointer;
   position: relative;
+  background: transparent;
   transition: all 0.35s ease-out;
 }
 .btn-img-white span, .btn-img-black span, .btn-img-outline span, .btn-img-primary span, .btn-img-safety span, .btn-img-ecology span, .btn-img-surveys span, .btn-img-academy span, .btn-img-soft span, .btn-img-foundation span, .btn-img-journal span, .btn-img-certification span, .btn-img-people span, .btn-img-life span {
