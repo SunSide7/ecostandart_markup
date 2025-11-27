@@ -5,28 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec7b5231-ec41-4ccf-97da-ed0f4ab9bb94" name="Changes" comment="[17:42 17.11.2025] Buttons">
-      <change afterPath="$PROJECT_DIR$/pug/sections/hero-index.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pug/sections/hero-main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pug/sections/hero-main.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_11_2025_16_57_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_11_2025_16_57__Changes_1.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/components/dropdown-filter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/components/dropdown-filter.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/components/dropdown-filter.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/assets/others/hero-visir.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/hero-index/background1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/hero-index/background2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/button.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/button.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/button.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/button.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/button.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/menu-footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/menu-footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/menu-footer.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/menu-footer.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/menu-footer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/menu-footer.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/tag.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/tag.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/tag.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/tag.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/tag.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/tag.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sections/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sections/footer.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/footer.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sections/footer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/footer.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/dropdown-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown-header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/dropdown-header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown-header.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/dropdown-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/dropdown-item.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown-item.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/dropdown-item.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown-item.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/ghost.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ghost.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/ghost.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ghost.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/ghost.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ghost.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/menu-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/menu-header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/menu-header.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/menu-header.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/menu-header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/menu-header.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/header.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/base/vars/styles.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/base/vars/styles.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/pages/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/pages/ux.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/ux.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/sections/cookie.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/cookie.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/sections/footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/footer.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/header.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/hero-index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/hero-index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/hero-main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/hero-main.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,11 +90,11 @@
       <recent name="C:\Users\Popov\Desktop\BX MARKUP\img\components\slider\content_1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Evan\Desktop\ecostandart-markup-carcass\img\assets\others" />
+      <recent name="C:\Users\Evan\Desktop\ecostandart-markup-carcass\img\assets" />
+      <recent name="C:\Users\Evan\Desktop\ecostandart-markup-carcass\img\sections\hero-index" />
       <recent name="C:\Users\Evan\Desktop\ecostandart_markup\img\section_footer" />
       <recent name="C:\Users\Evan\Desktop\ecostandart_markup\img\section_header\icon" />
-      <recent name="C:\Users\Evan\Desktop\ecostandart_markup\img\section_header" />
-      <recent name="C:\Users\Evan\Desktop\ecostandart_markup\img\img-dev\logo" />
-      <recent name="C:\Users\Evan\Desktop\ecostandart_markup\css" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -128,6 +139,10 @@
       <workItem from="1764064006362" duration="1759000" />
       <workItem from="1764075698729" duration="9278000" />
       <workItem from="1764137406909" duration="7780000" />
+      <workItem from="1764162000426" duration="244000" />
+      <workItem from="1764163821329" duration="9222000" />
+      <workItem from="1764248823101" duration="2743000" />
+      <workItem from="1764254975308" duration="3921000" />
     </task>
     <task id="LOCAL-00001" summary="Desktop First">
       <option name="closed" value="true" />

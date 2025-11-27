@@ -11,12 +11,10 @@
   span
     color: $color_neutral_grey
 
-  &:hover
+  &.hoverable:hover
     cursor: pointer
+    background: $color_neutral_background_white
 
-    &:not(:first-child)
-      background: $color_neutral_background_white
-
-      span
-        color: $color_neutral_black !important
+    span
+      color: $color_neutral_black !important
 

@@ -1,0 +1,43 @@
+@import ../assets/colors.sass
+
+.dropdown-filter-current
+  border-radius: 100px
+  padding: 8px
+  background-color: $color_neutral_white
+
+  & > *:first-child::after
+    content: ""
+    display: block
+    width: 12px
+    height: 12px
+    margin-left: auto
+    background-image: url(../../img/assets/icons/small/arrow_up_grey.svg)
+    background-size: 100%
+    transition: transform 0.2s ease
+    transform: rotate(180deg)
+
+.dropdown-filter-list
+  display: none
+  flex-direction: column
+  gap: 4px
+  border-radius: 16px
+  padding: 8px
+  background-color: $color_neutral_white
+
+.dropdown-filter
+  display: flex
+  flex-direction: column
+  width: 100%
+  gap: 8px
+  transition: all 1s ease
+
+  &.active
+
+    & > *
+      display: flex
+
+    & > *:first-child
+
+      & > *:first-child::after
+        transform: rotate(0deg)
+

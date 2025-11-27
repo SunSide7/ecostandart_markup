@@ -828,13 +828,11 @@
 .dropdown-item span {
   color: #727882;
 }
-.dropdown-item:hover {
+.dropdown-item.hoverable:hover {
   cursor: pointer;
-}
-.dropdown-item:hover:not(:first-child) {
   background: #f2f2f2;
 }
-.dropdown-item:hover:not(:first-child) span {
+.dropdown-item.hoverable:hover span {
   color: #3a434d !important;
 }
 

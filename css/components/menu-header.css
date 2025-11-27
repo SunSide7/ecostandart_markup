@@ -1387,5 +1387,25 @@
     gap: 48px;
   }
 }
+.menu-header-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+  max-width: 43px;
+  max-height: 43px;
+  border-radius: 100px;
+}
+.menu-header-button::after {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin-left: auto;
+  background-image: url(../../img/assets/icons/small/icon_menu_white.svg);
+}
+.menu-header-button.active::after {
+  background-image: url(../../img/assets/icons/small/icon_exit_white.svg);
+}
 
 /*# sourceMappingURL=menu-header.css.map */
