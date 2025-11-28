@@ -52,6 +52,6 @@ body {
     scrollbar-width: none
 }
 
-::-webkit-scrollbar {
+body::-webkit-scrollbar {
     display: none;
 }
