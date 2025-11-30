@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec7b5231-ec41-4ccf-97da-ed0f4ab9bb94" name="Changes" comment="[17:42 17.11.2025] Buttons">
-      <change afterPath="$PROJECT_DIR$/pug/sections/legend_61.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/components/cards-education.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/components/cards-education.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/components/cards-education.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_60.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_60.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/base/vars/styles.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/base/vars/styles.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/pages/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
