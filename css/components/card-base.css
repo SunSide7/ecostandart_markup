@@ -1306,6 +1306,9 @@
   .card-neutral-white > .col-xxl-4:nth-child(3n) {
     margin-right: 0;
   }
+  .card-neutral-white > .col-xxl-4:nth-child(2n) {
+    margin-right: 32px;
+  }
   .card-neutral-white > .col-xxl-3 {
     width: calc(25% - 24px);
     margin-right: 32px;

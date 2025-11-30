@@ -5,39 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec7b5231-ec41-4ccf-97da-ed0f4ab9bb94" name="Changes" comment="[17:42 17.11.2025] Buttons">
-      <change afterPath="$PROJECT_DIR$/css/components/dropdown-filter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/components/dropdown-filter.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/components/dropdown-filter.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/assets/others/hero-visir.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sections/hero-index/background1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sections/hero-index/background2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/button.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/button.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/dropdown-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown-header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/dropdown-header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown-header.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/dropdown-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown-item.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/dropdown-item.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown-item.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/dropdown-item.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown-item.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/ghost.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ghost.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/ghost.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ghost.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/ghost.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ghost.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/menu-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/menu-header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/menu-header.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/menu-header.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/menu-header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/menu-header.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sections/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sections/header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/header.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card-arrow.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-arrow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card-arrow.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-arrow.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card-arrow.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-arrow.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card-base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card-base.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-base.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card-base.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-base.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/base/vars/styles.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/base/vars/styles.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/base/vars/scripts.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/base/vars/scripts.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/pages/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/pages/ux.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/ux.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/cookie.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/cookie.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/footer.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/header.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/hero-index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/hero-index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/hero-main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/hero-main.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_46.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_46.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/section_01.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/section_01.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/section_03.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/section_03.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/section_05.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/section_05.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,6 +125,8 @@
       <workItem from="1764163821329" duration="9222000" />
       <workItem from="1764248823101" duration="2743000" />
       <workItem from="1764254975308" duration="3921000" />
+      <workItem from="1764416483830" duration="1257000" />
+      <workItem from="1764499842252" duration="1302000" />
     </task>
     <task id="LOCAL-00001" summary="Desktop First">
       <option name="closed" value="true" />

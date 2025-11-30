@@ -1,6 +1,17 @@
 @import ../assets/colors.sass
 
 $arrow-size: 48px
+.cards-arrow
+  overflow: initial
+  display: flex
+  flex-wrap: wrap
+
+@media(min-width: 360px) and (max-width: 640px)
+  .cards-arrow
+    display: flex
+    flex-wrap: nowrap
+    overflow-y: scroll
+
 .card-arrow
   position: relative
   margin-bottom: 32px
