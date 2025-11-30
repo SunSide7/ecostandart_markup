@@ -818,9 +818,12 @@
   background: linear-gradient(128deg, #1cb8e4, #1cb8e4) !important;
 }
 
+.card-neutral-white {
+  overflow: hidden;
+  border-radius: 30px;
+}
 .card-neutral-white:not(.no-card) {
   padding: 20px;
-  border-radius: 30px;
   background: #f8f8f8;
 }
 

@@ -5,6 +5,9 @@
 .card-img-bg.h-240 {
   height: 240px;
 }
+.card-img-bg.h-100p {
+  height: 100%;
+}
 .card-img-bg .img {
   display: flex;
   align-items: center;

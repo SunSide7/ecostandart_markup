@@ -1,10 +1,13 @@
 @import ../assets/colors.sass
 
 .card
-  &-neutral-white:not(.no-card)
-    padding: 20px
+  &-neutral-white
+    overflow: hidden
     border-radius: 30px
-    background: $color_neutral_white
+
+    &:not(.no-card)
+      padding: 20px
+      background: $color_neutral_white
 
 $cards-gap: 8px
 .card
