@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec7b5231-ec41-4ccf-97da-ed0f4ab9bb94" name="Changes" comment="[17:42 17.11.2025] Buttons">
-      <change afterPath="$PROJECT_DIR$/pug/sections/legend_35.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pug/sections/legend_35.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_35 — копия.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_38.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_38.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card-policy.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-policy.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card-policy.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-policy.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card-policy.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-policy.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/grid.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/grid.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/grid.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card-base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card-base.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-base.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card-base.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-base.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/pages/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main.pug" afterDir="false" />
     </list>
