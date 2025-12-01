@@ -1,46 +1,38 @@
-section.w-100.vh-100.position-relative.overflow-hidden
-    img.w-100.h-100.object-fit-cover(src="img/assets/dev/hero.svg")
-    .position-absolute.top-0.start-0.w-100.h-100
-        img.position-absolute.top-32.start-20.translate-middle.d-block(
-            src="img/assets/others/hero-visir.svg",
-            style="width: 2556px; height: 1934px; top: 400px; z-index: 3; pointer-events: none",
-            alt="hero visir"
-        )
-        .position-absolute.d-flex.align-items-end.bg-blur-30.p-24.p-md-32.p-xxl-56(
+section.position-relative.overflow-hidden.w-100.vh-100
+    img.object-fit-cover.w-100.h-100(src="img/assets/dev/hero.svg")
+    .position-absolute.w-100.h-100.top-0.start-0
+        .position-absolute.d-flex.align-items-end.p-24.p-md-32.p-xxl-56.bg-blur-30(
             style="top: 0; right: 0; height: 50vh; width: calc(50vw + 110px); z-index: 2"
         )
             h1.h-3.h-md-2.h-xxl-1.color-white Полный комплекс услуг по охране труда «под ключ»
-        .position-absolute.bg-color-background-white.d-flex.flex-column.p-24.p-md-32.p-xxl-64.gap-32.d-none.d-lg-flex(
-            style="bottom: 0; left: 0; height: 50vh; width: calc(50vw - 110px); z-index: 2"
-        )
-            p.text-body.grey Оставьте заявку на расчёт стоимости
-            form.d-flex.flex-column.gap-19
-                input.input(
-                    placeholder="Телефон*"
-                )
-                p.d-none error
-                input.input(
-                    placeholder="E-mail*"
-                )
-                p.d-none error
-            .row.d-flex.gap-16.gap-md-8.px-12.align-items-center
-                button.btn-img-safety <span>Отправить</span>
-                p.text-hint.light-grey.col-7.p-0.flex-fill.align-self-center
-                    | Нажав кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь с политикой конфиденциальности
-        .position-absolute.bg-background-white.d-flex.flex-column.p-24.p-md-32.p-xxl-64.gap-32.d-flex.d-lg-none(
-            style="bottom: 0; right: 0; height: 50vh; width: calc(50vw + 110px); z-index: 2"
-        )
-            p.text-body.grey Оставьте заявку на расчёт стоимости
-            form.d-flex.flex-column.gap-19
-                input.input(
-                    placeholder="Телефон*"
-                )
-                p.d-none error
-                input.input(
-                    placeholder="E-mail*"
-                )
-                p.d-none error
-            .row.d-flex.gap-16.gap-md-8.px-12.align-items-center
-                button.btn-img-safety <span>Отправить</span>
-                p.text-hint.light-grey.col-6.p-0.flex-fill.align-self-center
-                    | Нажав кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь с политикой конфиденциальности
+            img.position-absolute.d-block(
+                src="img/assets/others/hero-visir.svg",
+                style="width: 2556px; height: 1934px; z-index: 3; pointer-events: none",
+                alt="alt"
+            )
+        //.position-absolute.bg-color-background-white.d-flex.flex-column.p-24.p-md-32.p-xxl-64.gap-32.d-none.d-lg-flex(
+        //    style="bottom: 0; left: 0; height: 50vh; width: calc(50vw - 110px); z-index: 2"
+        //)
+        //    p.text-body.grey Оставьте заявку на расчёт стоимости
+        //    form.d-flex.flex-column.gap-19
+        //        input.input(placeholder="Телефон*")
+        //        p.d-none error
+        //        input.input(placeholder="Email*")
+        //        p.d-none error
+        //    .row.d-flex.gap-16.gap-md-8.px-12.align-items-center
+        //        button.btn-img-safety.d-none.d-md-block.p-0.w-auto <span>Отправить</span>
+        //        p.text-hint.light-grey.col-7.p-0.flex-fill.align-self-center
+        //            | Нажав кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь с политикой конфиденциальности
+        //.position-absolute.bg-background-white.d-flex.flex-column.p-24.p-md-32.p-xxl-64.gap-32.d-flex.d-lg-none(
+        //    style="bottom: 0; right: 0; height: 50vh; width: calc(50vw + 110px); z-index: 2"
+        //)
+        //    p.text-body.grey Оставьте заявку на расчёт стоимости
+        //    form.d-flex.flex-column.gap-19
+        //        input.input(placeholder="Телефон*")
+        //        p.d-none error
+        //        input.input(placeholder="Email*")
+        //        p.d-none error
+        //    .row.d-flex.gap-16.gap-md-8.px-12.align-items-center
+        //        button.btn-img-safety.d-none.d-md-block.p-0.w-auto <span>Отправить</span>
+        //        p.text-hint.light-grey.col-6.p-0.flex-fill.align-self-center
+        //            | Нажав кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь с политикой конфиденциальности

@@ -5,37 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec7b5231-ec41-4ccf-97da-ed0f4ab9bb94" name="Changes" comment="[17:42 17.11.2025] Buttons">
-      <change afterPath="$PROJECT_DIR$/css/components/dropdown-filter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/components/dropdown-filter.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/components/dropdown-filter.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/assets/others/hero-visir.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sections/hero-index/background1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sections/hero-index/background2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/button.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/button.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/button.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/dropdown-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown-header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/dropdown-header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown-header.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/dropdown-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown-item.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/dropdown-item.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown-item.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/dropdown-item.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown-item.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/ghost.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ghost.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/ghost.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ghost.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/ghost.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ghost.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/menu-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/menu-header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/menu-header.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/menu-header.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/menu-header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/menu-header.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sections/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sections/header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/header.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/base/vars/styles.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/base/vars/styles.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/bootstrap/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/bootstrap/bootstrap.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/pages/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/pages/ux.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/ux.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/cookie.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/cookie.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/footer.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/header.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/sections/hero-index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/hero-index.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/sections/hero-main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/hero-main.pug" afterDir="false" />
     </list>
@@ -65,22 +44,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Evan/Desktop/ecostandart_markup/pug-assets/components&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Evan/Desktop/ecostandart_markup/pug-assets/components",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Evan\Desktop\ecostandart_markup\pug-assets\components" />
@@ -143,6 +122,7 @@
       <workItem from="1764163821329" duration="9222000" />
       <workItem from="1764248823101" duration="2743000" />
       <workItem from="1764254975308" duration="3921000" />
+      <workItem from="1764592052338" duration="6616000" />
     </task>
     <task id="LOCAL-00001" summary="Desktop First">
       <option name="closed" value="true" />

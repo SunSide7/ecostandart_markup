@@ -844,6 +844,7 @@
   max-height: 30px;
   background-color: transparent;
   border: 1px #f8f8f8 solid;
+  border-radius: 100%;
   padding: 14px;
   max-width: 40px;
   max-height: 40px;

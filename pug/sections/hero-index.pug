@@ -1,8 +1,27 @@
-section.position-relative.overflow-hidden.w-100.vh-100.z-2.mb-100
-    img.object-fit-cover.w-100.h-100(src="img/sections/hero-index/background1.jpg")
-
-    .position-absolute.d-flex.justify-content-center.justify-content-md-end.align-items-end.w-100.h-100.p-24.p-md-32.p-xxl-64.top-0
-        .position-relative.d-none.d-md-flex.gap-8.z-5
+section.position-relative.overflow-hidden.w-100.vh-100
+    img.object-fit-cover.w-100.h-100(src="img/assets/dev/hero.svg")
+    .position-absolute.d-flex.flex-column.w-100.h-100(style="top: -370px; left: 24px")
+        .position-relative.d-flex.flex-column.gap-56.gap-md-64.gap-xl-100.top-80
+            .d-flex.flex-column.gap-32
+                p.text-body.m-0.color-white № 1 в России с 1997 года
+                h1.h-3.h-md-2.h-xl-1.position-relative.z-20.color-white Единый поставщик услуг в сфере охраны труда, изысканий и экологии
+                img.position-relative.object-fit-cover.d-flex.align-self-end(
+                    src="img/assets/others/hero-visir.svg",
+                    style="width: 2745px; height: 1934px; top: -1110px; left: 1190px"
+                )
+                .position-relative.d-flex.flex-column.gap-32(style="top: -1950px")
+                    //p.text-body.white(style="max-width: 474px")
+                    //    | Не шаблонные решения, а глубокое понимание отрасли. Разрабатываем индивидуальные системы безопасности,
+                    //    | учитывающие ваши риски, нормативы и корпоративные стандарты.
+                    button.btn-img-white.d-none.d-md-flex.w-auto <span>Проконсультироваться</span>
+                    .d-flex.d-md-none.gap-8
+                        button.ghost-outline.medium
+                            img(src="img/assets/icons/small/arrow_left_white.svg")
+                        button.ghost-outline.medium
+                            img(src="img/assets/icons/small/arrow_right_white.svg")
+    .position-absolute.d-flex.justify-content-center.justify-content-md-end.align-items-end.p-24.p-md-32.p-xxl-64.w-100.h-100.top-0.z-5
+        button.btn-img-white.d-md-none.w-100.mb-79 <span>Проконсультироваться</span>
+        .position-relative.d-none.d-md-flex.gap-8
             button.ghost-outline.medium
                 img(src="img/assets/icons/small/arrow_left_white.svg")
             button.ghost-outline.medium
