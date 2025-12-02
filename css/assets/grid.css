@@ -45,6 +45,9 @@
   padding: 40px;
 }
 
+.pt-0 {
+  padding-top: 0;
+}
 .pt-20 {
   padding-top: 20px;
 }
@@ -55,13 +58,30 @@
   padding-top: 40px;
 }
 
+.w-100p {
+  width: 100% !important;
+}
+
+.mb-16 {
+  margin-bottom: 16px !important;
+}
+
 .mb-design {
   margin-bottom: 52px !important;
+}
+
+.mb-design-gap-v {
+  margin-bottom: 16px !important;
 }
 
 @media (max-width: 639px) {
   .mb-design {
     margin-bottom: 32px !important;
+  }
+}
+@media (max-width: 959px) {
+  .mb-design-gap-v {
+    margin-bottom: 8px !important;
   }
 }
 .d-none {

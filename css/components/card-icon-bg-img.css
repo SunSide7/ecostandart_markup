@@ -893,7 +893,7 @@
 }
 
 @media (min-width: 1920px) {
-  .card-neutral-white {
+  .card-neutral-white:not(.mb-design-gap-v) {
     margin-bottom: 0 !important;
   }
   .card-neutral-white.card-icon-bg, .card-neutral-white.card-icon-bg-img {
@@ -905,7 +905,7 @@
   }
 }
 @media (min-width: 1280px) and (max-width: 1920px) {
-  .card-neutral-white {
+  .card-neutral-white:not(.mb-design-gap-v) {
     margin-bottom: 0 !important;
   }
   .card-neutral-white.card-icon-bg, .card-neutral-white.card-icon-bg-img {
@@ -923,6 +923,9 @@
   }
 }
 @media (min-width: 960px) and (max-width: 1280px) {
+  .card-neutral-white:not(.mb-design-gap-v) {
+    margin-bottom: 0 !important;
+  }
   .card-neutral-white.card-icon-bg {
     height: 168px;
   }

@@ -883,6 +883,9 @@
 }
 
 @media (min-width: 360px) and (max-width: 640px) {
+  .card-neutral-white:last-child {
+    margin-bottom: 0 !important;
+  }
   .card-neutral-white:not(.no-card) {
     padding: 32px;
     border-radius: 36px;
@@ -945,6 +948,9 @@
   }
 }
 @media (min-width: 640px) and (max-width: 959px) {
+  .card-neutral-white:last-child {
+    margin-bottom: 0 !important;
+  }
   .card-neutral-white:not(.no-card) {
     padding: 32px;
     border-radius: 36px;
@@ -1011,6 +1017,9 @@
   }
 }
 @media (min-width: 960px) and (max-width: 1279px) {
+  .card-neutral-white:last-child {
+    margin-bottom: 0 !important;
+  }
   .card-neutral-white:not(.no-card) {
     padding: 32px;
     border-radius: 36px;
