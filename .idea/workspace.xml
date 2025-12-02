@@ -5,16 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec7b5231-ec41-4ccf-97da-ed0f4ab9bb94" name="Changes" comment="[17:42 17.11.2025] Buttons">
-      <change afterPath="$PROJECT_DIR$/css/components/hero-asc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/components/hero-asc.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/components/hero-asc.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pug/sections/hero_asc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pug/sections/hero_asc.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pug/sections/legend_16 — копия.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card-arrow.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-arrow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card-base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card-btn-img.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-btn-img.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card-icon-bg-img.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-icon-bg-img.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card-img-bg.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-img-bg.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card-policy.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-policy.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/cards-ecosystem-img.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards-ecosystem-img.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/cards-education.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards-education.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/cards-responsibility.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards-responsibility.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/cards-video.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards-video.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/ghost.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ghost.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/hero-asc.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/hero-asc.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/link.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/link.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/base/vars/styles.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/base/vars/styles.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/pages/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_16.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_16.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_38.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_38.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_59.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_59.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

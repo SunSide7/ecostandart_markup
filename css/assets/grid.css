@@ -6,7 +6,23 @@
   max-width: initial;
 }
 
-@media (max-width: 1920px) {
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1792px;
+  }
+  .container-fluid {
+    max-width: initial;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+  .container-fluid {
+    max-width: initial;
+  }
+}
+@media (max-width: 640px) {
   .container {
     max-width: calc(100% - 64px);
   }
@@ -14,7 +30,7 @@
     max-width: initial;
   }
 }
-@media (max-width: 640px) {
+@media (max-width: 360px) {
   .container {
     max-width: calc(100% - 48px);
   }
