@@ -1,4 +1,4 @@
-section.position-relative.overflow-hidden.w-100.vh-100
+section.section.position-relative.overflow-hidden.w-100.vh-100
     img.object-fit-cover.w-100.h-100(src="img/assets/dev/hero.svg")
     .position-absolute.d-flex.flex-column.w-100.h-100(style="top: -370px; left: 24px")
         .position-relative.d-flex.flex-column.gap-56.gap-md-64.gap-xl-100.top-80
@@ -9,11 +9,11 @@ section.position-relative.overflow-hidden.w-100.vh-100
                     src="img/assets/others/hero-visir.svg",
                     style="width: 2745px; height: 1934px; top: -1110px; left: 1190px"
                 )
-                .position-relative.d-flex.flex-column.gap-32(style="top: -1950px")
-                    //p.text-body.white(style="max-width: 474px")
-                    //    | Не шаблонные решения, а глубокое понимание отрасли. Разрабатываем индивидуальные системы безопасности,
-                    //    | учитывающие ваши риски, нормативы и корпоративные стандарты.
-                    button.btn-img-white.d-none.d-md-flex.w-auto <span>Проконсультироваться</span>
+                .position-relative.d-block(style="top: -1950px")
+                    p.text-body.mb-32.color-white(style="max-width: 474px")
+                        | Не шаблонные решения, а глубокое понимание отрасли. Разрабатываем индивидуальные системы безопасности,
+                        | учитывающие ваши риски, нормативы и корпоративные стандарты.
+                    button.btn-img-white.d-none.d-md-inline-block <span>Проконсультироваться</span>
                     .d-flex.d-md-none.gap-8
                         button.ghost-outline.medium
                             img(src="img/assets/icons/small/arrow_left_white.svg")

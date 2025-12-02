@@ -6,17 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="ec7b5231-ec41-4ccf-97da-ed0f4ab9bb94" name="Changes" comment="[17:42 17.11.2025] Buttons">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/button.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/button.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/button.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/ghost.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ghost.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/ghost.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ghost.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/ghost.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ghost.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/bootstrap/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/bootstrap/bootstrap.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/pages/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/sections/hero-index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/hero-index.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/sections/hero-main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/hero-main.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/section_01.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/section_01.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +44,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Evan/Desktop/ecostandart_markup/pug-assets/components",
+    "last_opened_file_path": "C:/Users/Evan/Desktop/ecostandart_markup-ascended_dev",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -122,7 +116,9 @@
       <workItem from="1764163821329" duration="9222000" />
       <workItem from="1764248823101" duration="2743000" />
       <workItem from="1764254975308" duration="3921000" />
-      <workItem from="1764592052338" duration="6616000" />
+      <workItem from="1764592052338" duration="10819000" />
+      <workItem from="1764667464495" duration="392000" />
+      <workItem from="1764667890620" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="Desktop First">
       <option name="closed" value="true" />
