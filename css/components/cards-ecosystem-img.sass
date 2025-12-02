@@ -1,0 +1,59 @@
+@import ../assets/colors.sass
+
+.cards-ecosystem-img
+  display: flex
+  flex-wrap: wrap
+  position: relative
+
+  & .card-img-bg
+    position: absolute
+    top: 0
+    right: 0
+
+  & .card-icon
+    & h4
+      font-size: 16px
+      line-height: 18px
+      font-weight: bold !important
+
+    & p
+      color: $color_neutral_grey !important
+
+@media(min-width: 1920px)
+  .cards-ecosystem-img
+    & > .card-neutral-white
+      margin-bottom: 0
+    & .card-icon:last-child
+      margin-bottom: 0
+
+
+@media(min-width: 360px) and (max-width: 1919px)
+  .cards-ecosystem-img
+    display: flex
+    flex-wrap: wrap
+    position: relative
+
+    & .card-img-bg
+      position: static !important
+      margin-bottom: 0
+
+      & .img
+        // 420 300 160
+        max-height: 420px
+
+
+@media(min-width: 640px) and (max-width: 959px)
+  .cards-ecosystem-img
+    & .card-img-bg
+
+      & .img
+        // 420 300 160
+        max-height: 300px
+
+@media(min-width: 360px) and (max-width: 639px)
+  .cards-ecosystem-img
+    & .card-img-bg
+
+      & .img
+        // 420 300 160
+        max-height: 160px

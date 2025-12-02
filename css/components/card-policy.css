@@ -827,10 +827,18 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  align-items: center;
   padding: 43px 32px;
 }
 .cards-policy .card-neutral-white .img {
   margin-bottom: 32px;
+  width: 228px;
+  height: 144px;
+  overflow: hidden;
+}
+.cards-policy .card-neutral-white .img img {
+  height: 100%;
+  object-fit: cover;
 }
 .cards-policy .card-neutral-white p:last-of-type {
   margin-bottom: 0;

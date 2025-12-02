@@ -818,6 +818,19 @@
   background: linear-gradient(128deg, #1cb8e4, #1cb8e4) !important;
 }
 
+.cards-arrow {
+  overflow: initial;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 360px) and (max-width: 640px) {
+  .cards-arrow {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-y: scroll;
+  }
+}
 .card-arrow {
   position: relative;
   margin-bottom: 32px;

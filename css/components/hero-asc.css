@@ -1,0 +1,26 @@
+.hero-asc {
+  padding: 40px;
+  border: 1px solid blue;
+  overflow: hidden;
+}
+.hero-asc-title {
+  padding-bottom: 40px;
+  position: relative;
+}
+.hero-asc-title:after {
+  content: "";
+  display: block;
+  height: 40px;
+  width: 40px;
+  background-color: blue;
+  position: absolute;
+}
+.hero-asc-title:after {
+  right: 0;
+  bottom: 0;
+}
+.hero-asc-subtitle {
+  padding-top: 40px;
+}
+
+/*# sourceMappingURL=hero-asc.css.map */
