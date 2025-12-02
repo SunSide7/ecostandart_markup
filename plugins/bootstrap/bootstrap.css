@@ -739,47 +739,6 @@ progress {
   color: var(--bs-secondary-color);
 }
 
-.container,
-.container-fluid,
-.container-xxl,
-.container-xl,
-.container-lg,
-.container-md,
-.container-sm {
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
-  width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
-  padding-left: calc(var(--bs-gutter-x) * 0.5);
-  margin-right: auto;
-  margin-left: auto;
-}
-
-@media (min-width: 360px) {
-  .container-sm, .container {
-    max-width: 540px;
-  }
-}
-@media (min-width: 640px) {
-  .container-md, .container-sm, .container {
-    max-width: 720px;
-  }
-}
-@media (min-width: 960px) {
-  .container-lg, .container-md, .container-sm, .container {
-    max-width: 960px;
-  }
-}
-@media (min-width: 1280px) {
-  .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1140px;
-  }
-}
-@media (min-width: 1920px) {
-  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1320px;
-  }
-}
 :root {
   --bs-breakpoint-xs: 0;
   --bs-breakpoint-sm: 360px;
