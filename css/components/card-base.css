@@ -277,10 +277,10 @@
 }
 @media (min-width: 1280px) {
   .bg-color-xl-background-white {
-    background: var(--color-neutral-background-white) !important;
+    background: #f2f2f2 !important;
   }
   .bg-color-xl-white {
-    background: var(--color-neutral-white) !important;
+    background: #f8f8f8 !important;
   }
   .bg-color-xl-white-80 {
     background: rgba(248, 248, 248, 0.8) !important;
@@ -887,7 +887,7 @@
     margin-bottom: 0 !important;
   }
   .card-neutral-white:not(.no-card) {
-    padding: 32px;
+    padding: 20px;
     border-radius: 36px;
   }
   .card-neutral-white > .col-6, .card-neutral-white > .col-5, .card-neutral-white > .col-4, .card-neutral-white > .col-3, .card-neutral-white > .col-2, .card-neutral-white > .col-1 {

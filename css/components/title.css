@@ -277,10 +277,10 @@
 }
 @media (min-width: 1280px) {
   .bg-color-xl-background-white {
-    background: var(--color-neutral-background-white) !important;
+    background: #f2f2f2 !important;
   }
   .bg-color-xl-white {
-    background: var(--color-neutral-white) !important;
+    background: #f8f8f8 !important;
   }
   .bg-color-xl-white-80 {
     background: rgba(248, 248, 248, 0.8) !important;
@@ -818,16 +818,16 @@
   background: linear-gradient(128deg, #1cb8e4, #1cb8e4) !important;
 }
 
-.title-safety, .title-ecology, .title-surveys, .title-academy, .title-soft, .title-foundation, .title-journal, .title-certification, .title-people, .title-life {
+.title-primary, .title-safety, .title-ecology, .title-surveys, .title-academy, .title-soft, .title-foundation, .title-journal, .title-certification, .title-people, .title-life {
   font-family: "Wix Madefor Display";
   margin-bottom: 52px;
   font-weight: bold;
   color: #3a434d;
 }
-.title-safety.font-md, .title-ecology.font-md, .title-surveys.font-md, .title-academy.font-md, .title-soft.font-md, .title-foundation.font-md, .title-journal.font-md, .title-certification.font-md, .title-people.font-md, .title-life.font-md {
+.title-primary.font-md, .title-safety.font-md, .title-ecology.font-md, .title-surveys.font-md, .title-academy.font-md, .title-soft.font-md, .title-foundation.font-md, .title-journal.font-md, .title-certification.font-md, .title-people.font-md, .title-life.font-md {
   font-weight: 500 !important;
 }
-.title-safety span, .title-ecology span, .title-surveys span, .title-academy span, .title-soft span, .title-foundation span, .title-journal span, .title-certification span, .title-people span, .title-life span {
+.title-primary span, .title-safety span, .title-ecology span, .title-surveys span, .title-academy span, .title-soft span, .title-foundation span, .title-journal span, .title-certification span, .title-people span, .title-life span {
   background-image: linear-gradient(128deg, #ffa734, #f24868);
   color: transparent;
   background-clip: text;
@@ -926,6 +926,11 @@
   background-image: linear-gradient(128deg, #1cb8e4, #1e6fd9);
 }
 
+.title-primary span {
+  background-image: linear-gradient(to left, #42AD8E, #74DD4F);
+  color: transparent;
+  background-clip: text;
+}
 .title-safety span {
   background-image: linear-gradient(128deg, #ffa734, #f24868);
   color: transparent;
@@ -977,42 +982,42 @@
   background-clip: text;
 }
 
-h2.title-safety, h2.title-ecology, h2.title-surveys, h2.title-academy, h2.title-soft, h2.title-foundation, h2.title-journal, h2.title-certification, h2.title-people, h2.title-life {
+h2.title-primary, h2.title-safety, h2.title-ecology, h2.title-surveys, h2.title-academy, h2.title-soft, h2.title-foundation, h2.title-journal, h2.title-certification, h2.title-people, h2.title-life {
   font-size: 40px;
   line-height: 45px;
 }
 
-h4.title-safety, h4.title-ecology, h4.title-surveys, h4.title-academy, h4.title-soft, h4.title-foundation, h4.title-journal, h4.title-certification, h4.title-people, h4.title-life {
+h4.title-primary, h4.title-safety, h4.title-ecology, h4.title-surveys, h4.title-academy, h4.title-soft, h4.title-foundation, h4.title-journal, h4.title-certification, h4.title-people, h4.title-life {
   margin-bottom: 20px;
   font-size: 22px;
   line-height: 28px;
 }
 
-.title-safety + .subtitle, .title-ecology + .subtitle, .title-surveys + .subtitle, .title-academy + .subtitle, .title-soft + .subtitle, .title-foundation + .subtitle, .title-journal + .subtitle, .title-certification + .subtitle, .title-people + .subtitle, .title-life + .subtitle {
+.title-primary + .subtitle, .title-safety + .subtitle, .title-ecology + .subtitle, .title-surveys + .subtitle, .title-academy + .subtitle, .title-soft + .subtitle, .title-foundation + .subtitle, .title-journal + .subtitle, .title-certification + .subtitle, .title-people + .subtitle, .title-life + .subtitle {
   font-size: 16px;
   line-height: 22px;
   margin-bottom: 52px;
 }
 
-.title-safety ~ p, .title-ecology ~ p, .title-surveys ~ p, .title-academy ~ p, .title-soft ~ p, .title-foundation ~ p, .title-journal ~ p, .title-certification ~ p, .title-people ~ p, .title-life ~ p {
+.title-primary ~ p, .title-safety ~ p, .title-ecology ~ p, .title-surveys ~ p, .title-academy ~ p, .title-soft ~ p, .title-foundation ~ p, .title-journal ~ p, .title-certification ~ p, .title-people ~ p, .title-life ~ p {
   font-size: 16px;
   line-height: 22px;
   margin-bottom: 20px;
 }
-.title-safety ~ p:last-child, .title-ecology ~ p:last-child, .title-surveys ~ p:last-child, .title-academy ~ p:last-child, .title-soft ~ p:last-child, .title-foundation ~ p:last-child, .title-journal ~ p:last-child, .title-certification ~ p:last-child, .title-people ~ p:last-child, .title-life ~ p:last-child {
+.title-primary ~ p:last-child, .title-safety ~ p:last-child, .title-ecology ~ p:last-child, .title-surveys ~ p:last-child, .title-academy ~ p:last-child, .title-soft ~ p:last-child, .title-foundation ~ p:last-child, .title-journal ~ p:last-child, .title-certification ~ p:last-child, .title-people ~ p:last-child, .title-life ~ p:last-child {
   margin-bottom: 52px;
 }
 
-@media (max-width: 640px) {
-  h2.title-safety, h2.title-ecology, h2.title-surveys, h2.title-academy, h2.title-soft, h2.title-foundation, h2.title-journal, h2.title-certification, h2.title-people, h2.title-life {
+@media (max-width: 639px) {
+  h2.title-primary, h2.title-safety, h2.title-ecology, h2.title-surveys, h2.title-academy, h2.title-soft, h2.title-foundation, h2.title-journal, h2.title-certification, h2.title-people, h2.title-life {
     font-size: 28px;
     line-height: 32px;
     margin-bottom: 32px;
   }
-  h2.title-safety ~ p, h2.title-ecology ~ p, h2.title-surveys ~ p, h2.title-academy ~ p, h2.title-soft ~ p, h2.title-foundation ~ p, h2.title-journal ~ p, h2.title-certification ~ p, h2.title-people ~ p, h2.title-life ~ p {
+  h2.title-primary ~ p, h2.title-safety ~ p, h2.title-ecology ~ p, h2.title-surveys ~ p, h2.title-academy ~ p, h2.title-soft ~ p, h2.title-foundation ~ p, h2.title-journal ~ p, h2.title-certification ~ p, h2.title-people ~ p, h2.title-life ~ p {
     padding-top: 20px;
   }
-  h2.title-safety ~ p:last-of-type, h2.title-ecology ~ p:last-of-type, h2.title-surveys ~ p:last-of-type, h2.title-academy ~ p:last-of-type, h2.title-soft ~ p:last-of-type, h2.title-foundation ~ p:last-of-type, h2.title-journal ~ p:last-of-type, h2.title-certification ~ p:last-of-type, h2.title-people ~ p:last-of-type, h2.title-life ~ p:last-of-type {
+  h2.title-primary ~ p:last-of-type, h2.title-safety ~ p:last-of-type, h2.title-ecology ~ p:last-of-type, h2.title-surveys ~ p:last-of-type, h2.title-academy ~ p:last-of-type, h2.title-soft ~ p:last-of-type, h2.title-foundation ~ p:last-of-type, h2.title-journal ~ p:last-of-type, h2.title-certification ~ p:last-of-type, h2.title-people ~ p:last-of-type, h2.title-life ~ p:last-of-type {
     margin-bottom: 32px;
   }
 }
