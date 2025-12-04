@@ -1,19 +1,80 @@
 .hero-asc {
+  background: #ccc;
+}
+.hero-asc * {
+  color: #f2f2f2;
+}
+.hero-asc-scaffold {
+  position: relative;
+  min-height: 400px;
+  height: 100%;
+}
+.hero-asc-scaffold .hero-asc-text {
+  display: inline-block;
+}
+.hero-asc-scaffold h2 {
+  flex-basis: 20px;
+  min-width: 20%;
+}
+.hero-asc-scaffold p {
+  flex-basis: 20px;
+  min-width: 20%;
+}
+.hero-asc-line-h {
+  height: 5px;
+  width: 100%;
+  background: #F2F2F2;
+  position: absolute;
+  top: 0;
+  transition: all 0.35s ease-out;
+}
+.hero-asc-line-v {
+  width: 5px;
+  height: 100%;
+  background: #F2F2F2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.35s ease-out;
+}
+.hero-asc-line-cross {
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  top: -32.5px;
+  left: -32.5px;
+  background-image: url(../../img/components/hero/vizier-cross.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  transition: all 0.35s ease-out;
+}
+.hero-asc-nav {
+  display: flex;
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+}
+.hero-asc-prev, .hero-asc-next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+.hero-asc-slide {
   padding: 40px;
   border: 1px solid blue;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 .hero-asc-title {
+  display: inline-block;
   padding-bottom: 40px;
   position: relative;
-}
-.hero-asc-title:after {
-  content: "";
-  display: block;
-  height: 40px;
-  width: 40px;
-  background-color: blue;
-  position: absolute;
 }
 .hero-asc-title:after {
   right: 0;
@@ -21,6 +82,19 @@
 }
 .hero-asc-subtitle {
   padding-top: 40px;
+}
+
+@media (min-width: 1920px) {
+  .hero-asc {
+    height: 1080px;
+  }
+  .hero-asc-scaffold-content {
+    position: absolute;
+    bottom: 116px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
 }
 
 /*# sourceMappingURL=hero-asc.css.map */

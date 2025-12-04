@@ -6,26 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ec7b5231-ec41-4ccf-97da-ed0f4ab9bb94" name="Changes" comment="[17:42 17.11.2025] Buttons">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/assets/grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/button.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card-arrow.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-arrow.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card-base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card-btn-img.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-btn-img.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card-icon-bg-img.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-icon-bg-img.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card-img-bg.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-img-bg.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card-policy.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-policy.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/cards-ecosystem-img.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards-ecosystem-img.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/cards-education.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards-education.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/cards-responsibility.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards-responsibility.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/cards-video.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards-video.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/ghost.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ghost.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/hero-asc.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/hero-asc.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/link.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/link.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/pages/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_16.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_16.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_38.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_38.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_59.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_59.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +41,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Evan/Desktop/ecostandart_markup/pug-assets/components&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Popov/Desktop/BX MARKUP/img/components/hero&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -71,11 +53,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Popov\Desktop\BX MARKUP\img\components\hero" />
       <recent name="C:\Users\Evan\Desktop\ecostandart_markup\pug-assets\components" />
       <recent name="C:\Users\Popov\Desktop\BX MARKUP\pug-assets\pages" />
       <recent name="C:\Users\Popov\Desktop\BX MARKUP\img\typed-img-dev" />
       <recent name="C:\Users\Popov\Desktop\BX MARKUP\plugins" />
-      <recent name="C:\Users\Popov\Desktop\BX MARKUP\img\components\slider\content_1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Evan\Desktop\ecostandart-markup-carcass\img\assets\others" />
@@ -134,6 +116,7 @@
       <workItem from="1764416483830" duration="1257000" />
       <workItem from="1764499842252" duration="1302000" />
       <workItem from="1764582207839" duration="6928000" />
+      <workItem from="1764857060613" duration="4378000" />
     </task>
     <task id="LOCAL-00001" summary="Desktop First">
       <option name="closed" value="true" />
