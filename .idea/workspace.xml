@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec7b5231-ec41-4ccf-97da-ed0f4ab9bb94" name="Changes" comment="[17:42 17.11.2025] Buttons">
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_40 — копия.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_42.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_42.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card-outer-icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-outer-icon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card-outer-icon.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-outer-icon.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card-outer-icon.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-outer-icon.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/ultimate/icon_grey.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/base/vars/styles.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/base/vars/styles.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/pages/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_40.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_40.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/section_05 — копия.pug" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +126,7 @@
       <workItem from="1764416483830" duration="1257000" />
       <workItem from="1764499842252" duration="1302000" />
       <workItem from="1764582207839" duration="6928000" />
-      <workItem from="1764857060613" duration="4378000" />
+      <workItem from="1764857060613" duration="8977000" />
     </task>
     <task id="LOCAL-00001" summary="Desktop First">
       <option name="closed" value="true" />
