@@ -59,6 +59,10 @@
 //      max-width: initial
 
 
+.pos-rel
+  position: relative
+
+
 .section
   margin-bottom: 100px
 
@@ -184,3 +188,83 @@
 
 .bg-dark
   background: #1e1e1e
+
+
+
+$cards-gap: 8px
+
+@media(min-width: 360px) and (max-width: 640px)
+  .v-col
+    &-wrp
+
+    &-50
+      &:first-child
+        position: absolute
+        top: 0
+        bottom: calc(50% + $cards-gap / 2)
+      &:last-child
+        position: absolute
+        top: calc(50% + $cards-gap / 2)
+        bottom: 0
+
+@media(min-width: 640px) and (max-width: 960px)
+  .v-col
+    &-wrp
+
+    &-md-50
+      &:first-child
+        position: absolute
+        top: 0
+        bottom: calc(50% + $cards-gap / 2)
+      &:last-child
+        position: absolute
+        top: calc(50% + $cards-gap / 2)
+        bottom: 0
+
+
+@media(min-width: 960px) and (max-width: 1280px)
+  $cards-gap: 16px
+  .v-col
+    &-wrp
+
+    &-lg-50
+      &:first-child
+        position: absolute
+        top: 0
+        bottom: calc(50% + $cards-gap / 2)
+      &:last-child
+        position: absolute
+        top: calc(50% + $cards-gap / 2)
+        bottom: 0
+
+
+@media(min-width: 1280px) and (max-width: 1920px)
+  $cards-gap: 16px
+  .v-col
+    &-wrp
+
+    &-xl-50
+      &:first-child
+        position: absolute
+        top: 0
+        bottom: calc(50% + $cards-gap / 2)
+      &:last-child
+        position: absolute
+        top: calc(50% + $cards-gap / 2)
+        bottom: 0
+
+
+@media(min-width: 1920px)
+  $cards-gap: 16px
+  .v-col
+    &-wrp
+
+    &-xxl-50
+      &:first-child
+        position: absolute
+        top: 0
+        bottom: calc(50% + $cards-gap / 2)
+      &:last-child
+        position: absolute
+        top: calc(50% + $cards-gap / 2)
+        bottom: 0

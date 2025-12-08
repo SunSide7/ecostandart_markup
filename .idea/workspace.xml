@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec7b5231-ec41-4ccf-97da-ed0f4ab9bb94" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img/components/hero/hero-bg-gray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/components/hero/hero-bg-green-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/components/hero/hero-bg-green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/components/hero/hero-bg-red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/components/slider/arrow-next.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/components/slider/arrow-prev.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/hero_asc.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/hero_asc.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/hero_asc.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/hero_asc.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/hero_asc.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/hero_asc.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/assets/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/assets/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/pages/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/hero_asc.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/hero_asc.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,6 +176,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

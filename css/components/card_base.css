@@ -929,6 +929,11 @@
     margin-right: 0;
     margin-bottom: 0;
   }
+  .card > .col-6.card-mr-8 {
+    width: calc(50% - 8px);
+    margin-right: 16px;
+    margin-bottom: 8px;
+  }
   .card > .col-6 {
     width: calc(50% - 8px);
     margin-right: 16px;
@@ -1122,6 +1127,11 @@
     margin-right: 32px;
     margin-bottom: 16px;
   }
+  .card-neutral-white > .col-lg-6.card-mr-8 {
+    width: calc(50% - 8px);
+    margin-right: 16px;
+    margin-bottom: 8px;
+  }
   .card-neutral-white > .col-lg-6:nth-child(2n) {
     margin-right: 0;
   }
@@ -1240,6 +1250,11 @@
     margin-right: 32px;
     margin-bottom: 16px;
   }
+  .card-neutral-white > .col-xl-6.card-mr-8 {
+    width: calc(50% - 8px);
+    margin-right: 16px;
+    margin-bottom: 8px;
+  }
   .card-neutral-white > .col-xl-6:nth-child(2n) {
     margin-right: 0;
   }
@@ -1354,6 +1369,11 @@
     width: calc(50% - 16px);
     margin-right: 32px;
     margin-bottom: 16px;
+  }
+  .card-neutral-white > .col-xxl-6.card-mr-8 {
+    width: calc(50% - 8px);
+    margin-right: 16px;
+    margin-bottom: 8px;
   }
   .card-neutral-white > .col-xxl-6:nth-child(2n) {
     margin-right: 0;
