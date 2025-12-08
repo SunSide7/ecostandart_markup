@@ -1,0 +1,31 @@
+.calendar-mobile {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  border-radius: 20px;
+}
+.calendar-mobile:has(.calendar-dropdown-mobile.active).events {
+  display: none;
+}
+
+.calendar-dropdown-mobile {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+.calendar-dropdown-mobile.active .arrow {
+  transform: rotate(180deg);
+}
+.calendar-dropdown-mobile.active > * {
+  display: flex;
+}
+
+.arrow {
+  transform: rotate(0deg);
+}
+
+.dates {
+  display: none;
+}
+
+/*# sourceMappingURL=calendar.css.map */

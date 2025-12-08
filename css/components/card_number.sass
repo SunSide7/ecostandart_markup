@@ -1,0 +1,58 @@
+@import ../assets/colors.sass
+
+$number-size: 48px
+
+.cards-number
+  position: relative
+  padding-top: calc($number-size + 20px)
+  overflow-x: scroll
+
+
+
+  .card-number
+    position: relative
+
+    margin-right: 8px !important
+
+    &:last-child
+      margin-right: 0 !important
+
+    &:before
+      content: ''
+      display: block
+      //border-top: 2px dashed blue
+      height: 2px
+      width: 100%
+
+      position: absolute
+      top: calc($number-size * -1 + 4px)
+      left: 48px
+
+      background-image: url(../../img/components/cards/dashed_line.svg)
+      background-repeat: no-repeat
+
+
+    & .number
+      display: flex
+      justify-content: center
+      align-items: center
+      width: $number-size
+      height: $number-size
+      border-radius: 50px
+      background: $gradient_safety
+      color: $color_neutral_white
+
+      font-size: 22px
+
+      position: absolute
+      top: calc($number-size * -1 - 20px)
+      left: 0
+
+@media(min-width: 960px)
+  .cards-number
+
+    .card-number
+      margin-right: 16px !important
+
+      &:last-child
+        margin-right: 0 !important

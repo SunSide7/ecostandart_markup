@@ -64,6 +64,21 @@ $hover_life: linear-gradient(128deg, #1cb8e4, #1cb8e4)
     color: $color_neutral_white !important
     @include hover-transition
 
+    &-80
+      color: $color_neutral_white
+      opacity: 0.8
+      @include hover-transition
+
+    &-50
+      color: $color_neutral_white
+      opacity: 0.5
+      @include hover-transition
+
+    &-20
+      color: $color_neutral_white
+      opacity: 0.2
+      @include hover-transition
+
   &-error
     color: $color_neutral_error !important
     @include hover-transition
@@ -162,6 +177,18 @@ $hover_life: linear-gradient(128deg, #1cb8e4, #1cb8e4)
     background-color: $color_neutral_white !important
     @include hover-transition
 
+  &-white-80
+    background: rgba(248,248,248,0.8) !important
+    @include hover-transition
+
+  &-white-50
+    background: rgba(248,248,248,0.5) !important
+    @include hover-transition
+
+  &-white-20
+    background: rgba(248,248,248,0.2) !important
+    @include hover-transition
+
   &-error
     background-color: $color_neutral_error !important
     @include hover-transition
@@ -180,6 +207,10 @@ $hover_life: linear-gradient(128deg, #1cb8e4, #1cb8e4)
 
   &-black
     background-color: $color_neutral_black !important
+    @include hover-transition
+
+  &-black-50
+    background: rgba(58,67,77,0.5) !important
     @include hover-transition
 
 @media (min-width: 0px)
