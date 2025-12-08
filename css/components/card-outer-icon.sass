@@ -1,0 +1,33 @@
+@import ../assets/colors.sass
+
+$logo-size: 100px
+
+.card-outer-icon
+  position: relative
+  text-align: center
+  overflow: initial
+  margin-top: calc($logo-size / 2)
+  padding-top: 72px !important
+
+  & .img
+    content: ''
+    display: flex
+    justify-content: center
+    align-items: center
+    width: $logo-size
+    height: $logo-size
+    border-radius: 50px
+    border: 13px solid $color_neutral_background_white
+    background: $color_neutral_white
+    background-position: center center
+    background-repeat: no-repeat
+    overflow: hidden
+    position: absolute
+    left: 0
+    right: 0
+    top: calc($logo-size / 2 * -1)
+    margin: auto
+
+    & img
+      width: 50%
+      object-fit: cover

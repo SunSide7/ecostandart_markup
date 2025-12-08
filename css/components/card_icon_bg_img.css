@@ -857,6 +857,14 @@
   padding: 30px 28px !important;
   background: blue !important;
 }
+.card-icon-bg.card-neutral-white.center {
+  text-align: center;
+  padding: 32px !important;
+}
+.card-icon-bg.card-neutral-white.center * {
+  font-size: 22px !important;
+  font-weight: 600 !important;
+}
 .card-icon-bg .icon-img {
   width: 18px;
   margin-bottom: 34px;

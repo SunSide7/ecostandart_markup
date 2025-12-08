@@ -993,6 +993,11 @@
     width: 100%;
     margin-bottom: 8px;
   }
+  .card-neutral-white.col-md-9 {
+    width: calc(75% - 4px);
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
   .card-neutral-white.col-md-6 {
     width: calc(50% - 4px);
     margin-right: 8px;
@@ -1060,6 +1065,11 @@
   }
   .card-neutral-white.col-lg-12 {
     width: 100%;
+    margin-bottom: 16px;
+  }
+  .card-neutral-white.col-lg-9 {
+    width: calc(75% - 8px);
+    margin-right: 16px;
     margin-bottom: 16px;
   }
   .card-neutral-white.col-lg-6 {
@@ -1165,6 +1175,16 @@
     width: 100%;
     margin-bottom: 16px;
   }
+  .card-neutral-white.col-xl-9 {
+    width: calc(75% - 8px);
+    margin-right: 16px;
+    margin-bottom: 16px;
+  }
+  .card-neutral-white.col-xl-8 {
+    width: calc(66.6666666667% - 8px);
+    margin-right: 16px;
+    margin-bottom: 16px;
+  }
   .card-neutral-white.col-xl-6 {
     width: calc(50% - 8px);
     margin-right: 16px;
@@ -1178,7 +1198,7 @@
     margin-right: 16px;
     margin-bottom: 16px;
   }
-  .card-neutral-white.col-xxl-7 {
+  .card-neutral-white.col-xl-7 {
     width: calc(58.333333% - 8px);
     margin-right: 16px;
     margin-bottom: 16px;
@@ -1268,6 +1288,16 @@
   }
   .card-neutral-white.col-xxl-12 {
     width: 100%;
+    margin-bottom: 16px;
+  }
+  .card-neutral-white.col-xxl-9 {
+    width: calc(75% - 8px);
+    margin-right: 16px;
+    margin-bottom: 16px;
+  }
+  .card-neutral-white.col-xxl-8 {
+    width: calc(66.6666666667% - 8px);
+    margin-right: 16px;
     margin-bottom: 16px;
   }
   .card-neutral-white.col-xxl-6 {
