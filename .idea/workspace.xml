@@ -5,17 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec7b5231-ec41-4ccf-97da-ed0f4ab9bb94" name="Changes" comment="[17:42 17.11.2025] Buttons">
-      <change afterPath="$PROJECT_DIR$/pug/sections/legend_42 — копия.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pug/sections/legend_42 — копия.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pug/sections/legend_65.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card-icon-bg-img.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-icon-bg-img.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card-icon-bg-img.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-icon-bg-img.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card-icon-bg-img.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-icon-bg-img.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card-img-bg.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-img-bg.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card-img-bg.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-img-bg.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card-img-bg.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-img-bg.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/img-slider-1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/img-slider-1.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/img-slider-1.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/img-slider-1.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/img-slider-1.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/img-slider-1.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/assets/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/assets/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/pages/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/pages/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_62.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_62.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_65 — копия.pug" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +128,8 @@
       <workItem from="1764416483830" duration="1257000" />
       <workItem from="1764499842252" duration="1302000" />
       <workItem from="1764582207839" duration="6928000" />
-      <workItem from="1764857060613" duration="15218000" />
+      <workItem from="1764857060613" duration="17847000" />
+      <workItem from="1765196487351" duration="2280000" />
     </task>
     <task id="LOCAL-00001" summary="Desktop First">
       <option name="closed" value="true" />
