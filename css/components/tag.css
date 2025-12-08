@@ -835,6 +835,10 @@
   cursor: pointer;
   position: relative;
   transition: all 0.35s ease-out;
+  margin-right: 8px;
+}
+.tag-white:last-child, .tag-black:last-child, .tag-outline:last-child, .tag-safety:last-child, .tag-ecology:last-child, .tag-surveys:last-child, .tag-academy:last-child, .tag-soft:last-child, .tag-foundation:last-child, .tag-journal:last-child, .tag-certification:last-child, .tag-people:last-child, .tag-life:last-child {
+  margin-right: 0;
 }
 
 .tag-black:not(.active) {
