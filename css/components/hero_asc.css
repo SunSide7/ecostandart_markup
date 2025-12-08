@@ -7,10 +7,16 @@
 .hero-asc-scaffold {
   position: relative;
   min-height: 400px;
-  height: 100%;
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  transition: all 0.35s ease-out;
 }
 .hero-asc-scaffold .hero-asc-text {
   display: inline-block;
+  max-width: 50%;
 }
 .hero-asc-scaffold h2 {
   flex-basis: 20px;
@@ -55,15 +61,21 @@
   bottom: 40px;
   right: 40px;
 }
+.hero-asc-prev {
+  margin-right: 8px;
+}
 .hero-asc-prev, .hero-asc-next {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid blue;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
+  background: #f8f8f8 !important;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  box-shadow: 0px 97px 27px 0px rgba(214, 214, 214, 0);
   cursor: pointer;
-  border-radius: 50px;
 }
 .hero-asc-slide {
   padding: 40px;
@@ -84,9 +96,72 @@
   padding-top: 40px;
 }
 
+@media (min-width: 360px) {
+  .hero-asc {
+    height: 740px;
+  }
+  .hero-asc-scaffold {
+    height: 100%;
+  }
+  .hero-asc-scaffold-content {
+    position: absolute;
+    bottom: 103px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
+@media (min-width: 640px) {
+  .hero-asc {
+    height: 960px;
+  }
+  .hero-asc-scaffold {
+    height: 100%;
+  }
+  .hero-asc-scaffold-content {
+    position: absolute;
+    bottom: 141px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
+@media (min-width: 960px) {
+  .hero-asc {
+    height: 640px;
+  }
+  .hero-asc-scaffold {
+    height: 100%;
+  }
+  .hero-asc-scaffold-content {
+    position: absolute;
+    bottom: 61px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
+@media (min-width: 1280px) {
+  .hero-asc {
+    height: 841px;
+  }
+  .hero-asc-scaffold {
+    height: 100%;
+  }
+  .hero-asc-scaffold-content {
+    position: absolute;
+    bottom: 123px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
 @media (min-width: 1920px) {
   .hero-asc {
     height: 1080px;
+  }
+  .hero-asc-scaffold {
+    height: 100%;
   }
   .hero-asc-scaffold-content {
     position: absolute;
@@ -97,4 +172,4 @@
   }
 }
 
-/*# sourceMappingURL=hero-asc.css.map */
+/*# sourceMappingURL=hero_asc.css.map */

@@ -161,11 +161,23 @@ $(document).ready(function() {
 
     }
 
+    function setStartContent() {
+        $('.hero-asc-scaffold .hero-asc-title-top').text($('.hero-asc-slide.active .hero-asc-title-top').text())
+        $('.hero-asc-scaffold .hero-asc-title').text($('.hero-asc-slide.active .hero-asc-title').text())
+        $('.hero-asc-scaffold .hero-asc-subtitle').text($('.hero-asc-slide.active .hero-asc-subtitle').text())
+
+        $('.hero-asc-scaffold').css({'background-image': 'url(' + $('.hero-asc-slide.active img').attr('src') + ')',});
+
+        setVizierPos()
+    }
+
     function setNextContent() {
         $('.hero-asc-slide.active').next().addClass('active').prev().removeClass('active')
         $('.hero-asc-scaffold .hero-asc-title-top').text($('.hero-asc-slide.active .hero-asc-title-top').text())
         $('.hero-asc-scaffold .hero-asc-title').text($('.hero-asc-slide.active .hero-asc-title').text())
         $('.hero-asc-scaffold .hero-asc-subtitle').text($('.hero-asc-slide.active .hero-asc-subtitle').text())
+
+        $('.hero-asc-scaffold').css({'background-image': 'url(' + $('.hero-asc-slide.active img').attr('src') + ')'});
 
         setVizierPos()
     }
@@ -176,10 +188,13 @@ $(document).ready(function() {
         $('.hero-asc-scaffold .hero-asc-title').text($('.hero-asc-slide.active .hero-asc-title').text())
         $('.hero-asc-scaffold .hero-asc-subtitle').text($('.hero-asc-slide.active .hero-asc-subtitle').text())
 
+        $('.hero-asc-scaffold').css({'background-image': 'url(' + $('.hero-asc-slide.active img').attr('src') + ')'});
+
         setVizierPos()
     }
 
     setVizierPos()
+    setStartContent();
 
     $('body').on('click', '.hero-asc-next', setNextContent)
     $('body').on('click', '.hero-asc-prev', setPrevContent)

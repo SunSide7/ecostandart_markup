@@ -5,47 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec7b5231-ec41-4ccf-97da-ed0f4ab9bb94" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/css/components/card-outer-icon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/components/card-outer-icon.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/components/card-outer-icon.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/assets/icons/ultimate/icon_safety.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/components/hero/vizier-cross.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pug/sections/legend_40 — копия.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pug/sections/legend_40.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pug/sections/legend_40.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pug/sections/legend_42 — копия.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pug/sections/legend_42 — копия.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pug/sections/legend_42.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pug/sections/legend_42.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pug/sections/legend_48.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pug/sections/legend_62.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pug/sections/legend_65 — копия.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pug/sections/legend_65.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pug/sections/section_05 — копия.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/assets/grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/assets/grid.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/grid.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_base.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_base.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_base.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_base.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_icon_bg_img.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_icon_bg_img.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_icon_bg_img.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_icon_bg_img.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_icon_bg_img.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_icon_bg_img.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_img_bg.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_img_bg.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_img_bg.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_img_bg.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_img_bg.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_img_bg.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/components/hero/hero-bg-gray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/components/hero/hero-bg-green-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/components/hero/hero-bg-green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/components/hero/hero-bg-red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/components/slider/arrow-next.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/components/slider/arrow-prev.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/hero_asc.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/hero_asc.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/hero_asc.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/hero_asc.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/hero_asc.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/hero_asc.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/img_slider_1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/img_slider_1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/img_slider_1.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/img_slider_1.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/plus_icon_list.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/plus_icon_list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/plus_icon_list.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/plus_icon_list.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/plus_icon_list.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/plus_icon_list.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/tag.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/tag.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/tag.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/tag.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/assets/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/assets/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/base/vars/styles.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/base/vars/styles.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/pages/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/pages/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/sections/hero_asc.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/hero_asc.pug" afterDir="false" />
     </list>
@@ -75,29 +46,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Evan/Desktop/ecostandart_markup-ascended_dev&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Popov/Desktop/BX MARKUP/img/components/hero",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Popov\Desktop\BX MARKUP\img\components\hero" />
       <recent name="C:\Users\Evan\Desktop\ecostandart_markup\pug-assets\components" />
       <recent name="C:\Users\Popov\Desktop\BX MARKUP\pug-assets\pages" />
       <recent name="C:\Users\Popov\Desktop\BX MARKUP\img\typed-img-dev" />
       <recent name="C:\Users\Popov\Desktop\BX MARKUP\plugins" />
-      <recent name="C:\Users\Popov\Desktop\BX MARKUP\img\components\slider\content_1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Evan\Desktop\ecostandart-markup-carcass\img\assets\others" />
