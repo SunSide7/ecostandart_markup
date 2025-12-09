@@ -1,0 +1,10 @@
+.news {
+  position: relative;
+}
+.news .btn-news {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/*# sourceMappingURL=news.css.map */

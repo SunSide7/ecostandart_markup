@@ -880,6 +880,14 @@
   background: #f8f8f8;
   color: #3a434d;
 }
+.tag-white:not(.active) {
+  color: #727882;
+  background: #f2f2f2;
+}
+.tag-white.active {
+  background: #727882;
+  color: #f2f2f2;
+}
 .tag-outline.active {
   color: #f8f8f8;
   background: transparent;
