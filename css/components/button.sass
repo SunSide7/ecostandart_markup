@@ -195,17 +195,19 @@ $icon-size: 29px
 
 
   &-outline
+    overflow: visible
     & span
       background: transparent
-      color: $color_neutral_black
-      border: 1px solid $color_neutral_black
+      color: $color_neutral_white
+      outline: 1px solid $color_neutral_white
+      outline-offset: -1px
 
     &:hover
       & span
         background: transparent
         color: $color_neutral_grey
-        border: 1px solid $color_neutral_grey
-
+        outline: 1px solid $color_neutral_white
+        outline-offset: -1px
 
 
   // GRADIENTAL

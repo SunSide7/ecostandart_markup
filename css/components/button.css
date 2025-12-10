@@ -1005,17 +1005,23 @@
 .btn-img-black:hover span {
   background: #727882;
 }
+.btn-outline,
+.btn-img-outline {
+  overflow: visible;
+}
 .btn-outline span,
 .btn-img-outline span {
   background: transparent;
-  color: #3a434d;
-  border: 1px solid #3a434d;
+  color: #f8f8f8;
+  outline: 1px solid #f8f8f8;
+  outline-offset: -1px;
 }
 .btn-outline:hover span,
 .btn-img-outline:hover span {
   background: transparent;
   color: #727882;
-  border: 1px solid #727882;
+  outline: 1px solid #f8f8f8;
+  outline-offset: -1px;
 }
 .btn-primary span,
 .btn-img-primary span {

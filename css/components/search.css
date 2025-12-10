@@ -892,7 +892,7 @@
 }
 .search.active input {
   display: block;
-  width: 13vw;
+  width: 12vw;
 }
 .search.active::after {
   display: block;

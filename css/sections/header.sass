@@ -1,17 +1,21 @@
 @import ../assets/colors.sass
 @import ../assets/borders.sass
 
-body:has(.header:hover)
-  overflow: hidden
+body:has(.header.active)
+
+  .header-bg-blur
+    opacity: 1
 
 .header-bg-blur
   position: fixed
+  pointer-events: none
   width: 100vw
   height: 100vh
   background-color: rgba(0, 0, 0, 0.3)
   backdrop-filter: blur(10px)
   z-index: 39
-  visibility: hidden
+  opacity: 0
+  transition: opacity .5s ease
 
 .header
   background-color: $color-neutral-white
@@ -32,14 +36,7 @@ body:has(.header:hover)
   .header-menu
     display: none
 
-  &:hover
-    height: 492px
-
-    .header-menu
-      display: flex
-
   &.active
-    height: 492px
 
     .header-menu
       display: flex
@@ -67,8 +64,20 @@ body:has(.header:hover)
     padding: 16px
 
 @media (min-width: 1280px)
+  body:has(.header:hover)
+
+    .header-bg-blur
+      opacity: 1
+
   .header
     padding: 16px 16px 16px 24px
+    height: 75px
+
+    &:hover
+      height: 492px
+
+      .header-menu
+        display: flex
 
 @media (min-width: 1920px)
   .header

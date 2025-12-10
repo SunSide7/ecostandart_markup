@@ -1,5 +1,6 @@
 .header-bg-blur.h-100
-.header.active
+//.header CAN BE .active
+.header
     .d-flex.align-items-center.justify-content-between
         img(src="img/assets/logos/medium/logo_ecostandart_black.svg")
         .d-flex.d-xl-none.gap-4
@@ -19,13 +20,15 @@
 
         .position-relative.d-none.d-xl-flex.align-items-center
             .position-absolute.d-flex.align-items-center.end-100
-                .phone-header
+                //.phone-header CAN BE .active (when search opened)
+                .phone-header.active
                     a.phone-header-text(href="tel: 8800333-82-05")
                         p.text-body.color-primary-light-green 8 800 333-82-05
                         p.text-caption.color-grey Бесплатно по РФ
                     .ghost.big.bg-color-primary-light-green
-                        img(src="img/assets/dev/12.svg")
-                .search
+                        img(src="img/assets/icons/small/social_phone_white.svg")
+                //.search CAN BE .active
+                .search.active
                     input
             button.btn-primary.ms-4 <span>Связаться</span>
     .header-menu
@@ -64,6 +67,7 @@
             .header-menu-info
                 .position-relative
                     p.text-caption-bold.color-black Выберите офис:
+                    //.dropdown-header CAN BE .active
                     .dropdown-header.active
                         .dropdown-item
                             span.text-caption-bold ITEM
@@ -82,5 +86,22 @@
                     span.text-caption.color-black с 9:00 до 18:00
                 p.text-caption.color-black Адрес: Переведеновский пер., 13, стр.. 16, оф.. 216, Москва, Россия, 105082
                 iframe.mt-14.br-20.baw(src="https://yandex.ru/map-widget/v1/?um=constructor%3Aexample_code&source=constructor" height="185")
-        .d-flex.d-xl-none.w-100
+        .d-flex.d-xl-none.flex-column.w-100.gap-32
+            //.menu-item CAN BE .active
+            //.search-mobile IN PROGRESS
+            .menu-header.mobile
+                .menu-item.active
+                    a(href="#") ITEM
+                    .menu-item.active
+                        a(href="#") ITEM
+                        .menu-item
+                            a(href="#") ITEM
+                .menu-item.active
+                    a(href="#") ITEM
+                    .menu-item.active
+                        a(href="#") ITEM
+                .menu-item
+                    a(href="#") ITEM
+            a.btn-primary
+                span.text-center Офис на карте
             

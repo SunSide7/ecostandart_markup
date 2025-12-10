@@ -1,20 +1,128 @@
-section.section.gap-sm-24.gap-md-52
+section.section
     .container
         h2.title-primary TITLE
 
-        // Мобильная версия
-        .calendar-mobile.bg-gradient-vertical-primary
-            .calendar-dropdown-mobile.active
-                .d-flex.justify-content-between
+        // MOBILE VERSION
+        .calendar-mobile.d-lg-none.bg-gradient-vertical-primary
+            //.calendar-dropdown-mobile CAN BE .active
+            .calendar-dropdown-mobile.active.bg-color-white-20
+                .d-flex.justify-content-between.p-8
                     .d-flex.gap-16
-                        h2.h-2.color-white 13
-                        p.text-caption.align-self-end.pb-10
+                        h2.h-2.color-white 1
+                        p.text-caption.align-self-end.align-self-center
                             span.color-white января,
-                            span.color-white-50 четверг
-                    img.arrow.p-9(src="img/assets/icons/small/arrow_up_white.svg")
+                            span.color-white-50 понедельник
+                    img.arrow.p-9(src="img/assets/icons/small/arrow_down_white.svg")
                 .dates
-                    img.arrow.p-9(src="img/assets/icons/small/arrow_up_white.svg")
-            .events
-                img.arrow.p-9(src="img/assets/icons/small/arrow_up_white.svg")
-
-        // Десктопная версия
+                    .d-flex.flex-column.px-8.gap-16.gap-md-32
+                        .d-flex.justify-content-between.align-items-center.px-md-16
+                            button.bg-transparent.p-9
+                                img(src="img/assets/icons/small/arrow_left_white.svg")
+                            p
+                                span.color-white.text-uppercase января 
+                                span.color-white-50 2025
+                            button.bg-transparent.p-9
+                                img(src="img/assets/icons/small/arrow_right_white.svg")
+                        .d-flex.flex-column.gap-8
+                            .grid-days
+                                span Пн
+                                span Вт
+                                span Ср
+                                span Чт
+                                span Пт
+                                span Сб
+                                span Вс
+                            .grid-calendar
+                                - for (let i = 1; i <= 49; i++)
+                                    p.color-white 00
+                    .dates-events.bg-color-white-20
+                        p.text-center.text-caption.color-white Нет запланированных мероприятий
+            .events.bg-color-white-20
+                .d-flex
+                    p.text-caption.flex-fill.color-white Ближайшие мероприятия месяца:
+                    p.text-caption.d-flex.col-2.justify-content-end.color-white 1 из 12
+                .d-flex.flex-column.gap-16
+                    .d-flex.overflow-hidden.gap-16
+                        p.text-caption.color-white-50 13.01
+                        p.text-caption.text-nowrap.color-white-50 Экологическое проектирование
+                    p.clamp-line-3.color-white Круглый стол «Санитарно-защитная зона: правила разработки и контроля. Что изменилось?»
+                    .d-flex.justify-content-between
+                        a.btn-outline
+                            span Подробнее
+                        .d-flex.gap-8
+                            button.ghost-outline.medium
+                                img(src="img/assets/icons/small/arrow_left_white.svg")
+                            button.ghost-outline.medium
+                                img(src="img/assets/icons/small/arrow_right_white.svg")
+            a.btn-outline.mt-16
+                span.text-center Все мероприятия
+        // DESKTOP VERSION
+        .d-none.d-lg-flex.flex-column.flex-xl-row.gap-16.gap-xl-16
+            .d-flex.flex-column.col-12.col-xl-1.flex-xl-fill.gap-32.p-32.br-36.bg-color-white
+                p.color-black Ближайшие мероприятия:
+                .d-flex.flex-column.gap-16
+                    .d-flex.gap-32
+                        p.color-light-grey 01.01
+                        p.color-light-grey TAG
+                    a.h-4.color-black(href="#") NAME
+                .d-flex.flex-column.gap-16
+                    .d-flex.gap-32
+                        p.color-light-grey 01.01
+                        p.color-light-grey TAG
+                    a.h-4.color-black(href="#") NAME
+                .d-flex.flex-column.gap-16
+                    .d-flex.gap-32
+                        p.color-light-grey 01.01
+                        p.color-light-grey TAG
+                    a.h-4.color-black(href="#") NAME
+                a.btn-primary.me-auto.mt-auto
+                    span Все мероприятия
+            .d-flex.flex-column.gap-8
+                //.calendar-filter CAN BE .active
+                .calendar-filter.active.bg-color-primary-dark-green
+                    .d-flex.gap-4
+                        .filter-all Смотреть все
+                        .filter-tag EXAMPLE TAG SELECTED
+                    img.arrow.p-9(src="img/assets/icons/small/arrow_down_white.svg")
+                    .calendar-filter-window.bg-blur-30
+                        //.filter-tag CAN BE .active
+                        .filter-tag-window.active EXAMPLE TAG SELECTED
+                        .filter-tag-window EXAMPLE TAG
+                .d-flex.flex-column.col-12.col-xl-4.w-100.gap-16.p-32.br-36.bg-gradient-vertical-primary
+                    .d-flex.justify-content-between
+                        .d-flex.gap-16
+                            h2.h-2.color-white 1
+                            p.d-flex.flex-column.text-caption.align-self-end.align-self-center
+                                span.color-white января,
+                                span.color-white-50 понедельник
+                        .d-flex.align-items-center.gap-8
+                            button.d-flex.bg-transparent.p-9
+                                img(src="img/assets/icons/small/arrow_left_white.svg")
+                            p
+                                span.color-white.text-uppercase января 
+                                span.color-white-50 2025
+                            button.d-flex.bg-transparent.p-9
+                                img(src="img/assets/icons/small/arrow_right_white.svg")
+                    .divider
+                        img.d-none.d-xl-block.d-xxl-none(src="img/sections/calendar/divider-small.svg")
+                        img.d-none.d-xxl-block(src="img/sections/calendar/divider-medium.svg")
+                        img.d-xl-none(src="img/sections/calendar/divider-large.svg")
+                    .d-flex.flex-xl-column.flex-xxl-row.gap-xl-24.gap-xxl-0
+                        .d-flex.flex-column.flex-xl-row.flex-xxl-column.col-6.col-xl-12.col-xxl-6.gap-4.pe-12.pe-xl-0.pe-xxl-12.order-xl-1.order-xxl-0
+                            .dates-cur-date.bg-color-white-20
+                                span.h-4.color-white 13
+                                span.color-white января
+                            .dates-events.bg-color-white-20
+                                p.text-center.text-caption.color-white Нет запланированных мероприятий
+                        .d-flex.flex-column.col-6.col-xl-12.col-xxl-6.gap-4.ps-12.ps-xl-0.ps-xxl-12
+                            .grid-days
+                                span Пн
+                                span Вт
+                                span Ср
+                                span Чт
+                                span Пт
+                                span Сб
+                                span Вс
+                            .grid-calendar
+                                - for (let i = 1; i <= 42; i++)
+                                    p.color-white 00
