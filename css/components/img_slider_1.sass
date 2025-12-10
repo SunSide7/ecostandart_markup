@@ -3,6 +3,7 @@
 .img-slider,
 .img-slider-x4,
 .img-slider-x4_2,
+.img-slider-x4_3,
 .img-slider-x3
   .slide-item
     display: flex
@@ -10,6 +11,11 @@
     height: 282px
     border-radius: 36px
     overflow: hidden
+
+    &.h-initial
+      height: initial !important
+      & .img
+        height: initial
 
     &-subtitle
       height: auto
