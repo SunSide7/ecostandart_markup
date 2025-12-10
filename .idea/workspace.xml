@@ -4,30 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec7b5231-ec41-4ccf-97da-ed0f4ab9bb94" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/css/components/news.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/components/news.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/components/news.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pug/sections/legend_6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pug/sections/legend_6.pug" afterDir="false" />
+    <list default="true" id="ec7b5231-ec41-4ccf-97da-ed0f4ab9bb94" name="Changes" comment="[17:42 17.11.2025] Buttons">
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_24.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_24.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/assets/grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/assets/grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/grid.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/assets/grid.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/grid.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/assets/text.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/text.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/diagram_round.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/diagram_round.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/img_slider_1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/img_slider_1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/img_slider_1.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/img_slider_1.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/img_slider_1.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/img_slider_1.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/menu_footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/menu_footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/menu_header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/menu_header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/tag.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/tag.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/tag.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/tag.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/tag.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/tag.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/assets/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/assets/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/base/vars/styles.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/base/vars/styles.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/pages/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/pages/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
