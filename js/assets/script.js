@@ -64,6 +64,38 @@ $(document).ready(function() {
         }
     })
 
+    $('.img-slider-x4_2').owlCarousel({
+        // loop:true,
+        margin:16,
+        nav:true,
+        dots: false,
+        navText: [
+            '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
+            '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '</svg>\n',
+            '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
+            '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '</svg>',
+        ],
+        responsive:{
+            360: {
+                items: 1
+            },
+            640: {
+                items: 1
+            },
+            960: {
+                items: 2
+            },
+            1280: {
+                items: 3
+            },
+            1920: {
+                items: 4
+            },
+        }
+    })
+
     $('.img-slider-x3').owlCarousel({
         // loop:true,
         margin:16,
@@ -161,11 +193,23 @@ $(document).ready(function() {
 
     }
 
+    function setStartContent() {
+        $('.hero-asc-scaffold .hero-asc-title-top').text($('.hero-asc-slide.active .hero-asc-title-top').text())
+        $('.hero-asc-scaffold .hero-asc-title').text($('.hero-asc-slide.active .hero-asc-title').text())
+        $('.hero-asc-scaffold .hero-asc-subtitle').text($('.hero-asc-slide.active .hero-asc-subtitle').text())
+
+        $('.hero-asc-scaffold').css({'background-image': 'url(' + $('.hero-asc-slide.active img').attr('src') + ')',});
+
+        setVizierPos()
+    }
+
     function setNextContent() {
         $('.hero-asc-slide.active').next().addClass('active').prev().removeClass('active')
         $('.hero-asc-scaffold .hero-asc-title-top').text($('.hero-asc-slide.active .hero-asc-title-top').text())
         $('.hero-asc-scaffold .hero-asc-title').text($('.hero-asc-slide.active .hero-asc-title').text())
         $('.hero-asc-scaffold .hero-asc-subtitle').text($('.hero-asc-slide.active .hero-asc-subtitle').text())
+
+        $('.hero-asc-scaffold').css({'background-image': 'url(' + $('.hero-asc-slide.active img').attr('src') + ')'});
 
         setVizierPos()
     }
@@ -176,10 +220,13 @@ $(document).ready(function() {
         $('.hero-asc-scaffold .hero-asc-title').text($('.hero-asc-slide.active .hero-asc-title').text())
         $('.hero-asc-scaffold .hero-asc-subtitle').text($('.hero-asc-slide.active .hero-asc-subtitle').text())
 
+        $('.hero-asc-scaffold').css({'background-image': 'url(' + $('.hero-asc-slide.active img').attr('src') + ')'});
+
         setVizierPos()
     }
 
     setVizierPos()
+    setStartContent();
 
     $('body').on('click', '.hero-asc-next', setNextContent)
     $('body').on('click', '.hero-asc-prev', setPrevContent)
