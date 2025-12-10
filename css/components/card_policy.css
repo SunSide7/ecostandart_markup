@@ -852,7 +852,6 @@
 .cards-policy {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 }
 .cards-policy .card-neutral-white {
   display: flex;
