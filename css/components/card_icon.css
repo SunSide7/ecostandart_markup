@@ -975,6 +975,18 @@
   color: #3a434d;
 }
 
+.owl-carousel .owl-item .card-icon .img {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.owl-carousel .owl-item .card-icon .img img {
+  height: 100%;
+  object-fit: cover;
+}
+
 @media (min-width: 360px) and (max-width: 639px) {
   .card-icon.card-hover-life {
     cursor: pointer;
