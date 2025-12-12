@@ -1,30 +1,40 @@
 section.section.position-relative.overflow-hidden.w-100.vh-100
-    img.object-fit-cover.w-100.h-100(src="img/assets/dev/hero.svg")
+    img.object-fit-cover.w-100.h-100(src="img/sections/hero/background_2.jpg")
     .position-absolute.w-100.h-100.top-0.start-0
         .position-absolute.d-flex.align-items-end.p-24.p-md-32.p-xxl-56.bg-blur-30(
-            style="top: 0; right: 0; height: 50vh; width: calc(50vw + 110px); z-index: 2"
+            style="top: 0; right: 0; height: 50vh; width: calc(50vw + 110px); z-index: 1"
         )
             h1.h-3.h-md-2.h-xxl-1.color-white Полный комплекс услуг по охране труда «под ключ»
             img.position-absolute.d-block(
                 src="img/assets/others/hero_visir.svg",
-                style="width: 2556px; height: 1934px; bottom: 0; left: -1388px; transform: translate(0, 43.5%); z-index: 3; pointer-events: none",
+                style="width: 2556px; height: 1934px; bottom: 0; left: -1388px; transform: translate(0, 43.5%); pointer-events: none",
                 alt="alt"
             )
-        .position-absolute.bg-color-background-white.d-flex.flex-column.p-24.p-md-32.p-xxl-64.gap-32.d-none.d-lg-flex(
-            style="bottom: 0; left: -15px; height: 50vh; width: calc(50vw - 110px); z-index: 2"
+        .position-absolute.flex-column.p-24.p-md-32.p-xxl-64.gap-32.d-none.d-lg-flex.bg-blur-30(
+            style="bottom: 0; left: -15px; height: 50vh; width: calc(50vw - 110px)"
         )
-            p.text-body.grey Оставьте заявку на расчёт стоимости
+            p.text-body.color-white Оставьте заявку на расчёт стоимости
             form.d-flex.flex-column.gap-19
-                input.input(placeholder="Телефон*")
-                p.d-none error
-                input.input(placeholder="Email*")
-                p.d-none error
-            .row.d-flex.gap-16.gap-md-8.px-12.align-items-center
-                button.btn-img-safety.p-0.w-auto <span>Отправить</span>
-                p.text-hint.light-grey.col-7.p-0.flex-fill.align-self-center
-                    | Нажав кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь с политикой конфиденциальности
-        .position-absolute.bg-color-background-white.d-flex.flex-column.p-24.p-md-32.p-xxl-64.gap-32.d-flex.d-lg-none(
-            style="bottom: 0; right: 0; height: 50vh; width: calc(50vw + 110px); z-index: 2"
+                //.input CAN BE .error & .warning
+                .input
+                    input(placeholder="+7 (999) 999–99–99*")
+                    p error
+                .input
+                    input(placeholder="Почта*")
+                    p error
+            .row.d-flex.gap-16.gap-md-8.align-items-center
+                button.btn-img-white.p-0.w-auto <span>Отправить</span>
+                p.text-hint.color-white.col-7.p-0.flex-fill.align-self-center
+                    span.color-white Нажав кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь с 
+                    a.color-primary-light-green(href="#") политикой конфиденциальности
+        .position-absolute.flex-column.p-16.gap-32.d-none.d-lg-flex(
+            style="bottom: 0; right: 0; height: 50vh; width: calc(50vw + 110px)"
+        )
+            .d-flex.align-items-center.me-auto.p-8.gap-8.br-20.bg-color-white-20.bg-blur-30
+                img(src="img/assets/icons/medium/icon_circle_info_white.svg")
+                p.text-label.me-30.color-white С подробной тарифной системой вы можете ознакомиться на нашем сайте
+        .position-absolute.flex-column.p-24.p-md-32.p-xxl-64.gap-32.d-flex.d-lg-none.bg-blur-30(
+            style="bottom: 0; right: 0; height: 50vh; width: calc(50vw + 110px)"
         )
             p.text-body.color-grey Оставьте заявку на расчёт стоимости
             form.d-flex.flex-column.gap-19
@@ -34,5 +44,6 @@ section.section.position-relative.overflow-hidden.w-100.vh-100
                 p.d-none error
             .row.d-flex.gap-16.gap-md-8.px-12.align-items-center
                 button.btn-img-safety.p-0.w-auto <span>Отправить</span>
-                p.text-hint.light-grey.col-6.p-0.flex-fill.align-self-center
-                    | Нажав кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь с политикой конфиденциальности
+                p.text-hint.color-white.col-7.p-0.flex-fill.align-self-center
+                    span.color-white Нажав кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь с
+                    a.color-primary-light-green(href="#") политикой конфиденциальности

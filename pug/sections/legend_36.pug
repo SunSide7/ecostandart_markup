@@ -1,0 +1,54 @@
+.container
+    h2.title-primary(style="font-size: 60px;padding-top: 102px !important") <span>СЕКЦИЯ 36</span>
+
+section.section
+    .container
+        h2.title-safety TITLE
+        p.mb-design DESCRIPTION
+
+        //MOBILE VERSION
+        .row.d-lg-none.gap-8
+            //.accordeon CAN BE .active
+            - for (let i = 1; i <= 12; i++)
+                .accordeon.d-flex.flex-column.gap-20.p-24.p-md-32.br-30.br-md-36.bg-color-white
+                    .d-flex.justify-content-between.align-items-center.gap-24
+                        p.text-body-bold.color-black NAME
+                        .arrow.p-12.br-100.bg-color-background-white
+                            img(src="img/assets/icons/medium/arrow_down_safety.svg")
+                    p.text-body.d-none.d-md-flex CONTENT
+                    .accordeon-content
+                        .d-flex.flex-column.gap-20
+                            p.text-body.d-md-none CONTENT
+                            .btn-safety
+                                span Подробнее
+
+        //DESKTOP VERSION
+        .row.d-none.d-lg-flex.gap-8
+            .d-flex.flex-column.flex-fill.col-5.gap-8.p-0
+                //.accordeon CAN BE .active
+                - for (let i = 1; i <= 6; i++)
+                    .accordeon.d-flex.flex-column.gap-20.p-24.p-md-32.br-30.br-md-36.bg-color-white.active
+                        .d-flex.justify-content-between.align-items-center.gap-24
+                            p.text-body-bold.color-black NAME
+                            .arrow.p-12.br-100.bg-color-background-white
+                                img(src="img/assets/icons/medium/arrow_down_safety.svg")
+                        p.text-body.d-none.d-md-flex CONTENT
+                        .accordeon-content
+                            .d-flex.flex-column.gap-20
+                                p.text-body.d-md-none CONTENT
+                                .btn-safety
+                                    span Подробнее
+            .d-flex.flex-column.flex-fill.col-5.gap-8.p-0
+                //.accordeon CAN BE .active
+                - for (let i = 1; i <= 6; i++)
+                    .accordeon.d-flex.flex-column.gap-20.p-24.p-md-32.br-30.br-md-36.bg-color-white
+                        .d-flex.justify-content-between.align-items-center.gap-24
+                            p.text-body-bold.color-black NAME
+                            .arrow.p-12.br-100.bg-color-background-white
+                                img(src="img/assets/icons/medium/arrow_down_safety.svg")
+                        p.text-body.d-none.d-md-flex CONTENT
+                        .accordeon-content
+                            .d-flex.flex-column.gap-20
+                                p.text-body.d-md-none CONTENT
+                                .btn-safety
+                                    span Подробнее

@@ -1,0 +1,17 @@
+@import ../assets/animations.sass
+
+.accordeon
+
+  .arrow
+    transform: rotate(0deg)
+    @include hover-transition
+
+  .accordeon-content
+    display: none
+
+  &.active
+    .arrow
+      transform: rotate(180deg)
+
+    .accordeon-content
+      display: flex
