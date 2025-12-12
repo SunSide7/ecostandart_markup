@@ -1,0 +1,21 @@
+.card-percent
+
+  &-content
+    width: calc(100% - 100px - 32px)
+
+  & .img
+    position: absolute
+    right: 32px
+    bottom: 32px
+
+@media(max-width: 640px)
+  .card-percent
+
+    &-content
+      width: calc(100% - 20px)
+
+    & .img
+      position: absolute
+      right: calc(-20px)
+      top: 32px
+      bottom: initial

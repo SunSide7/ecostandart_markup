@@ -5,16 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec7b5231-ec41-4ccf-97da-ed0f4ab9bb94" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pug/sections/legend_29.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pug/sections/legend_29.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/components/card-percent.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/components/card-percent.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/components/card-percent.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/components/slider-under-content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/components/slider-under-content.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/components/slider-under-content.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/additional_services/precent.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_18.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_18.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/assets/grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/grid.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/assets/grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/grid.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/assets/grid.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/grid.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_icon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_icon.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_icon.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_icon.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_icon.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/text.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/text.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card_base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card_base.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_base.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card_base.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_base.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/diagram_round.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/diagram_round.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/menu_footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/menu_footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/menu_header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/menu_header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/calendar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/base/vars/styles.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/base/vars/styles.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/pages/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

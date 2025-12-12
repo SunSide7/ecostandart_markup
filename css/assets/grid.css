@@ -69,6 +69,32 @@
 .mb-16 {
   margin-bottom: 16px !important;
 }
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+.mb-32 {
+  margin-bottom: 32px !important;
+}
+.mb-52 {
+  margin-bottom: 52px !important;
+}
+
+.pos-abs-l-0 {
+  position: absolute;
+  left: 0;
+}
+.pos-abs-r-0 {
+  position: absolute;
+  right: 0;
+}
+.pos-abs-r-32 {
+  position: absolute;
+  right: 32px;
+}
+.pos-abs-b-32 {
+  position: absolute;
+  bottom: 32px;
+}
 
 .mb-8 {
   margin-bottom: 8px !important;

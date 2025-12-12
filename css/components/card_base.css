@@ -852,6 +852,7 @@
 .card-neutral-white {
   overflow: hidden;
   border-radius: 30px;
+  position: relative;
 }
 .card-neutral-white:not(.no-card) {
   padding: 20px;

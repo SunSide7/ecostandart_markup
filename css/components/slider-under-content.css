@@ -1,0 +1,17 @@
+.slider-under-content {
+  margin-top: -40px;
+}
+.slider-under-content p {
+  width: calc(100% - 80px - 80px - 8px);
+}
+
+@media (max-width: 640px) {
+  .slider-under-content {
+    margin-top: 52px;
+  }
+  .slider-under-content p {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=slider-under-content.css.map */
