@@ -849,43 +849,143 @@
   background: linear-gradient(128deg, #1cb8e4, #1cb8e4) !important;
 }
 
-ul.plus-list-safety, ul.plus-list-life {
-  padding: 0;
+.trans-ease {
+  transition: ease !important;
 }
-ul.plus-list-safety li, ul.plus-list-life li {
-  display: flex;
-  padding: 4px 0;
-  margin-bottom: 4px;
-  font-size: 16px;
-  line-height: 22px;
+.trans-ease-in {
+  transition: ease-in !important;
 }
-ul.plus-list-safety li:last-of-type, ul.plus-list-life li:last-of-type {
-  margin-bottom: 0;
+.trans-ease-in-out {
+  transition: ease-in-out !important;
 }
-ul.plus-list-safety li:before, ul.plus-list-life li:before {
-  content: "";
-  display: inline-block;
-  min-width: 14px;
-  height: 18px;
-  margin-right: 8.4px;
-  margin-top: 2.5px;
-  list-style: none;
-  fill: blue;
-  stroke: blue;
+.trans-ease-out {
+  transition: ease-out !important;
 }
-ul.plus-list-safety li span, ul.plus-list-life li span {
-  font-size: 16px;
-  line-height: 22px;
+.trans-step-end {
+  transition: step-end !important;
 }
-ul.plus-list-safety li b, ul.plus-list-life li b {
-  font-weight: 500;
-  color: #3a434d;
+.trans-100 {
+  transition: all 0.1s ease !important;
 }
-ul.plus-list-safety li:before {
-  background: url(../../img/assets/icons/small/icon_visir_safety.svg) center center no-repeat;
+.trans-200 {
+  transition: all 0.2s ease !important;
 }
-ul.plus-list-life li:before {
-  background: url(../../img/assets/icons/small/icon_visir_life.svg) center center no-repeat;
+.trans-300 {
+  transition: all 0.3s ease !important;
+}
+.trans-400 {
+  transition: all 0.4s ease !important;
+}
+.trans-500 {
+  transition: all 0.5s ease !important;
+}
+.trans-600 {
+  transition: all 0.6s ease !important;
+}
+.trans-700 {
+  transition: all 0.7s ease !important;
+}
+.trans-800 {
+  transition: all 0.8s ease !important;
+}
+.trans-900 {
+  transition: all 0.9s ease !important;
+}
+.trans-1000 {
+  transition: all 1s ease !important;
+}
+.trans-1250 {
+  transition: all 1.25s ease !important;
+}
+.trans-1500 {
+  transition: all 1.5s ease !important;
+}
+.trans-2000 {
+  transition: all 2s ease !important;
+}
+.trans-3000 {
+  transition: all 3s ease !important;
 }
 
-/*# sourceMappingURL=plus_icon_list.css.map */
+.hover-rotate-45:hover {
+  transform: rotate(45deg) !important;
+}
+.hover-rotate-90:hover {
+  transform: rotate(90deg) !important;
+}
+.hover-rotate-180:hover {
+  transform: rotate(180deg) !important;
+}
+
+.hover-change-child:hover.child-rotate-0 {
+  transform: rotate(0deg) !important;
+}
+.hover-change-child:hover.child-rotate-45 {
+  transform: rotate(45deg) !important;
+}
+.hover-change-child:hover.child-rotate-90 {
+  transform: rotate(90deg) !important;
+}
+.hover-change-child:hover.child-rotate-180 {
+  transform: rotate(180deg) !important;
+}
+
+.card-blog {
+  padding: 16px;
+  border-radius: 36px;
+  transition: all 0.35s ease-out;
+}
+.card-blog:hover {
+  background: #f2f2f2;
+}
+.card-blog-img {
+  position: relative;
+}
+.card-blog-img .img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.card-blog-img .img img {
+  width: 100%;
+  object-fit: cover;
+}
+.card-blog-img .tags {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+}
+.card-blog-text h4:after {
+  content: "";
+  display: block;
+  background-image: url(../../img/components/cards/union.svg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  min-height: 41px;
+  width: 100%;
+  padding-top: 16px;
+  margin-bottom: 16px;
+}
+.card-blog-text .views {
+  position: relative;
+}
+.card-blog-text .views:before {
+  content: "";
+  display: block;
+  background-image: url(../../img/components/cards/views.svg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: -32px;
+  bottom: 0;
+}
+
+@media (max-width: 1280px) {
+  .card-blog {
+    background: #f2f2f2;
+  }
+}
+
+/*# sourceMappingURL=card_blog.css.map */

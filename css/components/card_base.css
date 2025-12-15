@@ -859,6 +859,9 @@
   background: #f8f8f8;
 }
 
+.card-neutral-white p:last-child, .card-neutral-white ul:last-child {
+  margin: 0;
+}
 .card-neutral-white.col-12 {
   width: 100%;
   margin-bottom: 8px;
@@ -915,12 +918,12 @@
 }
 
 @media (min-width: 360px) and (max-width: 640px) {
-  .card-neutral-white:last-child {
+  .card-neutral-white:last-child:not(.card-icon-centered) {
     margin-bottom: 0 !important;
   }
   .card-neutral-white:not(.no-card) {
     padding: 20px;
-    border-radius: 36px;
+    border-radius: 30px;
   }
   .card-neutral-white > .col-6, .card-neutral-white > .col-5, .card-neutral-white > .col-4, .card-neutral-white > .col-3, .card-neutral-white > .col-2, .card-neutral-white > .col-1 {
     margin-right: 8px;
@@ -980,12 +983,15 @@
   .card > .col-1:nth-child(12n) {
     margin-right: 0;
   }
-  .card-inner-cols .col-12 {
+  .card-inner-cols {
+    padding: 24px !important;
+  }
+  .card-inner-cols .col-12:not(:last-child) {
     margin-bottom: 32px;
   }
 }
 @media (min-width: 640px) and (max-width: 959px) {
-  .card-neutral-white:last-child {
+  .card-neutral-white:last-child:not(.card-icon-centered) {
     margin-bottom: 0 !important;
   }
   .card-neutral-white:not(.no-card) {
@@ -994,6 +1000,9 @@
   }
   .card-neutral-white > .col-md-6, .card-neutral-white > .col-md-5, .card-neutral-white > .col-md-4, .card-neutral-white > .col-md-3, .card-neutral-white > .col-md-2, .card-neutral-white > .col-md-1 {
     margin-right: 8px;
+  }
+  .card-neutral-white .col-md-6:nth-last-child(2) {
+    margin-bottom: 0 !important;
   }
   .card-neutral-white.col-md-12 {
     width: 100%;
@@ -1059,7 +1068,7 @@
   }
 }
 @media (min-width: 960px) and (max-width: 1279px) {
-  .card-neutral-white:last-child {
+  .card-neutral-white:last-child:not(.card-icon-centered) {
     margin-bottom: 0 !important;
   }
   .card-neutral-white:not(.no-card) {
@@ -1085,6 +1094,9 @@
   }
   .card-neutral-white.col-lg-6:nth-child(2n) {
     margin-right: 0;
+  }
+  .card-neutral-white.col-lg-6:nth-last-child(2) {
+    margin-bottom: 0 !important;
   }
   .card-neutral-white.col-lg-5 {
     width: calc(41.666666% - 8px);
@@ -1174,7 +1186,7 @@
     margin-right: 0;
   }
 }
-@media (min-width: 1280px) and (max-width: 1920px) {
+@media (min-width: 1280px) and (max-width: 1919px) {
   .card-neutral-white:not(.no-card) {
     padding: 32px;
     border-radius: 36px;

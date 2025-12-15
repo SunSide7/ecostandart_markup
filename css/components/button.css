@@ -849,7 +849,7 @@
   background: linear-gradient(128deg, #1cb8e4, #1cb8e4) !important;
 }
 
-.btn-white, .btn-black, .btn-outline, .btn-primary, .btn-safety, .btn-ecology, .btn-surveys, .btn-academy, .btn-soft, .btn-foundation, .btn-journal, .btn-certification, .btn-people, .btn-life {
+.btn-white, .btn-black, .btn-outline, .btn-vertical-primary, .btn-horizontal-primary, .btn-primary, .btn-safety, .btn-ecology, .btn-surveys, .btn-academy, .btn-soft, .btn-foundation, .btn-journal, .btn-certification, .btn-people, .btn-life {
   display: inline-block;
   padding: 0;
   text-decoration: none;
@@ -867,7 +867,7 @@
   background: transparent;
   transition: all 0.35s ease-out;
 }
-.btn-white span, .btn-black span, .btn-outline span, .btn-primary span, .btn-safety span, .btn-ecology span, .btn-surveys span, .btn-academy span, .btn-soft span, .btn-foundation span, .btn-journal span, .btn-certification span, .btn-people span, .btn-life span {
+.btn-white span, .btn-black span, .btn-outline span, .btn-vertical-primary span, .btn-horizontal-primary span, .btn-primary span, .btn-safety span, .btn-ecology span, .btn-surveys span, .btn-academy span, .btn-soft span, .btn-foundation span, .btn-journal span, .btn-certification span, .btn-people span, .btn-life span {
   display: block;
   padding: 14.5px 24px;
   padding-right: 52px;
@@ -884,14 +884,14 @@
   -o-transition: all 0.55s ease-in-out;
   transition: all 0.55s ease-in-out;
 }
-.btn-white span, .btn-black span, .btn-outline span, .btn-primary span, .btn-safety span, .btn-ecology span, .btn-surveys span, .btn-academy span, .btn-soft span, .btn-foundation span, .btn-journal span, .btn-certification span, .btn-people span, .btn-life span {
+.btn-white span, .btn-black span, .btn-outline span, .btn-vertical-primary span, .btn-horizontal-primary span, .btn-primary span, .btn-safety span, .btn-ecology span, .btn-surveys span, .btn-academy span, .btn-soft span, .btn-foundation span, .btn-journal span, .btn-certification span, .btn-people span, .btn-life span {
   padding-right: 24px;
 }
 .btn-white span {
   color: #3a434d;
 }
 
-.btn-img-white, .btn-img-black, .btn-img-outline, .btn-img-primary, .btn-img-safety, .btn-img-ecology, .btn-img-surveys, .btn-img-academy, .btn-img-soft, .btn-img-foundation, .btn-img-journal, .btn-img-certification, .btn-img-people, .btn-img-life {
+.btn-img-white, .btn-img-black, .btn-img-outline, .btn-img-vertical-primary, .btn-img-horizontal-primary, .btn-img-primary, .btn-img-safety, .btn-img-ecology, .btn-img-surveys, .btn-img-academy, .btn-img-soft, .btn-img-foundation, .btn-img-journal, .btn-img-certification, .btn-img-people, .btn-img-life {
   display: inline-block;
   padding: 0;
   text-decoration: none;
@@ -909,7 +909,7 @@
   background: transparent;
   transition: all 0.35s ease-out;
 }
-.btn-img-white span, .btn-img-black span, .btn-img-outline span, .btn-img-primary span, .btn-img-safety span, .btn-img-ecology span, .btn-img-surveys span, .btn-img-academy span, .btn-img-soft span, .btn-img-foundation span, .btn-img-journal span, .btn-img-certification span, .btn-img-people span, .btn-img-life span {
+.btn-img-white span, .btn-img-black span, .btn-img-outline span, .btn-img-vertical-primary span, .btn-img-horizontal-primary span, .btn-img-primary span, .btn-img-safety span, .btn-img-ecology span, .btn-img-surveys span, .btn-img-academy span, .btn-img-soft span, .btn-img-foundation span, .btn-img-journal span, .btn-img-certification span, .btn-img-people span, .btn-img-life span {
   display: block;
   padding: 14.5px 24px;
   padding-right: 52px;
@@ -926,7 +926,7 @@
   -o-transition: all 0.55s ease-in-out;
   transition: all 0.55s ease-in-out;
 }
-.btn-img-white:after, .btn-img-black:after, .btn-img-outline:after, .btn-img-primary:after, .btn-img-safety:after, .btn-img-ecology:after, .btn-img-surveys:after, .btn-img-academy:after, .btn-img-soft:after, .btn-img-foundation:after, .btn-img-journal:after, .btn-img-certification:after, .btn-img-people:after, .btn-img-life:after {
+.btn-img-white:after, .btn-img-black:after, .btn-img-outline:after, .btn-img-vertical-primary:after, .btn-img-horizontal-primary:after, .btn-img-primary:after, .btn-img-safety:after, .btn-img-ecology:after, .btn-img-surveys:after, .btn-img-academy:after, .btn-img-soft:after, .btn-img-foundation:after, .btn-img-journal:after, .btn-img-certification:after, .btn-img-people:after, .btn-img-life:after {
   content: "";
   width: 29px;
   height: 29px;
@@ -937,16 +937,16 @@
   bottom: 0;
   margin: auto;
 }
-.btn-img-white.btn-arrow:after, .btn-img-black.btn-arrow:after, .btn-img-outline.btn-arrow:after, .btn-img-primary.btn-arrow:after, .btn-img-safety.btn-arrow:after, .btn-img-ecology.btn-arrow:after, .btn-img-surveys.btn-arrow:after, .btn-img-academy.btn-arrow:after, .btn-img-soft.btn-arrow:after, .btn-img-foundation.btn-arrow:after, .btn-img-journal.btn-arrow:after, .btn-img-certification.btn-arrow:after, .btn-img-people.btn-arrow:after, .btn-img-life.btn-arrow:after {
+.btn-img-white.btn-arrow:after, .btn-img-black.btn-arrow:after, .btn-img-outline.btn-arrow:after, .btn-img-vertical-primary.btn-arrow:after, .btn-img-horizontal-primary.btn-arrow:after, .btn-img-primary.btn-arrow:after, .btn-img-safety.btn-arrow:after, .btn-img-ecology.btn-arrow:after, .btn-img-surveys.btn-arrow:after, .btn-img-academy.btn-arrow:after, .btn-img-soft.btn-arrow:after, .btn-img-foundation.btn-arrow:after, .btn-img-journal.btn-arrow:after, .btn-img-certification.btn-arrow:after, .btn-img-people.btn-arrow:after, .btn-img-life.btn-arrow:after {
   background-image: url(../../img/assets/icons/medium/btn_arrow_up_white.svg);
 }
-.btn-img-white[disabled], .btn-img-white.disabled, .btn-img-black[disabled], .btn-img-black.disabled, .btn-img-outline[disabled], .btn-img-outline.disabled, .btn-img-primary[disabled], .btn-img-primary.disabled, .btn-img-safety[disabled], .btn-img-safety.disabled, .btn-img-ecology[disabled], .btn-img-ecology.disabled, .btn-img-surveys[disabled], .btn-img-surveys.disabled, .btn-img-academy[disabled], .btn-img-academy.disabled, .btn-img-soft[disabled], .btn-img-soft.disabled, .btn-img-foundation[disabled], .btn-img-foundation.disabled, .btn-img-journal[disabled], .btn-img-journal.disabled, .btn-img-certification[disabled], .btn-img-certification.disabled, .btn-img-people[disabled], .btn-img-people.disabled, .btn-img-life[disabled], .btn-img-life.disabled {
+.btn-img-white[disabled], .btn-img-white.disabled, .btn-img-black[disabled], .btn-img-black.disabled, .btn-img-outline[disabled], .btn-img-outline.disabled, .btn-img-vertical-primary[disabled], .btn-img-vertical-primary.disabled, .btn-img-horizontal-primary[disabled], .btn-img-horizontal-primary.disabled, .btn-img-primary[disabled], .btn-img-primary.disabled, .btn-img-safety[disabled], .btn-img-safety.disabled, .btn-img-ecology[disabled], .btn-img-ecology.disabled, .btn-img-surveys[disabled], .btn-img-surveys.disabled, .btn-img-academy[disabled], .btn-img-academy.disabled, .btn-img-soft[disabled], .btn-img-soft.disabled, .btn-img-foundation[disabled], .btn-img-foundation.disabled, .btn-img-journal[disabled], .btn-img-journal.disabled, .btn-img-certification[disabled], .btn-img-certification.disabled, .btn-img-people[disabled], .btn-img-people.disabled, .btn-img-life[disabled], .btn-img-life.disabled {
   cursor: initial;
 }
-.btn-img-white[disabled]:after, .btn-img-white.disabled:after, .btn-img-black[disabled]:after, .btn-img-black.disabled:after, .btn-img-outline[disabled]:after, .btn-img-outline.disabled:after, .btn-img-primary[disabled]:after, .btn-img-primary.disabled:after, .btn-img-safety[disabled]:after, .btn-img-safety.disabled:after, .btn-img-ecology[disabled]:after, .btn-img-ecology.disabled:after, .btn-img-surveys[disabled]:after, .btn-img-surveys.disabled:after, .btn-img-academy[disabled]:after, .btn-img-academy.disabled:after, .btn-img-soft[disabled]:after, .btn-img-soft.disabled:after, .btn-img-foundation[disabled]:after, .btn-img-foundation.disabled:after, .btn-img-journal[disabled]:after, .btn-img-journal.disabled:after, .btn-img-certification[disabled]:after, .btn-img-certification.disabled:after, .btn-img-people[disabled]:after, .btn-img-people.disabled:after, .btn-img-life[disabled]:after, .btn-img-life.disabled:after {
+.btn-img-white[disabled]:after, .btn-img-white.disabled:after, .btn-img-black[disabled]:after, .btn-img-black.disabled:after, .btn-img-outline[disabled]:after, .btn-img-outline.disabled:after, .btn-img-vertical-primary[disabled]:after, .btn-img-vertical-primary.disabled:after, .btn-img-horizontal-primary[disabled]:after, .btn-img-horizontal-primary.disabled:after, .btn-img-primary[disabled]:after, .btn-img-primary.disabled:after, .btn-img-safety[disabled]:after, .btn-img-safety.disabled:after, .btn-img-ecology[disabled]:after, .btn-img-ecology.disabled:after, .btn-img-surveys[disabled]:after, .btn-img-surveys.disabled:after, .btn-img-academy[disabled]:after, .btn-img-academy.disabled:after, .btn-img-soft[disabled]:after, .btn-img-soft.disabled:after, .btn-img-foundation[disabled]:after, .btn-img-foundation.disabled:after, .btn-img-journal[disabled]:after, .btn-img-journal.disabled:after, .btn-img-certification[disabled]:after, .btn-img-certification.disabled:after, .btn-img-people[disabled]:after, .btn-img-people.disabled:after, .btn-img-life[disabled]:after, .btn-img-life.disabled:after {
   background-image: url(../../img/assets/icons/medium/btn_arrow_up_grey.svg);
 }
-.btn-img-white[disabled] span, .btn-img-white.disabled span, .btn-img-black[disabled] span, .btn-img-black.disabled span, .btn-img-outline[disabled] span, .btn-img-outline.disabled span, .btn-img-primary[disabled] span, .btn-img-primary.disabled span, .btn-img-safety[disabled] span, .btn-img-safety.disabled span, .btn-img-ecology[disabled] span, .btn-img-ecology.disabled span, .btn-img-surveys[disabled] span, .btn-img-surveys.disabled span, .btn-img-academy[disabled] span, .btn-img-academy.disabled span, .btn-img-soft[disabled] span, .btn-img-soft.disabled span, .btn-img-foundation[disabled] span, .btn-img-foundation.disabled span, .btn-img-journal[disabled] span, .btn-img-journal.disabled span, .btn-img-certification[disabled] span, .btn-img-certification.disabled span, .btn-img-people[disabled] span, .btn-img-people.disabled span, .btn-img-life[disabled] span, .btn-img-life.disabled span {
+.btn-img-white[disabled] span, .btn-img-white.disabled span, .btn-img-black[disabled] span, .btn-img-black.disabled span, .btn-img-outline[disabled] span, .btn-img-outline.disabled span, .btn-img-vertical-primary[disabled] span, .btn-img-vertical-primary.disabled span, .btn-img-horizontal-primary[disabled] span, .btn-img-horizontal-primary.disabled span, .btn-img-primary[disabled] span, .btn-img-primary.disabled span, .btn-img-safety[disabled] span, .btn-img-safety.disabled span, .btn-img-ecology[disabled] span, .btn-img-ecology.disabled span, .btn-img-surveys[disabled] span, .btn-img-surveys.disabled span, .btn-img-academy[disabled] span, .btn-img-academy.disabled span, .btn-img-soft[disabled] span, .btn-img-soft.disabled span, .btn-img-foundation[disabled] span, .btn-img-foundation.disabled span, .btn-img-journal[disabled] span, .btn-img-journal.disabled span, .btn-img-certification[disabled] span, .btn-img-certification.disabled span, .btn-img-people[disabled] span, .btn-img-people.disabled span, .btn-img-life[disabled] span, .btn-img-life.disabled span {
   background: #b7bbc3 !important;
   color: rgba(248, 248, 248, 0.2);
 }
@@ -1023,13 +1023,21 @@
   outline: 1px solid #f8f8f8;
   outline-offset: -1px;
 }
-.btn-primary span,
-.btn-img-primary span {
+.btn-horizontal-primary span,
+.btn-img-horizontal-primary span {
   background: linear-gradient(to left, #42AD8E, #74DD4F);
 }
-.btn-primary:hover span,
-.btn-img-primary:hover span {
+.btn-horizontal-primary:hover span,
+.btn-img-horizontal-primary:hover span {
   background: linear-gradient(to left, #74DD4F, #74DD4F);
+}
+.btn-vertical-primary span,
+.btn-img-vertical-primary span {
+  background: linear-gradient(to top, #74DD4F, #42AD8E);
+}
+.btn-vertical-primary:hover span,
+.btn-img-vertical-primary:hover span {
+  background: linear-gradient(to top, #74DD4F, #74DD4F);
 }
 .btn-safety span,
 .btn-img-safety span {

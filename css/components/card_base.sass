@@ -15,6 +15,10 @@ $cards-gap: 8px
 .card
   &-neutral-white
 
+    & p:last-child,
+    & ul:last-child
+      margin: 0
+
 
     &.col-12
       width: 100%
@@ -78,10 +82,11 @@ $cards-gap: 8px
   .card
     &-neutral-white
       &:last-child
-        margin-bottom: 0 !important
+        &:not(.card-icon-centered)
+          margin-bottom: 0 !important
       &:not(.no-card)
         padding: 20px
-        border-radius: 36px
+        border-radius: 30px
 
       & > .col-6,
       & > .col-5,
@@ -150,8 +155,10 @@ $cards-gap: 8px
 
 
   .card-inner-cols
+    padding: 24px !important
     .col-12
-      margin-bottom: 32px
+      &:not(:last-child)
+        margin-bottom: 32px
 
 
 
@@ -160,7 +167,8 @@ $cards-gap: 8px
   .card
     &-neutral-white
       &:last-child
-        margin-bottom: 0 !important
+        &:not(.card-icon-centered)
+          margin-bottom: 0 !important
       &:not(.no-card)
         padding: 32px
         border-radius: 36px
@@ -172,6 +180,10 @@ $cards-gap: 8px
       & > .col-md-2,
       & > .col-md-1
         margin-right: $cards-gap
+
+      & .col-md-6
+        &:nth-last-child(2)
+          margin-bottom: 0 !important
 
       &.col-md-12
         width: 100%
@@ -244,7 +256,8 @@ $cards-gap: 8px
   .card
     &-neutral-white
       &:last-child
-        margin-bottom: 0 !important
+        &:not(.card-icon-centered)
+          margin-bottom: 0 !important
       &:not(.no-card)
         padding: 32px
         border-radius: 36px
@@ -256,6 +269,7 @@ $cards-gap: 8px
       & > .col-lg-2,
       & > .col-lg-1
         margin-right: $cards-gap
+
 
       &.col-lg-12
         width: 100%
@@ -274,6 +288,10 @@ $cards-gap: 8px
         &:nth-child(2n)
           margin-right: 0
 
+        &:nth-last-child(2)
+          margin-bottom: 0 !important
+
+
       &.col-lg-5
         width: calc(41.666666% - $cards-gap / 2)
         margin-right: $cards-gap
@@ -286,7 +304,8 @@ $cards-gap: 8px
         margin-bottom: $cards-gap
 
         &:nth-child(3n)
-          margin-right: 0
+            margin-right: 0
+
 
       &.col-lg-3
         width: calc(25% - $cards-gap * 3 / 4)
@@ -365,7 +384,7 @@ $cards-gap: 8px
         &:nth-child(12n)
           margin-right: 0
 
-@media(min-width: 1280px) and (max-width: 1920px)
+@media(min-width: 1280px) and (max-width: 1919px)
   $cards-gap: 16px
   .card
     &-neutral-white

@@ -1,0 +1,14 @@
+.cards-services .card-neutral-white:not(:last-child) {
+  margin-bottom: 8px;
+}
+.cards-services .card-neutral-white:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 1280px) {
+  .cards-services .card-neutral-white {
+    margin-bottom: 0;
+  }
+}
+
+/*# sourceMappingURL=cards_services.css.map */

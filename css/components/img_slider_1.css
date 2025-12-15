@@ -950,7 +950,10 @@
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  box-shadow: 0px 97px 27px 0px rgba(214, 214, 214, 0);
+  box-shadow: 0px 5px 30px 1px rgba(0, 0, 0, 0.07) !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .img-slider .owl-dots,
 .img-slider-x4 .owl-dots,

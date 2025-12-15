@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["news.sass"],"names":[],"mappings":"AAAA;EACE;;AAEA;EACE;EACA;EACA","file":"news.css"}
+{"version":3,"sourceRoot":"","sources":["news.sass"],"names":[],"mappings":"AAAA;EACE;;AAEA;EACE;EACA;EACA;;AAEF;EACI;EACA;EACA;EACA;;;AAEN;EAGM;IACE;IACA;IACA;;EAEJ;IACE;IACA;IACA;;;AAEN;EAGM;IACE;IACA;IACA","file":"news.css"}

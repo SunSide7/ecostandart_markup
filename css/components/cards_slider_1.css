@@ -31,6 +31,9 @@
   -moz-border-radius: 50%;
   border-radius: 50%;
   box-shadow: 0px 97px 27px 0px rgba(214, 214, 214, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .cards-slider .owl-dots {
   display: flex;

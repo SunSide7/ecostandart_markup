@@ -128,6 +128,72 @@ $(document).ready(function() {
         }
     })
 
+    $('.img-slider-x3').owlCarousel({
+        // loop:true,
+        margin:16,
+        nav:true,
+        dots: false,
+        navText: [
+            '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
+            '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '</svg>\n',
+            '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
+            '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '</svg>',
+        ],
+        responsive:{
+            360: {
+                items: 1
+            },
+            640: {
+                items: 1
+            },
+            960: {
+                items: 2
+            },
+            1280: {
+                items: 3
+            },
+            1920: {
+                items: 3
+            },
+        }
+    })
+
+    $('.blog-slider').owlCarousel({
+        // loop:true,
+        margin:16,
+        nav:true,
+        dots: false,
+        navText: [
+            '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
+            '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '</svg>\n',
+            '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
+            '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '</svg>',
+        ],
+        responsive:{
+            360: {
+                items: 1
+            },
+            640: {
+                items: 1
+            },
+            960: {
+                items: 1
+            },
+            1280: {
+                items: 1
+            },
+            1920: {
+                items: 1
+            },
+        }
+    })
+
+
+
 
 
     $('.img-slider-x3').owlCarousel({
@@ -205,6 +271,50 @@ $(document).ready(function() {
     }
 
     new MobileDetect(setCardsSliderActive, setCardsSliderUnactive, 640, 1279.5);
+
+
+    function setBlogSliderActive() {
+        $('.blog-slider').addClass('owl-theme');
+        $('.blog-slider').addClass('owl-carousel');
+        $('.blog-slider').owlCarousel({
+            stagePadding: 200,
+            // loop:true,
+            // margin:16,
+            startPosition: 1,
+            nav:true,
+            dots: false,
+            navText: [
+                '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
+                '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+                '</svg>\n',
+                '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
+                '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+                '</svg>',
+            ],
+            responsive:{
+                0:{
+                    items:1,
+                    stagePadding: 150,
+                },
+                960: {
+                    items:1,
+                    stagePadding: 200,
+                },
+            }
+        })
+        $('#blog-slider-container').addClass('container-fluid')
+    }
+    function setBlogSliderUnactive() {
+        $('.blog-slider').removeClass('owl-theme');
+        $('.blog-slider').removeClass('owl-carousel');
+        $('.blog-slider').trigger('destroy.owl.carousel');
+        $('#blog-slider-container').removeClass('container-fluid')
+    }
+
+    new MobileDetect(setBlogSliderActive, setBlogSliderUnactive, 360, 960);
+
+
+
 
 
     function setVizierPos() {

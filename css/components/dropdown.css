@@ -849,43 +849,72 @@
   background: linear-gradient(128deg, #1cb8e4, #1cb8e4) !important;
 }
 
-ul.plus-list-safety, ul.plus-list-life {
-  padding: 0;
-}
-ul.plus-list-safety li, ul.plus-list-life li {
+.dropdown {
   display: flex;
-  padding: 4px 0;
-  margin-bottom: 4px;
-  font-size: 16px;
-  line-height: 22px;
+  flex-direction: column;
+  width: 181px;
 }
-ul.plus-list-safety li:last-of-type, ul.plus-list-life li:last-of-type {
-  margin-bottom: 0;
-}
-ul.plus-list-safety li:before, ul.plus-list-life li:before {
-  content: "";
-  display: inline-block;
-  min-width: 14px;
-  height: 18px;
-  margin-right: 8.4px;
-  margin-top: 2.5px;
-  list-style: none;
-  fill: blue;
-  stroke: blue;
-}
-ul.plus-list-safety li span, ul.plus-list-life li span {
-  font-size: 16px;
-  line-height: 22px;
-}
-ul.plus-list-safety li b, ul.plus-list-life li b {
+.dropdown-main {
+  padding: 8px 16px;
+  border-radius: 50px;
+  background: #f8f8f8;
+  transition: all 0.4s ease;
+  margin-bottom: 8px;
+  color: #3a434d !important;
+  font-size: 14px;
+  line-height: 18px;
   font-weight: 500;
+  cursor: pointer;
+  position: relative;
+}
+.dropdown-main:after {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-image: url(../../img/assets/icons/small/arrow_up_grey.svg);
+  background-size: 100%;
+  transition: transform 0.2s ease;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 17.5px;
+  margin: auto;
+}
+.dropdown-items {
+  padding: 8px;
+  border-radius: 16px;
+  background: #f8f8f8;
+  transition: all 0.4s ease;
+}
+.dropdown-el {
+  color: #727882;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 100%;
+  font-weight: 500;
+}
+.dropdown-el:not(:last-child) {
+  margin-bottom: 4px;
+}
+.dropdown-el:hover {
   color: #3a434d;
+  background: #f2f2f2;
+  font-weight: 600;
 }
-ul.plus-list-safety li:before {
-  background: url(../../img/assets/icons/small/icon_visir_safety.svg) center center no-repeat;
+.dropdown.active .dropdown-main:after {
+  transform: rotate(0deg);
 }
-ul.plus-list-life li:before {
-  background: url(../../img/assets/icons/small/icon_visir_life.svg) center center no-repeat;
+.dropdown.active .dropdown-items {
+  display: block;
+}
+.dropdown:not(.active) .dropdown-main:after {
+  transform: rotate(180deg);
+}
+.dropdown:not(.active) .dropdown-items {
+  display: none;
 }
 
-/*# sourceMappingURL=plus_icon_list.css.map */
+/*# sourceMappingURL=dropdown.css.map */

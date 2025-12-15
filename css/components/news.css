@@ -6,5 +6,31 @@
   bottom: 0;
   left: 0;
 }
+.news .dropdown {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 80;
+}
+
+@media (min-width: 360px) and (max-width: 640px) {
+  .news .card-neutral-white > h4 {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 18px;
+  }
+  .news .dropdown {
+    width: 100%;
+    position: static;
+    margin-bottom: 48px;
+  }
+}
+@media (min-width: 640px) and (max-width: 960px) {
+  .news .card-neutral-white > h4 {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 18px;
+  }
+}
 
 /*# sourceMappingURL=news.css.map */

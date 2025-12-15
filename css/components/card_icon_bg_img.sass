@@ -1,5 +1,6 @@
 @import ../assets/colors.sass
 
+$hover-img-position: 32px
 .card-icon-bg
   display: flex
   flex-direction: column
@@ -55,6 +56,36 @@
     margin: auto
     background-color: rgba(0 0 0 / 40%)
     z-index: 2
+
+  &.card-hover
+    &-white
+      cursor: pointer
+
+      &:before
+        content: ''
+        display: block
+        width: 20px
+        height: 20px
+
+        background-image: url(../../img/assets/icons/medium/arrow_go_right_up_life.svg)
+        background-repeat: no-repeat
+        background-position: center center
+
+        position: absolute
+        top: $hover-img-position
+        right: $hover-img-position
+
+        opacity: 1
+        z-index: 3
+
+      &:before
+        @include hover-transition
+
+
+  &.card-hover
+    &-white:not(:hover)
+      &:before
+        opacity: 0
 
   & h4
     margin-bottom: 0
@@ -136,6 +167,16 @@
 
     & .card-neutral-white
 
+    &.card-icon-centered
+      display: flex
+      justify-content: center
+      align-items: center
+      text-align: center
+      height: initial !important
+
+      & .icon-img
+        width: 24px
+
 @media(min-width: 640px) and (max-width: 960px)
   .card-neutral-white
     &.card-icon-bg
@@ -147,10 +188,30 @@
 
     & .card-neutral-white
 
+    &.card-icon-centered
+      display: flex
+      justify-content: center
+      align-items: center
+      text-align: center
+      height: initial !important
+
+      & .icon-img
+        width: 24px
+
 @media(min-width: 360px) and (max-width: 640px)
   .card-neutral-white
     &.card-icon-bg
       height: 272px
+
+    &.card-icon-centered
+      display: flex
+      justify-content: center
+      align-items: center
+      text-align: center
+      height: initial !important
+
+      & .icon-img
+        width: 24px
 
     &.card-icon-bg-img
       height: 304px

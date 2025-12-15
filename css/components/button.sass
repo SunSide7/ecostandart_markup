@@ -53,6 +53,8 @@ $icon-size: 29px
   &-white,
   &-black,
   &-outline,
+  &-vertical-primary,
+  &-horizontal-primary,
 
   &-primary,
   &-safety,
@@ -80,6 +82,8 @@ $icon-size: 29px
   &-white,
   &-black,
   &-outline,
+  &-vertical-primary,
+  &-horizontal-primary,
 
   &-primary,
   &-safety,
@@ -211,13 +215,23 @@ $icon-size: 29px
 
 
   // GRADIENTAL
-  &-primary
+  &-horizontal-primary
     & span
       background: $gradient_horizontal_primary
 
     &:hover
       & span
         background: $hover_horizontal_primary
+
+  &-vertical-primary
+    & span
+      background: $gradient_vertical_primary
+
+    &:hover
+      & span
+        background: $hover_vertical_primary
+
+
 
   &-safety
     & span

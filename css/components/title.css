@@ -1016,12 +1016,14 @@
 h2.title-primary, h2.title-safety, h2.title-ecology, h2.title-surveys, h2.title-academy, h2.title-soft, h2.title-foundation, h2.title-journal, h2.title-certification, h2.title-people, h2.title-life {
   font-size: 40px;
   line-height: 45px;
+  font-weight: 600;
 }
 
 h4.title-primary, h4.title-safety, h4.title-ecology, h4.title-surveys, h4.title-academy, h4.title-soft, h4.title-foundation, h4.title-journal, h4.title-certification, h4.title-people, h4.title-life {
   margin-bottom: 20px;
   font-size: 22px;
   line-height: 28px;
+  font-weight: 600;
 }
 
 .title-primary + .subtitle, .title-safety + .subtitle, .title-ecology + .subtitle, .title-surveys + .subtitle, .title-academy + .subtitle, .title-soft + .subtitle, .title-foundation + .subtitle, .title-journal + .subtitle, .title-certification + .subtitle, .title-people + .subtitle, .title-life + .subtitle {
