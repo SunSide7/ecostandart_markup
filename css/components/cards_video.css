@@ -50,9 +50,22 @@
     height: 448px;
   }
 }
-@media (min-width: 960px) {
+@media (min-width: 1280px) {
+  .cards-video {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
   .cards-video .card-neutral-white {
     margin-bottom: 0 !important;
+  }
+  .cards-video .card-img-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
   }
 }
 

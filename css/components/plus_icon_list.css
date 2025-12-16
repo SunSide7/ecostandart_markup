@@ -861,6 +861,7 @@ ul.plus-list-safety li, ul.plus-list-life li {
 }
 ul.plus-list-safety li:last-of-type, ul.plus-list-life li:last-of-type {
   margin-bottom: 0;
+  padding-bottom: 0;
 }
 ul.plus-list-safety li:before, ul.plus-list-life li:before {
   content: "";

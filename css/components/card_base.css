@@ -1021,6 +1021,9 @@
   .card-neutral-white.col-md-6:nth-child(2n) {
     margin-right: 0;
   }
+  .card-neutral-white.col-md-6:nth-last-child(2) {
+    margin-bottom: 0;
+  }
   .card-neutral-white.col-md-5 {
     width: calc(41.666666% - 4px);
     margin-right: 8px;
@@ -1082,6 +1085,9 @@
     width: 100%;
     margin-bottom: 16px;
   }
+  .card-neutral-white.col-lg-12:last-child {
+    margin-bottom: 0;
+  }
   .card-neutral-white.col-lg-9 {
     width: calc(75% - 8px);
     margin-right: 16px;
@@ -1110,6 +1116,9 @@
   }
   .card-neutral-white.col-lg-4:nth-child(3n) {
     margin-right: 0;
+  }
+  .card-neutral-white.col-lg-4:nth-last-child(3), .card-neutral-white.col-lg-4:nth-last-child(2), .card-neutral-white.col-lg-4:nth-last-child(1) {
+    margin-bottom: 0;
   }
   .card-neutral-white.col-lg-3 {
     width: calc(25% - 12px);
@@ -1197,6 +1206,9 @@
   .card-neutral-white.col-xl-12 {
     width: 100%;
     margin-bottom: 16px;
+  }
+  .card-neutral-white.col-xl-12:last-child {
+    margin-bottom: 0;
   }
   .card-neutral-white.col-xl-9 {
     width: calc(75% - 8px);
@@ -1320,6 +1332,9 @@
   .card-neutral-white.col-xxl-12 {
     width: 100%;
     margin-bottom: 16px;
+  }
+  .card-neutral-white.col-xxl-12:last-child {
+    margin-bottom: 0;
   }
   .card-neutral-white.col-xxl-9 {
     width: calc(75% - 8px);

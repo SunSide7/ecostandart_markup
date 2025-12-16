@@ -17,6 +17,7 @@
   .container {
     max-width: 1792px;
     margin: 0 auto;
+    padding: 0 !important;
   }
   .container-fluid {
     padding: 0 0 !important;
@@ -31,6 +32,11 @@
 }
 .section:last-of-type {
   margin-bottom: 0;
+}
+
+.img-sz36 {
+  width: 36px !important;
+  height: 36px !important;
 }
 
 .text-center {

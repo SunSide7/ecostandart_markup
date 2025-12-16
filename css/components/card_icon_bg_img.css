@@ -968,9 +968,6 @@
     height: 335px;
     padding: 28px 30px !important;
   }
-  .card-neutral-white .card-neutral-white {
-    margin-bottom: 0;
-  }
   .card-neutral-white .d-flex-w, .card-neutral-white .d-flex-w > .card-neutral-white {
     height: 100%;
   }

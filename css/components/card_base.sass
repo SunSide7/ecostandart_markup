@@ -201,6 +201,9 @@ $cards-gap: 8px
 
         &:nth-child(2n)
           margin-right: 0
+        &:nth-last-child(2)
+          margin-bottom: 0
+
 
       &.col-md-5
         width: calc(41.666666% - $cards-gap / 2)
@@ -275,6 +278,9 @@ $cards-gap: 8px
         width: 100%
         margin-bottom: $cards-gap
 
+        &:last-child
+          margin-bottom: 0
+
       &.col-lg-9
         width: calc(100% / 12 * 9 - $cards-gap / 2)
         margin-right: $cards-gap
@@ -305,6 +311,13 @@ $cards-gap: 8px
 
         &:nth-child(3n)
             margin-right: 0
+
+        &:nth-last-child(3),
+        &:nth-last-child(2),
+        &:nth-last-child(1)
+            margin-bottom: 0
+
+
 
 
       &.col-lg-3
@@ -403,6 +416,8 @@ $cards-gap: 8px
       &.col-xl-12
         width: 100%
         margin-bottom: $cards-gap
+        &:last-child
+          margin-bottom: 0
 
       &.col-xl-9
         width: calc(100% / 12 * 9 - $cards-gap / 2)
@@ -534,6 +549,9 @@ $cards-gap: 8px
       &.col-xxl-12
         width: 100%
         margin-bottom: $cards-gap
+
+        &:last-child
+          margin-bottom: 0
 
       &.col-xxl-9
         width: calc(100% / 12 * 9 - $cards-gap / 2)
