@@ -227,7 +227,7 @@
     bottom: 0;
   }
 }
-@media (min-width: 640px) and (max-width: 959px) {
+@media (min-width: 640px) and (max-width: 960px) {
   .v-col-md-50:first-child {
     position: absolute;
     top: 0;
@@ -239,7 +239,7 @@
     bottom: 0;
   }
 }
-@media (min-width: 960px) and (max-width: 1279.5  px) {
+@media (min-width: 960px) and (max-width: 1280px) {
   .v-col-lg-50:first-child {
     position: absolute;
     top: 0;

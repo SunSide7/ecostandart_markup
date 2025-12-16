@@ -1186,7 +1186,7 @@
     margin-right: 0;
   }
 }
-@media (min-width: 1280px) and (max-width: 1919px) {
+@media (min-width: 1280px) and (max-width: 1919.5px) {
   .card-neutral-white:not(.no-card) {
     padding: 32px;
     border-radius: 36px;
@@ -1215,6 +1215,9 @@
   }
   .card-neutral-white.col-xl-6:nth-child(2n) {
     margin-right: 0;
+  }
+  .card-neutral-white.col-xl-6:last-child, .card-neutral-white.col-xl-6:nth-last-child(2) {
+    margin-bottom: 0 !important;
   }
   .card-neutral-white.col-xl-5 {
     width: calc(41.666666% - 8px);
@@ -1335,6 +1338,9 @@
   }
   .card-neutral-white.col-xxl-6:nth-child(2n) {
     margin-right: 0;
+  }
+  .card-neutral-white.col-xxl-6:last-child, .card-neutral-white.col-xxl-6:nth-last-child(2) {
+    margin-bottom: 0 !important;
   }
   .card-neutral-white.col-xxl-5 {
     width: calc(41.666666% - 8px);

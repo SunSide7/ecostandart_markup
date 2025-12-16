@@ -384,7 +384,7 @@ $cards-gap: 8px
         &:nth-child(12n)
           margin-right: 0
 
-@media(min-width: 1280px) and (max-width: 1919px)
+@media(min-width: 1280px) and (max-width: 1919.5px)
   $cards-gap: 16px
   .card
     &-neutral-white
@@ -422,6 +422,10 @@ $cards-gap: 8px
 
         &:nth-child(2n)
           margin-right: 0
+
+        &:last-child,
+        &:nth-last-child(2)
+          margin-bottom: 0 !important
 
       &.col-xl-5
         width: calc(41.666666% - $cards-gap / 2)
@@ -550,6 +554,10 @@ $cards-gap: 8px
 
         &:nth-child(2n)
           margin-right: 0
+
+        &:last-child,
+        &:nth-last-child(2)
+          margin-bottom: 0 !important
 
       &.col-xxl-5
         width: calc(41.666666% - $cards-gap / 2)

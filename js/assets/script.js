@@ -1,5 +1,19 @@
 $(document).ready(function() {
 
+    function setToggle() {
+        $(this).hasClass('active')
+            && $(event.target).is(':not(.unclickable)')
+            && $(event.target).parent().is(':not(.unclickable)')
+            && $(event.target).parent().parent().is(':not(.unclickable)')
+            && $(event.target).parent().parent().parent().is(':not(.unclickable)')
+            ? $(this).removeClass('active')
+            : $(this).addClass('active');
+    }
+
+    $('body').on('click', '.js-toggler', setToggle)
+
+
+
     $('.img-slider').owlCarousel({
         // loop:true,
         margin:16,
@@ -374,6 +388,11 @@ $(document).ready(function() {
 
     $('body').on('click', '.hero-asc-next', setNextContent)
     $('body').on('click', '.hero-asc-prev', setPrevContent)
+    
+    
+    
+
+
 
 
 })

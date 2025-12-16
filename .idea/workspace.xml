@@ -5,72 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec7b5231-ec41-4ccf-97da-ed0f4ab9bb94" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/css/components/card_blog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/components/card_blog.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/components/card_blog.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/components/cards_services.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/components/cards_services.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/components/cards_services.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/components/dropdown.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/components/dropdown.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/components/dropdown.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/components/cards/union.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/components/cards/views.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pug/sections/legend_11.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pug/sections/legend_11.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pug/sections/legend_11.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pug/sections/legend_7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pug/sections/legend_7.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEXT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/components/tab-img-right.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/components/tab-img-right.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/components/tab-img-right.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_11.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/assets/grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/assets/grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/grid.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/assets/grid.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/grid.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/button.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/button.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/button.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/button.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/button.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card-percent.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card-percent.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/card_base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/card_base.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_base.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/card_base.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_base.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card_blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_blog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card_icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_icon.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/card_icon_bg_img.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_icon_bg_img.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_icon_bg_img.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_icon_bg_img.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_icon_bg_img.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_icon_bg_img.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/card_policy.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_policy.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_policy.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_policy.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_policy.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_policy.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/cards_responsibility.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards_responsibility.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/cards_responsibility.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards_responsibility.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/cards_responsibility.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards_responsibility.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/cards_services.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards_services.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/cards_slider_1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards_slider_1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/cards_slider_1.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards_slider_1.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/cards_slider_1.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards_slider_1.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/diagram_round.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/diagram_round.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/img_slider_1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/img_slider_1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/img_slider_1.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/img_slider_1.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/img_slider_1.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/img_slider_1.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/menu_footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/menu_footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/menu_header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/menu_header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/news.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/news.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/news.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/news.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/news.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/plus_icon_list.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/plus_icon_list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/plus_icon_list.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/plus_icon_list.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/plus_icon_list.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/plus_icon_list.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/slider-under-content.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/slider-under-content.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/slider_cards.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/slider_cards.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/slider_cards.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/slider_cards.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/title.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/title.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/title.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/title.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/title.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/title.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/calendar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/assets/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/assets/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/bootstrap/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/bootstrap/bootstrap.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/base/vars/styles.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/base/vars/styles.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/pages/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_18.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_18.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/sections/legend_24.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_24.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_26.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_26.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_35.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_35.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_38.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_38.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_40.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_40.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_46.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_46.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_59.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_59.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_29.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_29.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_48.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_48.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/sections/legend_6.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_6.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_7.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
