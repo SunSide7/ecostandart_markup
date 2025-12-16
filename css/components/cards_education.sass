@@ -24,7 +24,28 @@
 
 @media(min-width: 960px)
   .cards-education
+    position: relative
+    display: flex
+    justify-content: center
+
+    & > div:nth-child(2)
+      margin-right: 0
 
     & .card-neutral-white
       margin-bottom: 0 !important
+
+    & .card-img-bg
+
+      &:first-child,
+      &:last-child
+        position: absolute
+        top: 0
+        bottom: 0
+        margin: auto
+
+      &:first-child
+        left: 0
+      &:last-child
+        right: 0
+
 

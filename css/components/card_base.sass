@@ -79,6 +79,7 @@ $cards-gap: 8px
 
 
 @media(min-width: 360px) and (max-width: 640px)
+  $cards-gap: 8px
   .card
     &-neutral-white
       &:last-child
@@ -95,6 +96,13 @@ $cards-gap: 8px
       & > .col-2,
       & > .col-1
         margin-right: $cards-gap
+
+      &.col-12
+        width: 100%
+        margin-bottom: $cards-gap !important
+
+        &:last-child
+          margin-bottom: 0 !important
 
     // Cols inda card
     & > .col-6
@@ -187,7 +195,10 @@ $cards-gap: 8px
 
       &.col-md-12
         width: 100%
-        margin-bottom: $cards-gap
+        margin-bottom: $cards-gap !important
+
+        &:last-child
+          margin-bottom: 0 !important
 
       &.col-md-9
         width: calc(100% / 12 * 9 - $cards-gap / 2)
@@ -276,10 +287,10 @@ $cards-gap: 8px
 
       &.col-lg-12
         width: 100%
-        margin-bottom: $cards-gap
+        margin-bottom: $cards-gap !important
 
         &:last-child
-          margin-bottom: 0
+          margin-bottom: 0 !important
 
       &.col-lg-9
         width: calc(100% / 12 * 9 - $cards-gap / 2)

@@ -20,6 +20,10 @@
   }
   .cards-responsibility .card-img-bg .img {
     max-height: 300px;
+    min-height: 300px;
+  }
+  .cards-responsibility .card-img-bg .img img {
+    height: 100%;
   }
 }
 @media (min-width: 360px) and (max-width: 639px) {
@@ -28,6 +32,10 @@
   }
   .cards-responsibility .card-img-bg .img {
     max-height: 300px;
+    min-height: 300px;
+  }
+  .cards-responsibility .card-img-bg .img img {
+    height: 100%;
   }
 }
 
