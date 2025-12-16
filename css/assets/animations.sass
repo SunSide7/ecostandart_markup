@@ -60,7 +60,7 @@
   &-3000
     transition: all 3s ease !important
 
-.hover-rotate
+.hover-rotate:hover
   &-45:hover
     transform: rotate(45deg) !important
 
@@ -71,7 +71,7 @@
     transform: rotate(180deg) !important
 
 .hover-change-child:hover
-  &.child-rotate
+  .child-rotate
     &-0
       transform: rotate(0deg) !important
 
@@ -83,3 +83,21 @@
 
     &-180
       transform: rotate(180deg) !important
+
+.hover-up-3
+  transition: 0.3s ease
+
+  &:hover
+    transform: translateY(-3px)
+
+.hover-up-5
+  transition: 0.5s ease
+
+  &:hover
+    transform: translateY(-5px)
+
+.hover-up-10
+  transition: 1s ease
+
+  &:hover
+    transform: translateY(-10px)

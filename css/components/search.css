@@ -56,27 +56,48 @@
   transition: all 3s ease !important;
 }
 
-.hover-rotate-45:hover {
+.hover-rotate:hover-45:hover {
   transform: rotate(45deg) !important;
 }
-.hover-rotate-90:hover {
+.hover-rotate:hover-90:hover {
   transform: rotate(90deg) !important;
 }
-.hover-rotate-180:hover {
+.hover-rotate:hover-180:hover {
   transform: rotate(180deg) !important;
 }
 
-.hover-change-child:hover.child-rotate-0 {
+.hover-change-child:hover .child-rotate-0 {
   transform: rotate(0deg) !important;
 }
-.hover-change-child:hover.child-rotate-45 {
+.hover-change-child:hover .child-rotate-45 {
   transform: rotate(45deg) !important;
 }
-.hover-change-child:hover.child-rotate-90 {
+.hover-change-child:hover .child-rotate-90 {
   transform: rotate(90deg) !important;
 }
-.hover-change-child:hover.child-rotate-180 {
+.hover-change-child:hover .child-rotate-180 {
   transform: rotate(180deg) !important;
+}
+
+.hover-up-3 {
+  transition: 0.3s ease;
+}
+.hover-up-3:hover {
+  transform: translateY(-3px);
+}
+
+.hover-up-5 {
+  transition: 0.5s ease;
+}
+.hover-up-5:hover {
+  transform: translateY(-5px);
+}
+
+.hover-up-10 {
+  transition: 1s ease;
+}
+.hover-up-10:hover {
+  transform: translateY(-10px);
 }
 
 /* UNIVERSAL CLASSES - TEXT NEUTRAL COLORS */
@@ -896,6 +917,40 @@
 }
 .search.active::after {
   display: block;
+}
+.search-mobile {
+  display: flex;
+  padding: 10.5px 9.5px;
+  align-items: center;
+  max-height: 40px;
+  border-bottom: 2px #727882 solid;
+}
+.search-mobile input {
+  display: block;
+  border: none;
+  background: transparent;
+  width: 100%;
+  padding: 0 13.5px;
+  height: 19px;
+}
+.search-mobile input:focus {
+  outline: none;
+}
+.search-mobile::before {
+  content: "";
+  display: block;
+  min-width: 12px;
+  min-height: 12px;
+  background-image: url(../../img/assets/icons/small/icon_search_grey.svg);
+  background-size: 100%;
+}
+.search-mobile::after {
+  content: "";
+  display: block;
+  min-width: 12px;
+  min-height: 12px;
+  background-image: url(../../img/assets/icons/small/icon_exit_grey.svg);
+  background-size: 100%;
 }
 
 /*# sourceMappingURL=search.css.map */

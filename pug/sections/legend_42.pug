@@ -3,25 +3,120 @@
 
 section.section
     .container
-        h2.title-safety.mb-design <span>4&nbsp;гибких тарифа</span> для&nbsp;всех видов компаний и&nbsp;производств
-        p.pt-0.mb-design Провести СОУТ качественно можно недорого. Сравнивая нас&nbsp;с&nbsp;конкурентами, ориентируйтесь на&nbsp;итоговую стоимость договора, а&nbsp;не&nbsp;цену рабочего места. Чем&nbsp;больше объём&nbsp;— тем&nbsp;меньше цена СОУТ и&nbsp;тем&nbsp;выгоднее её&nbsp;заказывать.
+        h2.title-safety TITLE
+        p.mb-design DESCRIPTION
 
-        .cards.d-flex-w
-            .cards-item.card-neutral-white.card-icon.col-12.col-md-12.col-lg-12.col-xl-12.col-xxl-12
-                h4.title-safety Стоимость СОУТ для&nbsp;1&nbsp;категории
-                p.m-0 Офис, образовательные учреждения (школы, детские сады, университеты&nbsp;и&nbsp;т.п.)
-
-            .cards-item.card-neutral-white.card-icon.col-12.col-md-12.col-lg-12.col-xl-12.col-xxl-12
-                h4.title-safety Стоимость СОУТ для&nbsp;2&nbsp;категории
-                p.m-0 2–3 параметра (в том числе медицинский персонал)
-
-            .cards-item.card-neutral-white.card-icon.col-12.col-md-12.col-lg-12.col-xl-12.col-xxl-12
-                h4.title-safety Стоимость СОУТ для&nbsp;3&nbsp;категории
-                p.m-0 4–5 параметров (в том числе производственные списки)
-
-            .cards-item.card-neutral-white.card-icon.col-12.col-md-12.col-lg-12.col-xl-12.col-xxl-12
-                h4.title-safety Стоимость СОУТ для&nbsp;4&nbsp;категории
-                p.m-0 Свыше 5 параметров (сложная химия, в том числе сотрудники лабораторий)
+        //MOBILE VERSION
+        .row.gap-8
+            //.accordeon CAN BE .active
+            .accordeon.d-flex.flex-column.gap-24.p-20.p-md-32.br-30.br-md-36.bg-color-white.active
+                .d-flex.justify-content-between.align-items-center.gap-24
+                    p.text-body-bold.h-md-4.color-black Стоимость СОУТ для 1 категории
+                    .arrow.p-12.br-100.bg-color-background-white
+                        img(src="img/assets/icons/medium/arrow_down_safety.svg")
+                p.text-body Офис, образовательные учреждения (школы, детские сады, университеты и т.п.)
+                .accordeon-content.flex-column.gap-20
+                    .row.row-gap-16.w-100
+                        .d-flex.flex-fill.col-12.col-lg-6.gap-8
+                            img(src="img/assets/icons/small/icon_visir_safety.svg")
+                            p Арматурщики
+                        .d-flex.col-12.col-lg-6.gap-8
+                            img(src="img/assets/icons/small/icon_visir_safety.svg")
+                            p Арматурщики
+                        .d-flex.col-12.col-lg-6.gap-8
+                            img(src="img/assets/icons/small/icon_visir_safety.svg")
+                            p Арматурщики
+                        .d-flex.col-12.col-lg-6.gap-8
+                            img(src="img/assets/icons/small/icon_visir_safety.svg")
+                            p Арматурщики
+                    .row.gap-16.w-100
+                        .d-flex.flex-column.flex-fill.col-12.col-lg-5.gap-20.p-20.p-md-32.br-30.br-lg-36.bg-color-background-white
+                            p.text-body.h-md-4.color-black От 1 до 20 рабочих мест
+                            p.text-body.h-md-4.gradient-safety 1 780 – 30 000 ₽
+                        .d-flex.flex-column.flex-fill.col-12.col-lg-5.gap-20.p-20.p-md-32.br-30.br-lg-36.bg-color-background-white
+                            p.text-body.h-md-4.color-black Более 20 рабочих мест
+                            p.text-body.h-md-4.gradient-safety 925 – 1 600 ₽
+            .accordeon.d-flex.flex-column.gap-24.p-20.p-md-32.br-30.br-md-36.bg-color-white
+                .d-flex.justify-content-between.align-items-center.gap-24
+                    p.text-body-bold.h-md-4.color-black Стоимость СОУТ для 2 категории
+                    .arrow.p-12.br-100.bg-color-background-white
+                        img(src="img/assets/icons/medium/arrow_down_safety.svg")
+                p.text-body 2–3 параметра (в том числе медицинский персонал)
+                .accordeon-content.flex-column.gap-20
+                    .row.row-gap-16.w-100
+                        .d-flex.flex-fill.col-12.col-lg-6.gap-8
+                            img(src="img/assets/icons/small/icon_visir_safety.svg")
+                            p Арматурщики
+                        .d-flex.col-12.col-lg-6.gap-8
+                            img(src="img/assets/icons/small/icon_visir_safety.svg")
+                            p Арматурщики
+                        .d-flex.col-12.col-lg-6.gap-8
+                            img(src="img/assets/icons/small/icon_visir_safety.svg")
+                            p Арматурщики
+                        .d-flex.col-12.col-lg-6.gap-8
+                            img(src="img/assets/icons/small/icon_visir_safety.svg")
+                            p Арматурщики
+                    .row.gap-16.w-100
+                        .d-flex.flex-column.flex-fill.col-12.col-lg-5.gap-20.p-20.p-md-32.br-30.br-lg-36.bg-color-background-white
+                            p.text-body.h-md-4.color-black От 1 до 20 рабочих мест
+                            p.text-body.h-md-4.gradient-safety 1 780 – 30 000 ₽
+                        .d-flex.flex-column.flex-fill.col-12.col-lg-5.gap-20.p-20.p-md-32.br-30.br-lg-36.bg-color-background-white
+                            p.text-body.h-md-4.color-black Более 20 рабочих мест
+                            p.text-body.h-md-4.gradient-safety 925 – 1 600 ₽
+            .accordeon.d-flex.flex-column.gap-24.p-20.p-md-32.br-30.br-md-36.bg-color-white
+                .d-flex.justify-content-between.align-items-center.gap-24
+                    p.text-body-bold.h-md-4.color-black Стоимость СОУТ для 3 категории
+                    .arrow.p-12.br-100.bg-color-background-white
+                        img(src="img/assets/icons/medium/arrow_down_safety.svg")
+                p.text-body 4–5 параметров (в том числе производственные списки)
+                .accordeon-content.flex-column.gap-20
+                    .row.row-gap-16.w-100
+                        .d-flex.flex-fill.col-12.col-lg-6.gap-8
+                            img(src="img/assets/icons/small/icon_visir_safety.svg")
+                            p Арматурщики
+                        .d-flex.col-12.col-lg-6.gap-8
+                            img(src="img/assets/icons/small/icon_visir_safety.svg")
+                            p Арматурщики
+                        .d-flex.col-12.col-lg-6.gap-8
+                            img(src="img/assets/icons/small/icon_visir_safety.svg")
+                            p Арматурщики
+                        .d-flex.col-12.col-lg-6.gap-8
+                            img(src="img/assets/icons/small/icon_visir_safety.svg")
+                            p Арматурщики
+                    .row.gap-16.w-100
+                        .d-flex.flex-column.flex-fill.col-12.col-lg-5.gap-20.p-20.p-md-32.br-30.br-lg-36.bg-color-background-white
+                            p.text-body.h-md-4.color-black От 1 до 20 рабочих мест
+                            p.text-body.h-md-4.gradient-safety 1 780 – 30 000 ₽
+                        .d-flex.flex-column.flex-fill.col-12.col-lg-5.gap-20.p-20.p-md-32.br-30.br-lg-36.bg-color-background-white
+                            p.text-body.h-md-4.color-black Более 20 рабочих мест
+                            p.text-body.h-md-4.gradient-safety 925 – 1 600 ₽
+            .accordeon.d-flex.flex-column.gap-24.p-20.p-md-32.br-30.br-md-36.bg-color-white
+                .d-flex.justify-content-between.align-items-center.gap-24
+                    p.text-body-bold.h-md-4.color-black Стоимость СОУТ для 4 категории
+                    .arrow.p-12.br-100.bg-color-background-white
+                        img(src="img/assets/icons/medium/arrow_down_safety.svg")
+                p.text-body Свыше 5 параметров (сложная химия, в том числе сотрудники лабораторий)
+                .accordeon-content.flex-column.gap-20
+                    .row.row-gap-16.w-100
+                        .d-flex.flex-fill.col-12.col-lg-6.gap-8
+                            img(src="img/assets/icons/small/icon_visir_safety.svg")
+                            p Арматурщики
+                        .d-flex.col-12.col-lg-6.gap-8
+                            img(src="img/assets/icons/small/icon_visir_safety.svg")
+                            p Арматурщики
+                        .d-flex.col-12.col-lg-6.gap-8
+                            img(src="img/assets/icons/small/icon_visir_safety.svg")
+                            p Арматурщики
+                        .d-flex.col-12.col-lg-6.gap-8
+                            img(src="img/assets/icons/small/icon_visir_safety.svg")
+                            p Арматурщики
+                    .row.gap-16.w-100
+                        .d-flex.flex-column.flex-fill.col-12.col-lg-5.gap-20.p-20.p-md-32.br-30.br-lg-36.bg-color-background-white
+                            p.text-body.h-md-4.color-black От 1 до 20 рабочих мест
+                            p.text-body.h-md-4.gradient-safety 1 780 – 30 000 ₽
+                        .d-flex.flex-column.flex-fill.col-12.col-lg-5.gap-20.p-20.p-md-32.br-30.br-lg-36.bg-color-background-white
+                            p.text-body.h-md-4.color-black Более 20 рабочих мест
+                            p.text-body.h-md-4.gradient-safety 925 – 1 600 ₽
 
 
 

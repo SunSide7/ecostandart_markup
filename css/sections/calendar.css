@@ -56,27 +56,48 @@
   transition: all 3s ease !important;
 }
 
-.hover-rotate-45:hover {
+.hover-rotate:hover-45:hover {
   transform: rotate(45deg) !important;
 }
-.hover-rotate-90:hover {
+.hover-rotate:hover-90:hover {
   transform: rotate(90deg) !important;
 }
-.hover-rotate-180:hover {
+.hover-rotate:hover-180:hover {
   transform: rotate(180deg) !important;
 }
 
-.hover-change-child:hover.child-rotate-0 {
+.hover-change-child:hover .child-rotate-0 {
   transform: rotate(0deg) !important;
 }
-.hover-change-child:hover.child-rotate-45 {
+.hover-change-child:hover .child-rotate-45 {
   transform: rotate(45deg) !important;
 }
-.hover-change-child:hover.child-rotate-90 {
+.hover-change-child:hover .child-rotate-90 {
   transform: rotate(90deg) !important;
 }
-.hover-change-child:hover.child-rotate-180 {
+.hover-change-child:hover .child-rotate-180 {
   transform: rotate(180deg) !important;
+}
+
+.hover-up-3 {
+  transition: 0.3s ease;
+}
+.hover-up-3:hover {
+  transform: translateY(-3px);
+}
+
+.hover-up-5 {
+  transition: 0.5s ease;
+}
+.hover-up-5:hover {
+  transform: translateY(-5px);
+}
+
+.hover-up-10 {
+  transition: 1s ease;
+}
+.hover-up-10:hover {
+  transform: translateY(-10px);
 }
 
 /* UNIVERSAL CLASSES - TEXT NEUTRAL COLORS */
@@ -1280,27 +1301,48 @@
   transition: all 3s ease !important;
 }
 
-.hover-rotate-45:hover {
+.hover-rotate:hover-45:hover {
   transform: rotate(45deg) !important;
 }
-.hover-rotate-90:hover {
+.hover-rotate:hover-90:hover {
   transform: rotate(90deg) !important;
 }
-.hover-rotate-180:hover {
+.hover-rotate:hover-180:hover {
   transform: rotate(180deg) !important;
 }
 
-.hover-change-child:hover.child-rotate-0 {
+.hover-change-child:hover .child-rotate-0 {
   transform: rotate(0deg) !important;
 }
-.hover-change-child:hover.child-rotate-45 {
+.hover-change-child:hover .child-rotate-45 {
   transform: rotate(45deg) !important;
 }
-.hover-change-child:hover.child-rotate-90 {
+.hover-change-child:hover .child-rotate-90 {
   transform: rotate(90deg) !important;
 }
-.hover-change-child:hover.child-rotate-180 {
+.hover-change-child:hover .child-rotate-180 {
   transform: rotate(180deg) !important;
+}
+
+.hover-up-3 {
+  transition: 0.3s ease;
+}
+.hover-up-3:hover {
+  transform: translateY(-3px);
+}
+
+.hover-up-5 {
+  transition: 0.5s ease;
+}
+.hover-up-5:hover {
+  transform: translateY(-5px);
+}
+
+.hover-up-10 {
+  transition: 1s ease;
+}
+.hover-up-10:hover {
+  transform: translateY(-10px);
 }
 
 .events {
@@ -1316,7 +1358,7 @@
   display: flex;
   flex-direction: column;
   padding: 8px;
-  border-radius: 20px;
+  border-radius: 30px;
   gap: 8px;
 }
 .calendar-mobile:has(.calendar-dropdown-mobile.active) .events {
@@ -1368,7 +1410,7 @@
   grid-template-rows: repeat(1, 1fr);
   align-items: center;
   justify-items: center;
-  gap: 8px;
+  gap: 4px;
   width: 100%;
 }
 .grid-days > * {
@@ -1383,10 +1425,10 @@
 .grid-calendar {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 1fr);
   align-items: center;
   justify-items: center;
-  gap: 8px;
+  gap: 4px;
   width: 100%;
   aspect-ratio: 1;
 }
@@ -1397,6 +1439,11 @@
   align-items: center;
   justify-content: center;
   color: #f8f8f8;
+}
+.grid-calendar .active {
+  border-radius: 48px;
+  background: rgba(248, 248, 248, 0.2);
+  border: rgba(248, 248, 248, 0.2) 1px solid;
 }
 
 .divider {
@@ -1526,7 +1573,6 @@
     gap: 12px 30px;
   }
   .grid-calendar {
-    grid-template-rows: repeat(6, 1fr) !important;
     gap: 12px 30px;
     aspect-ratio: 0;
   }

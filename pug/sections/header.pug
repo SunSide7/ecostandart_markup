@@ -29,7 +29,7 @@
                         img(src="img/assets/icons/small/social_phone_white.svg")
                 //.search CAN BE .active
                 .search.active
-                    input
+                    input(placeholder="Поиск")
             button.btn-primary.ms-4 <span>Связаться</span>
     .header-menu
         .d-none.d-xl-flex.w-100
@@ -87,8 +87,9 @@
                 p.text-caption.color-black Адрес: Переведеновский пер., 13, стр.. 16, оф.. 216, Москва, Россия, 105082
                 iframe.mt-14.br-20.baw(src="https://yandex.ru/map-widget/v1/?um=constructor%3Aexample_code&source=constructor" height="185")
         .d-flex.d-xl-none.flex-column.w-100.gap-32
+            .search-mobile
+                input(placeholder="Поиск")
             //.menu-item CAN BE .active
-            //.search-mobile IN PROGRESS
             .menu-header.mobile
                 .menu-item.active
                     a(href="#") ITEM

@@ -1,22 +1,47 @@
 @import ../assets/colors.sass
+@import ../assets/text.sass
 
 .input
-  border-radius: 100px
-  padding: 12px 16px
-  color: $color_neutral_black
-  background: $color_neutral_white
-  border: 1px solid #00000000
-  outline: none
-  font-size: 14px
 
-  &::placeholder
-    color: $color_neutral_light_grey
+  & input
+    border-radius: 100px
+    padding: 12px 16px
+    width: 100%
+    color: $color_neutral_black
+    background: $color_neutral_background_white
+    border: 1px solid #00000000
+    outline: none
+    font-size: 14px
 
-  &:focus-visible
-    border-color: $color_primary_light_green !important
+    &::placeholder
+      color: $color_neutral_light_grey
+
+      & span
+        color: $color_neutral_error
+
+    &:focus-visible
+      border-color: $color_primary_light_green !important
+
+  & p
+    display: none
+    @include text-hint
 
   &.warning
-    border-color: $color_direct_foundation !important
+    & input
+      border-color: $color_direct_foundation !important
+    & p
+      display: block
+      color: $color_direct_foundation
 
   &.error
-    border-color: $color_neutral_error !important
+    & input
+      border-color: $color_neutral_error !important
+    & p
+      display: block
+      color: $color_neutral_error
+
+
+
+
+
+

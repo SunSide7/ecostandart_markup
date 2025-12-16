@@ -56,27 +56,48 @@
   transition: all 3s ease !important;
 }
 
-.hover-rotate-45:hover {
+.hover-rotate:hover-45:hover {
   transform: rotate(45deg) !important;
 }
-.hover-rotate-90:hover {
+.hover-rotate:hover-90:hover {
   transform: rotate(90deg) !important;
 }
-.hover-rotate-180:hover {
+.hover-rotate:hover-180:hover {
   transform: rotate(180deg) !important;
 }
 
-.hover-change-child:hover.child-rotate-0 {
+.hover-change-child:hover .child-rotate-0 {
   transform: rotate(0deg) !important;
 }
-.hover-change-child:hover.child-rotate-45 {
+.hover-change-child:hover .child-rotate-45 {
   transform: rotate(45deg) !important;
 }
-.hover-change-child:hover.child-rotate-90 {
+.hover-change-child:hover .child-rotate-90 {
   transform: rotate(90deg) !important;
 }
-.hover-change-child:hover.child-rotate-180 {
+.hover-change-child:hover .child-rotate-180 {
   transform: rotate(180deg) !important;
+}
+
+.hover-up-3 {
+  transition: 0.3s ease;
+}
+.hover-up-3:hover {
+  transform: translateY(-3px);
+}
+
+.hover-up-5 {
+  transition: 0.5s ease;
+}
+.hover-up-5:hover {
+  transform: translateY(-5px);
+}
+
+.hover-up-10 {
+  transition: 1s ease;
+}
+.hover-up-10:hover {
+  transform: translateY(-10px);
 }
 
 /* UNIVERSAL CLASSES - TEXT NEUTRAL COLORS */
@@ -849,26 +870,418 @@
   background: linear-gradient(128deg, #1cb8e4, #1cb8e4) !important;
 }
 
-.input {
+/* UNIVERSAL CLASSES - TEXT */
+.h-1 {
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 52px;
+  line-height: 66px;
+  font-weight: 600;
+}
+.h-2 {
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 40px !important;
+  line-height: 50px !important;
+  font-weight: 600 !important;
+}
+.h-3 {
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 28px !important;
+  line-height: 35px !important;
+  font-weight: 600 !important;
+}
+.h-4 {
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 22px !important;
+  line-height: 28px !important;
+  font-weight: 600 !important;
+}
+
+.text-body {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+}
+.text-body-bold {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600 !important;
+}
+.text-caption {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 500;
+}
+.text-caption-bold {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  line-height: 19.1px;
+  font-weight: 600;
+}
+.text-label {
+  font-family: "Manrope", sans-serif;
+  font-size: 12px;
+  line-height: 17px;
+  font-weight: 500;
+}
+.text-hint {
+  font-family: "Manrope", sans-serif;
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: 500;
+}
+
+@media (min-width: 0px) {
+  .h-sm-1 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 52px !important;
+    line-height: 66px !important;
+    font-weight: 600 !important;
+  }
+  .h-sm-2 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 40px !important;
+    line-height: 50px !important;
+    font-weight: 600 !important;
+  }
+  .h-sm-3 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 28px !important;
+    line-height: 35px !important;
+    font-weight: 600 !important;
+  }
+  .h-sm-4 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 22px !important;
+    line-height: 28px !important;
+    font-weight: 600 !important;
+  }
+  .text-sm-body {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    font-weight: 500 !important;
+  }
+  .text-sm-body-bold {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    font-weight: 600 !important;
+  }
+  .text-sm-caption {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    font-weight: 500 !important;
+  }
+  .text-sm-caption-bold {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 14px !important;
+    line-height: 19.1px !important;
+    font-weight: 600 !important;
+  }
+  .text-sm-label {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 12px !important;
+    line-height: 17px !important;
+    font-weight: 500 !important;
+  }
+  .text-sm-hint {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 10px !important;
+    line-height: 14px !important;
+    font-weight: 500 !important;
+  }
+}
+@media (min-width: 640px) {
+  .h-md-1 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 52px !important;
+    line-height: 66px !important;
+    font-weight: 600 !important;
+  }
+  .h-md-2 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 40px !important;
+    line-height: 50px !important;
+    font-weight: 600 !important;
+  }
+  .h-md-3 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 28px !important;
+    line-height: 35px !important;
+    font-weight: 600 !important;
+  }
+  .h-md-4 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 22px !important;
+    line-height: 28px !important;
+    font-weight: 600 !important;
+  }
+  .text-md-body {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    font-weight: 500 !important;
+  }
+  .text-md-bold {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    font-weight: 600 !important;
+  }
+  .text-md-caption {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    font-weight: 500 !important;
+  }
+  .text-md-bold {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 14px !important;
+    line-height: 19.1px !important;
+    font-weight: 600 !important;
+  }
+  .text-md-label {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 12px !important;
+    line-height: 17px !important;
+    font-weight: 500 !important;
+  }
+  .text-md-hint {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 10px !important;
+    line-height: 14px !important;
+    font-weight: 500 !important;
+  }
+}
+@media (min-width: 960px) {
+  .h-lg-1 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 52px !important;
+    line-height: 66px !important;
+    font-weight: 600 !important;
+  }
+  .h-lg-2 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 40px !important;
+    line-height: 50px !important;
+    font-weight: 600 !important;
+  }
+  .h-lg-3 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 28px !important;
+    line-height: 35px !important;
+    font-weight: 600 !important;
+  }
+  .h-lg-4 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 22px !important;
+    line-height: 28px !important;
+    font-weight: 600 !important;
+  }
+  .text-lg-body {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    font-weight: 500 !important;
+  }
+  .text-lg-body-bold {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    font-weight: 600 !important;
+  }
+  .text-lg-body-lg-caption {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    font-weight: 500 !important;
+  }
+  .text-lg-body-bold {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 14px !important;
+    line-height: 19.1px !important;
+    font-weight: 600 !important;
+  }
+  .text-lg-label {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 12px !important;
+    line-height: 17px !important;
+    font-weight: 500 !important;
+  }
+  .text-lg-hint {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 10px !important;
+    line-height: 14px !important;
+    font-weight: 500 !important;
+  }
+}
+@media (min-width: 1280px) {
+  .h-xl-1 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 52px !important;
+    line-height: 66px !important;
+    font-weight: 600 !important;
+  }
+  .h-xl-2 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 40px !important;
+    line-height: 50px !important;
+    font-weight: 600 !important;
+  }
+  .h-xl-3 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 28px !important;
+    line-height: 35px !important;
+    font-weight: 600 !important;
+  }
+  .h-xl-4 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 22px !important;
+    line-height: 28px !important;
+    font-weight: 600 !important;
+  }
+  .text-xl-body {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    font-weight: 500 !important;
+  }
+  .text-xl-body-bold {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    font-weight: 600 !important;
+  }
+  .text-xl-caption {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    font-weight: 500 !important;
+  }
+  .text-xl-caption-bold {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 14px !important;
+    line-height: 19.1px !important;
+    font-weight: 600 !important;
+  }
+  .text-xl-label {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 12px !important;
+    line-height: 17px !important;
+    font-weight: 500 !important;
+  }
+  .text-xl-hint {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 10px !important;
+    line-height: 14px !important;
+    font-weight: 500 !important;
+  }
+}
+@media (min-width: 1920px) {
+  .h-xxl-1 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 52px !important;
+    line-height: 66px !important;
+    font-weight: 600 !important;
+  }
+  .h-xxl-2 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 40px !important;
+    line-height: 50px !important;
+    font-weight: 600 !important;
+  }
+  .h-xxl-3 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 28px !important;
+    line-height: 35px !important;
+    font-weight: 600 !important;
+  }
+  .h-xxl-4 {
+    font-family: "Wix Madefor Display", sans-serif !important;
+    font-size: 22px !important;
+    line-height: 28px !important;
+    font-weight: 600 !important;
+  }
+  .text-xxl-body {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    font-weight: 500 !important;
+  }
+  .text-xxl-body-bold {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    font-weight: 600 !important;
+  }
+  .text-xxl-caption {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    font-weight: 500 !important;
+  }
+  .text-xxl-caption-bold {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 14px !important;
+    line-height: 19.1px !important;
+    font-weight: 600 !important;
+  }
+  .text-xxl-label {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 12px !important;
+    line-height: 17px !important;
+    font-weight: 500 !important;
+  }
+  .text-xxl-hint {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 10px !important;
+    line-height: 14px !important;
+    font-weight: 500 !important;
+  }
+}
+.input input {
   border-radius: 100px;
   padding: 12px 16px;
+  width: 100%;
   color: #3a434d;
-  background: #f8f8f8;
+  background: #f2f2f2;
   border: 1px solid rgba(0, 0, 0, 0);
   outline: none;
   font-size: 14px;
 }
-.input::placeholder {
+.input input::placeholder {
   color: #b7bbc3;
 }
-.input:focus-visible {
+.input input::placeholder span {
+  color: #FF4D25;
+}
+.input input:focus-visible {
   border-color: #74dd4f !important;
 }
-.input.warning {
+.input p {
+  display: none;
+  font-family: "Manrope", sans-serif;
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: 500;
+}
+.input.warning input {
   border-color: #FFAD31 !important;
 }
-.input.error {
+.input.warning p {
+  display: block;
+  color: #FFAD31;
+}
+.input.error input {
   border-color: #FF4D25 !important;
+}
+.input.error p {
+  display: block;
+  color: #FF4D25;
 }
 
 /*# sourceMappingURL=input.css.map */

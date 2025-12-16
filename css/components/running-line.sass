@@ -1,0 +1,27 @@
+@keyframes ticker
+  0%
+    transform: translateX(0)
+  100%
+    transform: translateX(-50%)
+
+@keyframes ticker-reverse
+  0%
+    transform: translateX(-50%)
+  100%
+    transform: translateX(0)
+
+.running-line
+  display: flex
+  width: fit-content
+  animation: ticker 20s linear infinite
+  -webkit-transform-style: preserve-3d /* Фикс возможного глюка с морганием в Сафари */
+
+.running-line-reverse
+  display: flex
+  width: fit-content
+  animation: ticker-reverse 20s linear infinite
+  -webkit-transform-style: preserve-3d /* Фикс возможного глюка с морганием в Сафари */
+
+.running-line-item
+  white-space: nowrap
+  -webkit-backface-visibility: hidden /* Фикс возможного глюка с морганием в Сафари */

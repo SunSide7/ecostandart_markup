@@ -1,0 +1,886 @@
+.trans-ease {
+  transition: ease !important;
+}
+.trans-ease-in {
+  transition: ease-in !important;
+}
+.trans-ease-in-out {
+  transition: ease-in-out !important;
+}
+.trans-ease-out {
+  transition: ease-out !important;
+}
+.trans-step-end {
+  transition: step-end !important;
+}
+.trans-100 {
+  transition: all 0.1s ease !important;
+}
+.trans-200 {
+  transition: all 0.2s ease !important;
+}
+.trans-300 {
+  transition: all 0.3s ease !important;
+}
+.trans-400 {
+  transition: all 0.4s ease !important;
+}
+.trans-500 {
+  transition: all 0.5s ease !important;
+}
+.trans-600 {
+  transition: all 0.6s ease !important;
+}
+.trans-700 {
+  transition: all 0.7s ease !important;
+}
+.trans-800 {
+  transition: all 0.8s ease !important;
+}
+.trans-900 {
+  transition: all 0.9s ease !important;
+}
+.trans-1000 {
+  transition: all 1s ease !important;
+}
+.trans-1250 {
+  transition: all 1.25s ease !important;
+}
+.trans-1500 {
+  transition: all 1.5s ease !important;
+}
+.trans-2000 {
+  transition: all 2s ease !important;
+}
+.trans-3000 {
+  transition: all 3s ease !important;
+}
+
+.hover-rotate:hover-45:hover {
+  transform: rotate(45deg) !important;
+}
+.hover-rotate:hover-90:hover {
+  transform: rotate(90deg) !important;
+}
+.hover-rotate:hover-180:hover {
+  transform: rotate(180deg) !important;
+}
+
+.hover-change-child:hover .child-rotate-0 {
+  transform: rotate(0deg) !important;
+}
+.hover-change-child:hover .child-rotate-45 {
+  transform: rotate(45deg) !important;
+}
+.hover-change-child:hover .child-rotate-90 {
+  transform: rotate(90deg) !important;
+}
+.hover-change-child:hover .child-rotate-180 {
+  transform: rotate(180deg) !important;
+}
+
+.hover-up-3 {
+  transition: 0.3s ease;
+}
+.hover-up-3:hover {
+  transform: translateY(-3px);
+}
+
+.hover-up-5 {
+  transition: 0.5s ease;
+}
+.hover-up-5:hover {
+  transform: translateY(-5px);
+}
+
+.hover-up-10 {
+  transition: 1s ease;
+}
+.hover-up-10:hover {
+  transform: translateY(-10px);
+}
+
+/* UNIVERSAL CLASSES - TEXT NEUTRAL COLORS */
+.color-background-white {
+  color: #f2f2f2 !important;
+  transition: all 0.35s ease-out;
+}
+.color-white {
+  color: #f8f8f8 !important;
+  transition: all 0.35s ease-out;
+}
+.color-white-80 {
+  color: #f8f8f8;
+  opacity: 0.8;
+  transition: all 0.35s ease-out;
+}
+.color-white-50 {
+  color: #f8f8f8;
+  opacity: 0.5;
+  transition: all 0.35s ease-out;
+}
+.color-white-20 {
+  color: #f8f8f8;
+  opacity: 0.2;
+  transition: all 0.35s ease-out;
+}
+.color-error {
+  color: #FF4D25 !important;
+  transition: all 0.35s ease-out;
+}
+.color-light-grey {
+  color: #b7bbc3 !important;
+  transition: all 0.35s ease-out;
+}
+.color-grey {
+  color: #727882 !important;
+  transition: all 0.35s ease-out;
+}
+.color-dark-grey {
+  color: #4b535c !important;
+  transition: all 0.35s ease-out;
+}
+.color-black {
+  color: #3a434d !important;
+  transition: all 0.35s ease-out;
+}
+
+/* UNIVERSAL CLASSES - HOVER TEXT NEUTRAL COLORS */
+.hover-color-background-white:hover {
+  color: #f2f2f2 !important;
+}
+.hover-color-white:hover {
+  color: #f8f8f8 !important;
+}
+.hover-color-error:hover {
+  color: #FF4D25 !important;
+}
+.hover-color-light-grey:hover {
+  color: #b7bbc3 !important;
+}
+.hover-color-grey:hover {
+  color: #727882 !important;
+}
+.hover-color-dark-grey:hover {
+  color: #4b535c !important;
+}
+.hover-color-black:hover {
+  color: #3a434d;
+}
+
+.hover-change-child:hover .hover-child-light-green {
+  color: #74dd4f !important;
+}
+.hover-change-child:hover .hover-child-dark-green {
+  color: #44af8c !important;
+}
+.hover-change-child:hover .hover-child-background-white {
+  color: #f2f2f2 !important;
+}
+.hover-change-child:hover .hover-child-white {
+  color: #f8f8f8 !important;
+}
+.hover-change-child:hover .hover-child-white-80 {
+  opacity: 0.8;
+}
+.hover-change-child:hover .hover-child-white-50 {
+  opacity: 0.5;
+}
+.hover-change-child:hover .hover-child-white-20 {
+  opacity: 0.2;
+}
+.hover-change-child:hover .hover-child-light-grey {
+  color: #b7bbc3 !important;
+}
+.hover-change-child:hover .hover-child-grey {
+  color: #727882 !important;
+}
+.hover-change-child:hover .hover-child-dark-grey {
+  color: #4b535c !important;
+}
+.hover-change-child:hover .hover-child-black {
+  color: #3a434d !important;
+}
+.hover-change-child:hover .hover-child-black-50 {
+  color: #3a434d !important;
+  opacity: 0.5;
+}
+.hover-change-child:hover .hover-child-error {
+  color: #FF4D25 !important;
+}
+
+/* UNIVERSAL CLASSES - BACKGROUND NEUTRAL COLORS */
+.bg-color-background-white {
+  background-color: #f2f2f2 !important;
+  transition: all 0.35s ease-out;
+}
+.bg-color-white {
+  background-color: #f8f8f8 !important;
+  transition: all 0.35s ease-out;
+}
+.bg-color-white-80 {
+  background: rgba(248, 248, 248, 0.8) !important;
+  transition: all 0.35s ease-out;
+}
+.bg-color-white-50 {
+  background: rgba(248, 248, 248, 0.5) !important;
+  transition: all 0.35s ease-out;
+}
+.bg-color-white-20 {
+  background: rgba(248, 248, 248, 0.2) !important;
+  transition: all 0.35s ease-out;
+}
+.bg-color-error {
+  background-color: #FF4D25 !important;
+  transition: all 0.35s ease-out;
+}
+.bg-color-light-grey {
+  background-color: #b7bbc3 !important;
+  transition: all 0.35s ease-out;
+}
+.bg-color-grey {
+  background-color: #727882 !important;
+  transition: all 0.35s ease-out;
+}
+.bg-color-dark-grey {
+  background-color: #4b535c !important;
+  transition: all 0.35s ease-out;
+}
+.bg-color-black {
+  background-color: #3a434d !important;
+  transition: all 0.35s ease-out;
+}
+.bg-color-black-50 {
+  background: rgba(58, 67, 77, 0.5) !important;
+  transition: all 0.35s ease-out;
+}
+
+@media (min-width: 0px) {
+  .bg-color-sm-background-white {
+    background: #f2f2f2 !important;
+  }
+  .bg-color-sm-white {
+    background: #f8f8f8 !important;
+  }
+  .bg-color-sm-white-80 {
+    background: rgba(248, 248, 248, 0.8) !important;
+  }
+  .bg-color-sm-white-50 {
+    background: rgba(248, 248, 248, 0.5) !important;
+  }
+  .bg-color-sm-white-20 {
+    background: rgba(248, 248, 248, 0.2) !important;
+  }
+  .bg-color-sm-black-50 {
+    background: rgba(58, 67, 77, 0.5) !important;
+  }
+  .bg-color-sm-none {
+    background: none !important;
+    border-radius: 0;
+  }
+}
+@media (min-width: 640px) {
+  .bg-color-md-background-white {
+    background: #f2f2f2 !important;
+  }
+  .bg-color-md-white {
+    background: #f8f8f8 !important;
+  }
+  .bg-color-md-white-80 {
+    background: rgba(248, 248, 248, 0.8) !important;
+  }
+  .bg-color-md-white-50 {
+    background: rgba(248, 248, 248, 0.5) !important;
+  }
+  .bg-color-md-white-20 {
+    background: rgba(248, 248, 248, 0.2) !important;
+  }
+  .bg-color-md-black-50 {
+    background: rgba(58, 67, 77, 0.5) !important;
+  }
+  .bg-color-md-none {
+    background: none !important;
+    border-radius: 0;
+  }
+}
+@media (min-width: 960px) {
+  .bg-color-lg-background-white {
+    background: #f2f2f2 !important;
+  }
+  .bg-color-lg-white {
+    background: #f8f8f8 !important;
+  }
+  .bg-color-lg-white-80 {
+    background: rgba(248, 248, 248, 0.8) !important;
+  }
+  .bg-color-lg-white-50 {
+    background: rgba(248, 248, 248, 0.5) !important;
+  }
+  .bg-color-lg-white-20 {
+    background: rgba(248, 248, 248, 0.2) !important;
+  }
+  .bg-color-lg-black-50 {
+    background: rgba(58, 67, 77, 0.5) !important;
+  }
+  .bg-color-lg-none {
+    background: none !important;
+    border-radius: 0;
+  }
+}
+@media (min-width: 1280px) {
+  .bg-color-xl-background-white {
+    background: #f2f2f2 !important;
+  }
+  .bg-color-xl-white {
+    background: #f8f8f8 !important;
+  }
+  .bg-color-xl-white-80 {
+    background: rgba(248, 248, 248, 0.8) !important;
+  }
+  .bg-color-xl-white-50 {
+    background: rgba(248, 248, 248, 0.5) !important;
+  }
+  .bg-color-xl-white-20 {
+    background: rgba(248, 248, 248, 0.2) !important;
+  }
+  .bg-color-xl-black-50 {
+    background: rgba(58, 67, 77, 0.5) !important;
+  }
+  .bg-color-xl-none {
+    background: none !important;
+    border-radius: 0;
+  }
+}
+@media (min-width: 1920px) {
+  .bg-color-xxl-background-white {
+    background: #f2f2f2 !important;
+  }
+  .bg-color-xxl-white {
+    background: #f8f8f8 !important;
+  }
+  .bg-color-xxl-white-80 {
+    background: rgba(248, 248, 248, 0.8) !important;
+  }
+  .bg-color-xxl-white-50 {
+    background: rgba(248, 248, 248, 0.5) !important;
+  }
+  .bg-color-xxl-white-20 {
+    background: rgba(248, 248, 248, 0.2) !important;
+  }
+  .bg-color-xxl-black-50 {
+    background: rgba(58, 67, 77, 0.5) !important;
+  }
+  .bg-color-xxl-none {
+    background: none !important;
+    border-radius: 0;
+  }
+}
+/* UNIVERSAL CLASSES - HOVER BACKGROUND NEUTRAL COLORS */
+.hover-bg-color-background-white:hover {
+  background-color: #f2f2f2 !important;
+}
+.hover-bg-color-white:hover {
+  background-color: #f8f8f8 !important;
+}
+.hover-bg-color-error:hover {
+  background-color: #FF4D25 !important;
+}
+.hover-bg-color-light-grey:hover {
+  background-color: #b7bbc3 !important;
+}
+.hover-bg-color-grey:hover {
+  background-color: #727882 !important;
+}
+.hover-bg-color-dark-grey:hover {
+  background-color: #4b535c !important;
+}
+.hover-bg-color-black:hover {
+  background-color: #3a434d !important;
+}
+
+.hover-change-child:hover.hover-child-bg-light-green {
+  background: #74dd4f !important;
+}
+.hover-change-child:hover.hover-child-bg-dark-green {
+  background: #44af8c !important;
+}
+.hover-change-child:hover.hover-child-bg-background-white {
+  background: #f2f2f2 !important;
+}
+.hover-change-child:hover.hover-child-bg-white {
+  background: #f8f8f8 !important;
+}
+.hover-change-child:hover.hover-child-bg-white-80 {
+  background: rgba(248, 248, 248, 0.8) !important;
+}
+.hover-change-child:hover.hover-child-bg-white-50 {
+  background: rgba(248, 248, 248, 0.5) !important;
+}
+.hover-change-child:hover.hover-child-bg-white-20 {
+  background: rgba(248, 248, 248, 0.2) !important;
+}
+.hover-change-child:hover.hover-child-bg-light-grey {
+  background: #b7bbc3 !important;
+}
+.hover-change-child:hover.hover-child-bg-grey {
+  background: #727882 !important;
+}
+.hover-change-child:hover.hover-child-bg-dark-grey {
+  background: #4b535c !important;
+}
+.hover-change-child:hover.hover-child-bg-black {
+  background: #3a434d !important;
+}
+.hover-change-child:hover.hover-child-bg-black-50 {
+  background: rgba(58, 67, 77, 0.5) !important;
+}
+.hover-change-child:hover.hover-child-bg-error {
+  background: #FF4D25 !important;
+}
+
+/* UNIVERSAL CLASSES - TEXT COLORS */
+.color-primary-light-green {
+  color: #74dd4f !important;
+  transition: all 0.35s ease-out;
+}
+.color-primary-dark-green {
+  color: #44af8c !important;
+  transition: all 0.35s ease-out;
+}
+.color-safety {
+  color: #F25B39 !important;
+  transition: all 0.35s ease-out;
+}
+.color-ecology {
+  color: #74dd4f !important;
+  transition: all 0.35s ease-out;
+}
+.color-surveys {
+  color: #929292 !important;
+  transition: all 0.35s ease-out;
+}
+.color-academy {
+  color: #1069FE !important;
+  transition: all 0.35s ease-out;
+}
+.color-soft {
+  color: #748AAB !important;
+  transition: all 0.35s ease-out;
+}
+.color-foundation {
+  color: #FFAD31 !important;
+  transition: all 0.35s ease-out;
+}
+.color-journal {
+  color: #2F8672 !important;
+  transition: all 0.35s ease-out;
+}
+.color-certification {
+  color: #2CCA97 !important;
+  transition: all 0.35s ease-out;
+}
+.color-people {
+  color: #A380FF !important;
+  transition: all 0.35s ease-out;
+}
+.color-life {
+  color: #1CB8E4 !important;
+  transition: all 0.35s ease-out;
+}
+
+/* UNIVERSAL CLASSES - HOVER TEXT COLORS */
+.hover-color-primary-light-green:hover {
+  color: #74dd4f !important;
+}
+.hover-color-primary-dark-green:hover {
+  color: #44af8c !important;
+}
+.hover-color-safety:hover {
+  color: #F25B39 !important;
+}
+.hover-color-ecology:hover {
+  color: #74dd4f !important;
+}
+.hover-color-surveys:hover {
+  color: #929292 !important;
+}
+.hover-color-academy:hover {
+  color: #1069FE !important;
+}
+.hover-color-soft:hover {
+  color: #748AAB !important;
+}
+.hover-color-foundation:hover {
+  color: #FFAD31 !important;
+}
+.hover-color-journal:hover {
+  color: #2F8672 !important;
+}
+.hover-color-certification:hover {
+  color: #2CCA97 !important;
+}
+.hover-color-people:hover {
+  color: #A380FF !important;
+}
+.hover-color-life:hover {
+  color: #1CB8E4 !important;
+}
+.hover-color .hover-change-child:hover .hover-child-direct-safety {
+  color: #F25B39 !important;
+}
+.hover-color .hover-change-child:hover .hover-child-direct-ecology {
+  color: #74dd4f !important;
+}
+.hover-color .hover-change-child:hover .hover-child-direct-surveys {
+  color: #929292 !important;
+}
+.hover-color .hover-change-child:hover .hover-child-direct-academy {
+  color: #1069FE !important;
+}
+.hover-color .hover-change-child:hover .hover-child-direct-soft {
+  color: #748AAB !important;
+}
+.hover-color .hover-change-child:hover .hover-child-direct-foundation {
+  color: #FFAD31 !important;
+}
+.hover-color .hover-change-child:hover .hover-child-direct-journal {
+  color: #2F8672 !important;
+}
+.hover-color .hover-change-child:hover .hover-child-direct-certification {
+  color: #2CCA97 !important;
+}
+.hover-color .hover-change-child:hover .hover-child-direct-people {
+  color: #A380FF !important;
+}
+.hover-color .hover-change-child:hover .hover-child-direct-life {
+  color: #1CB8E4 !important;
+}
+
+/* UNIVERSAL CLASSES - BACKGROUND COLORS */
+.bg-color-primary-light-green {
+  background-color: #74dd4f !important;
+  transition: all 0.35s ease-out;
+}
+.bg-color-primary-dark-green {
+  background-color: #44af8c !important;
+  transition: all 0.35s ease-out;
+}
+.bg-color-safety {
+  background-color: #F25B39 !important;
+  transition: all 0.35s ease-out;
+}
+.bg-color-ecology {
+  background-color: #74dd4f !important;
+  transition: all 0.35s ease-out;
+}
+.bg-color-surveys {
+  background-color: #929292 !important;
+  transition: all 0.35s ease-out;
+}
+.bg-color-academy {
+  background-color: #1069FE !important;
+  transition: all 0.35s ease-out;
+}
+.bg-color-soft {
+  background-color: #748AAB !important;
+  transition: all 0.35s ease-out;
+}
+.bg-color-foundation {
+  background-color: #FFAD31 !important;
+  transition: all 0.35s ease-out;
+}
+.bg-color-journal {
+  background-color: #2F8672 !important;
+  transition: all 0.35s ease-out;
+}
+.bg-color-certification {
+  background-color: #2CCA97 !important;
+  transition: all 0.35s ease-out;
+}
+.bg-color-people {
+  background-color: #A380FF !important;
+  transition: all 0.35s ease-out;
+}
+.bg-color-life {
+  background-color: #1CB8E4 !important;
+  transition: all 0.35s ease-out;
+}
+
+/* UNIVERSAL CLASSES - HOVER BACKGROUND COLORS */
+.hover-bg-color-primary-light-green:hover {
+  background-color: #74dd4f !important;
+}
+.hover-bg-color-primary-dark-green:hover {
+  background-color: #44af8c !important;
+}
+.hover-bg-color-safety:hover {
+  background-color: #F25B39 !important;
+}
+.hover-bg-color-ecology:hover {
+  background-color: #74dd4f !important;
+}
+.hover-bg-color-surveys:hover {
+  background-color: #929292 !important;
+}
+.hover-bg-color-academy:hover {
+  background-color: #1069FE !important;
+}
+.hover-bg-color-soft:hover {
+  background-color: #748AAB !important;
+}
+.hover-bg-color-foundation:hover {
+  background-color: #FFAD31 !important;
+}
+.hover-bg-color-journal:hover {
+  background-color: #2F8672 !important;
+}
+.hover-bg-color-certification:hover {
+  background-color: #2CCA97 !important;
+}
+.hover-bg-color-people:hover {
+  background-color: #A380FF !important;
+}
+.hover-bg-color-life:hover {
+  background-color: #1CB8E4 !important;
+}
+.hover-bg-color .hover-change-child:hover .hover-child-bg-direct-safety {
+  background: #F25B39 !important;
+}
+.hover-bg-color .hover-change-child:hover .hover-child-bg-direct-ecology {
+  background: #74dd4f !important;
+}
+.hover-bg-color .hover-change-child:hover .hover-child-bg-direct-surveys {
+  background: #929292 !important;
+}
+.hover-bg-color .hover-change-child:hover .hover-child-bg-direct-academy {
+  background: #1069FE !important;
+}
+.hover-bg-color .hover-change-child:hover .hover-child-bg-direct-soft {
+  background: #748AAB !important;
+}
+.hover-bg-color .hover-change-child:hover .hover-child-bg-direct-foundation {
+  background: #FFAD31 !important;
+}
+.hover-bg-color .hover-change-child:hover .hover-child-bg-direct-journal {
+  background: #2F8672 !important;
+}
+.hover-bg-color .hover-change-child:hover .hover-child-bg-direct-certification {
+  background: #2CCA97 !important;
+}
+.hover-bg-color .hover-change-child:hover .hover-child-bg-direct-people {
+  background: #A380FF !important;
+}
+.hover-bg-color .hover-change-child:hover .hover-child-bg-direct-life {
+  background: #1CB8E4 !important;
+}
+
+/* UNIVERSAL CLASSES - TEXT GRADIENTS */
+.gradient-horizontal-primary {
+  background: linear-gradient(to left, #42AD8E, #74DD4F) !important;
+  background-clip: text !important;
+  color: transparent;
+  transition: all 0.35s ease-out;
+}
+.gradient-horizontal-primary.hoverable:hover {
+  background: linear-gradient(to left, #74DD4F, #74DD4F) !important;
+}
+.gradient-vertical-primary {
+  background: linear-gradient(to top, #74DD4F, #42AD8E) !important;
+  background-clip: text !important;
+  color: transparent;
+  transition: all 0.35s ease-out;
+}
+.gradient-vertical-primary.hoverable:hover {
+  background: linear-gradient(to top, #74DD4F, #74DD4F) !important;
+}
+.gradient-safety {
+  background: linear-gradient(128deg, #ffa734, #f24868) !important;
+  background-clip: text !important;
+  color: transparent;
+  transition: all 0.35s ease-out;
+}
+.gradient-safety.hoverable:hover {
+  background: linear-gradient(128deg, #ffa734, #ffa734) !important;
+}
+.gradient-ecology {
+  background: linear-gradient(133deg, #cbf26e, #74dd4f, #4bbb24) !important;
+  background-clip: text !important;
+  color: transparent;
+  transition: all 0.35s ease-out;
+}
+.gradient-ecology.hoverable:hover {
+  background: linear-gradient(133deg, #cbf26e, #cbf26e, #cbf26e) !important;
+}
+.gradient-surveys {
+  background: linear-gradient(132deg, #929292, #4b4b4b) !important;
+  background-clip: text !important;
+  color: transparent;
+  transition: all 0.35s ease-out;
+}
+.gradient-surveys.hoverable:hover {
+  background: linear-gradient(132deg, #929292, #929292) !important;
+}
+.gradient-academy {
+  background: linear-gradient(131deg, #8cb7ff, #1069fe) !important;
+  background-clip: text !important;
+  color: transparent;
+  transition: all 0.35s ease-out;
+}
+.gradient-academy.hoverable:hover {
+  background: linear-gradient(131deg, #8cb7ff, #8cb7ff) !important;
+}
+.gradient-soft {
+  background: linear-gradient(131deg, #c4cde1, #748aab) !important;
+  background-clip: text !important;
+  color: transparent;
+  transition: all 0.35s ease-out;
+}
+.gradient-soft.hoverable:hover {
+  background: linear-gradient(131deg, #c4cde1, #c4cde1) !important;
+}
+.gradient-foundation {
+  background: linear-gradient(to right, #ffad31, #ff6614) !important;
+  background-clip: text !important;
+  color: transparent;
+  transition: all 0.35s ease-out;
+}
+.gradient-foundation.hoverable:hover {
+  background: linear-gradient(to right, #ffad31, #ff6614) !important;
+}
+.gradient-journal {
+  background: linear-gradient(147deg, #2fd8b1, #2f8672) !important;
+  background-clip: text !important;
+  color: transparent;
+  transition: all 0.35s ease-out;
+}
+.gradient-journal.hoverable:hover {
+  background: linear-gradient(128deg, #1cb8e4, #1cb8e4) !important;
+}
+.gradient-certification {
+  background: linear-gradient(119deg, #3eb8a3, #175fab) !important;
+  background-clip: text !important;
+  color: transparent;
+  transition: all 0.35s ease-out;
+}
+.gradient-certification.hoverable:hover {
+  background: linear-gradient(119deg, #3eb8a3, #3eb8a3) !important;
+}
+.gradient-people {
+  background: linear-gradient(131deg, #a380ff, #3934c7) !important;
+  background-clip: text !important;
+  color: transparent;
+  transition: all 0.35s ease-out;
+}
+.gradient-people.hoverable:hover {
+  background: linear-gradient(131deg, #a380ff, #a380ff) !important;
+}
+.gradient-life {
+  background: linear-gradient(128deg, #1cb8e4, #1e6fd9) !important;
+  background-clip: text !important;
+  color: transparent;
+  transition: all 0.35s ease-out;
+}
+.gradient-life.hoverable:hover {
+  background: linear-gradient(128deg, #1cb8e4, #1cb8e4) !important;
+}
+
+/* UNIVERSAL CLASSES - BACKGROUND GRADIENTS */
+.bg-gradient-horizontal-primary {
+  background: linear-gradient(to left, #42AD8E, #74DD4F) !important;
+  transition: all 0.35s ease-out;
+}
+.bg-gradient-horizontal-primary.hoverable:hover {
+  background: linear-gradient(to left, #74DD4F, #74DD4F) !important;
+}
+.bg-gradient-vertical-primary {
+  background: linear-gradient(to top, #74DD4F, #42AD8E) !important;
+  transition: all 0.35s ease-out;
+}
+.bg-gradient-vertical-primary.hoverable:hover {
+  background: linear-gradient(to top, #74DD4F, #74DD4F) !important;
+}
+.bg-gradient-safety {
+  background: linear-gradient(128deg, #ffa734, #f24868) !important;
+  transition: all 0.35s ease-out;
+}
+.bg-gradient-safety.hoverable:hover {
+  background: linear-gradient(128deg, #ffa734, #ffa734) !important;
+}
+.bg-gradient-ecology {
+  background: linear-gradient(133deg, #cbf26e, #74dd4f, #4bbb24) !important;
+  transition: all 0.35s ease-out;
+}
+.bg-gradient-ecology.hoverable:hover {
+  background: linear-gradient(133deg, #cbf26e, #cbf26e, #cbf26e) !important;
+}
+.bg-gradient-surveys {
+  background: linear-gradient(132deg, #929292, #4b4b4b) !important;
+  transition: all 0.35s ease-out;
+}
+.bg-gradient-surveys.hoverable:hover {
+  background: linear-gradient(132deg, #929292, #929292) !important;
+}
+.bg-gradient-academy {
+  background: linear-gradient(131deg, #8cb7ff, #1069fe) !important;
+  transition: all 0.35s ease-out;
+}
+.bg-gradient-academy.hoverable:hover {
+  background: linear-gradient(131deg, #8cb7ff, #8cb7ff) !important;
+}
+.bg-gradient-soft {
+  background: linear-gradient(131deg, #c4cde1, #748aab) !important;
+  transition: all 0.35s ease-out;
+}
+.bg-gradient-soft.hoverable:hover {
+  background: linear-gradient(131deg, #c4cde1, #c4cde1) !important;
+}
+.bg-gradient-foundation {
+  background: linear-gradient(to right, #ffad31, #ff6614) !important;
+  transition: all 0.35s ease-out;
+}
+.bg-gradient-foundation.hoverable:hover {
+  background: linear-gradient(to right, #ffad31, #ff6614) !important;
+}
+.bg-gradient-journal {
+  background: linear-gradient(147deg, #2fd8b1, #2f8672) !important;
+  transition: all 0.35s ease-out;
+}
+.bg-gradient-journal.hoverable:hover {
+  background: linear-gradient(147deg, #2fd8b1, #2fd8b1) !important;
+}
+.bg-gradient-certification {
+  background: linear-gradient(119deg, #3eb8a3, #175fab) !important;
+  transition: all 0.35s ease-out;
+}
+.bg-gradient-certification.hoverable:hover {
+  background: linear-gradient(119deg, #3eb8a3, #3eb8a3) !important;
+}
+.bg-gradient-people {
+  background: linear-gradient(131deg, #a380ff, #3934c7) !important;
+  transition: all 0.35s ease-out;
+}
+.bg-gradient-people.hoverable:hover {
+  background: linear-gradient(131deg, #a380ff, #a380ff) !important;
+}
+.bg-gradient-life {
+  background: linear-gradient(128deg, #1cb8e4, #1e6fd9) !important;
+  transition: all 0.35s ease-out;
+}
+.bg-gradient-life.hoverable:hover {
+  background: linear-gradient(128deg, #1cb8e4, #1cb8e4) !important;
+}
+
+.clients-tape {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+  mask-image: linear-gradient(to right, transparent 0%, transparent calc(100% - 400px), black calc(100% - 400px), black 100%);
+}
+
+.clients-card {
+  z-index: 2;
+}
+
+/*# sourceMappingURL=clients.css.map */

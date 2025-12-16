@@ -1,0 +1,31 @@
+.container
+    h2.title-primary(style="font-size: 60px;padding-top: 102px !important") <span>СЕКЦИЯ 12</span>
+
+section.section
+    .container
+        h2.title-primary.text-center Оставить <span>заявку</span>
+
+        .position-relative.d-flex.justify-content-center
+            .position-relative.d-flex.flex-column.col-12.col-lg-8.col-xl-6.col-xxl-4.gap-32.p-20.p-md-32.br-30.z-1.bg-color-white
+                p.color-grey Заполните простую форму, и наш специалист свяжется с вами в ближайшее время.<br><br> Мы подробно ответим на все ваши вопросы и подберём лучшее решение для вас.
+                form.d-flex.flex-column.gap-12
+                    //.input CAN BE .error & .warning
+                    .input
+                        input(placeholder="Ваше имя*")
+                        p error
+                    .input
+                        input(placeholder="+7 (999) 999–99–99*")
+                        p error
+                    .input
+                        input(placeholder="Email*")
+                        p error
+                    .input
+                        input(placeholder="Цель обращения*")
+                        p error
+                .d-flex.flex-column.flex-md-row.align-items-center.gap-16.gap-md-8
+                    button.btn-img-primary.w-sm-100.w-md-auto
+                        span.text-center Отправить
+                    p.text-hint.flex-md-fill.col-md-1
+                        span.color-light-grey Нажав кнопку, вы даёте согласие на обработку персональныхданных и соглашаетесь с 
+                        a.gradient-horizontal-primary(href="#") политикой конфиденциальности
+            img.form-tape-1(src="img/assets/tapes/tape_circle_primary.svg")
