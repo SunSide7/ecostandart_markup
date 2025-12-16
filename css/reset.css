@@ -48,10 +48,6 @@ table {
     border-spacing: 0;
 }
 
-body {
-    scrollbar-width: none;
-}
-
 body::-webkit-scrollbar {
     display: none;
 }
