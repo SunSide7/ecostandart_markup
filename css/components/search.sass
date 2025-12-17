@@ -6,9 +6,11 @@
   background: $color_neutral_background_white
   border-radius: 100px
   align-items: center
+  justify-content: center
   max-height: 40px
   margin-left: 4px
   transition: all .5s ease
+  width: 62px
 
   & input
     display: none
@@ -34,10 +36,11 @@
 
   &.active
     padding: 14px 13px
+    width: 16vw
 
     & input
       display: block
-      width: 12vw
+      width: 100%
 
     .search-close
       display: block
@@ -73,4 +76,9 @@
       min-height: 12px
       background-image: url(../../img/assets/icons/small/icon_exit_grey.svg)
       background-size: 100%
+
+@media (min-width: 1920px)
+  .search
+    &.active
+      width: 22vw
 

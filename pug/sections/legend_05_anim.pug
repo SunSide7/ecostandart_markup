@@ -77,52 +77,65 @@ section.section.overflow-hidden
 
         // Десктопная версия
         .slider-project.position-relative.d-none.d-lg-flex.overflow-hidden.br-36
-            img.position-absolute.object-fit-cover.w-100.h-100(src="img/sections/projects_slider/project_gazprom.jpg" alt="alt")
-
+            // Фоновое изображение с классом для анимации
+            img.slider-bg.position-absolute.object-fit-cover.w-100.h-100(
+                src="img/sections/projects_slider/project_gazprom.jpg",
+                alt="alt",
+                style="opacity: 1",
+                data-active="true"
+            )
+            // Второй фон - скрытый
+            img.slider-bg.position-absolute.object-fit-cover.w-100.h-100(
+                src="img/sections/projects_slider/project_gazprom.jpg",
+                alt="alt",
+                style="opacity: 0",
+                data-active="false"
+            )
             .col-4.col-xl-6.col-xxl-7.ps-16.py-16
-                .tag-white.me-auto Охрана труда
+                span.tag-white.slider-tag.me-auto Охрана труда
 
             .d-flex.flex-column.col-8.col-xl-6.col-xxl-5.pe-16.py-16.br-20
                 .d-flex.flex-column.p-32.bg-color-white-20.bg-blur-30.br-20(style="min-height: 190px")
                     .d-flex.justify-content-between
-                        img(src="img/assets/logos/medium/logo_gazprom.svg" style="width: 78px" alt="alt")
-                        .d-flex.gap-4
-                            span.pagination-dot.active
-                            span.pagination-dot
-                            span.pagination-dot
-                            span.pagination-dot
-                            span.pagination-dot
-                            span.pagination-dot
-                    h4.h-4.mt-auto.clamp-line-3.mb-0.color-white Стратегическое партнёрство с крупнейшей энергетической компанией
+                        img.slider-logo(
+                            src="img/assets/logos/medium/logo_gazprom.svg",
+                            style="width: 78px",
+                            alt="alt"
+                        )
+                        .slider-pagination.d-flex.gap-4
+                            span.pagination-dot.active(data-index="0")
+                            span.pagination-dot(data-index="1")
+                            span.pagination-dot(data-index="2")
+                    h4.h-4.mt-auto.clamp-line-3.mb-0.color-white.slider-title Стратегическое партнёрство с крупнейшей энергетической компанией
 
-                img.position-absolute.align-self-center.z-1(src="img/sections/projects_slider/divider_visir.svg" style="top: 193px")
+                img.position-absolute.align-self-center.z-1(src="img/sections/projects_slider/divider_visir.svg", style="top: 193px")
 
                 .d-flex.flex-column.h-100.p-32.br-20.bg-color-white-20.bg-blur-30
                     p.text-body.color-white.mb-32 Проведенные работы:
                     .row.m-0.gap-36.row-gap-32
                         .d-flex.flex-column.flex-fill.col-5.gap-12.p-0
-                            p.color-white Охрана труда
-                            p.color-light-grey
+                            p.color-white.slider-detail-title(data-index="0") Охрана труда
+                            p.color-light-grey.slider-detail-text(data-index="0")
                                 | / СОУТ
                                 br
                                 | / Производственный контроль
                         .d-flex.flex-column.flex-fill.col-5.gap-12.p-0
-                            p.color-white Экологическое проектирование
-                            p.color-light-grey
+                            p.color-white.slider-detail-title(data-index="1") Экологическое проектирование
+                            p.color-light-grey.slider-detail-text(data-index="1")
                                 | / СЗЗ
-
                         .d-flex.flex-column.flex-fill.col-5.gap-12.p-0
-                            p.color-white Изыскательные работы
-                            p.color-light-grey
+                            p.color-white.slider-detail-title(data-index="2") Изыскательные работы
+                            p.color-light-grey.slider-detail-text(data-index="2")
                                 | / Инженерно-экологические изыскания
                         .d-flex.flex-column.flex-fill.col-5.gap-12.p-0
-                            p.color-white Экологический контроль
-                            p.color-light-grey
+                            p.color-white.slider-detail-title(data-index="3") Экологический контроль
+                            p.color-light-grey.slider-detail-text(data-index="3")
                                 | / Мониторинг
                     .d-flex.justify-content-between.mt-auto.w-100
-                        button.btn-primary <span>Подробнее</span>
+                        a.btn-primary(href="#")
+                            span Подробнее
                         .d-flex.gap-8
-                            button.ghost-outline.medium
+                            button.slider-prev.ghost-outline.medium
                                 img(src="img/assets/icons/small/arrow_left_white.svg")
-                            button.ghost-outline.medium
+                            button.slider-next.ghost-outline.medium
                                 img(src="img/assets/icons/small/arrow_right_white.svg")

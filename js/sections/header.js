@@ -16,6 +16,7 @@ headerSearch.addEventListener('click', () => {
 });
 
 headerSearchClose.addEventListener('click', () => {
+    event.stopPropagation();
     headerSearch.classList.remove('active');
     headerPhone.classList.remove('active');
 });

@@ -1,17 +1,18 @@
 .container
-    h2.title-primary.title-section-name_dev(style="font-size: 60px;padding-top: 102px !important") <span>СЕКЦИЯ 05</span>
+    h2.title-primary.title-section-name_dev(style="font-size: 60px;padding-top: 102px !important") <span>СЕКЦИЯ 19</span>
 
 section.section.overflow-hidden
     .container
-        h2.title-primary Ключевые проекты
+        h2.title-safety.mb-24.mb-md-52 <span>Проектный подход:</span> бережное отношение к вашим ресурсам
+
+        p.mb-design.pt-0 За 28 лет работы в производственной безопасности мы так выстроили рабочий процесс, что риск ошибок сведён к минимуму, а ваше участие в рутинных процессах почти не требуется. Больше не нужно тратить своё время на переделывание документов и проверки. Доверьте EcoStandard group всю работу по охране труда — проектный метод позволяет нам эффективно и последовательно выстраивать процессы СУОТ.
+            |<br><br>Что нам в этом помогает?
 
         // Мобильная версия
         .d-flex.flex-nowrap.d-lg-none.overflow-visible.gap-8
             .card-project.position-relative.overflow-hidden.h-100.p-0.br-30
-                img.position-absolute.object-fit-cover.w-100.h-100(src="img/sections/projects_slider/project_gazprom.jpg" style="filter: brightness(30%)" alt="alt")
-                .position-relative.d-flex.flex-column.p-16.pb-68.pb-md-82.h-100.z-1
-                    .tag-white.me-auto Охрана труда
-                    img.align-self-center.mt-30.mt-md-60(src="img/assets/logos/medium/logo_gazprom.svg" alt="alt")
+                img.position-absolute.object-fit-cover.w-100.h-100(src="img/sections/projects_slider/waterfall.jpg" alt="alt")
+                .card-project-img.position-relative.d-flex.flex-column.p-16.h-100.z-1
                     .running-line.position-absolute.text-nowrap.overflow-visible.text-label.start-0.end-0.bottom-0.my-8.light-grey
                         .running-line-item.d-flex.gap-4.pe-3
                             img.p-5(src="img/sections/projects_slider/icon_visir_light_grey.svg")
@@ -37,15 +38,12 @@ section.section.overflow-hidden
                         .running-line-item.d-flex.gap-4.pe-3
                             img.p-5(src="img/sections/projects_slider/icon_visir_light_grey.svg")
                             p.text-label.color-light-grey Экологический контроль
-                .position-relative.d-flex.align-items-baseline.flex-column.mt-auto.p-16.gap-40.z-1(style="background-color: #80838533; backdrop-filter: blur(100px); min-height: 163px")
-                    p.color-white.clamp-line-2 Стратегическое партнёрство с крупнейшей энергетической компанией
-                    a.btn-primary.mt-auto <span>Подробнее</span>
+                .position-relative.d-flex.align-items-center.flex-column.p-16.z-1(style="background-color: #3a373550; backdrop-filter: blur(100px); min-height: 100px")
+                    p.color-white.text-center.clamp-line-3 Физическое присутствие на вашем производстве с тщательным аудитом и контролем
 
             .card-project.position-relative.overflow-hidden.h-100.p-0.br-30
-                img.position-absolute.object-fit-cover.w-100.h-100(src="img/sections/projects_slider/project_rzhd.jpg" style="filter: brightness(30%)" alt="alt")
-                .position-relative.d-flex.flex-column.p-16.pb-68.pb-md-82.h-100.z-1
-                    .tag-white.me-auto Охрана труда
-                    img.align-self-center.mt-30.mt-md-60(src="img/assets/logos/medium/logo_rzhd.svg" alt="alt")
+                img.position-absolute.object-fit-cover.w-100.h-100(src="img/sections/projects_slider/waterfall.jpg" alt="alt")
+                .card-project-img.position-relative.d-flex.flex-column.p-16.h-100.z-1
                     .running-line.position-absolute.text-nowrap.overflow-visible.text-label.start-0.end-0.bottom-0.my-8.light-grey
                         .running-line-item.d-flex.gap-4.pe-3
                             img.p-5(src="img/sections/projects_slider/icon_visir_light_grey.svg")
@@ -71,58 +69,43 @@ section.section.overflow-hidden
                         .running-line-item.d-flex.gap-4.pe-3
                             img.p-5(src="img/sections/projects_slider/icon_visir_light_grey.svg")
                             p.text-label.color-light-grey Экологический контроль
-                .position-relative.d-flex.align-items-baseline.flex-column.mt-auto.p-16.gap-40.z-1(style="background-color: #80838533; backdrop-filter: blur(100px); min-height: 163px")
-                    p.color-white.clamp-line-2 Стратегическое партнёрство с крупнейшей энергетической компанией
-                    a.btn-primary.mt-auto <span>Подробнее</span>
+                .position-relative.d-flex.align-items-center.flex-column.p-16.z-1(style="background-color: #3a373550; backdrop-filter: blur(100px); min-height: 100px")
+                    p.color-white.text-center.clamp-line-3 Ориентир на вашу сферу деятельности и размер компании
 
         // Десктопная версия
         .slider-project.position-relative.d-none.d-lg-flex.overflow-hidden.br-36
-            img.position-absolute.object-fit-cover.w-100.h-100(src="img/sections/projects_slider/project_gazprom.jpg" alt="alt")
+            // Первый фон
+            img.slider-bg-mini.position-absolute.object-fit-cover.w-100.h-100(
+                src="img/sections/projects_slider/waterfall.jpg",
+                alt="Слайдер",
+                data-active="true"
+            )
+            // Второй фон для анимации
+            img.slider-bg-mini.position-absolute.object-fit-cover.w-100.h-100(
+                src="img/sections/projects_slider/waterfall.jpg",
+                alt="Слайдер",
+                data-active="false"
+            )
 
-            .col-4.col-xl-6.col-xxl-7.ps-16.py-16
-                .tag-white.me-auto Охрана труда
+            .col-6.col-xxl-7.ps-16.py-16
 
-            .d-flex.flex-column.col-8.col-xl-6.col-xxl-5.pe-16.py-16.br-20
-                .d-flex.flex-column.p-32.bg-color-white-20.bg-blur-30.br-20(style="min-height: 190px")
-                    .d-flex.justify-content-between
-                        img(src="img/assets/logos/medium/logo_gazprom.svg" style="width: 78px" alt="alt")
-                        .d-flex.gap-4
-                            span.pagination-dot.active
-                            span.pagination-dot
-                            span.pagination-dot
-                            span.pagination-dot
-                            span.pagination-dot
-                            span.pagination-dot
-                    h4.h-4.mt-auto.clamp-line-3.mb-0.color-white Стратегическое партнёрство с крупнейшей энергетической компанией
+            .d-flex.flex-column.col-6.col-xxl-5.pe-16.py-16.br-20
+                .d-flex.flex-column.p-32.br-20.bg-color-white-20.bg-blur-30(style="min-height: 190px")
+                    .d-flex.gap-4
+                        span.pagination-dot.mini.active
+                        span.pagination-dot.mini
+                        span.pagination-dot.mini
+                    h4.h-4.mt-auto.clamp-line-4.mb-0.color-white.slider-title-mini Физическое присутствие на вашем производстве с тщательным аудитом и контролем
 
                 img.position-absolute.align-self-center.z-1(src="img/sections/projects_slider/divider_visir.svg" style="top: 193px")
 
                 .d-flex.flex-column.h-100.p-32.br-20.bg-color-white-20.bg-blur-30
-                    p.text-body.color-white.mb-32 Проведенные работы:
-                    .row.m-0.gap-36.row-gap-32
-                        .d-flex.flex-column.flex-fill.col-5.gap-12.p-0
-                            p.color-white Охрана труда
-                            p.color-light-grey
-                                | / СОУТ
-                                br
-                                | / Производственный контроль
-                        .d-flex.flex-column.flex-fill.col-5.gap-12.p-0
-                            p.color-white Экологическое проектирование
-                            p.color-light-grey
-                                | / СЗЗ
-
-                        .d-flex.flex-column.flex-fill.col-5.gap-12.p-0
-                            p.color-white Изыскательные работы
-                            p.color-light-grey
-                                | / Инженерно-экологические изыскания
-                        .d-flex.flex-column.flex-fill.col-5.gap-12.p-0
-                            p.color-white Экологический контроль
-                            p.color-light-grey
-                                | / Мониторинг
-                    .d-flex.justify-content-between.mt-auto.w-100
-                        button.btn-primary <span>Подробнее</span>
-                        .d-flex.gap-8
-                            button.ghost-outline.medium
-                                img(src="img/assets/icons/small/arrow_left_white.svg")
-                            button.ghost-outline.medium
-                                img(src="img/assets/icons/small/arrow_right_white.svg")
+                    .d-flex.flex-column.flex-fill.gap-32.p-0
+                        p.color-white.slider-detail-title-mini Выделенный отдел инспектирования
+                        p.color-light-grey.slider-detail-text-mini Располагаем ресурсами, чтобы провести физический аудит предприятия в любой точке России, от Калининграда до Камчатки.
+                            | <br><br>Приедем к вам и проверим реальные условия труда на объектах.
+                    .d-flex.gap-8
+                        button.slider-prev-mini.ghost-outline.medium
+                            img(src="img/assets/icons/small/arrow_left_white.svg")
+                        button.slider-next-mini.ghost-outline.medium
+                            img(src="img/assets/icons/small/arrow_right_white.svg")

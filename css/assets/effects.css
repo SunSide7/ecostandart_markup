@@ -10,6 +10,14 @@
   backdrop-filter: blur(30px);
 }
 
+.bg-blur-40 {
+  backdrop-filter: blur(40px);
+}
+
+.bg-blur-50 {
+  backdrop-filter: blur(50px);
+}
+
 .baw {
   filter: grayscale(1);
   transition: 0.25s ease;
