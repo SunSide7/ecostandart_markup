@@ -50,12 +50,12 @@ $hover-img-position: 32px
 
 
   &.card-hover
-    &-life:not(:hover)
-      &:after
-        opacity: 1
+    //&-life:not(:hover)
+    //  &:after
+    //    opacity: 1
 
-      & h4
-        color: $color_neutral_black
+    & h4
+      color: $color_neutral_black
 
 
 
@@ -94,7 +94,7 @@ $hover-img-position: 32px
     &.card-hover
       &-life
         &:after
-          opacity: 0
+          //opacity: 0
 @media(min-width: 1280px)
   .card-icon
     &.card-hover
@@ -120,3 +120,60 @@ $hover-img-position: 32px
 //
 //    .img
 //      margin-bottom: 20px
+
+@media(min-width: 1920px)
+    .card-hover
+      &-white,
+      &-life
+        &:not(:hover)
+          &:after
+            opacity: 0 !important
+    .card-hover
+      &-white,
+      &-life
+        &:hover
+          &:after
+            opacity: 1 !important
+
+@media(min-width: 1280px) and (max-width: 1919.5px)
+    .card-hover
+      &-white,
+      &-life
+        &:not(:hover)
+          &:after
+            opacity: 0 !important
+    .card-hover
+      &-white,
+      &-life
+        &:hover
+          &:after
+            opacity: 1 !important
+
+@media(min-width: 960px) and (max-width: 1279.5px)
+    .card-hover
+      &-white,
+      &-life
+        &:not(:hover)
+          &:after
+            opacity: 0 !important
+    .card-hover
+      &-white,
+      &-life
+        &:hover
+          &:after
+            opacity: 1 !important
+
+//@media(min-width: 640px) and (max-width: 959.5px)
+//    .card-hover
+//      &-white,
+//      &-life
+//        &:not(:hover)
+//          &:after
+//            opacity: 0 !important
+//    .card-hover
+//      &-white,
+//      &-life
+//        &:hover
+//          &:after
+//            opacity: 1 !important
+

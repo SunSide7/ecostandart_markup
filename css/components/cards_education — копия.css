@@ -1,0 +1,37 @@
+@media (min-width: 360px) and (max-width: 639px) {
+  .cards-education .card-neutral-white .img {
+    height: 250px;
+  }
+}
+@media (min-width: 640px) and (max-width: 959px) {
+  .cards-education .card-neutral-white .img {
+    height: 300px;
+  }
+}
+@media (min-width: 960px) {
+  .cards-education {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .cards-education > div:nth-child(2) {
+    margin-right: 0;
+  }
+  .cards-education .card-neutral-white {
+    margin-bottom: 0 !important;
+  }
+  .cards-education .card-img-bg:first-child, .cards-education .card-img-bg:last-child {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .cards-education .card-img-bg:first-child {
+    left: 0;
+  }
+  .cards-education .card-img-bg:last-child {
+    right: 0;
+  }
+}
+
+/*# sourceMappingURL=cards_education%20%E2%80%94%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.css.map */

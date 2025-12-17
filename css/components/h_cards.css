@@ -2,6 +2,9 @@
   display: flex;
   margin-bottom: 16px;
 }
+.h-cards-item:last-child {
+  margin-bottom: 0 !important;
+}
 .h-cards-item > .d-flex {
   position: relative;
 }

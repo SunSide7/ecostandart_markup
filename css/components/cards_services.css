@@ -1,13 +1,32 @@
-.cards-services .card-neutral-white:not(:last-child) {
+.cards-services h2 + p {
+  padding-top: 0;
+}
+.cards-services .card-neutral-white.card-icon-bg-img {
+  padding: 28px !important;
+}
+.cards-services .card-neutral-white.card-icon-bg-img:not(:last-child) {
   margin-bottom: 8px;
 }
-.cards-services .card-neutral-white:last-child {
+.cards-services .card-neutral-white.card-icon-bg-img:last-child {
   margin-bottom: 0;
 }
 
 @media (min-width: 1280px) {
   .cards-services .card-neutral-white {
     margin-bottom: 0;
+  }
+}
+@media (max-width: 1280px) {
+  .cards-services .card-neutral-white.col-lg-12 {
+    margin-bottom: 8px !important;
+  }
+  .cards-services .card-neutral-white.col-lg-12:last-child {
+    margin-bottom: 0 !important;
+  }
+}
+@media (min-width: 360px) and (max-width: 639.5px) {
+  .cards-services .card-neutral-white.card-icon-bg, .cards-services .card-neutral-white.card-icon-bg-img {
+    padding: 24px !important;
   }
 }
 

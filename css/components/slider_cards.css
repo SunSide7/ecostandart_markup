@@ -62,7 +62,7 @@
     left: 0;
   }
 }
-@media (max-width: 960px) {
+@media (max-width: 959.5px) {
   .slider-cards .row {
     gap: 8px;
   }
@@ -84,7 +84,7 @@
     margin-bottom: 8px;
   }
 }
-@media (max-width: 640px) {
+@media (max-width: 639.5px) {
   .slider-cards .slider {
     padding-top: 32px;
   }

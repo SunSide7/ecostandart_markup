@@ -1,0 +1,62 @@
+@import ../assets/colors.sass
+
+.breadcrumbs
+
+  & ul
+    display: flex
+    flex-wrap: wrap
+    padding: 0 !important
+
+    & li
+      position: relative
+      margin-right: 12px
+
+      & a
+        color: $color_neutral_light_grey
+
+      &:after
+        content: '/'
+        position: absolute
+        top: 0
+        bottom: 0
+        right: -9px
+
+        color: $color_neutral_light_grey
+
+      &:last-child
+        color: $color_neutral_black
+
+        &:after
+          display: none
+
+@media(max-width: 640px)
+  .breadcrumbs:not(.active)
+
+    & ul
+
+      & li
+
+        &:nth-child(n + 3)
+          display: none
+
+        &:nth-child(2)
+          position: relative
+          width: 16px
+
+          & > a
+            display: none
+
+          &:before
+            content: '...'
+            position: absolute
+            top: 0
+            bottom: 0
+            right: 2px
+
+        &:last-child
+          display: inline-block
+
+          &:before
+            display: none
+          &:after
+            display: none

@@ -9,8 +9,28 @@
   }
 }
 @media (min-width: 960px) {
+  .cards-education {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .cards-education > div:nth-child(2) {
+    margin-right: 0;
+  }
   .cards-education .card-neutral-white {
     margin-bottom: 0 !important;
+  }
+  .cards-education .card-img-bg:first-child, .cards-education .card-img-bg:last-child {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .cards-education .card-img-bg:first-child {
+    left: 0;
+  }
+  .cards-education .card-img-bg:last-child {
+    right: 0;
   }
 }
 

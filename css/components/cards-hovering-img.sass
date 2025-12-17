@@ -1,0 +1,53 @@
+.cards-hovering-img
+  display: flex
+  flex-direction: column
+  overflow: hidden
+
+  //.card-icon-bg-img,
+  .card-icon-bg
+    & .bg-img
+      opacity: 0
+      display: none
+      z-index: -2
+
+@media(min-width: 1280px) and (max-width: 1919.5px)
+  .cards-hovering-img
+    display: flex
+    flex-direction: row
+    flex-wrap: nowrap
+
+    .card-icon-bg-img,
+    .card-icon-bg.card-neutral-white.col-lg-12
+      height: 335px
+
+    .card-icon-bg.card-neutral-white.col-lg-12
+      width: calc(50% / 2 - 16px)
+      margin-right: 16px
+      flex-grow: 1
+      margin-bottom: 0 !important
+
+      &:last-child
+        margin-right: 0
+
+@media(min-width: 1920px)
+  .cards-hovering-img
+    display: flex
+    flex-direction: row
+    flex-wrap: nowrap
+
+    .card-icon-bg-img,
+    .card-icon-bg.card-neutral-white.col-lg-12
+      height: 335px
+
+    .card-icon-bg.card-neutral-white.col-lg-12
+      width: calc(50% / 2 - 16px)
+      margin-right: 16px
+      flex-grow: 1
+      margin-bottom: 0 !important
+
+      &:last-child
+        margin-right: 0
+
+
+
+

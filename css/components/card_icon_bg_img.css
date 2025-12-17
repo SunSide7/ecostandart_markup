@@ -983,6 +983,12 @@
   .card-neutral-white .d-flex-w, .card-neutral-white .d-flex-w > .card-neutral-white {
     height: 100%;
   }
+  .card-neutral-white .card-icon-bg:not(:hover).card-hover-white:before {
+    opacity: 0;
+  }
+  .card-neutral-white .card-icon-bg:not(:hover).card-hover-white:before {
+    opacity: 1;
+  }
 }
 @media (min-width: 1280px) and (max-width: 1920px) {
   .card-neutral-white.card-icon-bg, .card-neutral-white.card-icon-bg-img {
