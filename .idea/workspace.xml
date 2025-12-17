@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0b626ad-327a-4bf7-b0a2-92763ca6070e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_06.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_06.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/legend_38/icon_01.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/legend_38/icon_02.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/legend_38/icon_03.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
