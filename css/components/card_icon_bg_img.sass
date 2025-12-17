@@ -135,6 +135,17 @@ $hover-img-position: 32px
     & .d-flex-w > .card-neutral-white
       height: 100%
 
+    .card-icon-bg
+      &:not(:hover)
+        &.card-hover
+          &-white
+            &:before
+              opacity: 0
+        &.card-hover
+          &-white
+            &:before
+              opacity: 1
+
 @media(min-width: 1280px) and (max-width: 1920px)
   .card-neutral-white
     &.card-icon-bg,

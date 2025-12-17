@@ -23,6 +23,10 @@
     padding: 0 0 !important;
   }
 }
+.title-section-name_dev span {
+  line-height: 62px;
+}
+
 .pos-rel {
   position: relative;
 }
@@ -74,6 +78,10 @@
 
 .w-100p {
   width: 100% !important;
+}
+
+.h-100p {
+  height: 100% !important;
 }
 
 .mb-16 {
@@ -161,9 +169,18 @@
   justify-content: center;
 }
 
+.flex-jcfs {
+  display: flex;
+  justify-content: flex-start !important;
+}
+
 .flex-jcsb {
   display: flex;
   justify-content: space-between;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
 }
 
 .flex-aic {
@@ -261,7 +278,7 @@
     bottom: 0;
   }
 }
-@media (min-width: 1280px) and (max-width: 1920px) {
+@media (min-width: 1280px) and (max-width: 1919.5px) {
   .v-col-xl-50:first-child {
     position: absolute;
     top: 0;
@@ -284,6 +301,20 @@
     top: calc(50% + 8px);
     bottom: 0;
   }
+}
+.carousel-section {
+  overflow: hidden;
+}
+.carousel-section .owl-stage-outer {
+  overflow: initial !important;
+}
+
+.carousel-container {
+  max-width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 /*# sourceMappingURL=grid.css.map */

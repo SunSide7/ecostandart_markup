@@ -1,0 +1,12 @@
+@media (min-width: 1280px) and (max-width: 1920px) {
+  .cards-rent .btn-news {
+    position: static !important;
+  }
+}
+@media (min-width: 1920px) {
+  .cards-rent .btn-news {
+    position: static !important;
+  }
+}
+
+/*# sourceMappingURL=cards-rent.css.map */

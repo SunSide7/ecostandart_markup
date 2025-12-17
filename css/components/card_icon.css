@@ -1009,10 +1009,7 @@
 .card-icon.card-hover-life:after, .card-icon.card-hover-life h4 {
   transition: all 0.35s ease-out;
 }
-.card-icon.card-hover-life:not(:hover):after {
-  opacity: 1;
-}
-.card-icon.card-hover-life:not(:hover) h4 {
+.card-icon.card-hover h4 {
   color: #3a434d;
 }
 
@@ -1037,11 +1034,6 @@
     right: 20px;
   }
 }
-@media (min-width: 960px) {
-  .card-icon.card-hover-life:after {
-    opacity: 0;
-  }
-}
 @media (min-width: 1280px) {
   .card-icon.card-hover-life:not(:hover) h4 {
     color: #727882;
@@ -1051,6 +1043,30 @@
   }
   .card-icon.card-hover-life:hover h4 {
     color: #3a434d;
+  }
+}
+@media (min-width: 1920px) {
+  .card-hover-white:not(:hover):after, .card-hover-life:not(:hover):after {
+    opacity: 0 !important;
+  }
+  .card-hover-white:hover:after, .card-hover-life:hover:after {
+    opacity: 1 !important;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1919.5px) {
+  .card-hover-white:not(:hover):after, .card-hover-life:not(:hover):after {
+    opacity: 0 !important;
+  }
+  .card-hover-white:hover:after, .card-hover-life:hover:after {
+    opacity: 1 !important;
+  }
+}
+@media (min-width: 960px) and (max-width: 1279.5px) {
+  .card-hover-white:not(:hover):after, .card-hover-life:not(:hover):after {
+    opacity: 0 !important;
+  }
+  .card-hover-white:hover:after, .card-hover-life:hover:after {
+    opacity: 1 !important;
   }
 }
 

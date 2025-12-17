@@ -1008,5 +1008,15 @@
     padding-top: 32px;
   }
 }
+@media (min-width: 1920px) {
+  .img-slider .owl-stage-outer .owl-stage,
+  .img-slider-x4 .owl-stage-outer .owl-stage,
+  .img-slider-x4_2 .owl-stage-outer .owl-stage,
+  .img-slider-x4_3 .owl-stage-outer .owl-stage,
+  .img-slider-x3 .owl-stage-outer .owl-stage {
+    padding-left: calc((100% - 1792px) / 2) !important;
+    padding-right: calc((100% - 1792px) / 2) !important;
+  }
+}
 
 /*# sourceMappingURL=img_slider_1.css.map */

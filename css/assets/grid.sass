@@ -23,7 +23,8 @@
 
 
 .title-section-name_dev
-  //display: none
+.title-section-name_dev span
+  line-height: 62px
 
 
 //.container
@@ -112,6 +113,11 @@
 
 .w-100p
   width: 100% !important
+
+.h-100p
+  height: 100% !important
+
+
 
 
 .mb
@@ -203,11 +209,18 @@
   display: flex
   justify-content: center
 
+.flex-jcfs
+  display: flex
+  justify-content: flex-start !important
+
+
+
 .flex-jcsb
   display: flex
   justify-content: space-between
 
-
+.flex-grow-1
+  flex-grow: 1
 
 .flex-aic
   display: flex
@@ -302,7 +315,7 @@ $cards-gap: 8px
 @media(min-width: 960px) and (max-width: 1280px)
   $cards-gap: 16px
   .v-col
-    &-wrp
+    //&-wrp
 
     &-lg-50
       &:first-child
@@ -315,10 +328,10 @@ $cards-gap: 8px
         bottom: 0
 
 
-@media(min-width: 1280px) and (max-width: 1920px)
+@media(min-width: 1280px) and (max-width: 1919.5px)
   $cards-gap: 16px
   .v-col
-    &-wrp
+    //&-wrp
 
     &-xl-50
       &:first-child
@@ -345,3 +358,16 @@ $cards-gap: 8px
         position: absolute
         top: calc(50% + $cards-gap / 2)
         bottom: 0
+
+
+.carousel-section
+  overflow: hidden
+  & .owl-stage-outer
+    overflow: initial !important
+
+.carousel-container
+  max-width: 1140px
+  padding-left: 15px
+  padding-right: 15px
+  margin: 0 auto
+  width: 100%

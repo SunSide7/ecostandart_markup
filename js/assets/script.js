@@ -1,5 +1,33 @@
 $(document).ready(function() {
 
+    function hoverIn() {
+        console.log('hoverIn')
+
+        $(this).closest('.cards-hovering-img').find('.card-neutral-white').removeClass('card-icon-bg-img')
+
+        if($(this).hasClass('card-icon-bg-img')) {
+        }
+        else {
+            $(this).addClass('card-icon-bg-img')
+            $(this).removeClass('bg-gradient-safety')
+            $(this).removeClass('card-icon-bg')
+        }
+    }
+
+    function hoverOut() {
+        console.log('hoverOut')
+
+        if($(this).hasClass('card-icon-bg-img')) {
+            $(this).removeClass('card-icon-bg-img')
+            $(this).addClass('bg-gradient-safety')
+            $(this).addClass('card-icon-bg')
+        }
+    }
+
+
+
+    $('.cards-hovering-img .card-neutral-white').hover(hoverIn, hoverOut)
+
     function setToggle() {
         $(this).hasClass('active')
             && $(event.target).is(':not(.unclickable)')
@@ -157,19 +185,19 @@ $(document).ready(function() {
         ],
         responsive:{
             360: {
-                items: 1
+                items: 1,
             },
             640: {
-                items: 1
+                items: 1,
             },
             960: {
-                items: 2
+                items: 2,
             },
             1280: {
-                items: 3
+                items: 3,
             },
             1920: {
-                items: 3
+                items: 3,
             },
         }
     })

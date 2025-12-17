@@ -938,7 +938,7 @@
   margin-right: 0;
 }
 
-@media (min-width: 360px) and (max-width: 640px) {
+@media (min-width: 360px) and (max-width: 639.5px) {
   .card-neutral-white:last-child:not(.card-icon-centered) {
     margin-bottom: 0 !important;
   }
@@ -1018,7 +1018,7 @@
     margin-bottom: 32px;
   }
 }
-@media (min-width: 640px) and (max-width: 959px) {
+@media (min-width: 640px) and (max-width: 959.5px) {
   .card-neutral-white:last-child:not(.card-icon-centered) {
     margin-bottom: 0 !important;
   }
@@ -1101,7 +1101,7 @@
     margin-bottom: 32px;
   }
 }
-@media (min-width: 960px) and (max-width: 1279px) {
+@media (min-width: 960px) and (max-width: 1279.5px) {
   .card-neutral-white:last-child:not(.card-icon-centered) {
     margin-bottom: 0 !important;
   }
