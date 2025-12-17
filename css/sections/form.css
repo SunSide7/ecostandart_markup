@@ -2,6 +2,11 @@
   position: absolute;
   scale: 0.75;
   top: 330px;
+  opacity: 0;
+  transition: opacity 3s ease;
+}
+.form-tape-1.active {
+  opacity: 1;
 }
 
 .form-tape-2 {
@@ -9,6 +14,11 @@
   scale: 0.9;
   top: -40px;
   left: -56px;
+  opacity: 0;
+  transition: opacity 3s ease;
+}
+.form-tape-2.active {
+  opacity: 1;
 }
 
 .form-tape-3 {
@@ -16,6 +26,11 @@
   scale: 0.9;
   top: 460px;
   left: -56px;
+  opacity: 0;
+  transition: opacity 3s ease;
+}
+.form-tape-3.active {
+  opacity: 1;
 }
 
 @media (min-width: 640px) {

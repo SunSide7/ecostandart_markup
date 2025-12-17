@@ -14,14 +14,20 @@
   display: flex
   width: fit-content
   animation: ticker 20s linear infinite
-  -webkit-transform-style: preserve-3d /* Фикс возможного глюка с морганием в Сафари */
+  -webkit-transform-style: preserve-3d
+
+  &:hover
+    animation-play-state: paused
 
 .running-line-reverse
   display: flex
   width: fit-content
   animation: ticker-reverse 20s linear infinite
-  -webkit-transform-style: preserve-3d /* Фикс возможного глюка с морганием в Сафари */
+  -webkit-transform-style: preserve-3d
+
+  &:hover
+    animation-play-state: paused
 
 .running-line-item
   white-space: nowrap
-  -webkit-backface-visibility: hidden /* Фикс возможного глюка с морганием в Сафари */
+  -webkit-backface-visibility: hidden

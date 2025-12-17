@@ -890,23 +890,17 @@
 .search input:focus {
   outline: none;
 }
-.search::before {
-  content: "";
+.search .search-button {
   display: block;
   width: 12px;
   height: 12px;
   margin-left: auto;
-  background-image: url(../../img/assets/icons/small/icon_search_grey.svg);
-  background-size: 100%;
 }
-.search::after {
-  content: "";
+.search .search-close {
   display: none;
   width: 12px;
   height: 12px;
   margin-left: auto;
-  background-image: url(../../img/assets/icons/small/icon_exit_grey.svg);
-  background-size: 100%;
 }
 .search.active {
   padding: 14px 13px;
@@ -915,7 +909,7 @@
   display: block;
   width: 12vw;
 }
-.search.active::after {
+.search.active .search-close {
   display: block;
 }
 .search-mobile {
@@ -936,16 +930,14 @@
 .search-mobile input:focus {
   outline: none;
 }
-.search-mobile::before {
-  content: "";
+.search-mobile .search-button {
   display: block;
   min-width: 12px;
   min-height: 12px;
   background-image: url(../../img/assets/icons/small/icon_search_grey.svg);
   background-size: 100%;
 }
-.search-mobile::after {
-  content: "";
+.search-mobile .search-close {
   display: block;
   min-width: 12px;
   min-height: 12px;

@@ -21,30 +21,32 @@
         .position-relative.d-none.d-xl-flex.align-items-center
             .position-absolute.d-flex.align-items-center.end-100
                 //.phone-header CAN BE .active (when search opened)
-                .phone-header.active
+                .phone-header
                     a.phone-header-text(href="tel: 8800333-82-05")
                         p.text-body.color-primary-light-green 8 800 333-82-05
                         p.text-caption.color-grey Бесплатно по РФ
                     .ghost.big.bg-color-primary-light-green
                         img(src="img/assets/icons/small/social_phone_white.svg")
                 //.search CAN BE .active
-                .search.active
+                .search
+                    img.search-button(src="img/assets/icons/small/icon_search_grey.svg")
                     input(placeholder="Поиск")
+                    img.search-close(src="img/assets/icons/small/icon_exit_grey.svg")
             button.btn-primary.ms-4 <span>Связаться</span>
     .header-menu
         .d-none.d-xl-flex.w-100
             .header-menu-slot
                 .menu-header.vertical
-                    a(href="#") ITEM
-                    a(href="#") ITEM
-                    a(href="#") ITEM
-                    a(href="#") ITEM
-                    a(href="#") ITEM
-                    a(href="#") ITEM
-                    a(href="#") ITEM
-                    a(href="#") ITEM
-                    a(href="#") ITEM
-                    a(href="#") ITEM
+                    a(href="#") Раздел сайта 1
+                    a(href="#") Раздел сайта 2
+                    a(href="#") Раздел сайта 3
+                    a(href="#") Раздел сайта 4
+                    a(href="#") Раздел сайта 5
+                    a(href="#") Раздел сайта 6
+                    a(href="#") Раздел сайта 7
+                    a(href="#") Раздел сайта 8
+                    a(href="#") Раздел сайта 9
+                    a(href="#") Раздел сайта 10
             .header-menu-visir-area
                 .menu-sight
                     img.menu-visir-left(src="img/sections/header/menu_visir_left.png" loading="lazy" alt="")
@@ -53,33 +55,33 @@
 
             .header-menu-slot
                 .menu-header.vertical
-                    a(href="#") ITEM
-                    a(href="#") ITEM
-                    a(href="#") ITEM
-                    a(href="#") ITEM
-                    a(href="#") ITEM
-                    a(href="#") ITEM
-                    a(href="#") ITEM
-                    a(href="#") ITEM
-                    a(href="#") ITEM
-                    a(href="#") ITEM
+                    a(href="#") Подраздел сайта 1
+                    a(href="#") Подраздел сайта 2
+                    a(href="#") Подраздел сайта 3
+                    a(href="#") Подраздел сайта 4
+                    a(href="#") Подраздел сайта 5
+                    a(href="#") Подраздел сайта 6
+                    a(href="#") Подраздел сайта 7
+                    a(href="#") Подраздел сайта 8
+                    a(href="#") Подраздел сайта 9
+                    a(href="#") Подраздел сайта 10
 
             .header-menu-info
                 .position-relative
                     p.text-caption-bold.color-black Выберите офис:
                     //.dropdown-header CAN BE .active
-                    .dropdown-header.active
+                    .dropdown-header.js-toggler
                         .dropdown-item
-                            span.text-caption-bold ITEM
+                            span.text-caption-bold Москва
                         hr
-                        .dropdown-item.hoverable
-                            span.text-caption-bold ITEM
-                        .dropdown-item.hoverable
-                            span.text-caption-bold ITEM
-                        .dropdown-item.hoverable
-                            span.text-caption-bold ITEM
-                        .dropdown-item.hoverable
-                            span.text-caption-bold ITEM
+                        .dropdown-item.hoverable.unclickable
+                            span.text-caption-bold Санкт-Петербург
+                        .dropdown-item.hoverable.unclickable
+                            span.text-caption-bold Новосибирск
+                        .dropdown-item.hoverable.unclickable
+                            span.text-caption-bold Краснодар
+                        .dropdown-item.hoverable.unclickable
+                            span.text-caption-bold Иркутск
                 p.text-caption-bold.color-black +7 495 987-65-43
                 p
                     span.text-caption-bold.color-black Пн–Пт 
@@ -88,21 +90,23 @@
                 iframe.mt-14.br-20.baw(src="https://yandex.ru/map-widget/v1/?um=constructor%3Aexample_code&source=constructor" height="185")
         .d-flex.d-xl-none.flex-column.w-100.gap-32
             .search-mobile
+                .search-button
                 input(placeholder="Поиск")
+                .search-close-mobile
             //.menu-item CAN BE .active
             .menu-header.mobile
-                .menu-item.active
-                    a(href="#") ITEM
-                    .menu-item.active
-                        a(href="#") ITEM
-                        .menu-item
-                            a(href="#") ITEM
-                .menu-item.active
-                    a(href="#") ITEM
-                    .menu-item.active
-                        a(href="#") ITEM
-                .menu-item
-                    a(href="#") ITEM
+                .menu-item.js-toggler
+                    a(href="#") Раздел сайта 1
+                    .menu-item.unclickable.js-toggler
+                        a(href="#") Раздел сайта 2
+                        .menu-item.unclickable.js-toggler
+                            a(href="#") Раздел сайта 3
+                .menu-item.js-toggler
+                    a(href="#") Раздел сайта 4
+                    .menu-item.unclikable.js-toggler
+                        a(href="#") Раздел сайта 5
+                .menu-item.unclickable.js-toggler
+                    a(href="#") Раздел сайта 6
             a.btn-primary
                 span.text-center Офис на карте
             

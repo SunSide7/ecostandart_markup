@@ -1468,6 +1468,7 @@
   max-width: 43px;
   max-height: 43px;
   border-radius: 100px;
+  cursor: pointer;
 }
 .menu-header-button::after {
   content: "";

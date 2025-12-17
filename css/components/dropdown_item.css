@@ -871,7 +871,7 @@
 }
 
 .dropdown-item {
-  display: flex !important;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 4px 8px !important;
