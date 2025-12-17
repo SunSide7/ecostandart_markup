@@ -3,6 +3,8 @@ $(document).ready(function() {
     function hoverIn() {
         console.log('hoverIn')
 
+        $(this).closest('.cards-hovering-img').find('.card-neutral-white').addClass('bg-gradient-safety')
+        $(this).closest('.cards-hovering-img').find('.card-neutral-white').addClass('card-icon-bg')
         $(this).closest('.cards-hovering-img').find('.card-neutral-white').removeClass('card-icon-bg-img')
 
         if($(this).hasClass('card-icon-bg-img')) {
@@ -27,6 +29,7 @@ $(document).ready(function() {
 
 
     $('.cards-hovering-img .card-neutral-white').hover(hoverIn, hoverOut)
+    $('.cards-hovering-img .card-neutral-white').click(hoverIn, hoverOut)
 
     function setToggle() {
         $(this).hasClass('active')
