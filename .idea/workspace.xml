@@ -5,36 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8d8eeda-9b40-43ce-bd2e-deef6f7a62a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img/sections/projects_slider/project_rosneft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/sections/projects_slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/sections/projects_slider_mini.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pug/sections/legend_05_anim.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pug/sections/legend_05_anim.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pug/sections/legend_19_anim.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/BX MARKUP.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/bitrixlangplugin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_11_2025_16_57_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_11_2025_16_57__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/assets/effects.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/effects.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/assets/effects.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/effects.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/assets/effects.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/effects.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/search.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/search.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/search.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/search.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/search.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sections/projects_slider/project-gazprom.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/sections/projects_slider/project_gazprom.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sections/projects_slider/project-rzhd.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/sections/projects_slider/project_rzhd.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/sections/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/sections/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/bootstrap/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/bootstrap/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/base/vars/scripts.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/base/vars/scripts.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/pages/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/header.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_05.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_05.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_10.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_10.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,10 +19,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="36yPbQiMAaHDxXuRkzFwSB0pqBM" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -62,6 +34,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
     "last_opened_file_path": "C:/Users/Evan/Desktop/ecostandart-markup-carcass/js/sections",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
