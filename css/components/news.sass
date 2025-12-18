@@ -1,16 +1,56 @@
+@import ../assets/colors.sass
+
 .news
   position: relative
 
   & .btn-news
     position: absolute
-    bottom: 0
+    bottom: 20px
     //left: 0
+    z-index: 20
 
   & .dropdown
       position: absolute
       top: 0
       right: 0
       z-index: 80
+
+  & .owl-nav
+    padding-bottom: 20px
+
+  & .slide-item
+    &:hover
+      & h4.title-primary.color-grey
+        color: $color_neutral_black !important
+
+  &-hoverable
+    & .owl-stage
+      display: flex
+
+    & .slide-item
+      display: flex
+      flex-direction: column
+      justify-content: flex-start
+      padding: 16px
+      height: 100% !important
+      min-height: 100% !important
+
+      border-radius: 36px
+
+      overflow: hidden
+
+      -webkit-transition: all .35s ease-out
+      -moz-transition: all .35s ease-out
+      -ms-transition: all .35s ease-out
+      -o-transition: all .35s ease-out
+      transition: all .35s ease-out
+
+      &:hover
+        background: $color_neutral_white
+
+
+
+
 
 @media(min-width: 360px) and (max-width: 639.5px)
   .news
