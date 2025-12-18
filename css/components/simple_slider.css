@@ -1,0 +1,19 @@
+.simple-slider {
+  overflow-x: scroll !important;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  cursor: grab;
+  scrollbar-width: none;
+}
+
+.simple-slider::-webkit-scrollbar {
+  display: none;
+}
+
+.simple-slider.dragging {
+  cursor: grabbing;
+  scroll-behavior: auto;
+}
+
+/*# sourceMappingURL=simple_slider.css.map */

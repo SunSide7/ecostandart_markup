@@ -2,8 +2,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Данные слайдов
     const projectsData = [
         {
-            image: "img/sections/projects_slider/waterfall.jpg",
-            title: "Физическое присутствие на вашем производстве с тщательным аудитом и контролем",
+            image: "img/sections/projects_slider/project_gazprom.jpg",
+            title: "Стратегическое партнёрство с крупнейшей энергетической компанией",
             details: {
                 title: "Выделенный отдел инспектирования",
                 text: "Располагаем ресурсами, чтобы провести физический аудит предприятия в любой точке России, от Калининграда до Камчатки.<br><br>Приедем к вам и проверим реальные условия труда на объектах."

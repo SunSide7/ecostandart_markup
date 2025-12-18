@@ -2,32 +2,28 @@
   position: relative;
   justify-content: flex-end;
   align-items: center;
-  z-index: 4;
-  margin-top: 5px;
+  top: 1px;
+  left: 38px;
+  pointer-events: none;
+  z-index: 1;
 }
 
 .menu-visir-left {
   position: absolute;
-  left: -284px;
+  left: -283.7px;
   transition: top 0.4s;
-  z-index: 2;
-  opacity: 0.5;
   width: 284px;
   min-width: 284px;
+  pointer-events: none;
+  z-index: 1;
 }
 
 .menu-visir-right {
   position: absolute;
-  left: 2px;
+  left: 2.4px;
   transition: top 0.4s;
-  z-index: 2;
-  opacity: 0.5;
-}
-
-.menu-visir-axis {
-  position: absolute;
-  top: -2px;
-  height: 380px;
+  pointer-events: none;
+  z-index: 1;
 }
 
 /*# sourceMappingURL=menu_sight.css.map */

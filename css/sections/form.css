@@ -1,3 +1,15 @@
+.form-1 {
+  width: 100%;
+}
+
+.form-2 {
+  width: 100%;
+}
+
+.form-3 {
+  width: 100%;
+}
+
 .form-tape-1 {
   position: absolute;
   scale: 0.75;
@@ -50,6 +62,15 @@
     top: 450px;
     left: -26px;
   }
+  .form-1 {
+    width: 576px;
+  }
+  .form-2 {
+    width: 576px;
+  }
+  .form-3 {
+    width: 576px;
+  }
 }
 @media (min-width: 960px) {
   .form-tape-1 {
@@ -67,6 +88,15 @@
     scale: 0.95;
     top: 450px;
     left: 155px;
+  }
+  .form-1 {
+    width: 592px;
+  }
+  .form-2 {
+    width: 592px;
+  }
+  .form-3 {
+    width: 592px;
   }
 }
 @media (min-width: 1280px) {
@@ -86,6 +116,15 @@
     top: 175px;
     left: 420px;
   }
+  .form-1 {
+    width: 600px;
+  }
+  .form-2 {
+    width: 600px;
+  }
+  .form-3 {
+    width: 940px;
+  }
 }
 @media (min-width: 1920px) {
   .form-tape-1 {
@@ -103,6 +142,15 @@
     scale: 0.95;
     top: 165px;
     left: 765px;
+  }
+  .form-1 {
+    width: 586px;
+  }
+  .form-2 {
+    width: 586px;
+  }
+  .form-3 {
+    width: 940px;
   }
 }
 

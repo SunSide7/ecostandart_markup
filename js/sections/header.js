@@ -20,3 +20,36 @@ headerSearchClose.addEventListener('click', () => {
     headerSearch.classList.remove('active');
     headerPhone.classList.remove('active');
 });
+
+const menuLinksPrimary = document.querySelectorAll(".menu-primary .menu-link");
+const menuLinksSecondary = document.querySelectorAll(".menu-secondary .menu-link");
+const visirLeft = document.querySelector(".menu-visir-left");
+const visirRight = document.querySelector(".menu-visir-right");
+
+const baseTop = 0; // Исходное положение
+
+// Для левого визира (menu-primary)
+menuLinksPrimary.forEach((link, index) => {
+    link.addEventListener("mouseenter", function () {
+        // Вычисляем смещение от исходного положения с шагом 30px
+        const offset = index * 39.4; // от -60px до +90px
+        visirLeft.style.top = `${baseTop + offset}px`;
+    });
+
+    link.addEventListener("mouseleave", function () {
+        visirLeft.style.top = `${baseTop}px`;
+    });
+});
+
+// Для правого визира (menu-secondary)
+menuLinksSecondary.forEach((link, index) => {
+    link.addEventListener("mouseenter", function () {
+        // Вычисляем смещение от исходного положения с шагом 30px
+        const offset = index * 39.4; // от -60px до +90px
+        visirRight.style.top = `${baseTop + offset}px`;
+    });
+
+    link.addEventListener("mouseleave", function () {
+        visirRight.style.top = `${baseTop}px`;
+    });
+});

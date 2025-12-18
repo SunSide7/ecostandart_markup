@@ -1,12 +1,13 @@
 .container
     h2.title-primary.title-section-name_dev(style="font-size: 60px;padding-top: 102px !important") <span>СЕКЦИЯ 05</span>
 
-section.section.overflow-hidden
+section.section
     .container
         h2.title-primary Ключевые проекты
 
         // Мобильная версия
-        .d-flex.flex-nowrap.d-lg-none.overflow-visible.gap-8
+
+        .d-flex.flex-nowrap.d-lg-none.gap-8.overflow-visible
             .card-project.position-relative.overflow-hidden.h-100.p-0.br-30
                 img.position-absolute.object-fit-cover.w-100.h-100(src="img/sections/projects_slider/project_gazprom.jpg" style="filter: brightness(30%)" alt="alt")
                 .position-relative.d-flex.flex-column.p-16.pb-68.pb-md-82.h-100.z-1
@@ -77,7 +78,7 @@ section.section.overflow-hidden
 
         // Десктопная версия
         .slider-project.position-relative.d-none.d-lg-flex.overflow-hidden.br-36
-            img.position-absolute.object-fit-cover.w-100.h-100(src="img/sections/projects_slider/project_gazprom.jpg" alt="alt")
+            img.position-absolute.object-fit-cover.w-100.h-100(src="img/sections/projects_slider/project_gazprom.jpg" alt="alt" style="filter: brightness(50%)")
 
             .col-4.col-xl-6.col-xxl-7.ps-16.py-16
                 .tag-white.me-auto Охрана труда
