@@ -1,0 +1,8 @@
+.js-toggler-tab-slides > div.active {
+  display: block;
+}
+.js-toggler-tab-slides > div:not(.active) {
+  display: none;
+}
+
+/*# sourceMappingURL=js-toggler-tab.css.map */

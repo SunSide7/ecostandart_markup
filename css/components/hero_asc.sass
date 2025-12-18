@@ -6,14 +6,15 @@
 
   &-scaffold
     position: relative
-    min-height: 400px
-    height: 100vh
+    //min-height: 200px
+    min-height: 100vh
+    max-height: 100vh
     background-position: center center
     background-repeat: no-repeat
     background-size: cover
     overflow: hidden
 
-    transition: all .35s ease-out
+    transition: background .35s ease-out
 
     & .hero-asc-text
       display: inline-block
@@ -188,6 +189,8 @@
 
         margin: auto
 
+    &-nav
+      right: calc((100% - 1792px) / 2) !important
 
 
 

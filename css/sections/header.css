@@ -1280,8 +1280,8 @@ body:has(.header.active) .header-bg-blur {
   background-color: #f8f8f8;
   box-sizing: border-box;
   border-radius: 36px;
-  width: calc(100% - 48px);
-  margin: 24px 24px 0;
+  width: calc(100% - 16px);
+  margin: 8px 8px 0;
   padding: 16px;
   display: flex;
   flex-direction: column;
@@ -1320,8 +1320,8 @@ body:has(.header.active) .header-bg-blur {
 
 @media (min-width: 640px) {
   .header {
-    width: calc(100% - 64px);
-    margin: 32px 32px 0;
+    width: calc(100% - 16px);
+    margin: 8px 8px 0;
     padding: 16px;
   }
 }
@@ -1330,6 +1330,8 @@ body:has(.header.active) .header-bg-blur {
     opacity: 1;
   }
   .header {
+    width: calc(100% - 16px);
+    margin: 8px 8px 0;
     padding: 16px 16px 16px 24px;
     height: 75px;
   }
@@ -1342,8 +1344,8 @@ body:has(.header.active) .header-bg-blur {
 }
 @media (min-width: 1920px) {
   .header {
-    width: calc(100% - 128px);
-    margin: 64px 64px 0;
+    width: calc(100% - 80px);
+    margin: 40px 40px 0;
   }
   .header-menu-info {
     width: 420px;

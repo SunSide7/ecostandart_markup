@@ -16,10 +16,17 @@
 
     position: relative
 
+    transition: all .35s ease-out
+
     &.active
       box-shadow: 0 14px 10px rgba(0 0 0 / 4%)
       background: linear-gradient($color_neutral_white, $color_neutral_white) padding-box, $gradient-safety border-box
       border: 2px solid transparent
+    &:not(.active)
+      border: 2px solid $color_neutral_white
+      //background: linear-gradient($color_neutral_white, $color_neutral_white) padding-box, $color_neutral_white border-box
+      //background: transparent
+
 
     &:nth-child(3n)
       margin-right: 0
