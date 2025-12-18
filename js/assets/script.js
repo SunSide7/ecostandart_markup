@@ -28,8 +28,25 @@ $(document).ready(function() {
 
 
 
+    // TARIFFS
     $('.cards-hovering-img .card-neutral-white').hover(hoverIn, hoverOut)
     $('.cards-hovering-img .card-neutral-white').click(hoverIn, hoverOut)
+
+    function hoverInTafiffs() {
+        $(this).closest('.tariff-cards').find('.tariff-cards-item').removeClass('active')
+        $(this).addClass('active')
+    }
+
+    function hoverOutTafiffs() {
+        $(this).closest('.tariff-cards').find('.tariff-cards-item').removeClass('active')
+    }
+
+
+    $('.tariff-cards-item').hover(hoverInTafiffs, hoverOutTafiffs)
+    $('.tariff-cards-item').click(hoverInTafiffs, hoverOutTafiffs)
+
+
+
 
     function setToggle() {
         $(this).hasClass('active')
@@ -42,6 +59,24 @@ $(document).ready(function() {
     }
 
     $('body').on('click', '.js-toggler', setToggle)
+
+
+    function setToggleAccordion() {
+        // .js-toggler-tab-panel    - ACCORDION TAB PANEL
+        // .js-toggler-tab-slides   - ACCORDION TAB SLIDES
+        $(this).closest('.js-toggler-tab-panel').find('.active').removeClass('active')
+        $(this).addClass('active')
+
+        $(this).closest('.js-toggler-tab').find('.js-toggler-tab-slides .active').removeClass('active')
+        $(this).closest('.js-toggler-tab').find('#' + $(this).data('tab-id')).addClass('active')
+
+        console.log($(this).data('tab-id'))
+    }
+
+    $('body').on('click', '.js-toggler-tab-panel > div', setToggleAccordion)
+
+
+
 
 
 

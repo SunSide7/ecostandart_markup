@@ -72,6 +72,7 @@ $icon-size: 29px
 
     & span
       padding-right: 24px
+      transition: all .35s ease-out
 
 
   &-white
@@ -100,6 +101,7 @@ $icon-size: 29px
   &-life
     @include btn_base
 
+
     &:after
       content: ''
       width: $icon-size
@@ -115,6 +117,11 @@ $icon-size: 29px
       &:after
         background-image: url(../../img/assets/icons/medium/btn_arrow_up_white.svg)
 
+    &:not(.btn-arrow)
+      &:after
+        transform: rotate(0deg)
+        transition: all .35s ease-out
+
     &[disabled],
     &.disabled
       cursor: initial
@@ -124,6 +131,13 @@ $icon-size: 29px
       & span
         background: $color_neutral_light_grey !important
         color: rgba($color_neutral_white, 20%)
+
+    &:not(.btn-arrow)
+      &:hover
+        &:after
+          transform: rotate(180deg)
+
+
 
   &-black
     & span
@@ -192,12 +206,14 @@ $icon-size: 29px
         background: $color-neutral-white
 
   &-black
+    background: $color-neutral-dark-grey
     & span
-      background: $color-neutral-dark-grey
+      background: transparent
 
     &:hover
       & span
-        background: $color-neutral-grey
+        &:hover
+          background: $color-neutral-grey
 
 
   &-outline
@@ -219,99 +235,193 @@ $icon-size: 29px
   // GRADIENTAL
   &-primary,
   &-horizontal-primary
+    background: $gradient_horizontal_primary
     & span
-      background: $gradient_horizontal_primary
+      background: transparent
 
     &:hover
       & span
-        background: $hover_horizontal_primary
+        background: $hover_horizontal_primary_btn
+        &:hover
+          background: $hover_horizontal_primary_btn
 
   &-vertical-primary
+    background: $gradient_vertical_primary
     & span
-      background: $gradient_vertical_primary
+      background: transparent
 
     &:hover
       & span
-        background: $hover_vertical_primary
+        &:hover
+          background: $hover_vertical_primary
 
 
 
   &-safety
+    background: $gradient_safety
     & span
-      background: $gradient_safety
+      background: transparent
 
     &:hover
       & span
-        background: $hover_safety
+        &:hover
+          background: $hover_safety_btn
+
+    &:not(.btn-arrow)
+      &:hover
+        & span
+          background: $hover_safety_btn
+
+
 
   &-ecology
+    background: $gradient_ecology
     & span
-      background: $gradient_ecology
+      background: transparent
 
     &:hover
       & span
-        background: $hover_ecology
+        &:hover
+          background: $hover_ecology_btn
+
+    &:not(.btn-arrow)
+      &:hover
+        & span
+          background: $hover_ecology_btn
+
+
 
   &-surveys
+    background: $gradient_surveys
     & span
-      background: $gradient_surveys
+      background: transparent
 
     &:hover
       & span
-        background: $hover_surveys
+        &:hover
+          background: $hover_surveys_btn
+
+    &:not(.btn-arrow)
+      &:hover
+        & span
+          background: $hover_surveys_btn
+
+
 
   &-academy
+    background: $gradient_academy
     & span
-      background: $gradient_academy
+      background: transparent
 
     &:hover
       & span
-        background: $hover_academy
+        &:hover
+          background: $hover_academy_btn
+
+    &:not(.btn-arrow)
+      &:hover
+        & span
+          background: $hover_academy_btn
+
+
 
   &-soft
+    background: $gradient_soft
     & span
-      background: $gradient_soft
+      background: transparent
 
     &:hover
       & span
-        background: $hover_soft
+        &:hover
+          background: $hover_soft_btn
+
+    &:not(.btn-arrow)
+      &:hover
+        & span
+          background: $hover_soft_btn
+
+
 
   &-foundation
+    background: $gradient_foundation
     & span
-      background: $gradient_foundation
+      background: transparent
 
     &:hover
       & span
-        background: $hover_foundation
+        &:hover
+          background: $hover_foundation_btn
+
+    &:not(.btn-arrow)
+      &:hover
+        & span
+          background: $hover_foundation_btn
+
+
 
   &-journal
+    background: $gradient_journal
     & span
-      background: $gradient_journal
+      background: transparent
 
     &:hover
       & span
-        background: $hover_journal
+        &:hover
+          background: $hover_journal_btn
+
+    &:not(.btn-arrow)
+      &:hover
+        & span
+          background: $hover_journal_btn
+
+
 
   &-certification
+    background: $gradient_certification
     & span
-      background: $gradient_certification
+      background: transparent
 
     &:hover
       & span
-        background: $hover_certification
+        &:hover
+          background: $hover_certification_btn
+
+    &:not(.btn-arrow)
+      &:hover
+        & span
+          background: $hover_certification_btn
+
+
 
   &-people
+    background: $gradient_people
     & span
-      background: $gradient_people
+      background: transparent
 
     &:hover
       & span
-        background: $hover_people
+        &:hover
+          background: $hover_people_btn
+
+    &:not(.btn-arrow)
+      &:hover
+        & span
+          background: $hover_people_btn
+
+
 
   &-life
+    background: $gradient_life
     & span
-      background: $gradient_life
+      background: transparent
 
     &:hover
       & span
-        background: $hover_life
+        &:hover
+          background: $hover_life_btn
+
+    &:not(.btn-arrow)
+      &:hover
+        & span
+          background: $hover_life_btn
+
