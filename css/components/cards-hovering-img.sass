@@ -3,12 +3,19 @@
   flex-direction: column
   overflow: hidden
 
+  .card-icon-bg-img,
+  .card-icon-bg
+    transition: all .35s ease-out
+
   //.card-icon-bg-img,
   .card-icon-bg
     & .bg-img
       opacity: 0
       display: none
-      z-index: -2
+      visibility: hidden
+      //height: 0
+      overflow: hidden
+      //z-index: -2
 
 @media(min-width: 1280px) and (max-width: 1919.5px)
   .cards-hovering-img

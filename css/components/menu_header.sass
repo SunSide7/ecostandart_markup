@@ -2,6 +2,24 @@
 @import ../assets/animations.sass
 @import ../assets/text.sass
 
+.menu-link
+  position: relative
+  padding-bottom: 20px
+  z-index: 3
+
+  & > *
+    color: $color_neutral_black
+    background: $color_neutral_white
+    cursor: pointer
+    text-decoration: none
+    @include hover-transition
+
+  & > *:hover
+    color: $color_primary_dark_green
+
+  & > *.active
+    color: $color_primary_dark_green
+
 .menu-header
   display: flex
   font-family: $font-main
@@ -15,7 +33,6 @@
 
   &.vertical
     flex-direction: column
-    gap: 20px
 
   & > *
     color: $color_neutral_black

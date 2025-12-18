@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             image: "img/sections/projects_slider/project_gazprom.jpg",
             tag: "Охрана труда",
-            logo: "img/assets/logos/medium/logo_gazprom.svg",
+            logo: "img/sections/projects_slider/logo_gazprom.svg",
             title: "Стратегическое партнёрство с крупнейшей энергетической компанией",
             details: [
                 { title: "Охрана труда", text: "/ СОУТ <br>/ Производственный контроль" },
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             image: "img/sections/projects_slider/project_rzhd.jpg",
             tag: "Экология",
-            logo: "img/assets/logos/medium/logo_rzhd.svg",
+            logo: "img/sections/projects_slider/logo_rzhd.svg",
             title: "Комплексные экологические решения для нефтегазовой отрасли",
             details: [
                 { title: "Экологический аудит", text: "/ Оценка воздействия <br>/ Нормативная документация" },
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             image: "img/sections/projects_slider/project_rosneft.png",
             tag: "Изыскания",
-            logo: "img/assets/logos/medium/logo_rosneft.svg",
+            logo: "img/sections/projects_slider/logo_rosneft.svg",
             title: "Инженерные изыскания для объектов нефтедобычи",
             details: [
                 { title: "Геологические изыскания", text: "/ Бурение скважин <br>/ Отбор проб" },

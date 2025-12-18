@@ -1345,6 +1345,25 @@
     font-weight: 500 !important;
   }
 }
+.menu-link {
+  position: relative;
+  padding-bottom: 20px;
+  z-index: 3;
+}
+.menu-link > * {
+  color: #3a434d;
+  background: #f8f8f8;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.35s ease-out;
+}
+.menu-link > *:hover {
+  color: #44af8c;
+}
+.menu-link > *.active {
+  color: #44af8c;
+}
+
 .menu-header {
   display: flex;
   font-family: "Manrope", sans-serif;
@@ -1358,7 +1377,6 @@
 }
 .menu-header.vertical {
   flex-direction: column;
-  gap: 20px;
 }
 .menu-header > * {
   color: #3a434d;

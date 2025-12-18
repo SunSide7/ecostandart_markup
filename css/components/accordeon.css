@@ -103,15 +103,19 @@
 .accordeon .arrow {
   transform: rotate(0deg);
   transition: all 0.35s ease-out;
+  user-select: none;
 }
 .accordeon .accordeon-content {
-  display: none;
+  display: flex;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 1s ease;
 }
 .accordeon.active .arrow {
   transform: rotate(180deg);
 }
 .accordeon.active .accordeon-content {
-  display: flex;
+  max-height: 2000px;
 }
 
 /*# sourceMappingURL=accordeon.css.map */
