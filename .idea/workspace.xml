@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20b3f406-bb73-4c62-87bf-5b9397848fba" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_36.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_36.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/menu_sight.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/menu_sight.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/menu_sight.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/menu_sight.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/menu_sight.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/menu_sight.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1766120521288</updated>
-      <workItem from="1766120523138" duration="23775000" />
+      <workItem from="1766120523138" duration="24851000" />
     </task>
     <servers />
   </component>
