@@ -27,6 +27,12 @@
     & .owl-stage
       display: flex
 
+      padding-top: 18px
+
+      &-outer
+        margin-top: -18px
+
+
     & .slide-item
       display: flex
       flex-direction: column
@@ -35,7 +41,7 @@
       height: 100% !important
       min-height: 100% !important
 
-      border-radius: 36px
+      border-radius: 30px
 
       overflow: hidden
 
@@ -44,6 +50,11 @@
       -ms-transition: all .35s ease-out
       -o-transition: all .35s ease-out
       transition: all .35s ease-out
+
+      & .img
+        -webkit-border-radius: 16px
+        -moz-border-radius: 16px
+        border-radius: 16px
 
       &:hover
         background: $color_neutral_white

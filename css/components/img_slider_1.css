@@ -870,6 +870,20 @@
   background: linear-gradient(128deg, #1cb8e4, #1cb8e4) !important;
 }
 
+.img-slider .owl-item,
+.img-slider-x4 .owl-item,
+.img-slider-x4_2 .owl-item,
+.img-slider-x4_3 .owl-item,
+.img-slider-x3 .owl-item {
+  overflow: initial;
+}
+.img-slider .owl-nav,
+.img-slider-x4 .owl-nav,
+.img-slider-x4_2 .owl-nav,
+.img-slider-x4_3 .owl-nav,
+.img-slider-x3 .owl-nav {
+  padding-bottom: 20px;
+}
 .img-slider .slide-item,
 .img-slider-x4 .slide-item,
 .img-slider-x4_2 .slide-item,
@@ -882,12 +896,19 @@
   overflow: hidden;
   transition: 0.5s ease;
 }
-.img-slider .slide-item:hover,
-.img-slider-x4 .slide-item:hover,
-.img-slider-x4_2 .slide-item:hover,
-.img-slider-x4_3 .slide-item:hover,
-.img-slider-x3 .slide-item:hover {
+.img-slider .slide-item:not(.no-hover):hover,
+.img-slider-x4 .slide-item:not(.no-hover):hover,
+.img-slider-x4_2 .slide-item:not(.no-hover):hover,
+.img-slider-x4_3 .slide-item:not(.no-hover):hover,
+.img-slider-x3 .slide-item:not(.no-hover):hover {
   box-shadow: 0px 5px 30px 1px rgba(0, 0, 0, 0.07);
+}
+.img-slider .slide-item.no-hover,
+.img-slider-x4 .slide-item.no-hover,
+.img-slider-x4_2 .slide-item.no-hover,
+.img-slider-x4_3 .slide-item.no-hover,
+.img-slider-x3 .slide-item.no-hover {
+  overflow: initial;
 }
 .img-slider .slide-item.h-initial,
 .img-slider-x4 .slide-item.h-initial,

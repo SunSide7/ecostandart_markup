@@ -27,12 +27,20 @@
         display: block
         width: 40px
         height: 40px
-        border-radius: 50px
-        background: white
+        //border-radius: 50px
+        //background: white
         background-image: url(../../img/components/cards/video_play.svg)
-        background-position: 55% center
+        //background-position: 55% center
+        //background-repeat: no-repeat
+        //background-size: 16px
+
+        //width: 100%
+        //height: 100%
+        background-image: url(../../img/components/cards/video_play_01_base.svg)
+        background-position: center center
         background-repeat: no-repeat
-        background-size: 16px
+        background-size: 100%
+
 
         top: 0
         bottom: 0
@@ -40,6 +48,22 @@
         right: 0
 
         margin: auto
+
+      &:hover
+        &:after
+          background-image: url(../../img/components/cards/video_play_02_hover.svg)
+
+      &:active
+        &:after
+          background-image: url(../../img/components/cards/video_play_03_click.svg)
+
+      &:disabled
+        &:after
+          background-image: url(../../img/components/cards/video_play_04_unactive.svg)
+
+
+
+
 
 
 @media(min-width: 360px) and (max-width: 639px)

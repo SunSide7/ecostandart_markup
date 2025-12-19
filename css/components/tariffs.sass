@@ -17,15 +17,18 @@
     position: relative
 
     transition: all .35s ease-out
+    border: 2px solid #42445A00
+
+    &:not(.active)
+      transition: all .35s ease-out
+      border: 2px solid $color_neutral_white
+      background: linear-gradient($color_neutral_white, $color_neutral_white) padding-box, $color_neutral_white border-box
 
     &.active
       box-shadow: 0 14px 10px rgba(0 0 0 / 4%)
       background: linear-gradient($color_neutral_white, $color_neutral_white) padding-box, $gradient-safety border-box
-      border: 2px solid transparent
-    &:not(.active)
-      border: 2px solid $color_neutral_white
-      //background: linear-gradient($color_neutral_white, $color_neutral_white) padding-box, $color_neutral_white border-box
-      //background: transparent
+      transition: all .35s ease-out
+      border: 2px solid rgba(66, 68, 90, 0)
 
 
     &:nth-child(3n)

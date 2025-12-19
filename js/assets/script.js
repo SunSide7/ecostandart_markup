@@ -38,7 +38,15 @@ $(document).ready(function() {
     }
 
     function hoverOutTafiffs() {
-        $(this).closest('.tariff-cards').find('.tariff-cards-item').removeClass('active')
+        if(!$(this).hasClass('default-active')) {
+            $(this).closest('.tariff-cards').find('.tariff-cards-item.active').css({'border': '2px solid #f8f8f8'})
+
+            $(this).closest('.tariff-cards').find('.tariff-cards-item.default-active').addClass('active')
+            setTimeout(() => {
+                $($(this).closest('.tariff-cards').find('.tariff-cards-item')).attr('style', '')
+                $(this).closest('.tariff-cards').find('.tariff-cards-item:not(.default-active)').removeClass('active')
+            }, 250)
+        }
     }
 
 
@@ -70,10 +78,20 @@ $(document).ready(function() {
         $(this).closest('.js-toggler-tab').find('.js-toggler-tab-slides .active').removeClass('active')
         $(this).closest('.js-toggler-tab').find('#' + $(this).data('tab-id')).addClass('active')
 
-        console.log($(this).data('tab-id'))
     }
 
     $('body').on('click', '.js-toggler-tab-panel > div', setToggleAccordion)
+
+
+    function setClose(closeToNodeSelector) {
+            $(closeToNodeSelector).removeClass('active')
+    }
+
+    $('body').on('click', function() {
+        if($(event.target).closest(".dropdown").length === 0) {
+            setClose('.dropdown')
+        }
+    })
 
 
 

@@ -5,6 +5,13 @@
 .img-slider-x4_2,
 .img-slider-x4_3,
 .img-slider-x3
+
+  & .owl-item
+    overflow: initial
+
+  & .owl-nav
+    padding-bottom: 20px
+
   .slide-item
     display: flex
     justify-content: center
@@ -14,8 +21,11 @@
 
     transition: 0.5s ease
 
-    &:hover
-      box-shadow: 0px 5px 30px 1px rgba(0, 0, 0, 0.07)
+    &:not(.no-hover)
+      &:hover
+        box-shadow: 0px 5px 30px 1px rgba(0, 0, 0, 0.07)
+    &.no-hover
+      overflow: initial
 
     &.h-initial
       height: initial !important

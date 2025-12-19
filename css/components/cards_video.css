@@ -22,17 +22,25 @@
   display: block;
   width: 40px;
   height: 40px;
-  border-radius: 50px;
-  background: white;
   background-image: url(../../img/components/cards/video_play.svg);
-  background-position: 55% center;
+  background-image: url(../../img/components/cards/video_play_01_base.svg);
+  background-position: center center;
   background-repeat: no-repeat;
-  background-size: 16px;
+  background-size: 100%;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   margin: auto;
+}
+.cards-video .video:not(.active):hover:after {
+  background-image: url(../../img/components/cards/video_play_02_hover.svg);
+}
+.cards-video .video:not(.active):active:after {
+  background-image: url(../../img/components/cards/video_play_03_click.svg);
+}
+.cards-video .video:not(.active):disabled:after {
+  background-image: url(../../img/components/cards/video_play_04_unactive.svg);
 }
 
 @media (min-width: 360px) and (max-width: 639px) {
@@ -47,7 +55,7 @@
 }
 @media (min-width: 960px) and (max-width: 1280px) {
   .cards-video .card-neutral-white .img {
-    /*height: 448px;*/
+    height: 448px;
   }
 }
 @media (min-width: 1280px) {

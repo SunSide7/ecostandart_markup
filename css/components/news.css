@@ -892,6 +892,10 @@
 }
 .news-hoverable .owl-stage {
   display: flex;
+  padding-top: 18px;
+}
+.news-hoverable .owl-stage-outer {
+  margin-top: -18px;
 }
 .news-hoverable .slide-item {
   display: flex;
@@ -900,13 +904,18 @@
   padding: 16px;
   height: 100% !important;
   min-height: 100% !important;
-  border-radius: 36px;
+  border-radius: 30px;
   overflow: hidden;
   -webkit-transition: all 0.35s ease-out;
   -moz-transition: all 0.35s ease-out;
   -ms-transition: all 0.35s ease-out;
   -o-transition: all 0.35s ease-out;
   transition: all 0.35s ease-out;
+}
+.news-hoverable .slide-item .img {
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
 }
 .news-hoverable .slide-item:hover {
   background: #f8f8f8;
