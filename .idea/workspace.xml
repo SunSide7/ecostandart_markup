@@ -1,13 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5997c512-d8fd-4383-b31f-4b1cb93589cf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_36.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_36.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/grid.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/grid.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/grid.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card_policy.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_policy.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card_policy.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_policy.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card_policy.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_policy.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/cards-rent.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards-rent.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/cards-rent.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards-rent.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/cards-rent.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards-rent.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/cards_slider_1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards_slider_1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/cards_slider_1.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards_slider_1.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/cards_slider_1.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards_slider_1.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/hero_asc.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/hero_asc.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/hero_asc.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/hero_asc.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/hero_asc.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/hero_asc.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/img_slider_1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/img_slider_1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/img_slider_1.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/img_slider_1.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/img_slider_1.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/img_slider_1.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/slider-staff.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/slider-staff.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/slider-staff.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/slider-staff.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/slider-staff.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/slider-staff.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/slider_cards.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/slider_cards.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/slider_cards.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/slider_cards.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/slider_cards.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/slider_cards.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/assets/hero_main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/assets/hero_main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/pages/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_dev.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_dev.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/hero_asc.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/hero_asc.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_29.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_29.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_62.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_62.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +64,10 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "watcher.settings",
     "vue.rearranger.settings.migration": "true"
@@ -55,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1766150210680</updated>
-      <workItem from="1766150211778" duration="27000" />
+      <workItem from="1766150211778" duration="8957000" />
     </task>
     <servers />
   </component>

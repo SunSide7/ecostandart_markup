@@ -953,4 +953,10 @@
   background-color: blue;
 }
 
+@media (max-width: 1280px) {
+  .cards-slider .owl-nav {
+    padding-top: 16px !important;
+  }
+}
+
 /*# sourceMappingURL=cards_slider_1.css.map */

@@ -16,6 +16,8 @@ function setVizierPos() {
     $('.hero-asc-line-cross').css('top', $('.hero-asc-scaffold .hero-asc-text-top')[0].clientHeight - ($('.hero-asc-line-cross')[0].clientHeight / 2) + scaffold.clientHeight - (title.clientHeight + +style.bottom.replace('px', '')) + 3 + 'px');
     $('.hero-asc-line-cross').css('left', $('.hero-asc-scaffold .hero-asc-text')[0].clientWidth + +style.marginLeft.replace('px', '') + +style.paddingLeft.replace('px', '') - ($('.hero-asc-line-cross')[0].clientWidth / 2) + 3 + 44 + 'px');
 
+
+
 }
 
 function setStartContent() {
@@ -25,7 +27,12 @@ function setStartContent() {
 
     $('.hero-asc-scaffold').css({'background-image': 'url(' + $('.hero-asc-slide.active img').attr('src') + ')',});
 
+    $('.hero-asc-btn-wrp').empty()
+    $('.hero-asc-slide.active button').clone().appendTo('.hero-asc-btn-wrp')
+
+
     setVizierPos()
+
 }
 
 function setNextContent() {
@@ -35,6 +42,9 @@ function setNextContent() {
     $('.hero-asc-scaffold .hero-asc-subtitle').text($('.hero-asc-slide.active .hero-asc-subtitle').text())
 
     $('.hero-asc-scaffold').css({'background-image': 'url(' + $('.hero-asc-slide.active img').attr('src') + ')'});
+
+    $('.hero-asc-btn-wrp').empty()
+    $('.hero-asc-slide.active button').clone().appendTo('.hero-asc-btn-wrp')
 
     setVizierPos()
 }
@@ -46,6 +56,9 @@ function setPrevContent() {
     $('.hero-asc-scaffold .hero-asc-subtitle').text($('.hero-asc-slide.active .hero-asc-subtitle').text())
 
     $('.hero-asc-scaffold').css({'background-image': 'url(' + $('.hero-asc-slide.active img').attr('src') + ')'});
+
+    $('.hero-asc-btn-wrp').empty()
+    $('.hero-asc-slide.active button').clone().appendTo('.hero-asc-btn-wrp')
 
     setVizierPos()
 }

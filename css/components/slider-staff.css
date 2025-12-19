@@ -880,4 +880,13 @@
   color: #3a434d !important;
 }
 
+@media (max-width: 1280px) {
+  .slider-staff .slide-item .card-img-bg {
+    height: 164px;
+  }
+  .slider-staff .slide-item .staff-content .img, .slider-staff .slide-item .staff-content h4 {
+    margin-bottom: 8px !important;
+  }
+}
+
 /*# sourceMappingURL=slider-staff.css.map */

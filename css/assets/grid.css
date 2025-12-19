@@ -319,6 +319,15 @@
 }
 
 .carousel-section {
+  padding-top: 3px !important;
+  margin-top: -3px !important;
+}
+.carousel-section .owl-stage-outer {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.carousel-section {
   overflow: hidden;
 }
 .carousel-section .owl-stage-outer {
