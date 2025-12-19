@@ -1,24 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf725d96-54d4-4a3e-bf14-7bc2ee66dcb5" name="Changes" comment="">
+    <list default="true" id="5997c512-d8fd-4383-b31f-4b1cb93589cf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sections/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sections/header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/header.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_08.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_08.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_12.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_12.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_17.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_17.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_20.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_20.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_21.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_21.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_22.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_22.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_31.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_31.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_32.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_32.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_33.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_33.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_34.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_34.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/sections/legend_36.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_36.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_47.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_47.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_66.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_66.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +25,7 @@
   "customColor": "",
   "associatedIndex": 5
 }]]></component>
-  <component name="ProjectId" id="3745SeAvSvIOoD4lD0f1PGcY49B" />
+  <component name="ProjectId" id="3746tEHtxKFh0bEZnuWGdBqeD43" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -61,12 +50,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bf725d96-54d4-4a3e-bf14-7bc2ee66dcb5" name="Changes" comment="" />
-      <created>1766149505433</created>
+      <changelist id="5997c512-d8fd-4383-b31f-4b1cb93589cf" name="Changes" comment="" />
+      <created>1766150210680</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1766149505433</updated>
-      <workItem from="1766149506405" duration="56000" />
+      <updated>1766150210680</updated>
+      <workItem from="1766150211778" duration="27000" />
     </task>
     <servers />
   </component>
