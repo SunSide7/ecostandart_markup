@@ -1381,7 +1381,6 @@ body:has(.header.active) .header-bg-blur {
   display: flex;
   flex-direction: column;
   position: fixed;
-  overflow: hidden;
   z-index: 100;
   gap: 32px;
   transition: all 1s ease;
@@ -1389,6 +1388,7 @@ body:has(.header.active) .header-bg-blur {
 }
 .header .header-menu {
   display: none;
+  overflow: scroll;
 }
 .header.active .header-menu {
   display: flex;
@@ -1432,6 +1432,7 @@ body:has(.header.active) .header-bg-blur {
   }
   .header:hover {
     height: 492px;
+    overscroll-behavior: contain;
   }
   .header:hover .header-menu {
     display: flex;

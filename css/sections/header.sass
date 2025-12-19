@@ -27,14 +27,15 @@ body:has(.header.active)
   display: flex
   flex-direction: column
   position: fixed
-  overflow: hidden
   z-index: 100
   gap: 32px
   transition: all 1s ease
   box-shadow: 0 5px 30px 1px rgba(0,0,0,.07)
 
+
   .header-menu
     display: none
+    overflow: scroll
 
   &.active
 
@@ -77,7 +78,7 @@ body:has(.header.active)
 
     &:hover
       height: 492px
-
+      overscroll-behavior: contain
       .header-menu
         display: flex
 
