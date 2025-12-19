@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "Комплексные экологические решения для нефтегазовой отрасли",
             details: {
                 title: "Экологический аудит",
-                text: "Оценка воздействия на окружающую среду и разработка нормативной документации."
+                text: "Оценка воздействия на окружающую среду и разработка нормативной документации"
             }
         },
         {
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "Инженерные изыскания для объектов нефтедобычи",
             details: {
                 title: "Геологические исследования",
-                text: "Бурение скважин, отбор проб и анализ грунтов для строительства объектов."
+                text: "Бурение скважин, отбор проб и анализ грунтов для строительства объектов"
             }
         },
     ];
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const title = document.querySelector('.slider-title-mini');
     const detailTitle = document.querySelector('.slider-detail-title-mini');
     const detailText = document.querySelector('.slider-detail-text-mini');
-    const paginationDots = document.querySelectorAll('.pagination-dot.mini');
+    const paginationDots = document.querySelectorAll('.pagination-mini');
     const prevBtn = document.querySelector('.slider-prev-mini');
     const nextBtn = document.querySelector('.slider-next-mini');
 

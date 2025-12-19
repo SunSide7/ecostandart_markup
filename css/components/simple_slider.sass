@@ -1,16 +1,24 @@
 .simple-slider
-  overflow-x: scroll !important /* Важно! */
-  scroll-behavior: smooth
-  scroll-snap-type: x mandatory
-  -webkit-overflow-scrolling: touch
+  overflow-x: visible !important /* Разрешаем видимость за пределами */
+  overflow-y: hidden
   cursor: grab
-  scrollbar-width: none /* Скрыть скроллбар в Firefox */
-
-
-.simple-slider::-webkit-scrollbar
-  display: none /* Скрыть скроллбар в Chrome/Safari */
+  scroll-behavior: auto /* Отключаем стандартную плавность */
 
 
 .simple-slider.dragging
   cursor: grabbing
   scroll-behavior: auto
+
+
+/* Отключаем стандартные скроллбары */
+.simple-slider::-webkit-scrollbar
+  display: none
+
+@media (min-width: 960px)
+  .simple-slider
+    cursor: auto
+
+
+
+
+

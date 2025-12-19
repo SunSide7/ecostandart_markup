@@ -1,19 +1,25 @@
+@charset "UTF-8";
 .simple-slider {
-  overflow-x: scroll !important;
-  scroll-behavior: smooth;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
+  overflow-x: visible !important;
+  overflow-y: hidden;
   cursor: grab;
-  scrollbar-width: none;
-}
-
-.simple-slider::-webkit-scrollbar {
-  display: none;
+  scroll-behavior: auto;
 }
 
 .simple-slider.dragging {
   cursor: grabbing;
   scroll-behavior: auto;
+}
+
+/* Отключаем стандартные скроллбары */
+.simple-slider::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width: 960px) {
+  .simple-slider {
+    cursor: auto;
+  }
 }
 
 /*# sourceMappingURL=simple_slider.css.map */

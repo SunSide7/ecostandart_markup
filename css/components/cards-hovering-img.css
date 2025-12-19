@@ -7,6 +7,9 @@
 .cards-hovering-img .card-icon-bg {
   transition: all 0.35s ease-out;
 }
+.cards-hovering-img .card-icon-bg {
+  background: transparent;
+}
 .cards-hovering-img .card-icon-bg .bg-img {
   opacity: 0;
   display: none;

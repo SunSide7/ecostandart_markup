@@ -81,11 +81,11 @@
 }
 @media (min-width: 1920px) {
   .hero-main-title {
-    height: calc(50vh + 160px);
+    height: calc(50vh + 100px);
     width: calc(50vw + 140px);
   }
   .hero-main-input {
-    height: calc(50vh - 160px);
+    height: calc(50vh - 100px);
     width: calc(50vw - 140px);
   }
   .hero-main-info {

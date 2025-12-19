@@ -23,7 +23,7 @@
 .running-line {
   display: flex;
   width: fit-content;
-  animation: ticker 40s linear infinite;
+  animation: ticker 80s linear infinite;
   -webkit-transform-style: preserve-3d;
 }
 .running-line:hover {
@@ -33,7 +33,7 @@
 .running-line-reverse {
   display: flex;
   width: fit-content;
-  animation: ticker-reverse 40s linear infinite;
+  animation: ticker-reverse 80s linear infinite;
   -webkit-transform-style: preserve-3d;
 }
 .running-line-reverse:hover {
