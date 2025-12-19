@@ -105,10 +105,10 @@ $(document).ready(function() {
         dots: false,
         navText: [
             '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-            '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
             '</svg>\n',
             '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-            '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
             '</svg>',
         ],
         responsive:{
@@ -137,10 +137,10 @@ $(document).ready(function() {
         dots: false,
         navText: [
             '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-            '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
             '</svg>\n',
             '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-            '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
             '</svg>',
         ],
         responsive:{
@@ -169,10 +169,10 @@ $(document).ready(function() {
         dots: false,
         navText: [
             '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-            '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
             '</svg>\n',
             '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-            '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
             '</svg>',
         ],
         responsive:{
@@ -201,10 +201,10 @@ $(document).ready(function() {
         dots: false,
         navText: [
             '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-            '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
             '</svg>\n',
             '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-            '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
             '</svg>',
         ],
         responsive:{
@@ -233,10 +233,10 @@ $(document).ready(function() {
         dots: false,
         navText: [
             '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-            '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
             '</svg>\n',
             '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-            '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
             '</svg>',
         ],
         responsive:{
@@ -265,10 +265,10 @@ $(document).ready(function() {
         dots: false,
         navText: [
             '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-            '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
             '</svg>\n',
             '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-            '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
             '</svg>',
         ],
         responsive:{
@@ -301,10 +301,10 @@ $(document).ready(function() {
         dots: false,
         navText: [
             '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-            '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
             '</svg>\n',
             '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-            '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
             '</svg>',
         ],
         responsive:{
@@ -342,10 +342,10 @@ $(document).ready(function() {
             dots: false,
             navText: [
                 '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-                '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+                '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
                 '</svg>\n',
                 '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-                '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+                '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
                 '</svg>',
             ],
             responsive:{
@@ -383,10 +383,10 @@ $(document).ready(function() {
             dots: false,
             navText: [
                 '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-                '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+                '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
                 '</svg>\n',
                 '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-                '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+                '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
                 '</svg>',
             ],
             responsive:{

@@ -1004,6 +1004,72 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.35s ease-out;
+  border: 1px solid rgba(183, 187, 195, 0) !important;
+}
+.img-slider .owl-nav .owl-prev svg,
+.img-slider .owl-nav .owl-next svg,
+.img-slider-x4 .owl-nav .owl-prev svg,
+.img-slider-x4 .owl-nav .owl-next svg,
+.img-slider-x4_2 .owl-nav .owl-prev svg,
+.img-slider-x4_2 .owl-nav .owl-next svg,
+.img-slider-x4_3 .owl-nav .owl-prev svg,
+.img-slider-x4_3 .owl-nav .owl-next svg,
+.img-slider-x3 .owl-nav .owl-prev svg,
+.img-slider-x3 .owl-nav .owl-next svg {
+  stroke: #727882;
+  transition: all 0.35s ease-out;
+}
+.img-slider .owl-nav .owl-prev:hover,
+.img-slider .owl-nav .owl-next:hover,
+.img-slider-x4 .owl-nav .owl-prev:hover,
+.img-slider-x4 .owl-nav .owl-next:hover,
+.img-slider-x4_2 .owl-nav .owl-prev:hover,
+.img-slider-x4_2 .owl-nav .owl-next:hover,
+.img-slider-x4_3 .owl-nav .owl-prev:hover,
+.img-slider-x4_3 .owl-nav .owl-next:hover,
+.img-slider-x3 .owl-nav .owl-prev:hover,
+.img-slider-x3 .owl-nav .owl-next:hover {
+  box-shadow: 0px 5px 30px 1px rgba(0, 0, 0, 0.16) !important;
+  border: 1px solid rgba(183, 187, 195, 0) !important;
+}
+.img-slider .owl-nav .owl-prev:hover svg,
+.img-slider .owl-nav .owl-next:hover svg,
+.img-slider-x4 .owl-nav .owl-prev:hover svg,
+.img-slider-x4 .owl-nav .owl-next:hover svg,
+.img-slider-x4_2 .owl-nav .owl-prev:hover svg,
+.img-slider-x4_2 .owl-nav .owl-next:hover svg,
+.img-slider-x4_3 .owl-nav .owl-prev:hover svg,
+.img-slider-x4_3 .owl-nav .owl-next:hover svg,
+.img-slider-x3 .owl-nav .owl-prev:hover svg,
+.img-slider-x3 .owl-nav .owl-next:hover svg {
+  stroke: #3a434d;
+}
+.img-slider .owl-nav .owl-prev:active,
+.img-slider .owl-nav .owl-next:active,
+.img-slider-x4 .owl-nav .owl-prev:active,
+.img-slider-x4 .owl-nav .owl-next:active,
+.img-slider-x4_2 .owl-nav .owl-prev:active,
+.img-slider-x4_2 .owl-nav .owl-next:active,
+.img-slider-x4_3 .owl-nav .owl-prev:active,
+.img-slider-x4_3 .owl-nav .owl-next:active,
+.img-slider-x3 .owl-nav .owl-prev:active,
+.img-slider-x3 .owl-nav .owl-next:active {
+  box-shadow: 0px 5px 30px 1px rgba(0, 0, 0, 0) !important;
+  border: 1px solid rgba(183, 187, 195, 0.5) !important;
+  background: transparent;
+}
+.img-slider .owl-nav .owl-prev:active svg,
+.img-slider .owl-nav .owl-next:active svg,
+.img-slider-x4 .owl-nav .owl-prev:active svg,
+.img-slider-x4 .owl-nav .owl-next:active svg,
+.img-slider-x4_2 .owl-nav .owl-prev:active svg,
+.img-slider-x4_2 .owl-nav .owl-next:active svg,
+.img-slider-x4_3 .owl-nav .owl-prev:active svg,
+.img-slider-x4_3 .owl-nav .owl-next:active svg,
+.img-slider-x3 .owl-nav .owl-prev:active svg,
+.img-slider-x3 .owl-nav .owl-next:active svg {
+  stroke: #3a434d;
 }
 .img-slider .owl-dots,
 .img-slider-x4 .owl-dots,
