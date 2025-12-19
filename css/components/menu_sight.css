@@ -10,7 +10,7 @@
 
 .menu-visir-left {
   position: absolute;
-  left: -283.7px;
+  left: -283px;
   transition: top 0.4s;
   width: 284px;
   min-width: 284px;
@@ -20,7 +20,7 @@
 
 .menu-visir-right {
   position: absolute;
-  left: 2.4px;
+  left: 1px;
   transition: top 0.4s;
   pointer-events: none;
   z-index: 1;

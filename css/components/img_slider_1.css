@@ -933,6 +933,13 @@
   flex-direction: column;
   border-radius: 0;
 }
+.img-slider .slide-item-subtitle:hover,
+.img-slider-x4 .slide-item-subtitle:hover,
+.img-slider-x4_2 .slide-item-subtitle:hover,
+.img-slider-x4_3 .slide-item-subtitle:hover,
+.img-slider-x3 .slide-item-subtitle:hover {
+  box-shadow: none !important;
+}
 .img-slider .slide-item-subtitle .img,
 .img-slider-x4 .slide-item-subtitle .img,
 .img-slider-x4_2 .slide-item-subtitle .img,

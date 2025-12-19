@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
             image: "img/sections/projects_slider/project_rzhd.jpg",
             tag: "Экология",
             logo: "img/sections/projects_slider/logo_rzhd.svg",
-            title: "Комплексные экологические решения для нефтегазовой отрасли",
+            title: "Оценка воздействия на окружающую среду и разработка нормативной документации",
             details: [
                 { title: "Экологический аудит", text: "/ Оценка воздействия <br>/ Нормативная документация" },
                 { title: "Лабораторные исследования", text: "/ Анализ проб" },

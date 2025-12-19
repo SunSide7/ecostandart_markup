@@ -4,29 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0b626ad-327a-4bf7-b0a2-92763ca6070e" name="Changes" comment="[17:42 17.11.2025] Buttons">
+    <list default="true" id="3026349c-b8bd-4523-957e-c3f59138b250" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/assets/grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/cards_slider_1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards_slider_1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/cards_slider_1.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards_slider_1.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/cards_slider_1.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards_slider_1.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/cards_video.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards_video.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/img-on-gray-bg.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/img-on-gray-bg.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/img-on-gray-bg.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/img-on-gray-bg.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/img-on-gray-bg.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/img-on-gray-bg.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/img_slider_1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/img_slider_1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/img_slider_1.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/img_slider_1.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/img_slider_1.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/img_slider_1.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/map-wrp.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/map-wrp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/map-wrp.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/map-wrp.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/map-wrp.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/map-wrp.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/news.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/slider-staff.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/slider-staff.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/tariffs.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/tariffs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sections/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/cards_roadmap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards_roadmap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/cards_roadmap.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards_roadmap.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/tab-img-right.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/tab-img-right.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/tab-img-right.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/tab-img-right.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/tab-img-right.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/tab-img-right.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/assets/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/assets/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/pages/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_dev.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_dev.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/hero_asc.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/hero_asc.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_48.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_48.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,37 +30,28 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\php8\php.exe" />
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 5
-}</component>
-  <component name="ProjectId" id="36zK4BI80wWY6vON7ZSrAgCDdHg" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="373xlWZAZVeIBTPItymC0o80Y8l" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Popov\Desktop\BX MARKUP\img\sections\legend_52" />
-      <recent name="C:\Users\Popov\Desktop\BX MARKUP\img\sections\legend_52\icons" />
-    </key>
-  </component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -82,33 +63,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b0b626ad-327a-4bf7-b0a2-92763ca6070e" name="Changes" comment="" />
-      <created>1766003766856</created>
+      <changelist id="3026349c-b8bd-4523-957e-c3f59138b250" name="Changes" comment="" />
+      <created>1766145709841</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1766003766856</updated>
-      <workItem from="1766003767949" duration="27000" />
-      <workItem from="1766058585626" duration="11691000" />
-      <workItem from="1766137081255" duration="3130000" />
+      <updated>1766145709841</updated>
+      <workItem from="1766145710814" duration="3439000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ID_ORDER">
-      <list>
-        <option value="Default.Root" />
-        <option value="Default.Author" />
-        <option value="Default.Date" />
-        <option value="Default.Subject" />
-        <option value="GitHub.CommitStatus" />
-      </list>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="[17:42 17.11.2025] Buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="[17:42 17.11.2025] Buttons" />
   </component>
 </project>

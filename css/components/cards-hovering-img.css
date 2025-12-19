@@ -7,11 +7,23 @@
 .cards-hovering-img .card-icon-bg {
   transition: all 0.35s ease-out;
 }
+.cards-hovering-img .card-icon-bg-img .bg-img,
+.cards-hovering-img .card-icon-bg .bg-img {
+  transition: all 0.35s ease-out;
+}
+.cards-hovering-img .card-icon-bg {
+  background: transparent;
+  position: relative;
+}
 .cards-hovering-img .card-icon-bg .bg-img {
   opacity: 0;
-  display: none;
-  visibility: hidden;
   overflow: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 @media (min-width: 1280px) and (max-width: 1919.5px) {
