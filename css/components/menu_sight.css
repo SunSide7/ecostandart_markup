@@ -10,6 +10,7 @@
 }
 
 .menu-visir-axis {
+  position: absolute;
   min-width: 3px;
 }
 
