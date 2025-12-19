@@ -1,9 +1,8 @@
 @charset "UTF-8";
 .simple-slider {
-  overflow-x: visible !important;
+  overflow-x: scroll !important;
   overflow-y: hidden;
   cursor: grab;
-  scroll-behavior: auto;
 }
 
 .simple-slider.dragging {
