@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Данные слайдов
     const projectsData = [
         {
             image: "img/sections/projects_slider/project_gazprom.jpg",
@@ -35,51 +34,43 @@ document.addEventListener('DOMContentLoaded', function() {
     const prevBtn = document.querySelector('.slider-prev-mini');
     const nextBtn = document.querySelector('.slider-next-mini');
 
-// Состояние слайдера
     let currentSlide = 0;
-    let isAnimating = false; // Добавляем флаг анимации
+    let isAnimating = false;
     let autoSlideInterval;
     const slideDuration = 5000;
 
-// Предзагрузка изображений
     function preloadImages() {
         projectsData.forEach((slide, index) => {
             if (index > 0) {
-                const img = new Image();
-                img.src = slide.image;
+                new Image().src = slide.image;
             }
         });
     }
 
-// Функция переключения слайда
     function goToSlide(index) {
-        if (isAnimating) return; // Защита от множественных кликов
+        if (isAnimating) return;
 
-        // Зацикливание
         if (index < 0) index = projectsData.length - 1;
         if (index >= projectsData.length) index = 0;
 
-        isAnimating = true; // Начинаем анимацию
-
-        // Обновляем текущий слайд
+        isAnimating = true;
         currentSlide = index;
-        const data = projectsData[currentSlide];
 
-        // Находим активные фоны
+        // **ИСПРАВЛЕНИЕ: Сразу обновляем пагинацию**
+        updatePagination();
+
+        const data = projectsData[currentSlide];
         const activeBg = document.querySelector('.slider-bg-mini[data-active="true"]');
         const nextBg = document.querySelector('.slider-bg-mini[data-active="false"]');
 
-        // Загружаем новое изображение
         const nextImage = new Image();
         nextImage.src = data.image;
 
-        // Когда изображение загружено, меняем слайд
         const changeSlide = () => {
-            // **ПЛАВНАЯ СМЕНА ФОНА: Сначала скрываем активный фон**
+            // Плавно скрываем старый фон и текст
             activeBg.style.transition = 'opacity 0.8s ease';
             activeBg.style.opacity = '0';
 
-            // **ОБНОВЛЯЕМ ТЕКСТ С АНИМАЦИЕЙ ИСЧЕЗНОВЕНИЯ**
             title.style.transition = 'opacity 0.4s ease';
             detailTitle.style.transition = 'opacity 0.4s ease';
             detailText.style.transition = 'opacity 0.4s ease';
@@ -88,64 +79,58 @@ document.addEventListener('DOMContentLoaded', function() {
             detailTitle.style.opacity = '0';
             detailText.style.opacity = '0';
 
-            // **ОБНОВЛЯЕМ СОДЕРЖИМОЕ ПОСЛЕ ИСЧЕЗНОВЕНИЯ СТАРОГО КОНТЕНТА**
+            // Обновляем текст
             title.textContent = data.title;
             detailTitle.textContent = data.details.title;
             detailText.innerHTML = data.details.text;
 
-            // **МЕНЯЕМ ФОН И ПОКАЗЫВАЕМ ЕГО**
+            // Меняем фон
             nextBg.src = data.image;
             nextBg.alt = data.title;
-            nextBg.style.transition = 'opacity 0s'; // Без анимации для моментального показа
+            nextBg.style.transition = 'opacity 0s';
             nextBg.style.opacity = '1';
 
-            // Меняем активные фоны
+            // Обновляем атрибуты фонов
             activeBg.setAttribute('data-active', 'false');
             nextBg.setAttribute('data-active', 'true');
 
-            // **ВОССТАНАВЛИВАЕМ TRANSITION ДЛЯ СЛЕДУЮЩИХ АНИМАЦИЙ**
+            // Восстанавливаем transition
             nextBg.style.transition = 'opacity 0.8s ease';
             activeBg.style.transition = 'opacity 0.8s ease';
 
-            title.style.opacity = '1';
-            detailTitle.style.opacity = '1';
-            detailText.style.opacity = '1';
+            // Плавно показываем новый текст
+            setTimeout(() => {
+                title.style.opacity = '1';
+                detailTitle.style.opacity = '1';
+                detailText.style.opacity = '1';
 
-            // Обновляем пагинацию
-            updatePagination();
-
-            isAnimating = false; // Завершаем анимацию
+                isAnimating = false;
+            }, 50);
         };
 
-        // Если изображение уже загружено, меняем сразу
         if (nextImage.complete) {
             changeSlide();
         } else {
             nextImage.onload = changeSlide;
         }
 
-        // Перезапускаем автопрокрутку
         startAutoSlide();
     }
 
-// Обновление пагинации
     function updatePagination() {
         paginationDots.forEach((dot, index) => {
             dot.classList.toggle('active', index === currentSlide);
         });
     }
 
-// Следующий слайд
     function showNextSlide() {
         goToSlide(currentSlide + 1);
     }
 
-// Предыдущий слайд
     function showPrevSlide() {
         goToSlide(currentSlide - 1);
     }
 
-// Автопрокрутка
     function startAutoSlide() {
         clearInterval(autoSlideInterval);
         autoSlideInterval = setInterval(showNextSlide, slideDuration);
@@ -155,40 +140,31 @@ document.addEventListener('DOMContentLoaded', function() {
         clearInterval(autoSlideInterval);
     }
 
-// Инициализация
     function initSlider() {
-        // Предзагрузка изображений
         preloadImages();
 
-        // Инициализация фонов
         bgImages[0].style.opacity = '1';
         bgImages[1].style.opacity = '0';
         bgImages[0].style.transition = 'opacity 0.8s ease';
         bgImages[1].style.transition = 'opacity 0.8s ease';
 
-        // Инициализация текста с анимацией
         title.style.transition = 'opacity 0.5s ease';
         detailTitle.style.transition = 'opacity 0.5s ease';
         detailText.style.transition = 'opacity 0.5s ease';
 
-        // Обработчики для точек
         paginationDots.forEach((dot, index) => {
             dot.addEventListener('click', () => goToSlide(index));
         });
 
-        // Обработчики для кнопок
         prevBtn.addEventListener('click', showPrevSlide);
         nextBtn.addEventListener('click', showNextSlide);
 
-        // Пауза при наведении
         const slider = document.querySelector('.slider-project');
         slider.addEventListener('mouseenter', stopAutoSlide);
         slider.addEventListener('mouseleave', startAutoSlide);
 
-        // Запускаем автопрокрутку
         startAutoSlide();
     }
 
-    // Запуск слайдера
     initSlider();
 });
