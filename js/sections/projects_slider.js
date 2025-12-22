@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const title = document.querySelector('.slider-title');
     const detailTitles = document.querySelectorAll('.slider-detail-title');
     const detailTexts = document.querySelectorAll('.slider-detail-text');
-    const paginationDots = document.querySelectorAll('.pagination-dot');
+    const paginationDots = document.querySelectorAll('.pagination');
     const prevBtn = document.querySelector('.slider-prev');
     const nextBtn = document.querySelector('.slider-next');
 
