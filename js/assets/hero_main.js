@@ -63,12 +63,16 @@ function setPrevContent() {
     setVizierPos()
 }
 
-setVizierPos()
 setStartContent();
+setTimeout(function() {
+    setVizierPos()
+}, 100)
 
 $(window).on('resize', () => {
-    setVizierPos()
     setStartContent();
+    setTimeout(function() {
+        setVizierPos()
+    }, 100)
 });
 
 $(window).on('wheel', () => {
@@ -77,6 +81,18 @@ $(window).on('wheel', () => {
         setStartContent();
     }
 });
+
+function replaceNavActive() {
+    $('.hero-asc-nav').appendTo('.hero-asc-nav-mobile-wrp')
+    console.log('mobile')
+}
+function replaceNavUnactive() {
+    $('.hero-asc-nav').appendTo('.hero-asc-nav-desk-wrp')
+    console.log('desktop')
+
+}
+
+new MobileDetect(replaceNavActive, replaceNavUnactive, 340, 639.5);
 
 
 
