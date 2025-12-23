@@ -1421,7 +1421,7 @@ body:has(.header.active) .header-bg-blur {
   }
 }
 @media (min-width: 1280px) {
-  body:has(.header:hover) .header-bg-blur {
+  body:has(.header.active) .header-bg-blur {
     opacity: 1;
   }
   .header {
@@ -1430,12 +1430,18 @@ body:has(.header.active) .header-bg-blur {
     padding: 16px 16px 16px 24px;
     height: 75px;
   }
-  .header:hover {
+  .header.active {
     height: 492px;
     overscroll-behavior: contain;
   }
-  .header:hover .header-menu {
+  .header.active .header-menu {
     display: flex;
+  }
+  .header.prevent-active {
+    height: 75px !important;
+  }
+  .header.prevent-active .header-menu {
+    display: none !important;
   }
 }
 @media (min-width: 1920px) {

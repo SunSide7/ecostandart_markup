@@ -5,18 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20b3f406-bb73-4c62-87bf-5b9397848fba" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/img/sections/clients/arrow_go_corner_light_green.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/clients/tape_1280_bottom.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/clients/tape_1280_middle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/clients/tape_1280_right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/clients/tape_1280_top.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/clients/tape_1920_bottom.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/clients/tape_1920_middle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/clients/tape_1920_right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/clients/tape_1920_top.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/clients/tape_360_bottom.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/clients/tape_360_right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/clients/tape_360_top.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/clients/tape_640_bottom.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/clients/tape_640_left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/clients/tape_640_right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/clients/tape_640_top.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/clients/tape_960_bottom.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/clients/tape_960_middle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/clients/tape_960_right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/clients/tape_960_top.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/search.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/search.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/search.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/search.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/search.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/clients.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/clients.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/clients.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/clients.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/clients.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/clients.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/sections/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/sections/header.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/header.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/sections/header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/header.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/sections/projects_slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/sections/projects_slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/sections/projects_slider_mini.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/sections/projects_slider_mini.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/sections/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/sections/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/pages/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/pages/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_05_anim.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_05_anim.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_19_anim.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_19_anim.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/header.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_08.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_08.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

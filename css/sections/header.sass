@@ -65,7 +65,7 @@ body:has(.header.active)
     padding: 16px
 
 @media (min-width: 1280px)
-  body:has(.header:hover)
+  body:has(.header.active)
 
     .header-bg-blur
       opacity: 1
@@ -76,11 +76,16 @@ body:has(.header.active)
     padding: 16px 16px 16px 24px
     height: 75px
 
-    &:hover
+    &.active
       height: 492px
       overscroll-behavior: contain
       .header-menu
         display: flex
+
+    &.prevent-active
+      height: 75px !important
+      .header-menu
+        display: none !important
 
 @media (min-width: 1920px)
   .header
