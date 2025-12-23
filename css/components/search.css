@@ -870,6 +870,22 @@
   background: linear-gradient(128deg, #1cb8e4, #1cb8e4) !important;
 }
 
+.search-result {
+  position: absolute;
+  display: none;
+  width: 100%;
+  min-height: 323px;
+  top: 65.5px;
+  margin-left: 4px;
+}
+.search-result.active {
+  display: block;
+}
+
+.search-value {
+  border-bottom: #b7bbc3 solid 1px;
+}
+
 .search {
   display: flex;
   padding: 14px 25px;
@@ -909,7 +925,7 @@
 }
 .search.active {
   padding: 14px 13px;
-  width: 16vw;
+  width: 73vw;
   cursor: auto;
 }
 .search.active input {
@@ -954,7 +970,7 @@
 
 @media (min-width: 1920px) {
   .search.active {
-    width: 22vw;
+    width: 79vw;
   }
 }
 

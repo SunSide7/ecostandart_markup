@@ -9,6 +9,7 @@
             .menu-header-button.bg-gradient-horizontal-primary
 
         .position-relative.d-none.d-xl-flex.end-8
+            //Меню первого уровня
             .menu-header.horizontal
                 a(href="#") О компании
                 a(href="#") Услуги
@@ -32,10 +33,28 @@
                     img.search-button(src="img/assets/icons/small/icon_search_grey.svg")
                     input(placeholder="Поиск")
                     img.search-close(src="img/assets/icons/small/icon_exit_grey.svg")
+                    .search-result.br-20.bg-color-white
+                        .search-value.d-flex.flex-column.px-60.py-16
+                            p.text-body-bold.color-black Ничего не нашлось
+                            p.text-hint.color-black Попробуйте изменить запрос
+                        p.text-caption-bold.color-light-grey.p-16 Популярные запросы
+                        .d-flex.flex-column.px-60.py-8
+                            p.text-body-bold.color-black.clamp-line-1 Производственный контроль для Российской академии наук
+                            p.text-hint.color-light-grey.clamp-line-1 Новости
+                        .d-flex.flex-column.px-60.py-8
+                            p.text-body-bold.color-black.clamp-line-1 Специальная оценка условий труда: почему она не может быть дешевой
+                            p.text-hint.color-light-grey.clamp-line-1 Блог
+                        .d-flex.flex-column.px-60.py-8
+                            p.text-body-bold.color-black.clamp-line-1 Охрана труда и техника безопасности на предприятии Охрана труда и техника безопасности на предприятии Охрана труда и техника безопасности на предприятии Охрана труда и техника безопасности на предприятии
+                            p.text-hint.color-light-grey.clamp-line-1 Охрана труда
+                        .d-flex.flex-column.px-60.py-8
+                            p.text-body-bold.color-black.clamp-line-1 Аутсорсинг
+                            p.text-hint.color-light-grey.clamp-line-1 Услуги
             button.btn-primary.ms-4 <span>Связаться</span>
     .header-menu
         .d-none.d-xl-flex.w-100
             .header-menu-slot
+                //Меню второго уровня
                 .menu-header.vertical.menu-primary
                     .menu-link
                         a(href="#") Новости
@@ -54,7 +73,8 @@
                     img.menu-visir-left(src="img/sections/header/menu_visir_left.svg" loading="lazy" alt="")
                     img.menu-visir-axis(src="img/sections/header/menu_visir_axis.svg" loading="lazy" alt="")
                     img.menu-visir-right(src="img/sections/header/menu_visir_right.svg" loading="lazy" alt="")
-            .header-menu-slot
+            .position-relative.header-menu-slot
+                //Меню третьего уровня
                 .menu-header.vertical.menu-secondary
                     .menu-link
                         a(href="#") Экспертиза и мониторинг
