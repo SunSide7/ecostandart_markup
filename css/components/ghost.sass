@@ -12,6 +12,7 @@
     padding: 14px
     max-width: 40px
     max-height: 40px
+    min-width: 40px
 
   &.big
     padding: 14px
@@ -27,16 +28,24 @@
     background-color: transparent
     border: 1px $color_neutral_white solid
     border-radius: 100%
+    transition: all 0.25s ease
 
     &.medium
-    padding: 14px
-    max-width: 40px
-    max-height: 40px
+      padding: 14px
+      max-width: 40px
+      max-height: 40px
+      min-width: 40px
 
     &.big
       padding: 14px
       max-width: 43px
       max-height: 43px
+
+    &:hover
+      background-color: $color_neutral_white_20
+
+    &:active
+      border: 1px $color_neutral_white_50 solid
 
   &.disabled
     background-color: $color_neutral_light_grey !important

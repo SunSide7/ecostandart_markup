@@ -898,6 +898,15 @@
   line-height: 22px;
 }
 
+@media (max-width: 1280px) {
+  .cards-policy .card-neutral-white {
+    padding: 32px;
+  }
+  .cards-policy .card-neutral-white.img {
+    height: 106px;
+    margin-bottom: 24px !important;
+  }
+}
 @media (min-width: 360px) and (max-width: 640px) {
   .cards-policy > .card-neutral-white {
     padding: 20px !important;

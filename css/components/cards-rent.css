@@ -1,4 +1,63 @@
-@media (min-width: 1280px) and (max-width: 1920px) {
+.cards-rent .btn-news {
+  bottom: 40px !important;
+}
+.cards-rent .owl-carousel {
+  margin-bottom: 12px !important;
+}
+.cards-rent .owl-carousel .owl-stage {
+  padding-bottom: 20px;
+}
+.cards-rent .owl-carousel .owl-nav {
+  padding-top: 12px !important;
+}
+
+@media (min-width: 360px) and (max-width: 639.5px) {
+  .cards-rent .btn-news {
+    width: 100%;
+    text-align: center;
+  }
+  .cards-rent .btn-news span {
+    font-size: 12px !important;
+  }
+  .cards-rent .owl-carousel {
+    margin-bottom: 12px !important;
+  }
+  .cards-rent .owl-carousel .owl-stage {
+    padding-bottom: 20px;
+  }
+  .cards-rent .owl-carousel .owl-nav {
+    padding-top: 12px !important;
+  }
+}
+@media (min-width: 640px) and (max-width: 959.5px) {
+  .cards-rent .btn-news {
+    bottom: 17px !important;
+  }
+  .cards-rent .owl-carousel {
+    margin-bottom: 12px !important;
+  }
+  .cards-rent .owl-carousel .owl-stage {
+    padding-bottom: 20px;
+  }
+  .cards-rent .owl-carousel .owl-nav {
+    padding-top: 12px !important;
+  }
+}
+@media (min-width: 960px) and (max-width: 1279.5px) {
+  .cards-rent .btn-news {
+    bottom: 17px !important;
+  }
+  .cards-rent .owl-carousel {
+    margin-bottom: 12px !important;
+  }
+  .cards-rent .owl-carousel .owl-stage {
+    padding-bottom: 20px;
+  }
+  .cards-rent .owl-carousel .owl-nav {
+    padding-top: 12px !important;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1919.5px) {
   .cards-rent .btn-news {
     position: static !important;
   }

@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             image: "img/sections/projects_slider/project_gazprom.jpg",
             tag: "Охрана труда",
-            logo: "img/assets/logos/medium/logo_gazprom.svg",
+            logo: "img/sections/projects_slider/logo_gazprom.svg",
             title: "Стратегическое партнёрство с крупнейшей энергетической компанией",
             details: [
                 { title: "Охрана труда", text: "/ СОУТ <br>/ Производственный контроль" },
@@ -16,8 +16,8 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             image: "img/sections/projects_slider/project_rzhd.jpg",
             tag: "Экология",
-            logo: "img/assets/logos/medium/logo_rzhd.svg",
-            title: "Комплексные экологические решения для нефтегазовой отрасли",
+            logo: "img/sections/projects_slider/logo_rzhd.svg",
+            title: "Оценка воздействия на окружающую среду и разработка нормативной документации",
             details: [
                 { title: "Экологический аудит", text: "/ Оценка воздействия <br>/ Нормативная документация" },
                 { title: "Лабораторные исследования", text: "/ Анализ проб" },
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             image: "img/sections/projects_slider/project_rosneft.png",
             tag: "Изыскания",
-            logo: "img/assets/logos/medium/logo_rosneft.svg",
+            logo: "img/sections/projects_slider/logo_rosneft.svg",
             title: "Инженерные изыскания для объектов нефтедобычи",
             details: [
                 { title: "Геологические изыскания", text: "/ Бурение скважин <br>/ Отбор проб" },
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const title = document.querySelector('.slider-title');
     const detailTitles = document.querySelectorAll('.slider-detail-title');
     const detailTexts = document.querySelectorAll('.slider-detail-text');
-    const paginationDots = document.querySelectorAll('.pagination-dot');
+    const paginationDots = document.querySelectorAll('.pagination');
     const prevBtn = document.querySelector('.slider-prev');
     const nextBtn = document.querySelector('.slider-next');
 

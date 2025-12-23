@@ -882,6 +882,7 @@
   padding: 14px;
   max-width: 40px;
   max-height: 40px;
+  min-width: 40px;
 }
 .ghost.big {
   padding: 14px;
@@ -897,14 +898,24 @@
   background-color: transparent;
   border: 1px #f8f8f8 solid;
   border-radius: 100%;
+  transition: all 0.25s ease;
+}
+.ghost-outline.medium {
   padding: 14px;
   max-width: 40px;
   max-height: 40px;
+  min-width: 40px;
 }
 .ghost-outline.big {
   padding: 14px;
   max-width: 43px;
   max-height: 43px;
+}
+.ghost-outline:hover {
+  background-color: rgba(248, 248, 248, 0.2);
+}
+.ghost-outline:active {
+  border: 1px rgba(248, 248, 248, 0.2) solid;
 }
 .ghost.disabled {
   background-color: #b7bbc3 !important;

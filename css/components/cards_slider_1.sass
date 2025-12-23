@@ -1,3 +1,5 @@
+@import ../assets/colors.sass
+
 .cards-slider
   .slide-item
     display: flex
@@ -8,6 +10,8 @@
     border-radius: 36px
     overflow: hidden
 
+    transition: 0.5s ease
+
     .img
       width: 100%
 
@@ -15,6 +19,9 @@
         height: 100%
         width: 100%
         object-fit: cover
+
+    &:hover
+      box-shadow: 0px 5px 30px 1px rgba(0, 0, 0, 0.07)
 
   .owl-nav
     display: flex
@@ -33,9 +40,33 @@
       -moz-border-radius: 50%
       border-radius: 50%
       box-shadow: 0px 97px 27px 0px #D6D6D600
+      box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.05)
       display: flex
       justify-content: center
       align-items: center
+
+      transition: all .35s ease-out
+      border: 1px solid rgba(183, 187, 195, 0) !important
+
+      & svg
+        stroke: $color_neutral_grey
+        transition: all .35s ease-out
+
+
+      &:hover
+        box-shadow: 0px 5px 30px 1px rgba(0, 0, 0, 0.16) !important
+        border: 1px solid rgba(183, 187, 195, 0) !important
+
+        & svg
+          stroke: $color_neutral_black
+
+      &:active
+        box-shadow: 0px 5px 30px 1px rgba(0, 0, 0, 0) !important
+        border: 1px solid rgba(183, 187, 195, .5) !important
+        background: transparent
+
+        & svg
+          stroke: $color_neutral_black
 
   .owl-dots
     display: flex
@@ -50,3 +81,8 @@
       height: 5px
       margin-right: 2px
       background-color: blue
+
+@media(max-width: 1280px)
+  .cards-slider
+    .owl-nav
+      padding-top: 16px !important

@@ -884,11 +884,19 @@
   width: calc(33.3333333333% - 10.6666666667px);
   margin-right: 16px;
   position: relative;
+  transition: all 0.35s ease-out;
+  border: 2px solid rgba(66, 68, 90, 0);
+}
+.tariff-cards-item:not(.active) {
+  transition: all 0.35s ease-out;
+  border: 2px solid #f8f8f8;
+  background: linear-gradient(#f8f8f8, #f8f8f8) padding-box, #f8f8f8 border-box;
 }
 .tariff-cards-item.active {
   box-shadow: 0 14px 10px rgba(0, 0, 0, 0.04);
   background: linear-gradient(#f8f8f8, #f8f8f8) padding-box, linear-gradient(128deg, #ffa734, #f24868) border-box;
-  border: 2px solid transparent;
+  transition: all 0.35s ease-out;
+  border: 2px solid rgba(66, 68, 90, 0);
 }
 .tariff-cards-item:nth-child(3n) {
   margin-right: 0;

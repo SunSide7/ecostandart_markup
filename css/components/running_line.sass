@@ -10,10 +10,15 @@
   100%
     transform: translateX(0)
 
+.running-line-wrapper
+  position: relative
+  overflow: hidden
+  width: 100%
+
 .running-line
   display: flex
   width: fit-content
-  animation: ticker 20s linear infinite
+  animation: ticker 80s linear infinite
   -webkit-transform-style: preserve-3d
 
   &:hover
@@ -22,7 +27,7 @@
 .running-line-reverse
   display: flex
   width: fit-content
-  animation: ticker-reverse 20s linear infinite
+  animation: ticker-reverse 80s linear infinite
   -webkit-transform-style: preserve-3d
 
   &:hover

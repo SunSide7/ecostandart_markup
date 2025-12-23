@@ -1,42 +1,54 @@
-.container
+//.container(style="background:blue;min-height:100vh;width:100%")
+
+.container.dev-title
     h2.title-primary.title-section-name_dev(style="font-size: 60px;padding-top: 102px !important") <span>HERO СЕКЦИЯ</span>
+    h4.title-primary Включая различные вариации: <span>22</span>
 
 section.section
         .hero-asc
             .hero-asc-slides.d-none
                 .hero-asc-slide.active
                     img(src="img/components/hero/hero-bg-green.png")
-                    h2.hero-asc-title TITLE
+                    //span.hero-asc-title-top № 1 в России с 1997 года
+                    h2.hero-asc-title Опыт работы во всех отраслях
 
-                    p.hero-asc-subtitle Осуществляем лабораторные исследования, испытания и&nbsp;измерения физических и&nbsp;химических факторов.Работаем с&nbsp;физическими и&nbsp;юридическими лицами. Услуги испытательного центра распространяются как&nbsp;на&nbsp;непосредственных заказчиков исследований, так&nbsp;и&nbsp;на&nbsp;другие подрядные лаборатории.
+                    p.hero-asc-subtitle Не шаблонные решения, а глубокое понимание отрасли. Разрабатываем индивидуальные системы безопасности, учитывающие ваши риски, нормативы и корпоративные стандарты.
+
+                    button.btn-img-safety
+                        span Проконсультироваться
 
                 .hero-asc-slide
                     img(src="img/components/hero/hero-bg-red.png")
-                    .hero-asc-title-top TITLE TOP 2
-                    h2.hero-asc-title TITLE 2
+                    //span.hero-asc-title-top № 1 в России с 1997 года
+                    h2.hero-asc-title Лабораторные исследования
 
-                    p.hero-asc-subtitle Осуществляем
+                    p.hero-asc-subtitle Единая онлайн-система управления охраной труда с электронным документооборотом, электронными цифровыми подписями (ЭЦП), чек-листами и дистанционным корпоративным обучением
 
-                .hero-asc-slide
-                    img(src="img/components/hero/hero-bg-green-2.png")
-                    .hero-asc-title-top TITLE TOP 3
-                    h2.hero-asc-title TITLE 3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque ex expedita ipsum maxime, molestias nisi! Accusantium dolorum ea natus voluptates.
-
-                    p.hero-asc-subtitle Осуществляем
+                    button.btn-img-safety
+                        span Отправить
 
                 .hero-asc-slide
                     img(src="img/components/hero/hero-bg-gray.png")
-                    .hero-asc-title-top TITLE TOP 3
-                    h2.hero-asc-title TITLE 3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque ex expedita ipsum maxime, molestias nisi! Accusantium dolorum ea natus voluptates.
+                    //.hero-asc-title-top TITLE TOP 3
+                    h2.hero-asc-title Опыт работы во всех отраслях
 
-                    p.hero-asc-subtitle Осуществляем ipsum dolor sit amet, consectetur adipisicing elit. Eaque ex expedita ipsum maxime, molestias nisi! Accusantium dolorum ea natus voluptates. ipsum dolor sit amet, consectetur adipisicing elit. Eaque ex expedita ipsum maxime, molestias nisi! Accusantium dolorum ea natus voluptates. ipsum dolor sit amet, consectetur adipisicing elit. Eaque ex expedita ipsum maxime, molestias nisi! Accusantium dolorum ea natus voluptates. ipsum dolor sit amet, consectetur adipisicing elit. Eaque ex expedita ipsum maxime, molestias nisi! Accusantium dolorum ea natus voluptates.
+                    p.hero-asc-subtitle Не шаблонные решения, а глубокое понимание отрасли. Разрабатываем индивидуальные системы безопасности, учитывающие ваши риски, нормативы и корпоративные стандарты.
 
+                    button.btn-img-life
+                        span Проконсультироваться
 
+                .hero-asc-slide
+                    img(src="img/components/hero/hero-bg-green-2.png")
+                    //.hero-asc-title-top TITLE TOP 3
+                    h2.hero-asc-title Опыт работы во всех отраслях
+
+                    p.hero-asc-subtitle Не шаблонные решения,
+
+                    button.btn-img-safety
+                        span Отправить
 
 
             .hero-asc-scaffold
-                //(style="background: url(img/components/hero/hero-bg-green.png) center center no-repeat; background-size: 100%")
-
 
                 .hero-asc-line-h
                 .hero-asc-line-v
@@ -48,16 +60,32 @@ section.section
                             .hero-asc-title-top TITLE TOP
                             h2.hero-asc-title TITLE
                         p.hero-asc-subtitle Осуществляем лабораторные исследования, испытания и&nbsp;измерения физических и&nbsp;химических факторов.Работаем с&nbsp;физическими и&nbsp;юридическими лицами. Услуги испытательного центра распространяются как&nbsp;на&nbsp;непосредственных заказчиков исследований, так&nbsp;и&nbsp;на&nbsp;другие подрядные лаборатории.
-                    br
-                    br
-                    button.btn-img-safety
-                        span BUTTON
 
-                .hero-asc-nav
-                    .hero-asc-prev
-                        img(src="img/components/slider/arrow-prev.svg")
-                    .hero-asc-next
-                        img(src="img/components/slider/arrow-next.svg")
+
+                        .hero-asc-nav-mobile-wrp
+                        br
+                        br
+                        .hero-asc-btn-wrp
+
+                .hero-asc-nav-desk-wrp
+                    .hero-asc-nav
+                        //.hero-asc-prev.hover-shadow
+                        //    //img(src="img/components/slider/arrow-prev.svg")
+                        //    svg(width="6")(height="11")(viewBox="0 0 6 11")(fill="none")(xmlns="http://www.w3.org/2000/svg")
+                        //        path(d="M4.75 0.749999L0.75 5.25L4.75 9.75")(stroke-width="1.5")(stroke-linecap="round")(stroke-linejoin="round")
+                        //.hero-asc-next.hover-shadow
+                        //    //img(src="img/components/slider/arrow-next.svg")
+                        //    svg(width="6")(height="11")(viewBox="0 0 6 11")(fill="none")(xmlns="http://www.w3.org/2000/svg")
+                        //        path(d="M0.750001 0.749999L4.75 5.25L0.75 9.75")(scriptstroke-width="1.5")(stroke-linecap="round")(stroke-linejoin="round")
+
+                        button.hero-asc-prev.slider-prev-mini.ghost-outline.medium
+                            //img(src="img/assets/icons/small/arrow_left_white.svg")
+                            svg(width="6")(height="11")(viewBox="0 0 6 11")(fill="none")(xmlns="http://www.w3.org/2000/svg")
+                                path(d="M4.75 0.749999L0.75 5.25L4.75 9.75")(stroke-width="1.5")(stroke-linecap="round")(stroke-linejoin="round")
+                        button.hero-asc-next.slider-next-mini.ghost-outline.medium
+                            //img(src="img/assets/icons/small/arrow_right_white.svg")
+                            svg(width="6")(height="11")(viewBox="0 0 6 11")(fill="none")(xmlns="http://www.w3.org/2000/svg")
+                                                        path(d="M0.750001 0.749999L4.75 5.25L0.75 9.75")(scriptstroke-width="1.5")(stroke-linecap="round")(stroke-linejoin="round")
 
 
 

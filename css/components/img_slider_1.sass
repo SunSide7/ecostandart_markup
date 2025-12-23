@@ -5,12 +5,27 @@
 .img-slider-x4_2,
 .img-slider-x4_3,
 .img-slider-x3
+
+  & .owl-item
+    overflow: initial
+
+  & .owl-nav
+    padding-bottom: 20px
+
   .slide-item
     display: flex
     justify-content: center
     height: 282px
     border-radius: 36px
     overflow: hidden
+
+    transition: 0.5s ease
+
+    &:not(.no-hover)
+      &:hover
+        box-shadow: 0px 5px 30px 1px rgba(0, 0, 0, 0.07)
+    &.no-hover
+      overflow: initial
 
     &.h-initial
       height: initial !important
@@ -21,6 +36,9 @@
       height: auto
       flex-direction: column
       border-radius: 0
+
+      &:hover
+        box-shadow: none !important
 
       .img
         width: 100%
@@ -58,10 +76,37 @@
       -moz-border-radius: 50%
       border-radius: 50%
       //box-shadow: 0px 97px 27px 0px #D6D6D600
-      box-shadow: 0px 5px 30px 1px rgba(0, 0, 0, 0.07) !important
+      box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.05) !important
       display: flex
       justify-content: center
       align-items: center
+
+      transition: all .35s ease-out
+      border: 1px solid rgba(183, 187, 195, 0) !important
+
+      & svg
+        stroke: $color_neutral_grey
+        transition: all .35s ease-out
+
+
+      &:hover
+        box-shadow: 0px 5px 30px 1px rgba(0, 0, 0, 0.16) !important
+        border: 1px solid rgba(183, 187, 195, 0) !important
+
+        & svg
+          stroke: $color_neutral_black
+
+      &:active
+        box-shadow: 0px 5px 30px 1px rgba(0, 0, 0, 0) !important
+        border: 1px solid rgba(183, 187, 195, .5) !important
+        background: transparent
+
+        & svg
+          stroke: $color_neutral_black
+
+
+
+
 
   .owl-dots
     display: flex
@@ -76,6 +121,15 @@
       height: 5px
       margin-right: 2px
       background-color: blue
+
+@media(max-width: 1280px)
+  .img-slider,
+  .img-slider-x4,
+  .img-slider-x4_2,
+  .img-slider-x4_3,
+  .img-slider-x3
+    .owl-nav
+      padding-top: 16px !important
 
 @media(max-width: 640px)
   .img-slider

@@ -3,6 +3,8 @@ $(document).ready(function() {
     function hoverIn() {
         console.log('hoverIn')
 
+        $(this).closest('.cards-hovering-img').find('.card-neutral-white').addClass('bg-gradient-safety')
+        $(this).closest('.cards-hovering-img').find('.card-neutral-white').addClass('card-icon-bg')
         $(this).closest('.cards-hovering-img').find('.card-neutral-white').removeClass('card-icon-bg-img')
 
         if($(this).hasClass('card-icon-bg-img')) {
@@ -26,7 +28,33 @@ $(document).ready(function() {
 
 
 
+    // TARIFFS
     $('.cards-hovering-img .card-neutral-white').hover(hoverIn, hoverOut)
+    $('.cards-hovering-img .card-neutral-white').click(hoverIn, hoverOut)
+
+    function hoverInTafiffs() {
+        $(this).closest('.tariff-cards').find('.tariff-cards-item').removeClass('active')
+        $(this).addClass('active')
+    }
+
+    function hoverOutTafiffs() {
+        if(!$(this).hasClass('default-active')) {
+            $(this).closest('.tariff-cards').find('.tariff-cards-item.active').css({'border': '2px solid #f8f8f8'})
+
+            $(this).closest('.tariff-cards').find('.tariff-cards-item.default-active').addClass('active')
+            setTimeout(() => {
+                $($(this).closest('.tariff-cards').find('.tariff-cards-item')).attr('style', '')
+                $(this).closest('.tariff-cards').find('.tariff-cards-item:not(.default-active)').removeClass('active')
+            }, 250)
+        }
+    }
+
+
+    $('.tariff-cards-item').hover(hoverInTafiffs, hoverOutTafiffs)
+    $('.tariff-cards-item').click(hoverInTafiffs, hoverOutTafiffs)
+
+
+
 
     function setToggle() {
         $(this).hasClass('active')
@@ -41,6 +69,34 @@ $(document).ready(function() {
     $('body').on('click', '.js-toggler', setToggle)
 
 
+    function setToggleAccordion() {
+        // .js-toggler-tab-panel    - ACCORDION TAB PANEL
+        // .js-toggler-tab-slides   - ACCORDION TAB SLIDES
+        $(this).closest('.js-toggler-tab-panel').find('.active').removeClass('active')
+        $(this).addClass('active')
+
+        $(this).closest('.js-toggler-tab').find('.js-toggler-tab-slides .active').removeClass('active')
+        $(this).closest('.js-toggler-tab').find('#' + $(this).data('tab-id')).addClass('active')
+
+    }
+
+    $('body').on('click', '.js-toggler-tab-panel > div', setToggleAccordion)
+
+
+    function setClose(closeToNodeSelector) {
+            $(closeToNodeSelector).removeClass('active')
+    }
+
+    $('body').on('click', function() {
+        if($(event.target).closest(".dropdown").length === 0) {
+            setClose('.dropdown')
+        }
+    })
+
+
+
+
+
 
     $('.img-slider').owlCarousel({
         // loop:true,
@@ -49,10 +105,10 @@ $(document).ready(function() {
         dots: false,
         navText: [
             '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-            '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
             '</svg>\n',
             '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-            '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
             '</svg>',
         ],
         responsive:{
@@ -81,10 +137,10 @@ $(document).ready(function() {
         dots: false,
         navText: [
             '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-            '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
             '</svg>\n',
             '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-            '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
             '</svg>',
         ],
         responsive:{
@@ -113,10 +169,10 @@ $(document).ready(function() {
         dots: false,
         navText: [
             '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-            '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
             '</svg>\n',
             '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-            '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
             '</svg>',
         ],
         responsive:{
@@ -145,10 +201,10 @@ $(document).ready(function() {
         dots: false,
         navText: [
             '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-            '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
             '</svg>\n',
             '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-            '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
             '</svg>',
         ],
         responsive:{
@@ -177,10 +233,10 @@ $(document).ready(function() {
         dots: false,
         navText: [
             '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-            '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
             '</svg>\n',
             '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-            '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
             '</svg>',
         ],
         responsive:{
@@ -209,10 +265,10 @@ $(document).ready(function() {
         dots: false,
         navText: [
             '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-            '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
             '</svg>\n',
             '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-            '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
             '</svg>',
         ],
         responsive:{
@@ -245,10 +301,10 @@ $(document).ready(function() {
         dots: false,
         navText: [
             '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-            '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
             '</svg>\n',
             '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-            '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
             '</svg>',
         ],
         responsive:{
@@ -286,10 +342,10 @@ $(document).ready(function() {
             dots: false,
             navText: [
                 '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-                '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+                '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
                 '</svg>\n',
                 '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-                '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+                '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
                 '</svg>',
             ],
             responsive:{
@@ -327,10 +383,10 @@ $(document).ready(function() {
             dots: false,
             navText: [
                 '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-                '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+                '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
                 '</svg>\n',
                 '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
-                '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke="#3A434D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+                '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
                 '</svg>',
             ],
             responsive:{
@@ -359,63 +415,7 @@ $(document).ready(function() {
 
 
 
-    function setVizierPos() {
 
-        $('.hero-asc-scaffold .hero-asc-text').height()
-
-        var scaffold = $('.hero-asc-scaffold')[0]
-
-        var title = $('.hero-asc-scaffold-content')[0];
-        var style = title.currentStyle || window.getComputedStyle(title);
-
-        console.log('bottom:', style.bottom.replace('px', ''))
-
-
-
-        $('.hero-asc-line-h').css('top', $('.hero-asc-scaffold .hero-asc-text-top')[0].clientHeight + scaffold.clientHeight - (title.clientHeight + +style.bottom.replace('px', '')) + 'px');
-        $('.hero-asc-line-v').css('left', $('.hero-asc-scaffold .hero-asc-text')[0].clientWidth + +style.marginLeft.replace('px', '') + +style.paddingLeft.replace('px', '') + 44 + 'px');
-        $('.hero-asc-line-cross').css('top', $('.hero-asc-scaffold .hero-asc-text-top')[0].clientHeight - ($('.hero-asc-line-cross')[0].clientHeight / 2) + scaffold.clientHeight - (title.clientHeight + +style.bottom.replace('px', '')) + 3 + 'px');
-        $('.hero-asc-line-cross').css('left', $('.hero-asc-scaffold .hero-asc-text')[0].clientWidth + +style.marginLeft.replace('px', '') + +style.paddingLeft.replace('px', '') - ($('.hero-asc-line-cross')[0].clientWidth / 2) + 3 + 44 + 'px');
-
-    }
-
-    function setStartContent() {
-        $('.hero-asc-scaffold .hero-asc-title-top').text($('.hero-asc-slide.active .hero-asc-title-top').text())
-        $('.hero-asc-scaffold .hero-asc-title').text($('.hero-asc-slide.active .hero-asc-title').text())
-        $('.hero-asc-scaffold .hero-asc-subtitle').text($('.hero-asc-slide.active .hero-asc-subtitle').text())
-
-        $('.hero-asc-scaffold').css({'background-image': 'url(' + $('.hero-asc-slide.active img').attr('src') + ')',});
-
-        setVizierPos()
-    }
-
-    function setNextContent() {
-        $('.hero-asc-slide.active').next().addClass('active').prev().removeClass('active')
-        $('.hero-asc-scaffold .hero-asc-title-top').text($('.hero-asc-slide.active .hero-asc-title-top').text())
-        $('.hero-asc-scaffold .hero-asc-title').text($('.hero-asc-slide.active .hero-asc-title').text())
-        $('.hero-asc-scaffold .hero-asc-subtitle').text($('.hero-asc-slide.active .hero-asc-subtitle').text())
-
-        $('.hero-asc-scaffold').css({'background-image': 'url(' + $('.hero-asc-slide.active img').attr('src') + ')'});
-
-        setVizierPos()
-    }
-
-    function setPrevContent() {
-        $('.hero-asc-slide.active').prev().addClass('active').next().removeClass('active')
-        $('.hero-asc-scaffold .hero-asc-title-top').text($('.hero-asc-slide.active .hero-asc-title-top').text())
-        $('.hero-asc-scaffold .hero-asc-title').text($('.hero-asc-slide.active .hero-asc-title').text())
-        $('.hero-asc-scaffold .hero-asc-subtitle').text($('.hero-asc-slide.active .hero-asc-subtitle').text())
-
-        $('.hero-asc-scaffold').css({'background-image': 'url(' + $('.hero-asc-slide.active img').attr('src') + ')'});
-
-        setVizierPos()
-    }
-
-    setVizierPos()
-    setStartContent();
-
-    $('body').on('click', '.hero-asc-next', setNextContent)
-    $('body').on('click', '.hero-asc-prev', setPrevContent)
     
     
     

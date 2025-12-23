@@ -1,3 +1,5 @@
+@import ../assets/colors.sass
+
 .hero-asc
   background: #ccc
 
@@ -6,14 +8,15 @@
 
   &-scaffold
     position: relative
-    min-height: 400px
-    height: 100vh
+    //min-height: 200px
+    min-height: 100vh
+    max-height: 100vh
     background-position: center center
     background-repeat: no-repeat
     background-size: cover
     overflow: hidden
 
-    transition: all .35s ease-out
+    transition: background .35s ease-out
 
     & .hero-asc-text
       display: inline-block
@@ -74,8 +77,8 @@
 
   &-prev
     margin-right: 8px
-  &-prev,
-  &-next
+  &-prev_hided,
+  &-next_hided
     display: flex
     justify-content: center
     align-items: center
@@ -92,8 +95,45 @@
     -moz-border-radius: 50%
     border-radius: 50%
     box-shadow: 0px 97px 27px 0px #D6D6D600
+    box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.05)
 
     cursor: pointer
+
+
+    transition: all .35s ease-out
+    border: 1px solid rgba(183, 187, 195, 0) !important
+
+  &-prev,
+  &-next
+    & svg
+      transition: all .35s ease-out
+      stroke: $color_neutral_background_white !important
+      stroke: $color_neutral_background_white !important
+
+
+    &:hover
+      //box-shadow: 0px 5px 30px 1px rgba(0, 0, 0, 0.16) !important
+      //border: 1px solid rgba(183, 187, 195, 0) !important
+
+      & svg
+        stroke: $color_neutral_background_white !important
+
+    &:active
+      //box-shadow: 0px 5px 30px 1px rgba(0, 0, 0, 0.16) !important
+      //border: 1px solid rgba(183, 187, 195, 0) !important
+
+      & svg
+        stroke: $color_neutral_background_white !important
+
+
+
+    &:active
+      box-shadow: 0px 5px 30px 1px rgba(0, 0, 0, 0) !important
+      border: 1px solid rgba(183, 187, 195, .5) !important
+      background: transparent
+
+      & svg
+        stroke: $color_neutral_black !important
 
 
 
@@ -118,12 +158,15 @@
   &-subtitle
     padding-top: 40px
 
-@media(min-width: 360px)
+@media(min-width: 360px) and (max-width: 639.5px)
   .hero-asc
     height: 740px
+    height: 100vh
 
     &-scaffold
       height: 100%
+      //min-height: 130vh
+      //max-height: 130vh
       &-content
         position: absolute
         bottom: 103px
@@ -132,9 +175,28 @@
 
         margin: auto
 
-@media(min-width: 640px)
+      & .hero-asc-text
+        min-width: 75%
+
+    &-nav-mobile-wrp
+      & > div
+        position: static
+        margin-bottom: 48px
+        padding-top: 56px
+
+    &-btn-wrp
+      position: absolute
+      bottom: 0
+
+      width: calc(100vw - 24px * 2)
+
+      & button
+        width: 100%
+
+@media(min-width: 640px) and (max-width: 959.5px)
   .hero-asc
     height: 960px
+    height: 100vh
 
     &-scaffold
       height: 100%
@@ -146,9 +208,10 @@
 
         margin: auto
 
-@media(min-width: 960px)
+@media(min-width: 960px) and (max-width: 1279.5px)
   .hero-asc
     height: 640px
+    height: 100vh
 
     &-scaffold
       height: 100%
@@ -160,9 +223,10 @@
 
         margin: auto
 
-@media(min-width: 1280px)
+@media(min-width: 1280px) and (max-width: 1919.5px)
   .hero-asc
     height: 841px
+    height: 100vh
 
     &-scaffold
       height: 100%
@@ -176,7 +240,8 @@
 
 @media(min-width: 1920px)
   .hero-asc
-    height: 1080px
+    //height: 1080px
+    height: 100vh
 
     &-scaffold
       height: 100%
@@ -188,6 +253,8 @@
 
         margin: auto
 
+    &-nav
+      right: calc((100% - 1792px) / 2) !important
 
 
 

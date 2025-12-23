@@ -21,20 +21,21 @@ body:has(.header.active)
   background-color: $color-neutral-white
   box-sizing: border-box
   border-radius: $border-radius-36
-  width: calc(100% - 48px)
-  margin: 24px 24px 0
+  width: calc(100% - 16px)
+  margin: 8px 8px 0
   padding: 16px
   display: flex
   flex-direction: column
   position: fixed
-  overflow: hidden
-  z-index: 40
+  z-index: 100
   gap: 32px
   transition: all 1s ease
   box-shadow: 0 5px 30px 1px rgba(0,0,0,.07)
 
+
   .header-menu
     display: none
+    overflow: scroll
 
   &.active
 
@@ -51,7 +52,7 @@ body:has(.header.active)
   display: flex
   flex-direction: column
   gap: 20px
-  width: 314px
+  width: 320px
   margin-left: auto
 
   & p
@@ -59,30 +60,34 @@ body:has(.header.active)
 
 @media (min-width: 640px)
   .header
-    width: calc(100% - 64px)
-    margin: 32px 32px 0
+    width: calc(100% - 16px)
+    margin: 8px 8px 0
     padding: 16px
 
 @media (min-width: 1280px)
-  body:has(.header:hover)
+  body:has(.header.active)
 
     .header-bg-blur
       opacity: 1
 
   .header
+    width: calc(100% - 16px)
+    margin: 8px 8px 0
     padding: 16px 16px 16px 24px
     height: 75px
 
-    &:hover
+    &.active
       height: 492px
-
+      overscroll-behavior: contain
       .header-menu
         display: flex
 
+    &.prevent-active
+      height: 75px !important
+      .header-menu
+        display: none !important
+
 @media (min-width: 1920px)
   .header
-    width: calc(100% - 128px)
-    margin: 64px 64px 0
-
-  .header-menu-info
-    width: 420px
+    width: calc(100% - 80px)
+    margin: 40px 40px

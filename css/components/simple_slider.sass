@@ -1,0 +1,23 @@
+.simple-slider
+  overflow-x: scroll !important /* Разрешаем видимость за пределами */
+  overflow-y: hidden
+  cursor: grab
+
+
+.simple-slider.dragging
+  cursor: grabbing
+  scroll-behavior: auto
+
+
+/* Отключаем стандартные скроллбары */
+.simple-slider::-webkit-scrollbar
+  display: none
+
+@media (min-width: 960px)
+  .simple-slider
+    cursor: auto
+
+
+
+
+
