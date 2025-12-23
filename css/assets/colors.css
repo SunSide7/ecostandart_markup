@@ -1,4 +1,4 @@
-#f2f2f2.trans-ease {
+.trans-ease {
   transition: ease !important;
 }
 .trans-ease-in {

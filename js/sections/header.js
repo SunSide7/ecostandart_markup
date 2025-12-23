@@ -26,12 +26,19 @@ headerSearchClose.addEventListener('click', () => {
     header.classList.remove("prevent-active");
 });
 
+// Или более компактный вариант с медиа-запросом в JS
+const mediaQuery = window.matchMedia('(min-width: 1280px)');
+
 header.addEventListener('mouseenter', function() {
-    header.classList.add("active");
+    if (mediaQuery.matches) {
+        header.classList.add("active");
+    }
 });
 
 header.addEventListener('mouseleave', function() {
-    header.classList.remove("active");
+    if (mediaQuery.matches) {
+        header.classList.remove("active");
+    }
 });
 
 document.addEventListener('DOMContentLoaded', function() {
