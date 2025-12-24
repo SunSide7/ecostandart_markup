@@ -1,6 +1,9 @@
 @import ../assets/colors.sass
 @import ../assets/animations.sass
 
+.blog-slider
+  padding-bottom: 22px
+
 .card-blog
 
   padding: 16px
@@ -9,15 +12,21 @@
 
 
   &:hover
-    background: $color_neutral_background_white
+    background: $color_neutral_white
+    box-shadow: 0 5px 30px 1px rgba(0,0,0,.07)
 
   &-img
     position: relative
+    max-height: 240px
+    border-radius: 20px
+    overflow: hidden
 
     & .img
       width: 100%
       height: 100%
-      overflow: hidden
+      position: relative
+      display: flex
+      align-items: center
 
       & img
         width: 100%
@@ -27,6 +36,7 @@
       position: absolute
       bottom: 16px
       left: 16px
+      height: 38px
 
   &-text
     & h4
@@ -64,3 +74,12 @@
   .card-blog
 
     background: $color_neutral_background_white
+
+    padding: 16px
+    border-radius: 36px
+    @include hover-transition
+
+
+    background: $color_neutral_white
+    box-shadow: 0 5px 30px 1px rgba(0,0,0,.07)
+

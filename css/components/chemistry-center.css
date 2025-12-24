@@ -1,0 +1,29 @@
+@media (min-width: 360px) and (max-width: 639.5px) {
+  .chemistry-center .no-card .icon-img {
+    margin-bottom: 19px;
+  }
+  .chemistry-center .no-card h4 {
+    font-size: 12px !important;
+    font-weight: 500 !important;
+  }
+}
+@media (min-width: 640px) and (max-width: 959.5px) {
+  .chemistry-center .no-card .icon-img {
+    margin-bottom: 19px;
+  }
+  .chemistry-center .no-card h4 {
+    font-weight: 500 !important;
+    font-size: 16px;
+  }
+}
+@media (min-width: 960px) and (max-width: 1279.5px) {
+  .chemistry-center .no-card .icon-img {
+    margin-bottom: 19px;
+  }
+  .chemistry-center .no-card h4 {
+    font-weight: 500 !important;
+    font-size: 16px;
+  }
+}
+
+/*# sourceMappingURL=chemistry-center.css.map */
