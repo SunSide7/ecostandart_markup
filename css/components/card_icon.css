@@ -1047,7 +1047,7 @@
 }
 @media (min-width: 1920px) {
   .card-hover-white:not(:hover):after, .card-hover-life:not(:hover):after {
-    opacity: 0 !important;
+    opacity: 1 !important;
   }
   .card-hover-white:hover:after, .card-hover-life:hover:after {
     opacity: 1 !important;

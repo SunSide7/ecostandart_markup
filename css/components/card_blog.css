@@ -1037,12 +1037,49 @@
 
 @media (max-width: 1280px) {
   .card-blog {
-    background: #f2f2f2;
     padding: 16px;
     border-radius: 36px;
     transition: all 0.35s ease-out;
+    background: #f2f2f2;
+  }
+}
+@media (min-width: 1920px) {
+  .blog-slider {
+    overflow: hidden;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1919.5px) {
+  .blog-slider {
+    overflow: hidden;
+  }
+}
+@media (min-width: 960px) and (max-width: 1279.5px) {
+  .blog-slider {
+    overflow: hidden;
+  }
+}
+@media (min-width: 640px) and (max-width: 959.5px) {
+  .blog-slider {
+    padding-top: 20px;
+  }
+  .card-blog {
     background: #f8f8f8;
     box-shadow: 0 5px 30px 1px rgba(0, 0, 0, 0.07);
+  }
+  .carousel-section-blog {
+    margin-top: -20px !important;
+  }
+}
+@media (min-width: 360px) and (max-width: 640px) {
+  .blog-slider {
+    padding-top: 20px;
+  }
+  .card-blog {
+    background: #f8f8f8;
+    box-shadow: 0 5px 30px 1px rgba(0, 0, 0, 0.07);
+  }
+  .carousel-section-blog {
+    margin-top: -20px !important;
   }
 }
 

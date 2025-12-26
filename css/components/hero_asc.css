@@ -886,6 +886,9 @@
   overflow: hidden;
   transition: background 0.35s ease-out;
 }
+.hero-asc-scaffold.space-bottom-30 .hero-asc-subtitle {
+  margin-bottom: 30px;
+}
 .hero-asc-scaffold .hero-asc-text {
   display: inline-block;
   max-width: 50%;

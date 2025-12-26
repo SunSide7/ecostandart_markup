@@ -6,11 +6,28 @@
   <component name="ChangeListManager">
     <list default="true" id="6cc30796-6548-4329-b4e4-e9c5dbfffdf4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card_blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_blog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card_blog.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_blog.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card_blog.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_blog.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card_icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_icon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card_icon.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_icon.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card_icon_bg_img.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_icon_bg_img.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card_icon_bg_img.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_icon_bg_img.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/dropdown.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/dropdown.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/hero_asc.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/hero_asc.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/hero_asc.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/hero_asc.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/hero_asc.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/hero_asc.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/arrow_go_right_up_life.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/arrow_go_right_up_life.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/assets/hero_main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/assets/hero_main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/main-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/hero_asc.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/hero_asc.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/sections/legend_06.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_06.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/sections/legend_11.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_11.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_7.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_7.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +82,7 @@
       <workItem from="1766579315579" duration="3601000" />
       <workItem from="1766583529673" duration="2757000" />
       <workItem from="1766657195698" duration="1208000" />
+      <workItem from="1766736902257" duration="3591000" />
     </task>
     <servers />
   </component>
