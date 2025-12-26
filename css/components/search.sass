@@ -3,10 +3,11 @@
 .search-result
   position: absolute
   display: none
-  width: 100%
+  width: calc(100% - 160px)
   min-height: 323px
   top: 65.5px
   margin-left: 4px
+  margin-right: 156px
   transition: all .5s ease
 
   &.active
@@ -17,11 +18,16 @@
   display: none
   width: 100%
   min-height: 323px
-  margin-left: 4px
   transition: all .5s ease
 
   &.active
     display: block
+
+.menu-mobile-city
+  display: none
+
+  &.active
+    display: flex
 
 .search-value
   border-bottom: $color_neutral_light_grey solid 1px
@@ -58,13 +64,12 @@
 
   .search-close
     display: none
-
     margin-left: auto
     cursor: pointer
 
   &.active
     padding: 14px 13px
-    width: 73vw
+    width: 82vw
     cursor: auto
 
     & input
@@ -95,13 +100,11 @@
     .search-button
       display: block
 
-
     .search-close
       display: block
-      padding: 9px
 
 @media (min-width: 1920px)
   .search
     &.active
-      width: 79vw
+      width: 85vw
 

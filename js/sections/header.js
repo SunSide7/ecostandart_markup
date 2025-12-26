@@ -4,6 +4,7 @@ const headerBtn = document.querySelector('.menu-header-button');
 const header = document.querySelector('.header');
 const menuMobile = document.querySelector('.menu-header.mobile');
 const searchResultMobile = document.querySelector('.search-result-mobile');
+const headerContactButton = document.querySelector('.header-contact-button');
 
 const searchMobileInput = document.querySelector('.search-mobile-input');
 const searchMobileClose = document.querySelector('.search-close.mobile');
@@ -14,6 +15,7 @@ const searchResult = document.querySelector('.search-result');
 const headerPhone = document.querySelector('.phone-header');
 
 const headerSities = document.querySelector('.header-sities');
+const menuMobileCity = document.querySelector('.menu-mobile-city');
 
 headerSities.addEventListener('click', () => {
     headerSities.classList.toggle('active');
@@ -29,6 +31,7 @@ headerSearch.addEventListener('click', () => {
     headerSearch.classList.add('active');
     searchResult.classList.add('active');
     headerPhone.style.display = "none";
+    headerContactButton.style.display = "none";
     header.classList.add("prevent-active");
 });
 
@@ -37,17 +40,21 @@ headerSearchClose.addEventListener('click', (event) => {
     headerSearch.classList.remove('active');
     searchResult.classList.remove('active');
     headerPhone.style.display = "flex";
+    headerContactButton.style.display = "flex";
     header.classList.remove("prevent-active");
 });
 
 searchMobileInput.addEventListener('click', () => {
     menuMobile.classList.remove('active');
+    menuMobileCity.classList.remove('active');
     searchResultMobile.classList.add('active');
+
 });
 
 searchMobileClose.addEventListener('click', (event) => {
     event.stopPropagation();
     menuMobile.classList.add('active');
+    menuMobileCity.classList.add('active');
     searchResultMobile.classList.remove('active');
 });
 
