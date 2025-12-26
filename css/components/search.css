@@ -873,10 +873,11 @@
 .search-result {
   position: absolute;
   display: none;
-  width: 100%;
+  width: calc(100% - 160px);
   min-height: 323px;
   top: 65.5px;
   margin-left: 4px;
+  margin-right: 156px;
   transition: all 0.5s ease;
 }
 .search-result.active {
@@ -888,11 +889,17 @@
   display: none;
   width: 100%;
   min-height: 323px;
-  margin-left: 4px;
   transition: all 0.5s ease;
 }
 .search-result-mobile.active {
   display: block;
+}
+
+.menu-mobile-city {
+  display: none;
+}
+.menu-mobile-city.active {
+  display: flex;
 }
 
 .search-value {
@@ -936,7 +943,7 @@
 }
 .search.active {
   padding: 14px 13px;
-  width: 73vw;
+  width: 82vw;
   cursor: auto;
 }
 .search.active input {
@@ -969,12 +976,11 @@
 }
 .search-mobile .search-close {
   display: block;
-  padding: 9px;
 }
 
 @media (min-width: 1920px) {
   .search.active {
-    width: 79vw;
+    width: 85vw;
   }
 }
 

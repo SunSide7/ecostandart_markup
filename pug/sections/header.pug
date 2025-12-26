@@ -50,7 +50,7 @@
                         .d-flex.flex-column.px-60.py-8
                             p.text-body-bold.color-black.clamp-line-1 Аутсорсинг
                             p.text-hint.color-light-grey.clamp-line-1 Услуги
-            button.btn-primary.ms-4 <span>Связаться</span>
+            button.header-contact-button.btn-primary.ms-4 <span>Связаться</span>
     .header-menu
         .d-none.d-xl-flex.w-100.overflow-hidden
             .header-menu-slot
@@ -102,30 +102,66 @@
                     span.text-caption.color-black с 9:00 до 18:00
                 p.text-caption.color-black Адрес: Переведеновский пер., 13, стр.. 16, оф.. 216, Москва, Россия, 105082
                 iframe.position-relative.z-3.mt-14.br-20.baw(src="https://yandex.ru/map-widget/v1/?um=constructor%3Aexample_code&source=constructor" height="185")
-        .d-flex.d-xl-none.flex-column.w-100.gap-32
+        .d-flex.d-xl-none.flex-column.w-100
             .search-mobile
                 img.search-button(src="img/assets/icons/small/icon_search_grey.svg")
                 input.search-mobile-input(placeholder="Поиск")
-                img.search-close.mobile.br-100.bg-color-light-grey(src="img/assets/icons/small/icon_exit_grey.svg")
+                img.search-close.mobile(src="img/assets/icons/small/icon_exit_grey.svg")
             //.menu-item CAN BE .active
-            .menu-header.mobile(id="menu-container").active
+            .overflow-scroll
+                .menu-header.my-32.mobile(id="menu-container").active
+                .menu-mobile-city.flex-column.active
+                    .d-flex.align-items-center
+                        img.p-9(src="img/assets/icons/small/arrow_down_black.svg" style="width: 30px; height: 30px")
+                        p.text-caption-bold.color-black.clamp-line-1 Москва
+                    hr
+                    .d-flex.flex-column.flex-lg-row.mt-16.mb-12.gap-16.gap-lg-0.justify-content-between.align-items-lg-center
+                        .d-flex.flex-column.gap-16.gap-lg-32
+                            p
+                                span.text-caption-bold.color-black График работы: 
+                                span.text-label Пн–Пт с 9:00 до 18:00
+                            p
+                                span.text-caption-bold.color-black Адрес:
+                                span.text-label Переведеновский пер., 13, стр.. 16, оф.. 216, Москва, Россия, 105082
+                        a(href="#").text-caption-bold.me-auto.me-lg-0.gradient-horizontal-primary Смотреть на карте
             .search-result-mobile.br-20.bg-color-white
-                .search-value.d-flex.flex-column.px-60.pb-16
+                .search-value.flex-column.px-34.py-16.d-none.d-md-flex.d-lg-none
                     p.text-body-bold.color-black Ничего не нашлось
                     p.text-hint.color-black Попробуйте изменить запрос
                 p.text-caption-bold.color-light-grey.p-16 Популярные запросы
-                .d-flex.flex-column.px-60.py-8
-                    p.text-body-bold.color-black.clamp-line-2 Производственный контроль для Российской академии наук
-                    p.text-hint.color-light-grey.clamp-line-2 Новости
-                .d-flex.flex-column.px-60.py-8
-                    p.text-body-bold.color-black.clamp-line-2 Специальная оценка условий труда: почему она не может быть дешевой
-                    p.text-hint.color-light-grey.clamp-line-2 Блог
-                .d-flex.flex-column.px-60.py-8
-                    p.text-body-bold.color-black.clamp-line-2 Охрана труда и техника безопасности на предприятии Охрана труда и техника безопасности на предприятии Охрана труда и техника безопасности на предприятии Охрана труда и техника безопасности на предприятии
-                    p.text-hint.color-light-grey.clamp-line-2 Охрана труда
-                .d-flex.flex-column.px-60.py-8
-                    p.text-body-bold.color-black.clamp-line-2 Аутсорсинг
-                    p.text-hint.color-light-grey.clamp-line-2 Услуги
-            a.btn-primary
-                span.text-center Офис на карте
+                .d-flex.py-8.gap-4
+                    img.p-9(src="img/assets/icons/small/icon_search_grey.svg" style="width: 30px; height: 30px")
+                    .d-flex.flex-column
+                        p.text-body-bold.color-black.clamp-line-1 Производственный контроль для Российской академии наук
+                        p.text-hint.color-light-grey.clamp-line-1 Новости
+                .d-flex.py-8.gap-4
+                    img.p-9(src="img/assets/icons/small/icon_search_grey.svg" style="width: 30px; height: 30px")
+                    .d-flex.flex-column
+                        p.text-body-bold.color-black.clamp-line-1 Специальная оценка условий труда: почему она не может быть дешевой
+                        p.text-hint.color-light-grey.clamp-line-1 Блог
+                .d-flex.py-8.gap-4
+                    img.p-9(src="img/assets/icons/small/icon_search_grey.svg" style="width: 30px; height: 30px")
+                    .d-flex.flex-column
+                        p.text-body-bold.color-black.clamp-line-1 Охрана труда и техника безопасности на предприятии Охрана труда и техника безопасности на предприятии Охрана труда и техника безопасности на предприятии Охрана труда и техника безопасности на предприятии
+                        p.text-hint.color-light-grey.clamp-line-1 Охрана труда
+                .d-flex.py-8.gap-4
+                    img.p-9(src="img/assets/icons/small/icon_search_grey.svg" style="width: 30px; height: 30px")
+                    .d-flex.flex-column
+                        p.text-body-bold.color-black.clamp-line-1 Аутсорсинг
+                        p.text-hint.color-light-grey.clamp-line-1 Услуги
+                .d-flex.py-8.gap-4
+                    img.p-9(src="img/assets/icons/small/icon_search_grey.svg" style="width: 30px; height: 30px")
+                    .d-flex.flex-column
+                        p.text-body-bold.color-black.clamp-line-1 Производственный контроль для Российской академии наук
+                        p.text-hint.color-light-grey.clamp-line-1 Новости
+                .search-value.d-flex.py-8.gap-4
+                    img.p-9(src="img/assets/icons/small/icon_search_grey.svg" style="width: 30px; height: 30px")
+                    .d-flex.flex-column
+                        p.text-body-bold.color-black.clamp-line-1 Специальная оценка условий труда: почему она не может быть дешевой
+                        p.text-hint.color-light-grey.clamp-line-1 Блог
+                .d-flex.gap-8.p-16
+                    p.text-caption-bold.color-primary-dark-green Все результаты
+                    img(src="img/sections/header/arrow_right_dark_green.svg")
+            a.btn-primary.mt-24
+                span.text-center Связаться
             
