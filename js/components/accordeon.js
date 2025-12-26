@@ -57,3 +57,53 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    function syncHeights() {
+        // Находим все контейнеры с аккордеонами
+        document.querySelectorAll('.accordeon-container').forEach(container => {
+            const columns = container.querySelectorAll('.d-flex.flex-column');
+            if (columns.length < 2) return;
+
+            // Собираем аккордеоны по колонкам
+            const columnAccs = Array.from(columns).map(col =>
+                Array.from(col.querySelectorAll('.accordeon'))
+            );
+
+            // Для каждой строки (горизонтальной позиции)
+            const maxRows = Math.max(...columnAccs.map(col => col.length));
+
+            for (let i = 0; i < maxRows; i++) {
+                const rowAccs = columnAccs.map(col => col[i]).filter(Boolean);
+
+                // Пропускаем если есть активный или меньше 2 аккордеонов
+                if (rowAccs.some(acc => acc.classList.contains('active')) || rowAccs.length < 2) {
+                    rowAccs.forEach(acc => acc.style.minHeight = '');
+                    continue;
+                }
+
+                // Находим максимальную высоту
+                let maxH = 0;
+                rowAccs.forEach(acc => {
+                    const temp = acc.style.minHeight;
+                    acc.style.minHeight = '';
+                    maxH = Math.max(maxH, acc.scrollHeight);
+                    acc.style.minHeight = temp;
+                });
+
+                // Устанавливаем одинаковую высоту
+                if (maxH > 0) {
+                    rowAccs.forEach(acc => {
+                        acc.style.minHeight = `${maxH}px`;
+                    });
+                }
+            }
+        });
+    }
+
+    syncHeights();
+    setTimeout(syncHeights, 100);
+    setTimeout(syncHeights, 500);
+
+    window.addEventListener('resize', syncHeights);
+});

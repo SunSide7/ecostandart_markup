@@ -20,12 +20,16 @@
   & > *.active
     color: $color_primary_dark_green
 
+  &.active > *
+    color: $color_primary_dark_green
+
 .menu-header
   display: flex
   font-family: $font-main
   font-size: 14px
   line-height: 19.1px
   font-weight: 600
+  max-height: 100%
 
   &.horizontal
     flex-direction: row
@@ -47,9 +51,15 @@
     color: $color_primary_dark_green
 
   &.mobile
+    display: none
     flex-direction: column
     gap: 10px
     width: 100%
+    max-height: calc(100vh - 300px)
+    overflow: scroll
+
+    &.active
+      display: flex
 
     & > .menu-item //First level
       @include text-caption-bold

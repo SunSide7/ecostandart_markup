@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cc30796-6548-4329-b4e4-e9c5dbfffdf4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_blog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_blog.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_blog.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_blog.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_blog.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_icon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_icon.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_icon.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_icon_bg_img.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_icon_bg_img.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_icon_bg_img.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_icon_bg_img.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/dropdown.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/dropdown.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/hero_asc.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/hero_asc.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/hero_asc.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/hero_asc.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/hero_asc.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/hero_asc.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/arrow_go_right_up_life.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/arrow_go_right_up_life.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/assets/hero_main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/assets/hero_main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/main-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/hero_asc.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/hero_asc.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_06.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_06.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_11.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_11.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_7.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_7.pug" afterDir="false" />
-    </list>
+    <list default="true" id="b6436dca-c32c-4994-a52c-511111c81190" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,28 +17,28 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\php8\php.exe" />
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 5
-}</component>
-  <component name="ProjectId" id="37I8b32BSCwBkZ8ibMf3xQ2xAES" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="37NPtmHB5xJFHtlaK8YEH6Pwhm0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -74,15 +50,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6cc30796-6548-4329-b4e4-e9c5dbfffdf4" name="Changes" comment="" />
-      <created>1766579313669</created>
+      <changelist id="b6436dca-c32c-4994-a52c-511111c81190" name="Changes" comment="" />
+      <created>1766740774819</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1766579313669</updated>
-      <workItem from="1766579315579" duration="3601000" />
-      <workItem from="1766583529673" duration="2757000" />
-      <workItem from="1766657195698" duration="1208000" />
-      <workItem from="1766736902257" duration="3591000" />
+      <updated>1766740774819</updated>
+      <workItem from="1766740775681" duration="1464000" />
     </task>
     <servers />
   </component>

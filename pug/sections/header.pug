@@ -11,7 +11,7 @@
         .position-relative.d-none.d-xl-flex.end-8
             //Меню первого уровня
             .menu-header.horizontal
-                a(href="javascript:void(0);") О компании
+                a(href="javascript:void(0);").active О компании
                 a(href="javascript:void(0);") Услуги
                 a(href="javascript:void(0);") Наш опыт
                 a(href="javascript:void(0);") Клиентам
@@ -52,22 +52,10 @@
                             p.text-hint.color-light-grey.clamp-line-1 Услуги
             button.btn-primary.ms-4 <span>Связаться</span>
     .header-menu
-        .d-none.d-xl-flex.w-100
+        .d-none.d-xl-flex.w-100.overflow-hidden
             .header-menu-slot
                 //Меню второго уровня
                 .menu-header.vertical.menu-primary
-                    .menu-link
-                        a(href="javascript:void(0);") Новости
-                    .menu-link
-                        a(href="javascript:void(0);") Лидеры и команда
-                    .menu-link
-                        a(href="javascript:void(0);") Социальная и благотворительная деятельность
-                    .menu-link
-                        a(href="javascript:void(0);") Рекомендательные письма
-                    .menu-link
-                        a(href="javascript:void(0);") Разрешительная документация
-                    .menu-link
-                        a(href="javascript:void(0);") Карьера
             .header-menu-visir-area
                 .menu-sight
                     img.menu-visir-left(src="img/sections/header/menu_visir_left.svg" loading="lazy" alt="")
@@ -76,53 +64,37 @@
             .position-relative.header-menu-slot
                 //Меню третьего уровня
                 .menu-header.vertical.menu-secondary
-                    .menu-link
-                        a(href="javascript:void(0);") Экспертиза и мониторинг
-                    .menu-link
-                        a(href="javascript:void(0);") Охрана труда и СОУТ
-                    .menu-link
-                        a(href="javascript:void(0);") Экоконсалтинг
-                    .menu-link
-                        a(href="javascript:void(0);") Новости группы
-                    .menu-link
-                        a(href="javascript:void(0);") Экосертификация
-                    .menu-link
-                        a(href="javascript:void(0);") Инженерные Изыскания
-                    .menu-link
-                        a(href="javascript:void(0);") Энергоаудит
-                    .menu-link
-                        a(href="javascript:void(0);") Учебный центр
-                    .menu-link
-                        a(href="javascript:void(0);") Охрана труда и экология
             .header-menu-info
                 .position-relative
                     p.text-caption-bold.color-black Выберите офис:
                     //.dropdown-header CAN BE .active
-                    .dropdown-header.js-toggler
+                    .dropdown-header.header-sities
                         .dropdown-item
-                            span.text-caption-bold Москва
+                            //Текущее значение
+                            span.current-city.text-caption-bold Москва
                         hr
-                        .dropdown-item.hoverable.unclickable
+                        //Города для выбора
+                        .dropdown-item.hoverable
                             span.text-caption-bold Санкт-Петербург
-                        .dropdown-item.hoverable.unclickable
+                        .dropdown-item.hoverable
                             span.text-caption-bold Хабаровск
-                        .dropdown-item.hoverable.unclickable
+                        .dropdown-item.hoverable
                             span.text-caption-bold Новосибирск
-                        .dropdown-item.hoverable.unclickable
+                        .dropdown-item.hoverable
                             span.text-caption-bold Краснодар
-                        .dropdown-item.hoverable.unclickable
+                        .dropdown-item.hoverable
                             span.text-caption-bold Красноярск
-                        .dropdown-item.hoverable.unclickable
+                        .dropdown-item.hoverable
                             span.text-caption-bold Иркутск
-                        .dropdown-item.hoverable.unclickable
+                        .dropdown-item.hoverable
                             span.text-caption-bold Севастополь
-                        .dropdown-item.hoverable.unclickable
+                        .dropdown-item.hoverable
                             span.text-caption-bold Екатеринбург
-                        .dropdown-item.hoverable.unclickable
+                        .dropdown-item.hoverable
                             span.text-caption-bold Казань
-                        .dropdown-item.hoverable.unclickable
+                        .dropdown-item.hoverable
                             span.text-caption-bold Ростов-на-Дону
-                        .dropdown-item.hoverable.unclickable
+                        .dropdown-item.hoverable
                             span.text-caption-bold Владивосток
                 p.text-caption-bold.color-black +7 495 987-65-43
                 p
@@ -132,55 +104,28 @@
                 iframe.position-relative.z-3.mt-14.br-20.baw(src="https://yandex.ru/map-widget/v1/?um=constructor%3Aexample_code&source=constructor" height="185")
         .d-flex.d-xl-none.flex-column.w-100.gap-32
             .search-mobile
-                .search-button
-                input(placeholder="Поиск")
-                .search-close
+                img.search-button(src="img/assets/icons/small/icon_search_grey.svg")
+                input.search-mobile-input(placeholder="Поиск")
+                img.search-close.mobile.br-100.bg-color-light-grey(src="img/assets/icons/small/icon_exit_grey.svg")
             //.menu-item CAN BE .active
-            .menu-header.mobile
-                .menu-item.js-toggler
-                    a(href="javascript:void(0);") Компании
-                    .menu-item.unclickable.js-toggler
-                        a(href="javascript:void(0);") Новости
-                        .menu-item.unclickable.js-toggler
-                            a(href="javascript:void(0);") Экспертиза и мониторинг
-                        .menu-item.unclickable.js-toggler
-                            a(href="javascript:void(0);") Охрана труда и СОУТ
-                        .menu-item.unclickable.js-toggler
-                            a(href="javascript:void(0);") Экоконсалтинг
-                        .menu-item.unclickable.js-toggler
-                            a(href="javascript:void(0);") Новости группы
-                        .menu-item.unclickable.js-toggler
-                            a(href="javascript:void(0);") Экосертификация
-                        .menu-item.unclickable.js-toggler
-                            a(href="javascript:void(0);") Инженерные Изыскания
-                        .menu-item.unclickable.js-toggler
-                            a(href="javascript:void(0);") Энергоаудит
-                        .menu-item.unclickable.js-toggler
-                            a(href="javascript:void(0);") Учебный центр
-                        .menu-item.unclickable.js-toggler
-                            a(href="javascript:void(0);") Охрана труда и экология
-                    .menu-item.unclickable.js-toggler
-                        a(href="javascript:void(0);") Лидеры и команда
-                    .menu-item.unclickable.js-toggler
-                        a(href="javascript:void(0);") Социальная и благотворительная деятельность
-                    .menu-item.unclickable.js-toggler
-                        a(href="javascript:void(0);") Рекомендательные письма
-                    .menu-item.unclickable.js-toggler
-                        a(href="javascript:void(0);") Разрешительная документация
-                    .menu-item.unclickable.js-toggler
-                        a(href="javascript:void(0);") Карьера
-                .menu-item.js-toggler
-                    a(href="javascript:void(0);") Услуги
-                .menu-item.unclickable.js-toggler
-                    a(href="javascript:void(0);") Наш опыт
-                .menu-item.js-toggler
-                    a(href="javascript:void(0);") Клиентам
-                .menu-item.unclickable.js-toggler
-                    a(href="javascript:void(0);") Мероприятия
-                .menu-item.js-toggler
-                    a(href="javascript:void(0);") Медиа
-                .menu-item.unclickable.js-toggler
-                    a(href="javascript:void(0);") Контакты
+            .menu-header.mobile(id="menu-container").active
+            .search-result-mobile.br-20.bg-color-white
+                .search-value.d-flex.flex-column.px-60.pb-16
+                    p.text-body-bold.color-black Ничего не нашлось
+                    p.text-hint.color-black Попробуйте изменить запрос
+                p.text-caption-bold.color-light-grey.p-16 Популярные запросы
+                .d-flex.flex-column.px-60.py-8
+                    p.text-body-bold.color-black.clamp-line-2 Производственный контроль для Российской академии наук
+                    p.text-hint.color-light-grey.clamp-line-2 Новости
+                .d-flex.flex-column.px-60.py-8
+                    p.text-body-bold.color-black.clamp-line-2 Специальная оценка условий труда: почему она не может быть дешевой
+                    p.text-hint.color-light-grey.clamp-line-2 Блог
+                .d-flex.flex-column.px-60.py-8
+                    p.text-body-bold.color-black.clamp-line-2 Охрана труда и техника безопасности на предприятии Охрана труда и техника безопасности на предприятии Охрана труда и техника безопасности на предприятии Охрана труда и техника безопасности на предприятии
+                    p.text-hint.color-light-grey.clamp-line-2 Охрана труда
+                .d-flex.flex-column.px-60.py-8
+                    p.text-body-bold.color-black.clamp-line-2 Аутсорсинг
+                    p.text-hint.color-light-grey.clamp-line-2 Услуги
             a.btn-primary
                 span.text-center Офис на карте
             

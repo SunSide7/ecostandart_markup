@@ -1,14 +1,28 @@
+const html = document.querySelector('.html');
+
 const headerBtn = document.querySelector('.menu-header-button');
 const header = document.querySelector('.header');
+const menuMobile = document.querySelector('.menu-header.mobile');
+const searchResultMobile = document.querySelector('.search-result-mobile');
+
+const searchMobileInput = document.querySelector('.search-mobile-input');
+const searchMobileClose = document.querySelector('.search-close.mobile');
 
 const headerSearch = document.querySelector('.search');
 const headerSearchClose = document.querySelector('.search-close');
 const searchResult = document.querySelector('.search-result');
 const headerPhone = document.querySelector('.phone-header');
 
+const headerSities = document.querySelector('.header-sities');
+
+headerSities.addEventListener('click', () => {
+    headerSities.classList.toggle('active');
+});
+
 headerBtn.addEventListener('click', () => {
     headerBtn.classList.toggle('active');
     header.classList.toggle('active');
+    html.classList.toggle('no-scroll');
 });
 
 headerSearch.addEventListener('click', () => {
@@ -18,12 +32,23 @@ headerSearch.addEventListener('click', () => {
     header.classList.add("prevent-active");
 });
 
-headerSearchClose.addEventListener('click', () => {
+headerSearchClose.addEventListener('click', (event) => {
     event.stopPropagation();
     headerSearch.classList.remove('active');
     searchResult.classList.remove('active');
     headerPhone.style.display = "flex";
     header.classList.remove("prevent-active");
+});
+
+searchMobileInput.addEventListener('click', () => {
+    menuMobile.classList.remove('active');
+    searchResultMobile.classList.add('active');
+});
+
+searchMobileClose.addEventListener('click', (event) => {
+    event.stopPropagation();
+    menuMobile.classList.add('active');
+    searchResultMobile.classList.remove('active');
 });
 
 // Или более компактный вариант с медиа-запросом в JS
@@ -32,12 +57,14 @@ const mediaQuery = window.matchMedia('(min-width: 1280px)');
 header.addEventListener('mouseenter', function() {
     if (mediaQuery.matches) {
         header.classList.add("active");
+        html.classList.toggle('no-scroll');
     }
 });
 
 header.addEventListener('mouseleave', function() {
     if (mediaQuery.matches) {
         header.classList.remove("active");
+        html.classList.toggle('no-scroll');
     }
 });
 
@@ -142,9 +169,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         'Наш опыт': {
             level2: [
-                { text: 'Проекты', link: '#' },
-                { text: 'Кейсы', link: '#' },
-                { text: 'Портфолио', link: '#' }
+                { text: 'Проекты', link: '#' }
             ],
             level3: {
                 'Проекты': [
@@ -156,9 +181,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         'Клиентам': {
             level2: [
-                { text: 'Спецпредложения', link: '#' },
-                { text: 'Для бизнеса', link: '#' },
-                { text: 'Для госорганизаций', link: '#' }
+                { text: 'Спецпредложения', link: '#' }
             ],
             level3: {
                 'Спецпредложения': [
@@ -170,9 +193,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         'Мероприятия': {
             level2: [
-                { text: 'Спецпредложения', link: '#' },
-                { text: 'Для бизнеса', link: '#' },
-                { text: 'Для госорганизаций', link: '#' }
+                { text: 'Спецпредложения', link: '#' }
             ],
             level3: {
                 'Спецпредложения': [
@@ -184,9 +205,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         'Медиа': {
             level2: [
-                { text: 'Спецпредложения', link: '#' },
-                { text: 'Для бизнеса', link: '#' },
-                { text: 'Для госорганизаций', link: '#' }
+                { text: 'Спецпредложения', link: '#' }
             ],
             level3: {
                 'Спецпредложения': [
@@ -198,9 +217,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         'Контакты': {
             level2: [
-                { text: 'Спецпредложения', link: '#' },
-                { text: 'Для бизнеса', link: '#' },
-                { text: 'Для госорганизаций', link: '#' }
+                { text: 'Спецпредложения', link: '#' }
             ],
             level3: {
                 'Спецпредложения': [
@@ -211,6 +228,94 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
     };
+
+    function createMenu(data) {
+        let menuHTML = '';
+
+        for (const [key, value] of Object.entries(data)) {
+            const isToggler = true;
+
+            menuHTML += `
+        <div class="menu-item">
+            <a href="javascript:void(0);">${key}</a>`;
+
+            // Добавляем уровень 2
+            if (value.level2 && value.level2.length > 0) {
+                value.level2.forEach(item => {
+                    menuHTML += `
+                <div class="menu-item">
+                    <a href="${item.link}">${item.text}</a>`;
+
+                    // Добавляем уровень 3, если есть
+                    if (value.level3 && value.level3[item.text]) {
+
+                        // Итерируем по элементам третьего уровня
+                        value.level3[item.text].forEach(subItem => {
+                            menuHTML += `
+                        <div class="menu-item">
+                            <a href="${subItem.link}">${subItem.text}</a>
+                        </div>`;
+                        });
+
+                        menuHTML += `</div>`;
+                    }
+                });
+            }
+
+            menuHTML += `</div>`;
+        }
+
+        return menuHTML;
+    }
+
+    // Функция для инициализации обработчиков кликов
+    function initMenuHandlers() {
+        const menuItems = document.querySelectorAll('.menu-item');
+
+        menuItems.forEach(item => {
+            // Ищем ближайшую ссылку внутри menu-item
+            const link = item.querySelector('a');
+            if (!link) return;
+
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                // Проверяем, есть ли вложенные уровни меню
+                const level2 = item.querySelector('.menu-level2');
+                const level3 = item.querySelector('.menu-level3');
+                const hasChildren = level2 || level3;
+
+                if (hasChildren) {
+                    e.stopPropagation();
+
+                    // Переключаем класс active
+                    item.classList.toggle('active');
+
+                    // Закрываем другие открытые меню того же уровня
+                    const parentItem = item.closest('.menu-item');
+                    const siblings = parentItem ?
+                        parentItem.querySelectorAll('.menu-item') :
+                        document.querySelectorAll('.menu-header > .menu-item');
+
+                    siblings.forEach(sibling => {
+                        if (sibling !== item && sibling !== item.closest('.menu-item')) {
+                            sibling.classList.remove('active');
+                        }
+                    });
+                } else {
+                    // Если нет вложенных уровней, просто переключаем active
+                    item.classList.toggle('active');
+                }
+            });
+        });
+    }
+
+    const menuContainer = document.getElementById('menu-container');
+
+    if (menuContainer) {
+        menuContainer.innerHTML = createMenu(menuData);
+        initMenuHandlers();
+    }
 
     // Элементы DOM
     const level1Menu = document.querySelector('.menu-header.horizontal');
@@ -223,100 +328,58 @@ document.addEventListener('DOMContentLoaded', function() {
     // Текущий активный пункт меню
     let activeLevel1Item = null;
     let activeLevel2Item = null;
-    let menuTimeout = null;
     let isMenuOpen = false;
-    let lastPrimaryIndex = -1;
-    let lastSecondaryIndex = -1;
-
-    // Функции для получения актуальных элементов меню
-    const getMenuLinksPrimary = () => document.querySelectorAll(".menu-primary .menu-link");
-    const getMenuLinksSecondary = () => document.querySelectorAll(".menu-secondary .menu-link");
+    let currentPrimaryIndex = 0; // Для хранения индекса активного пункта второго уровня
 
     // Инициализация
     function init() {
         if (!level1Menu || !level2Menu || !level3Menu || !headerMenu) return;
 
-        // Добавляем обработчики для меню первого уровня
+        // Находим первый пункт меню первого уровня
+        const firstLevel1Item = level1Menu.querySelector('a:first-child');
+        if (firstLevel1Item && window.innerWidth >= 1280) {
+            // Автоматически активируем первый пункт
+            setTimeout(() => {
+                activateFirstMenuItem();
+            }, 100);
+        }
+
+        // Добавляем обработчики кликов для меню первого уровня
         const level1Items = level1Menu.querySelectorAll('a');
         level1Items.forEach(item => {
-            // Клик для десктопа и мобильных
+            // Только клик (без ховера)
             item.addEventListener('click', function(e) {
                 e.preventDefault();
                 handleLevel1Click(this);
             });
-
-            // Ховер для десктопа
-            item.addEventListener('mouseenter', function() {
-                if (window.innerWidth >= 1200) {
-                    handleLevel1Hover(this);
-                }
-            });
-        });
-
-        // Обработчики для контейнера выпадающего меню
-        headerMenu.addEventListener('mouseenter', function() {
-            if (menuTimeout) clearTimeout(menuTimeout);
-        });
-
-        headerMenu.addEventListener('mouseleave', function(e) {
-            if (window.innerWidth >= 1200 && isMenuOpen) {
-                // Проверяем, не перешли ли мы на пункты меню первого уровня
-                const relatedTarget = e.relatedTarget;
-                if (!isRelatedTargetInMenu(relatedTarget)) {
-                    startCloseTimer();
-                }
-            }
-        });
-
-        // Обработчики для самого меню первого уровня
-        level1Menu.addEventListener('mouseleave', function(e) {
-            if (window.innerWidth >= 1200 && isMenuOpen) {
-                // Проверяем, не перешли ли мы на выпадающее меню
-                const relatedTarget = e.relatedTarget;
-                if (!headerMenu.contains(relatedTarget)) {
-                    startCloseTimer();
-                }
-            }
-        });
-
-        // Закрытие меню при клике вне
-        document.addEventListener('click', function(e) {
-            if (!e.target.closest('.header') && !e.target.closest('.header-menu') && isMenuOpen) {
-                closeMenu();
-            }
-        });
-
-        // Закрытие меню при нажатии ESC
-        document.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape' && isMenuOpen) {
-                closeMenu();
-            }
         });
 
         // Инициализируем визиры
         setupVisirAnimations();
     }
 
+    // Функция для активации первого пункта меню
+    function activateFirstMenuItem() {
+        const firstLevel1Item = level1Menu.querySelector('a:first-child');
+        if (firstLevel1Item) {
+            // Активируем первый пункт
+            handleLevel1Click(firstLevel1Item);
+        }
+    }
+
     // Настройка анимации визиров
     function setupVisirAnimations() {
-        // Наблюдатель за изменениями DOM для обновления обработчиков
-        const observer = new MutationObserver(() => {
-            updateVisirHandlers();
-        });
+        if (window.innerWidth < 1280) return;
 
-        // Наблюдаем за контейнерами меню
-        if (level2Menu) {
-            observer.observe(level2Menu, { childList: true, subtree: true });
-        }
-        if (level3Menu) {
-            observer.observe(level3Menu, { childList: true, subtree: true });
-        }
+        updateVisirHandlers();
     }
 
     // Обновление обработчиков для визиров
     function updateVisirHandlers() {
-        const menuLinksPrimary = getMenuLinksPrimary();
-        const menuLinksSecondary = getMenuLinksSecondary();
+        if (window.innerWidth < 1280) return;
+
+        const menuLinksPrimary = document.querySelectorAll(".menu-primary .menu-link a");
+        const menuLinksSecondary = document.querySelectorAll(".menu-secondary .menu-link a");
 
         // Удаляем старые обработчики
         menuLinksPrimary.forEach(link => {
@@ -344,11 +407,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Обработчики для левого визира (primary меню)
     function handlePrimaryVisirHover(index) {
-        if (!visirLeft) return;
+        if (!visirLeft || window.innerWidth < 1280) return;
 
         // Вычисляем смещение (примерно 40px на каждый пункт меню)
-        const offset = index * 40;
-        lastPrimaryIndex = index;
+        const offset = index * 39.4;
 
         // Плавная анимация
         visirLeft.style.transition = 'top 0.3s ease';
@@ -356,21 +418,20 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function handlePrimaryVisirLeave() {
-        if (!visirLeft) return;
+        if (!visirLeft || window.innerWidth < 1280) return;
 
-        // Плавно возвращаем в исходное положение
+        // Возвращаем к активному пункту (а не в начало)
+        const offset = currentPrimaryindex * 39.4;
         visirLeft.style.transition = 'top 0.3s ease';
-        visirLeft.style.top = '0px';
-        lastPrimaryIndex = -1;
+        visirLeft.style.top = `${offset}px`;
     }
 
     // Обработчики для правого визира (secondary меню)
     function handleSecondaryVisirHover(index) {
-        if (!visirRight) return;
+        if (!visirRight || window.innerWidth < 1280) return;
 
         // Вычисляем смещение (примерно 40px на каждый пункт меню)
-        const offset = index * 40;
-        lastSecondaryIndex = index;
+        const offset = index * 39.4;
 
         // Плавная анимация
         visirRight.style.transition = 'top 0.3s ease';
@@ -378,29 +439,11 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function handleSecondaryVisirLeave() {
-        if (!visirRight) return;
+        if (!visirRight || window.innerWidth < 1280) return;
 
         // Плавно возвращаем в исходное положение
         visirRight.style.transition = 'top 0.3s ease';
         visirRight.style.top = '0px';
-        lastSecondaryIndex = -1;
-    }
-
-    // Проверяем, является ли relatedTarget частью меню
-    function isRelatedTargetInMenu(relatedTarget) {
-        if (!relatedTarget) return false;
-
-        // Проверяем все элементы меню
-        const menuElements = [
-            level1Menu,
-            headerMenu,
-            level2Menu,
-            level3Menu
-        ];
-
-        return menuElements.some(element => {
-            return element && element.contains(relatedTarget);
-        });
     }
 
     // Обработчик клика на меню первого уровня
@@ -421,7 +464,9 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         updateLevel2Menu(menuDataItem.level2);
+        // Сбрасываем активный пункт второго уровня при смене первого уровня
         activeLevel2Item = null;
+        currentPrimaryIndex = 0;
         clearLevel3Menu();
         showMenu();
 
@@ -429,62 +474,59 @@ document.addEventListener('DOMContentLoaded', function() {
         element.classList.add('active');
 
         // Добавляем обработчики для вновь созданных элементов
-        addLevel2EventListeners();
+        addLevel2ClickHandlers();
         updateVisirHandlers();
+
+        // Активируем первый пункт меню второго уровня по умолчанию
+        setTimeout(() => {
+            const firstLevel2Item = level2Menu.querySelector('.menu-link:first-child');
+            if (firstLevel2Item) {
+                handleLevel2Click(firstLevel2Item.querySelector('a'), 0);
+            }
+        }, 100);
     }
 
-    // Обработчик ховера на меню первого уровня
-    function handleLevel1Hover(element) {
-        const menuText = element.textContent.trim();
-
-        if (activeLevel1Item === menuText && isMenuOpen) {
-            return;
-        }
-
-        handleLevel1Click(element);
-    }
-
-    // Добавляем обработчики для элементов второго уровня
-    function addLevel2EventListeners() {
+    // Добавляем обработчики КЛИКА для элементов второго уровня
+    function addLevel2ClickHandlers() {
         if (!level2Menu) return;
 
         const level2Items = level2Menu.querySelectorAll('.menu-link');
-        level2Items.forEach(item => {
-            // Убираем старые обработчики
-            item.removeEventListener('mouseenter', handleLevel2ItemHover);
-            item.removeEventListener('mouseleave', handleLevel2ItemLeave);
-
-            // Добавляем новые обработчики
-            item.addEventListener('mouseenter', handleLevel2ItemHover);
-            item.addEventListener('mouseleave', handleLevel2ItemLeave);
-
-            // Для мобильных устройств
+        level2Items.forEach((item, index) => {
             const link = item.querySelector('a');
             if (link) {
-                link.addEventListener('click', function(e) {
-                    if (window.innerWidth < 1200) {
-                        e.preventDefault();
-                        handleLevel2Click(this);
-                    }
+                // Удаляем старые обработчики клика
+                const newLink = link.cloneNode(true);
+                link.parentNode.replaceChild(newLink, link);
+
+                // Добавляем новый обработчик клика
+                newLink.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    handleLevel2Click(this, index);
                 });
             }
         });
     }
 
-    // Обработчик ховера на элемент второго уровня
-    function handleLevel2ItemHover(e) {
-        if (window.innerWidth < 1200) return;
+    // Обработчик КЛИКА на меню второго уровня
+    function handleLevel2Click(element, index) {
+        const parent = element.closest('.menu-link');
+        const menuText = element.textContent.trim();
 
-        const item = e.currentTarget;
-        const link = item.querySelector('a');
-        if (!link) return;
+        // Сохраняем индекс активного пункта
+        currentPrimaryIndex = index;
 
-        const menuText = link.textContent.trim();
+        // Обновляем визир
+        if (visirLeft && window.innerWidth >= 1280) {
+            visirLeft.style.transition = 'top 0.3s ease';
+            visirLeft.style.top = `${index * 39.4}px`;
+        }
 
+        // Если кликнули на уже активный пункт - ничего не делаем
         if (activeLevel2Item === menuText) {
             return;
         }
 
+        // Активируем новый пункт
         activeLevel2Item = menuText;
 
         const menuDataItem = menuData[activeLevel1Item];
@@ -500,34 +542,11 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         updateLevel3Menu(level3Data);
-
         removeActiveClasses(level2Menu);
-        item.classList.add('active');
+        parent.classList.add('active');
 
-        // Очищаем таймер при наведении на элементы меню
-        if (menuTimeout) clearTimeout(menuTimeout);
-    }
-
-    // Обработчик mouseleave с элемента второго уровня
-    function handleLevel2ItemLeave(e) {
-        if (window.innerWidth < 1200) return;
-
-        const item = e.currentTarget;
-        const relatedTarget = e.relatedTarget;
-
-        // Если мышь перешла на меню третьего уровня или другой элемент второго уровня
-        // Не запускаем таймер закрытия
-        if (level3Menu && level3Menu.contains(relatedTarget)) {
-            return;
-        }
-
-        if (level2Menu && level2Menu.contains(relatedTarget)) {
-            return;
-        }
-
-        // Если мышь покинула область меню второго уровня
-        // и не перешла на меню третьего уровня
-        startCloseTimer();
+        // Обновляем обработчики визиров
+        updateVisirHandlers();
     }
 
     // Обновление меню второго уровня
@@ -536,9 +555,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
         level2Menu.innerHTML = '';
 
-        items.forEach(item => {
+        items.forEach((item, index) => {
             const menuLink = document.createElement('div');
             menuLink.className = 'menu-link';
+            menuLink.setAttribute('data-index', index);
 
             const link = document.createElement('a');
             link.href = item.link;
@@ -547,36 +567,6 @@ document.addEventListener('DOMContentLoaded', function() {
             menuLink.appendChild(link);
             level2Menu.appendChild(menuLink);
         });
-    }
-
-    // Обработчик клика на меню второго уровня (для мобильных)
-    function handleLevel2Click(element) {
-        const parent = element.closest('.menu-link');
-        const menuText = element.textContent.trim();
-
-        if (activeLevel2Item === menuText) {
-            clearLevel3Menu();
-            activeLevel2Item = null;
-            removeActiveClasses(level2Menu);
-        } else {
-            activeLevel2Item = menuText;
-
-            const menuDataItem = menuData[activeLevel1Item];
-            if (!menuDataItem || !menuDataItem.level3) {
-                clearLevel3Menu();
-                return;
-            }
-
-            const level3Data = menuDataItem.level3[menuText];
-            if (!level3Data) {
-                clearLevel3Menu();
-                return;
-            }
-
-            updateLevel3Menu(level3Data);
-            removeActiveClasses(level2Menu);
-            parent.classList.add('active');
-        }
     }
 
     // Обновление меню третьего уровня
@@ -597,21 +587,6 @@ document.addEventListener('DOMContentLoaded', function() {
             level3Menu.appendChild(menuLink);
         });
 
-        // Добавляем обработчики для меню третьего уровня
-        level3Menu.addEventListener('mouseenter', function() {
-            if (menuTimeout) clearTimeout(menuTimeout);
-        });
-
-        level3Menu.addEventListener('mouseleave', function(e) {
-            if (window.innerWidth >= 1200 && isMenuOpen) {
-                const relatedTarget = e.relatedTarget;
-                // Если не перешли на меню второго уровня
-                if (!level2Menu.contains(relatedTarget)) {
-                    startCloseTimer();
-                }
-            }
-        });
-
         // Обновляем обработчики визиров после обновления меню
         updateVisirHandlers();
     }
@@ -624,8 +599,8 @@ document.addEventListener('DOMContentLoaded', function() {
         activeLevel2Item = null;
         removeActiveClasses(level2Menu);
 
-        // Сбрасываем визиры
-        if (visirRight) {
+        // Сбрасываем правый визир
+        if (visirRight && window.innerWidth >= 1280) {
             visirRight.style.top = '0px';
         }
     }
@@ -650,6 +625,23 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }
     }
+
+    // Обработчик ресайза
+    window.addEventListener('resize', function() {
+        if (window.innerWidth < 1280 && isMenuOpen) {
+            closeMenu();
+        } else if (window.innerWidth >= 1280) {
+            // При переходе на десктоп обновляем обработчики визиров
+            updateVisirHandlers();
+
+            // Если меню было закрыто, активируем первый пункт
+            if (!isMenuOpen) {
+                setTimeout(() => {
+                    activateFirstMenuItem();
+                }, 300);
+            }
+        }
+    });
 
     // Инициализация скрипта
     init();

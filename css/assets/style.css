@@ -870,6 +870,10 @@
   background: linear-gradient(128deg, #1cb8e4, #1cb8e4) !important;
 }
 
+.no-scroll {
+  overflow-y: hidden;
+}
+
 body * {
   font-family: "Manrope", sans-serif;
   color: #727882;

@@ -1363,6 +1363,9 @@
 .menu-link > *.active {
   color: #44af8c;
 }
+.menu-link.active > * {
+  color: #44af8c;
+}
 
 .menu-header {
   display: flex;
@@ -1370,6 +1373,7 @@
   font-size: 14px;
   line-height: 19.1px;
   font-weight: 600;
+  max-height: 100%;
 }
 .menu-header.horizontal {
   flex-direction: row;
@@ -1391,9 +1395,15 @@
   color: #44af8c;
 }
 .menu-header.mobile {
+  display: none;
   flex-direction: column;
   gap: 10px;
   width: 100%;
+  max-height: calc(100vh - 300px);
+  overflow: scroll;
+}
+.menu-header.mobile.active {
+  display: flex;
 }
 .menu-header.mobile > .menu-item {
   font-family: "Manrope", sans-serif;

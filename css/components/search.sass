@@ -12,6 +12,17 @@
   &.active
     display: block
 
+.search-result-mobile
+  position: relative
+  display: none
+  width: 100%
+  min-height: 323px
+  margin-left: 4px
+  transition: all .5s ease
+
+  &.active
+    display: block
+
 .search-value
   border-bottom: $color_neutral_light_grey solid 1px
 
@@ -47,8 +58,7 @@
 
   .search-close
     display: none
-    width: 12px
-    height: 12px
+
     margin-left: auto
     cursor: pointer
 
@@ -84,17 +94,11 @@
 
     .search-button
       display: block
-      min-width: 12px
-      min-height: 12px
-      background-image: url(../../img/assets/icons/small/icon_search_grey.svg)
-      background-size: 100%
+
 
     .search-close
       display: block
-      min-width: 12px
-      min-height: 12px
-      background-image: url(../../img/assets/icons/small/icon_exit_grey.svg)
-      background-size: 100%
+      padding: 9px
 
 @media (min-width: 1920px)
   .search
