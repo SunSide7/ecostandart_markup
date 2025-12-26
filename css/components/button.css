@@ -1011,6 +1011,9 @@
 .btn-img-black.btn-arrow [disabled]:after, .btn-img-black.btn-arrow.disabled:after {
   background-image: url(../../img/assets/icons/medium/btn_arrow_up_grey.svg);
 }
+.btn-img-black.btn-arrow:hover {
+  background: #727882;
+}
 .btn-img-white:after {
   background-image: url(../../img/assets/icons/medium/btn_visir_primary.svg);
 }

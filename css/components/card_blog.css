@@ -1008,9 +1008,11 @@
   left: 16px;
   height: 38px;
 }
+.card-blog-text h4 {
+  margin-bottom: 32px !important;
+}
 .card-blog-text h4:after {
-  content: "";
-  display: block;
+  display: none !important;
   background-image: url(../../img/components/cards/union.svg);
   background-position: center bottom;
   background-repeat: no-repeat;
