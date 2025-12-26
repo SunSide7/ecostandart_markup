@@ -1,15 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a2d21720-3e42-49f6-8ff6-e3d813c52d75" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/assets/placeholder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/assets/toggler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/sections/form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/menu_header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/menu_header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/menu_header.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/menu_header.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/menu_header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/menu_header.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/search.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/search.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/search.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/search.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/search.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/form.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/form.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/form.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/form.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/header.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/header.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/header.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/pages/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/components/accordeon.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/accordeon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/sections/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/sections/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/main-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/base/vars/scripts.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/base/vars/scripts.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_dev.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_dev.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_dev.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_dev.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/footer.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/header.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_12.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_12.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_16.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_16.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_22.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_22.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_36.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_36.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_47.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_47.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,27 +52,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="37I6vrCUXzMknS7pxSJwMZhfpWd" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "watcher.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -59,7 +92,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1766578472103</updated>
-      <workItem from="1766578473971" duration="329000" />
+      <workItem from="1766578473971" duration="6107000" />
+      <workItem from="1766728932099" duration="6868000" />
     </task>
     <servers />
   </component>

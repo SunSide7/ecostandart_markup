@@ -1,13 +1,30 @@
+.form-success {
+  display: none;
+  flex-direction: column;
+  gap: 32px;
+  height: calc(100% - 40px);
+  width: calc(100% - 40px);
+}
+
 .form-1 {
   width: 100%;
+}
+.form-1.active .form-success {
+  display: flex;
 }
 
 .form-2 {
   width: 100%;
 }
+.form-2.active .form-success {
+  display: flex;
+}
 
 .form-3 {
   width: 100%;
+}
+.form-3.active .form-success {
+  display: flex;
 }
 
 .form-tape-1 {
@@ -73,6 +90,10 @@
   }
 }
 @media (min-width: 960px) {
+  .form-success {
+    height: calc(100% - 64px);
+    width: calc(100% - 64px);
+  }
   .form-tape-1 {
     scale: 0.77;
     top: -40px;
