@@ -1446,6 +1446,11 @@
   background: rgba(248, 248, 248, 0.2);
   border: rgba(248, 248, 248, 0.2) 1px solid;
 }
+.grid-calendar > *.active {
+  border-radius: 48px;
+  background: rgba(248, 248, 248, 0.2);
+  border: rgba(248, 248, 248, 0.2) 1px solid;
+}
 
 .divider {
   display: flex;
