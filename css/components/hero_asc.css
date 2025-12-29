@@ -892,6 +892,7 @@
 .hero-asc-scaffold .hero-asc-text {
   display: inline-block;
   max-width: 50%;
+  transition: all 0.35s ease-out;
 }
 .hero-asc-scaffold h2 {
   flex-basis: 20px;

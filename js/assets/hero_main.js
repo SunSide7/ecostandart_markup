@@ -43,7 +43,6 @@ function setVizierPos() {
 }
 
 
-
 function setStartContent() {
     $('.hero-asc-scaffold .hero-asc-title-top').text($('.hero-asc-slide.active .hero-asc-title-top').text())
     $('.hero-asc-scaffold .hero-asc-title').text($('.hero-asc-slide.active .hero-asc-title').text())
@@ -66,54 +65,67 @@ function setStartContent() {
 }
 
 function setNextContent() {
-    if($('.hero-asc-slide.active').hasClass('last')) {
-        $('.hero-asc-slide.last').removeClass('active')
-        $('.hero-asc-slide.first').addClass('active')
-    } else {
-        $('.hero-asc-slide.active').next().addClass('active').prev().removeClass('active')
-    }
+    $('.hero-asc-text').css({'opacity': '0'})
+    setTimeout(function() {
+        if($('.hero-asc-slide.active').hasClass('last')) {
+            $('.hero-asc-slide.last').removeClass('active')
+            $('.hero-asc-slide.first').addClass('active')
+        } else {
+            $('.hero-asc-slide.active').next().addClass('active').prev().removeClass('active')
+        }
 
-    $('.hero-asc-scaffold .hero-asc-title-top').text($('.hero-asc-slide.active .hero-asc-title-top').text())
-    $('.hero-asc-scaffold .hero-asc-title').text($('.hero-asc-slide.active .hero-asc-title').text())
-    $('.hero-asc-scaffold .hero-asc-subtitle').text($('.hero-asc-slide.active .hero-asc-subtitle').text())
+        $('.hero-asc-scaffold .hero-asc-title-top').text($('.hero-asc-slide.active .hero-asc-title-top').text())
+        $('.hero-asc-scaffold .hero-asc-title').text($('.hero-asc-slide.active .hero-asc-title').text())
+        $('.hero-asc-scaffold .hero-asc-subtitle').text($('.hero-asc-slide.active .hero-asc-subtitle').text())
 
-    $('.hero-asc-scaffold').css({'background-image': 'url(' + $('.hero-asc-slide.active img').attr('src') + ')'});
+        $('.hero-asc-scaffold').css({'background-image': 'url(' + $('.hero-asc-slide.active img').attr('src') + ')'});
 
-    $('.hero-asc-btn-wrp').empty()
-    $('.hero-asc-slide.active button').clone().appendTo('.hero-asc-btn-wrp')
+        $('.hero-asc-btn-wrp').empty()
+        $('.hero-asc-slide.active button').clone().appendTo('.hero-asc-btn-wrp')
 
-    if ($('.hero-asc-slide.active').hasClass('space-bottom-30')) {
-        $('.hero-asc-scaffold').addClass('space-bottom-30')
-    } else {
-        $('.hero-asc-scaffold').removeClass('space-bottom-30')
-    }
+        if ($('.hero-asc-slide.active').hasClass('space-bottom-30')) {
+            $('.hero-asc-scaffold').addClass('space-bottom-30')
+        } else {
+            $('.hero-asc-scaffold').removeClass('space-bottom-30')
+        }
 
-    setVizierPos()
+        setVizierPos()
+        setTimeout(function() {
+            $('.hero-asc-text').css({'opacity': '1'})
+        }, 100)
+    }, 350)
+
 }
 
 function setPrevContent() {
-    if($('.hero-asc-slide.active').hasClass('first')) {
-        $('.hero-asc-slide.first').removeClass('active')
-        $('.hero-asc-slide.last').addClass('active')
-    } else {
-        $('.hero-asc-slide.active').prev().addClass('active').next().removeClass('active')
-    }
-    $('.hero-asc-scaffold .hero-asc-title-top').text($('.hero-asc-slide.active .hero-asc-title-top').text())
-    $('.hero-asc-scaffold .hero-asc-title').text($('.hero-asc-slide.active .hero-asc-title').text())
-    $('.hero-asc-scaffold .hero-asc-subtitle').text($('.hero-asc-slide.active .hero-asc-subtitle').text())
+    $('.hero-asc-text').css({'opacity': '0'})
+    setTimeout(function() {
+        if($('.hero-asc-slide.active').hasClass('first')) {
+            $('.hero-asc-slide.first').removeClass('active')
+            $('.hero-asc-slide.last').addClass('active')
+        } else {
+            $('.hero-asc-slide.active').prev().addClass('active').next().removeClass('active')
+        }
+        $('.hero-asc-scaffold .hero-asc-title-top').text($('.hero-asc-slide.active .hero-asc-title-top').text())
+        $('.hero-asc-scaffold .hero-asc-title').text($('.hero-asc-slide.active .hero-asc-title').text())
+        $('.hero-asc-scaffold .hero-asc-subtitle').text($('.hero-asc-slide.active .hero-asc-subtitle').text())
 
-    $('.hero-asc-scaffold').css({'background-image': 'url(' + $('.hero-asc-slide.active img').attr('src') + ')'});
+        $('.hero-asc-scaffold').css({'background-image': 'url(' + $('.hero-asc-slide.active img').attr('src') + ')'});
 
-    $('.hero-asc-btn-wrp').empty()
-    $('.hero-asc-slide.active button').clone().appendTo('.hero-asc-btn-wrp')
+        $('.hero-asc-btn-wrp').empty()
+        $('.hero-asc-slide.active button').clone().appendTo('.hero-asc-btn-wrp')
 
-    if ($('.hero-asc-slide.active').hasClass('space-bottom-30')) {
-        $('.hero-asc-scaffold').addClass('space-bottom-30')
-    } else {
-        $('.hero-asc-scaffold').removeClass('space-bottom-30')
-    }
+        if ($('.hero-asc-slide.active').hasClass('space-bottom-30')) {
+            $('.hero-asc-scaffold').addClass('space-bottom-30')
+        } else {
+            $('.hero-asc-scaffold').removeClass('space-bottom-30')
+        }
 
-    setVizierPos()
+        setVizierPos()
+        setTimeout(function() {
+            $('.hero-asc-text').css({'opacity': '1'})
+        }, 100)
+    }, 350)
 }
 
 setStartContent();
