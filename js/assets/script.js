@@ -50,16 +50,33 @@ $(document).ready(function() {
             $(this).removeClass('bg-gradient-vertical-primary')
             $(this).removeClass('card-icon-bg')
         }
+
+        if($('.cards-hovering-img-x4 .card-neutral-white:first-child')[0] !== this) {
+            $('.cards-hovering-img-x4 .card-neutral-white:first-child').find('p').removeClass('active')
+        }
     }
 
     function hoverOut() {
         console.log('hoverOut')
 
         if($(this).hasClass('card-icon-bg-img')) {
-            $(this).removeClass('card-icon-bg-img')
-            $(this).addClass('bg-gradient-vertical-primary')
-            $(this).addClass('card-icon-bg')
+
+
+                $(this).removeClass('card-icon-bg-img')
+                $(this).addClass('bg-gradient-vertical-primary')
+                $(this).addClass('card-icon-bg')
+                // setTimeout(function() {
+
+                $('.cards-hovering-img-x4 .card-neutral-white:first-child').addClass('card-icon-bg-img')
+                $('.cards-hovering-img-x4 .card-neutral-white:first-child').removeClass('bg-gradient-vertical-primary')
+                $('.cards-hovering-img-x4 .card-neutral-white:first-child').removeClass('card-icon-bg')
+                $('.cards-hovering-img-x4 .card-neutral-white:first-child').find('p').addClass('active')
+                console.log('HOVER OUT', $('.cards-hovering-img-x4 .card-neutral-white:first-child'))
+                // }, 0)
+            // if($('.cards-hovering-img-x4 .card-neutral-white:first-child')[0] !== this) {
             $(this).find('p').removeClass('active')
+            // }
+
         }
     }
 

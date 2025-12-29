@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ef37ab4d-2f08-4926-a578-0f7798b9fb03" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/hero_asc.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/hero_asc.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/hero_asc.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/hero_asc.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/hero_asc.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/hero_asc.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/assets/hero_main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/assets/hero_main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/cards-hovering-img.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards-hovering-img.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/cards-hovering-img.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards-hovering-img.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1767008303699</updated>
-      <workItem from="1767008304737" duration="1126000" />
+      <workItem from="1767008304737" duration="2789000" />
     </task>
     <servers />
   </component>

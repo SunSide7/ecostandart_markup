@@ -92,7 +92,7 @@
     width: calc(6% - 16px);
   }
   .cards-hovering-img-x4 .card-icon-bg-img {
-    width: calc(50% - 8px) !important;
+    width: calc(33.333333% - 8px) !important;
     margin-bottom: 0 !important;
   }
 }
@@ -124,7 +124,7 @@
     width: calc(6% - 16px);
   }
   .cards-hovering-img-x4 .card-icon-bg-img {
-    width: calc(50% - 8px) !important;
+    width: calc(33.333333% - 8px) !important;
     margin-bottom: 0 !important;
   }
 }
