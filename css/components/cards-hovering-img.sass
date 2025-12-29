@@ -36,6 +36,29 @@
     & h4
       margin-bottom: 16px !important
 
+  .card-hover-white
+    & p
+      transition: all .85s ease-out
+
+      &.active
+        max-height: 200px
+        opacity: 1
+
+      &:not(.active)
+      max-height: 0
+      overflow: hidden
+      opacity: 0
+
+  .card-icon-bg
+    &.active
+      max-height: 200px
+      opacity: 1
+
+    & p:not(.active)
+      max-height: 0
+      overflow: hidden
+      opacity: 0
+
 @media(min-width: 1280px) and (max-width: 1919.5px)
   .cards-hovering-img-x3,
   .cards-hovering-img-x4

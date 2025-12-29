@@ -930,6 +930,8 @@
   background-position: center center;
   background-size: 100%;
   transition: all 0.35s ease-out;
+  width: 6438px;
+  height: 4725px;
 }
 .hero-asc-nav {
   display: flex;

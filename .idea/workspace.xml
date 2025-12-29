@@ -5,25 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6436dca-c32c-4994-a52c-511111c81190" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img/sections/legend_07/img_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sections/legend_07/img_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sections/legend_07/img_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sections/legend_07/img_4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/cards-hovering-img.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards-hovering-img.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/cards-hovering-img.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards-hovering-img.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/cards-hovering-img.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards-hovering-img.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/hero_asc.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/hero_asc.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/hero_asc.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/hero_asc.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/hero_asc.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/hero_asc.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/assets/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/assets/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/main-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-page.pug" beforeDir="false" afterPath="$PROJECT_DIR$/main-page.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/pages/index_page.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/index_page.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_38.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_38.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_7.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_7.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +71,7 @@
       <updated>1766740774819</updated>
       <workItem from="1766740775681" duration="4839000" />
       <workItem from="1766996078098" duration="3481000" />
-      <workItem from="1767000257027" duration="1673000" />
+      <workItem from="1767000257027" duration="6994000" />
     </task>
     <servers />
   </component>

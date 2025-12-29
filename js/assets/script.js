@@ -39,6 +39,9 @@ $(document).ready(function() {
         $(this).closest('.cards-hovering-img-x4').find('.card-neutral-white').addClass('bg-gradient-vertical-primary')
         $(this).closest('.cards-hovering-img-x4').find('.card-neutral-white').addClass('card-icon-bg')
         $(this).closest('.cards-hovering-img-x4').find('.card-neutral-white').removeClass('card-icon-bg-img')
+        setTimeout(() => {
+            $(this).closest('.cards-hovering-img-x4').find('.card-icon-bg-img p').addClass('active')
+        }, 350)
 
         if($(this).hasClass('card-icon-bg-img')) {
         }
@@ -56,6 +59,7 @@ $(document).ready(function() {
             $(this).removeClass('card-icon-bg-img')
             $(this).addClass('bg-gradient-vertical-primary')
             $(this).addClass('card-icon-bg')
+            $(this).find('p').removeClass('active')
         }
     }
 
