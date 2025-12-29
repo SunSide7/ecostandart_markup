@@ -1,21 +1,28 @@
-.cards-hovering-img {
+.cards-hovering-img-x3,
+.cards-hovering-img-x4 {
   display: flex;
   flex-direction: column;
   overflow: hidden;
 }
-.cards-hovering-img .card-icon-bg-img,
-.cards-hovering-img .card-icon-bg {
+.cards-hovering-img-x3 .card-icon-bg-img,
+.cards-hovering-img-x3 .card-icon-bg,
+.cards-hovering-img-x4 .card-icon-bg-img,
+.cards-hovering-img-x4 .card-icon-bg {
   transition: all 0.35s ease-out;
 }
-.cards-hovering-img .card-icon-bg-img .bg-img,
-.cards-hovering-img .card-icon-bg .bg-img {
+.cards-hovering-img-x3 .card-icon-bg-img .bg-img,
+.cards-hovering-img-x3 .card-icon-bg .bg-img,
+.cards-hovering-img-x4 .card-icon-bg-img .bg-img,
+.cards-hovering-img-x4 .card-icon-bg .bg-img {
   transition: all 0.35s ease-out;
 }
-.cards-hovering-img .card-icon-bg {
+.cards-hovering-img-x3 .card-icon-bg,
+.cards-hovering-img-x4 .card-icon-bg {
   background: transparent;
   position: relative;
 }
-.cards-hovering-img .card-icon-bg .bg-img {
+.cards-hovering-img-x3 .card-icon-bg .bg-img,
+.cards-hovering-img-x4 .card-icon-bg .bg-img {
   opacity: 0;
   overflow: hidden;
   position: absolute;
@@ -25,45 +32,77 @@
   right: 0;
   margin: auto;
 }
+.cards-hovering-img-x3 .chemestry-center-text,
+.cards-hovering-img-x4 .chemestry-center-text {
+  z-index: 20;
+}
+.cards-hovering-img-x3 .chemestry-center-text h4,
+.cards-hovering-img-x4 .chemestry-center-text h4 {
+  margin-bottom: 16px !important;
+}
 
 @media (min-width: 1280px) and (max-width: 1919.5px) {
-  .cards-hovering-img {
+  .cards-hovering-img-x3,
+  .cards-hovering-img-x4 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
   }
-  .cards-hovering-img .card-icon-bg-img,
-  .cards-hovering-img .card-icon-bg.card-neutral-white.col-lg-12 {
+  .cards-hovering-img-x3 .card-icon-bg-img,
+  .cards-hovering-img-x3 .card-icon-bg.card-neutral-white.col-lg-12,
+  .cards-hovering-img-x4 .card-icon-bg-img,
+  .cards-hovering-img-x4 .card-icon-bg.card-neutral-white.col-lg-12 {
     height: 335px;
   }
-  .cards-hovering-img .card-icon-bg.card-neutral-white.col-lg-12 {
+  .cards-hovering-img-x3 .card-icon-bg.card-neutral-white.col-lg-12,
+  .cards-hovering-img-x4 .card-icon-bg.card-neutral-white.col-lg-12 {
     width: calc(25% - 16px);
     margin-right: 16px;
     flex-grow: 1;
     margin-bottom: 0 !important;
   }
-  .cards-hovering-img .card-icon-bg.card-neutral-white.col-lg-12:last-child {
+  .cards-hovering-img-x3 .card-icon-bg.card-neutral-white.col-lg-12:last-child,
+  .cards-hovering-img-x4 .card-icon-bg.card-neutral-white.col-lg-12:last-child {
     margin-right: 0;
+  }
+  .cards-hovering-img-x4 .card-icon-bg.card-neutral-white.col-lg-12 {
+    width: calc(6% - 16px);
+  }
+  .cards-hovering-img-x4 .card-icon-bg-img {
+    width: calc(50% - 8px) !important;
+    margin-bottom: 0 !important;
   }
 }
 @media (min-width: 1920px) {
-  .cards-hovering-img {
+  .cards-hovering-img-x3,
+  .cards-hovering-img-x4 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
   }
-  .cards-hovering-img .card-icon-bg-img,
-  .cards-hovering-img .card-icon-bg.card-neutral-white.col-lg-12 {
+  .cards-hovering-img-x3 .card-icon-bg-img,
+  .cards-hovering-img-x3 .card-icon-bg.card-neutral-white.col-lg-12,
+  .cards-hovering-img-x4 .card-icon-bg-img,
+  .cards-hovering-img-x4 .card-icon-bg.card-neutral-white.col-lg-12 {
     height: 335px;
   }
-  .cards-hovering-img .card-icon-bg.card-neutral-white.col-lg-12 {
+  .cards-hovering-img-x3 .card-icon-bg.card-neutral-white.col-lg-12,
+  .cards-hovering-img-x4 .card-icon-bg.card-neutral-white.col-lg-12 {
     width: calc(25% - 16px);
     margin-right: 16px;
     flex-grow: 1;
     margin-bottom: 0 !important;
   }
-  .cards-hovering-img .card-icon-bg.card-neutral-white.col-lg-12:last-child {
+  .cards-hovering-img-x3 .card-icon-bg.card-neutral-white.col-lg-12:last-child,
+  .cards-hovering-img-x4 .card-icon-bg.card-neutral-white.col-lg-12:last-child {
     margin-right: 0;
+  }
+  .cards-hovering-img-x4 .card-icon-bg.card-neutral-white.col-lg-12 {
+    width: calc(6% - 16px);
+  }
+  .cards-hovering-img-x4 .card-icon-bg-img {
+    width: calc(50% - 8px) !important;
+    margin-bottom: 0 !important;
   }
 }
 

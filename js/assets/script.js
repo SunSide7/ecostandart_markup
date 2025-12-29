@@ -1,11 +1,11 @@
 $(document).ready(function() {
 
-    function hoverIn() {
-        console.log('hoverIn')
+    function hoverInX3() {
+        console.log('hoverInX3')
 
-        $(this).closest('.cards-hovering-img').find('.card-neutral-white').addClass('bg-gradient-safety')
-        $(this).closest('.cards-hovering-img').find('.card-neutral-white').addClass('card-icon-bg')
-        $(this).closest('.cards-hovering-img').find('.card-neutral-white').removeClass('card-icon-bg-img')
+        $(this).closest('.cards-hovering-img-x3').find('.card-neutral-white').addClass('bg-gradient-safety')
+        $(this).closest('.cards-hovering-img-x3').find('.card-neutral-white').addClass('card-icon-bg')
+        $(this).closest('.cards-hovering-img-x3').find('.card-neutral-white').removeClass('card-icon-bg-img')
 
         if($(this).hasClass('card-icon-bg-img')) {
         }
@@ -16,8 +16,8 @@ $(document).ready(function() {
         }
     }
 
-    function hoverOut() {
-        console.log('hoverOut')
+    function hoverOutX3() {
+        console.log('hoverOutX3')
 
         if($(this).hasClass('card-icon-bg-img')) {
             $(this).removeClass('card-icon-bg-img')
@@ -29,8 +29,44 @@ $(document).ready(function() {
 
 
     // TARIFFS
-    $('.cards-hovering-img .card-neutral-white').hover(hoverIn, hoverOut)
-    $('.cards-hovering-img .card-neutral-white').click(hoverIn, hoverOut)
+    $('.cards-hovering-img-x3 .card-neutral-white').hover(hoverInX3, hoverOutX3)
+    $('.cards-hovering-img-x3 .card-neutral-white').click(hoverInX3, hoverOutX3)
+
+
+    function hoverIn() {
+        console.log('hoverIn')
+
+        $(this).closest('.cards-hovering-img-x4').find('.card-neutral-white').addClass('bg-gradient-vertical-primary')
+        $(this).closest('.cards-hovering-img-x4').find('.card-neutral-white').addClass('card-icon-bg')
+        $(this).closest('.cards-hovering-img-x4').find('.card-neutral-white').removeClass('card-icon-bg-img')
+
+        if($(this).hasClass('card-icon-bg-img')) {
+        }
+        else {
+            $(this).addClass('card-icon-bg-img')
+            $(this).removeClass('bg-gradient-vertical-primary')
+            $(this).removeClass('card-icon-bg')
+        }
+    }
+
+    function hoverOut() {
+        console.log('hoverOut')
+
+        if($(this).hasClass('card-icon-bg-img')) {
+            $(this).removeClass('card-icon-bg-img')
+            $(this).addClass('bg-gradient-vertical-primary')
+            $(this).addClass('card-icon-bg')
+        }
+    }
+
+
+
+    // TARIFFS
+    $('.cards-hovering-img-x4 .card-neutral-white').hover(hoverIn, hoverOut)
+    $('.cards-hovering-img-x4 .card-neutral-white').click(hoverIn, hoverOut)
+
+
+
 
     function hoverInTafiffs() {
         $(this).closest('.tariff-cards').find('.tariff-cards-item').removeClass('active')

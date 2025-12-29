@@ -1,4 +1,5 @@
-.cards-hovering-img
+.cards-hovering-img-x3,
+.cards-hovering-img-x4
   display: flex
   flex-direction: column
   overflow: hidden
@@ -28,8 +29,16 @@
       right: 0
       margin: auto
 
+  //p.body-text.color-white
+  //  z-index: 3
+  .chemestry-center-text
+    z-index: 20
+    & h4
+      margin-bottom: 16px !important
+
 @media(min-width: 1280px) and (max-width: 1919.5px)
-  .cards-hovering-img
+  .cards-hovering-img-x3,
+  .cards-hovering-img-x4
     display: flex
     flex-direction: row
     flex-wrap: nowrap
@@ -46,9 +55,21 @@
 
       &:last-child
         margin-right: 0
+
+  .cards-hovering-img-x4
+
+    .card-icon-bg.card-neutral-white.col-lg-12
+      width: calc(12% / 2 - 16px)
+
+    .card-icon-bg-img
+      width: calc(50% - 8px) !important
+      margin-bottom: 0 !important
+
+
 
 @media(min-width: 1920px)
-  .cards-hovering-img
+  .cards-hovering-img-x3,
+  .cards-hovering-img-x4
     display: flex
     flex-direction: row
     flex-wrap: nowrap
@@ -65,6 +86,15 @@
 
       &:last-child
         margin-right: 0
+
+  .cards-hovering-img-x4
+
+    .card-icon-bg.card-neutral-white.col-lg-12
+      width: calc(12% / 2 - 16px)
+
+    .card-icon-bg-img
+      width: calc(50% - 8px) !important
+      margin-bottom: 0 !important
 
 
 
