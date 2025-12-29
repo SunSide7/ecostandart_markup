@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2d21720-3e42-49f6-8ff6-e3d813c52d75" name="Changes" comment="" />
+    <list default="true" id="a2d21720-3e42-49f6-8ff6-e3d813c52d75" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_dev.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_dev.pug" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +62,8 @@
       <option name="presentableId" value="Default" />
       <updated>1766578472103</updated>
       <workItem from="1766578473971" duration="6107000" />
-      <workItem from="1766728932099" duration="18752000" />
+      <workItem from="1766728932099" duration="19393000" />
+      <workItem from="1767002432415" duration="687000" />
     </task>
     <servers />
   </component>
