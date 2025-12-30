@@ -34,6 +34,7 @@
   &.horizontal
     flex-direction: row
     gap: 16px
+    transition: opacity 0.35s ease
 
   &.vertical
     flex-direction: column
@@ -69,6 +70,10 @@
         align-items: center
         text-decoration: none
         color: $color_neutral_black
+        transition: color 0.35s ease
+
+        &:hover
+          color: $color_primary_dark_green
 
       &:has(:not(:first-child)) > *:first-child::after
         content: ""
@@ -102,6 +107,10 @@
           align-items: center
           text-decoration: none
           color: $color_neutral_black
+          transition: color 0.35s ease
+
+          &:hover
+            color: $color_primary_dark_green
 
         &:has(:not(:first-child)) > *:first-child::before
           content: ""
@@ -133,6 +142,10 @@
           & > *
             text-decoration: none
             color: $color_neutral_grey
+            transition: color 0.35s ease
+
+            &:hover
+              color: $color_primary_dark_green
 
 @media (min-width: 1920px)
   .menu-header
