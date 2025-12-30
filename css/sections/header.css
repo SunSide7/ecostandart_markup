@@ -1371,7 +1371,7 @@ body:has(.header.active) .header-bg-blur {
   transition: opacity 0.5s ease;
 }
 
-.headerSities {
+.header-sities {
   cursor: pointer;
 }
 
@@ -1380,6 +1380,7 @@ body:has(.header.active) .header-bg-blur {
   box-sizing: border-box;
   border-radius: 36px;
   width: calc(100% - 16px);
+  max-height: calc(100vh - 16px);
   margin: 8px 8px 0;
   padding: 16px;
   display: flex;

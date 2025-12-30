@@ -17,6 +17,10 @@ const headerPhone = document.querySelector('.phone-header');
 const headerSities = document.querySelector('.header-sities');
 const menuMobileCity = document.querySelector('.menu-mobile-city');
 
+const menuHeaderHorizontal = document.querySelector('.menu-header.horizontal');
+
+let isSearchOpened = false;
+
 headerSities.addEventListener('click', () => {
     headerSities.classList.toggle('active');
 });
@@ -33,6 +37,9 @@ headerSearch.addEventListener('click', () => {
     headerPhone.style.display = "none";
     headerContactButton.style.display = "none";
     header.classList.add("prevent-active");
+    isSearchOpened = true;
+    menuHeaderHorizontal.style.opacity = '0';
+    searchResult.style.opacity = '1';
 });
 
 headerSearchClose.addEventListener('click', (event) => {
@@ -42,13 +49,15 @@ headerSearchClose.addEventListener('click', (event) => {
     headerPhone.style.display = "flex";
     headerContactButton.style.display = "flex";
     header.classList.remove("prevent-active");
+    isSearchOpened = false;
+    menuHeaderHorizontal.style.opacity = '1';
+    searchResult.style.opacity = '0';
 });
 
 searchMobileInput.addEventListener('click', () => {
     menuMobile.classList.remove('active');
     menuMobileCity.classList.remove('active');
     searchResultMobile.classList.add('active');
-
 });
 
 searchMobileClose.addEventListener('click', (event) => {
@@ -61,17 +70,47 @@ searchMobileClose.addEventListener('click', (event) => {
 // Или более компактный вариант с медиа-запросом в JS
 const mediaQuery = window.matchMedia('(min-width: 1280px)');
 
+let isMouseOverHeader = false;
+let scrollTimeout;
+
 header.addEventListener('mouseenter', function() {
     if (mediaQuery.matches) {
-        header.classList.add("active");
-        html.classList.toggle('no-scroll');
+        isMouseOverHeader = true;
+        clearTimeout(scrollTimeout);
+        scrollTimeout = setTimeout(() => {
+            if (isMouseOverHeader) {
+                header.classList.add("active");
+            }
+        }, 50);
     }
 });
 
 header.addEventListener('mouseleave', function() {
     if (mediaQuery.matches) {
-        header.classList.remove("active");
-        html.classList.toggle('no-scroll');
+        if(!isSearchOpened){
+            isMouseOverHeader = false;
+            header.classList.remove("active");
+        }
+        headerSities.classList.remove("active");
+    }
+});
+
+// Отслеживаем скролл
+window.addEventListener('scroll', function() {
+    if (mediaQuery.matches) {
+        // Немедленно закрываем при начале скролла
+        header.classList.remove("active")
+        searchResult.style.opacity = '0';
+        clearTimeout(scrollTimeout);
+        scrollTimeout = setTimeout(() => {
+            if (isMouseOverHeader) {
+                header.classList.add("active");
+            }
+            if(isSearchOpened){
+                header.classList.add("active");
+            }
+            searchResult.style.opacity = '1';
+        }, 300);
     }
 });
 
@@ -652,4 +691,235 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Инициализация скрипта
     init();
+
+});
+
+const cityData = {
+    "Москва": {
+        phone: "+7 495 987-65-43",
+        phoneLink: "+74959876543",
+        workTime: "Пн–Пт с 9:00 до 18:00",
+        workTimeFull: "08:00–19:00",
+        address: "Переведеновский пер., 13, стр. 16, оф. 216, Москва, Россия, 105082",
+        addressFull: "105082, г. Москва Переведеновский пер., дом. 13, стр. 16, оф. 216",
+        email: "manager@ecostandard.ru"
+    },
+    "Санкт-Петербург": {
+        phone: "+7 812 123-45-67",
+        phoneLink: "+78121234567",
+        workTime: "Пн–Пт с 10:00 до 19:00",
+        workTimeFull: "09:00–20:00",
+        address: "Невский пр., 100, оф. 50, Санкт-Петербург, Россия, 191025",
+        addressFull: "191025, г. Санкт-Петербург, Невский пр., дом 100, оф. 50",
+        email: "spb@ecostandard.ru"
+    },
+    "Хабаровск": {
+        phone: "+7 4212 345-67-89",
+        phoneLink: "+742123456789",
+        workTime: "Пн–Пт с 8:00 до 17:00",
+        workTimeFull: "07:00–18:00",
+        address: "ул. Карла Маркса, 65, оф. 10, Хабаровск, Россия, 680000",
+        addressFull: "680000, г. Хабаровск, ул. Карла Маркса, дом 65, оф. 10",
+        email: "khabarovsk@ecostandard.ru"
+    },
+    "Новосибирск": {
+        phone: "+7 383 123-45-67",
+        phoneLink: "+73831234567",
+        workTime: "Пн–Пт с 9:00 до 18:00",
+        workTimeFull: "08:00–19:00",
+        address: "ул. Ленина, 12, оф. 5, Новосибирск, Россия, 630000",
+        addressFull: "630000, г. Новосибирск, ул. Ленина, дом 12, оф. 5",
+        email: "novosibirsk@ecostandard.ru"
+    },
+    "Краснодар": {
+        phone: "+7 861 234-56-78",
+        phoneLink: "+78612345678",
+        workTime: "Пн–Пт с 9:00 до 18:00",
+        workTimeFull: "08:00–19:00",
+        address: "ул. Красная, 100, оф. 15, Краснодар, Россия, 350000",
+        addressFull: "350000, г. Краснодар, ул. Красная, дом 100, оф. 15",
+        email: "krasnodar@ecostandard.ru"
+    },
+    "Красноярск": {
+        phone: "+7 391 234-56-78",
+        phoneLink: "+73912345678",
+        workTime: "Пн–Пт с 9:00 до 18:00",
+        workTimeFull: "08:00–19:00",
+        address: "ул. Мира, 50, оф. 8, Красноярск, Россия, 660000",
+        addressFull: "660000, г. Красноярск, ул. Мира, дом 50, оф. 8",
+        email: "krasnoyarsk@ecostandard.ru"
+    },
+    "Иркутск": {
+        phone: "+7 3952 123-45-67",
+        phoneLink: "+739521234567",
+        workTime: "Пн–Пт с 9:00 до 18:00",
+        workTimeFull: "08:00–19:00",
+        address: "ул. Ленина, 15, оф. 3, Иркутск, Россия, 664000",
+        addressFull: "664000, г. Иркутск, ул. Ленина, дом 15, оф. 3",
+        email: "irkutsk@ecostandard.ru"
+    },
+    "Севастополь": {
+        phone: "+7 8692 123-45-67",
+        phoneLink: "+786921234567",
+        workTime: "Пн–Пт с 9:00 до 18:00",
+        workTimeFull: "08:00–19:00",
+        address: "ул. Большая Морская, 10, оф. 2, Севастополь, Россия, 299000",
+        addressFull: "299000, г. Севастополь, ул. Большая Морская, дом 10, оф. 2",
+        email: "sevastopol@ecostandard.ru"
+    },
+    "Екатеринбург": {
+        phone: "+7 343 234-56-78",
+        phoneLink: "+73432345678",
+        workTime: "Пн–Пт с 9:00 до 18:00",
+        workTimeFull: "08:00–19:00",
+        address: "ул. Ленина, 50, оф. 12, Екатеринбург, Россия, 620000",
+        addressFull: "620000, г. Екатеринбург, ул. Ленина, дом 50, оф. 12",
+        email: "ekaterinburg@ecostandard.ru"
+    },
+    "Казань": {
+        phone: "+7 843 234-56-78",
+        phoneLink: "+78432345678",
+        workTime: "Пн–Пт с 9:00 до 18:00",
+        workTimeFull: "08:00–19:00",
+        address: "ул. Баумана, 20, оф. 7, Казань, Россия, 420000",
+        addressFull: "420000, г. Казань, ул. Баумана, дом 20, оф. 7",
+        email: "kazan@ecostandard.ru"
+    },
+    "Ростов-на-Дону": {
+        phone: "+7 863 234-56-78",
+        phoneLink: "+78632345678",
+        workTime: "Пн–Пт с 9:00 до 18:00",
+        workTimeFull: "08:00–19:00",
+        address: "ул. Большая Садовая, 100, оф. 25, Ростов-на-Дону, Россия, 344000",
+        addressFull: "344000, г. Ростов-на-Дону, ул. Большая Садовая, дом 100, оф. 25",
+        email: "rostov@ecostandard.ru"
+    },
+    "Владивосток": {
+        phone: "+7 423 234-56-78",
+        phoneLink: "+74232345678",
+        workTime: "Пн–Пт с 9:00 до 18:00",
+        workTimeFull: "08:00–19:00",
+        address: "ул. Светланская, 50, оф. 6, Владивосток, Россия, 690000",
+        addressFull: "690000, г. Владивосток, ул. Светланская, дом 50, оф. 6",
+        email: "vladivostok@ecostandard.ru"
+    }
+};
+
+function saveCityToStorage(cityName) {
+    localStorage.setItem('selectedCity', cityName);
+}
+
+function getCityFromStorage() {
+    return localStorage.getItem('selectedCity') || "Москва";
+}
+
+function updateHeaderInfo(cityName) {
+    const city = cityData[cityName];
+    if (!city) return;
+
+    // Обновляем текущий город в выпадающем списке
+    const currentCitySpan = document.querySelector('.current-city');
+    if (currentCitySpan) {
+        currentCitySpan.textContent = cityName;
+    }
+
+    // Обновляем телефон
+    const phoneElement = document.querySelector('.header-info-phone');
+    if (phoneElement) {
+        phoneElement.textContent = city.phone;
+    }
+
+    // Обновляем время работы (находим второй элемент p)
+    const workTimeElement = document.querySelector('.header-info-time');
+        workTimeElement.innerHTML = `
+        <span class="text-caption-bold color-black">${city.workTime.split(' ')[0]}</span> 
+        <span class="text-caption color-black">${city.workTime.split(' ').slice(1).join(' ')}</span>
+    `;
+
+    // Обновляем адрес (третий элемент p)
+    const addressElement = document.querySelector('.header-info-address');
+    if (addressElement) {
+        addressElement.textContent = `Адрес: ${city.address}`;
+    }
+}
+
+function updateFooterInfo(cityName) {
+    const city = cityData[cityName];
+    if (!city) return;
+
+    // Обновляем телефон
+    const phoneLink = document.querySelector('.footer-info-phone');
+    if (phoneLink) {
+        phoneLink.textContent = city.phone;
+        phoneLink.href = `tel:${city.phoneLink}`;
+    }
+
+    // Обновляем email
+    const emailLink = document.querySelector('.footer-info-mail');
+    if (emailLink) {
+        emailLink.textContent = city.email;
+        emailLink.href = `mailto:${city.email}`;
+    }
+
+    // Обновляем адрес
+    const addressElement = document.querySelector('.footer-info-address');
+    if (addressElement) {
+        addressElement.textContent = city.addressFull;
+    }
+
+    // Обновляем время работы
+    const workTimeElement = document.querySelector('.footer-info-time');
+    if (workTimeElement) {
+        workTimeElement.textContent = city.workTimeFull;
+    }
+
+    // Обновляем активный город в футере
+    updateActiveCityInFooter(cityName);
+}
+
+function updateActiveCityInFooter(selectedCity) {
+    const cityButtons = document.querySelectorAll('.footer-city');
+    cityButtons.forEach(button => {
+        button.classList.remove('active');
+        if (button.textContent.trim() === selectedCity) {
+            button.classList.add('active');
+        }
+    });
+}
+
+function changeCity(cityName) {
+    if (!cityData[cityName]) return;
+
+    // Сохраняем в localStorage
+    saveCityToStorage(cityName);
+
+    // Обновляем информацию в хедере и футере
+    updateHeaderInfo(cityName);
+    updateFooterInfo(cityName);
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Получаем сохраненный город или устанавливаем Москву по умолчанию
+    const currentCity = getCityFromStorage();
+
+    // Инициализируем информацию на странице
+    changeCity(currentCity);
+
+    // Обработчики для выбора города в хедере (выпадающий список)
+    const headerCityItems = document.querySelectorAll('.header-sities .dropdown-item.hoverable');
+    headerCityItems.forEach(item => {
+        item.addEventListener('click', function() {
+            const cityName = this.querySelector('span').textContent.trim();
+            changeCity(cityName);
+        });
+    });
+
+    // Обработчики для выбора города в футере (кнопки)
+    const footerCityButtons = document.querySelectorAll('.footer-city');
+    footerCityButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const cityName = this.textContent.trim();
+            changeCity(cityName);
+        });
+    });
 });
