@@ -36,8 +36,8 @@
 .cards-hovering-img-x4 .chemestry-center-text {
   z-index: 20;
 }
-.cards-hovering-img-x3 .chemestry-center-text h4,
-.cards-hovering-img-x4 .chemestry-center-text h4 {
+.cards-hovering-img-x3 .chemestry-center-text h4:not(.mb-0),
+.cards-hovering-img-x4 .chemestry-center-text h4:not(.mb-0) {
   margin-bottom: 16px !important;
 }
 .cards-hovering-img-x3 .card-hover-white p,

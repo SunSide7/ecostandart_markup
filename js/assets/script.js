@@ -36,7 +36,8 @@ $(document).ready(function() {
     function hoverIn() {
         console.log('hoverIn')
 
-        $(this).closest('.cards-hovering-img-x4').find('.card-neutral-white').addClass('bg-gradient-vertical-primary')
+        $(this).closest('.cards-hovering-img-x4:not(.safety-theme)').find('.card-neutral-white').addClass('bg-gradient-vertical-primary')
+        $(this).closest('.cards-hovering-img-x4.safety-theme').find('.card-neutral-white').addClass('bg-gradient-safety')
         $(this).closest('.cards-hovering-img-x4').find('.card-neutral-white').addClass('card-icon-bg')
         $(this).closest('.cards-hovering-img-x4').find('.card-neutral-white').removeClass('card-icon-bg-img')
         setTimeout(() => {
