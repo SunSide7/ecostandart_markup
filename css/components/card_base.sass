@@ -7,9 +7,9 @@
 
     position: relative
 
-    //&:not(.no-card)
-    padding: 20px
-    background: $color_neutral_white
+    &:not(.no-card)
+      padding: 20px
+      background: $color_neutral_white
 
 $cards-gap: 8px
 .card
@@ -22,8 +22,7 @@ $cards-gap: 8px
 
     &.col-12
       width: 100%
-      //&:not(.mb-16)
-      //margin-bottom: $cards-gap !important
+      margin-bottom: $cards-gap
 
     &.col-6
       width: calc(50% - $cards-gap / 2)
@@ -100,9 +99,7 @@ $cards-gap: 8px
 
       &.col-12
         width: 100%
-
-        &:not(.mb-16)
-          margin-bottom: $cards-gap !important
+        margin-bottom: $cards-gap !important
 
         &:last-child
           margin-bottom: 0 !important
@@ -198,8 +195,7 @@ $cards-gap: 8px
 
       &.col-md-12
         width: 100%
-        &:not(.mb-16)
-          margin-bottom: $cards-gap !important
+        margin-bottom: $cards-gap !important
 
         &:last-child
           margin-bottom: 0 !important

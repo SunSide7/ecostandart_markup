@@ -895,6 +895,7 @@
   right: 0;
   top: -50px;
   margin: auto;
+  z-index: 2;
 }
 .card-outer-icon .img img {
   width: 50%;

@@ -874,6 +874,8 @@
   overflow: hidden;
   border-radius: 30px;
   position: relative;
+}
+.card-neutral-white:not(.no-card) {
   padding: 20px;
   background: #f8f8f8;
 }
@@ -883,6 +885,7 @@
 }
 .card-neutral-white.col-12 {
   width: 100%;
+  margin-bottom: 8px;
 }
 .card-neutral-white.col-6 {
   width: calc(50% - 4px);
@@ -948,8 +951,6 @@
   }
   .card-neutral-white.col-12 {
     width: 100%;
-  }
-  .card-neutral-white.col-12:not(.mb-16) {
     margin-bottom: 8px !important;
   }
   .card-neutral-white.col-12:last-child {
@@ -1033,8 +1034,6 @@
   }
   .card-neutral-white.col-md-12 {
     width: 100%;
-  }
-  .card-neutral-white.col-md-12:not(.mb-16) {
     margin-bottom: 8px !important;
   }
   .card-neutral-white.col-md-12:last-child {

@@ -26371,7 +26371,7 @@ textarea.form-control-lg {
   z-index: 3 !important;
 }
 
-@media (min-width: 360px) {
+@media (min-width: 360px) and (max-width: 639.5px) {
   .float-sm-start {
     float: left !important;
   }
