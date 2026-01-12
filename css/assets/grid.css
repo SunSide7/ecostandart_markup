@@ -126,6 +126,11 @@
   margin-bottom: 52px !important;
 }
 
+@media (min-width: 1920px) {
+  .mb-xxl-72 {
+    margin-bottom: 72px !important;
+  }
+}
 .pt-16 {
   padding-top: 16px !important;
 }

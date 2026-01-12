@@ -870,21 +870,21 @@
   background: linear-gradient(128deg, #1cb8e4, #1cb8e4) !important;
 }
 
-ul.plus-list-safety, ul.plus-list-life {
+ul.plus-list-safety, ul.plus-list-life, ul.plus-list-certification {
   padding: 0;
 }
-ul.plus-list-safety li, ul.plus-list-life li {
+ul.plus-list-safety li, ul.plus-list-life li, ul.plus-list-certification li {
   display: flex;
   padding: 4px 0;
   margin-bottom: 4px;
   font-size: 16px;
   line-height: 22px;
 }
-ul.plus-list-safety li:last-of-type, ul.plus-list-life li:last-of-type {
+ul.plus-list-safety li:last-of-type, ul.plus-list-life li:last-of-type, ul.plus-list-certification li:last-of-type {
   margin-bottom: 0;
   padding-bottom: 0;
 }
-ul.plus-list-safety li:before, ul.plus-list-life li:before {
+ul.plus-list-safety li:before, ul.plus-list-life li:before, ul.plus-list-certification li:before {
   content: "";
   display: inline-block;
   min-width: 14px;
@@ -895,11 +895,11 @@ ul.plus-list-safety li:before, ul.plus-list-life li:before {
   fill: blue;
   stroke: blue;
 }
-ul.plus-list-safety li span, ul.plus-list-life li span {
+ul.plus-list-safety li span, ul.plus-list-life li span, ul.plus-list-certification li span {
   font-size: 16px;
   line-height: 22px;
 }
-ul.plus-list-safety li b, ul.plus-list-life li b {
+ul.plus-list-safety li b, ul.plus-list-life li b, ul.plus-list-certification li b {
   font-weight: 500;
   color: #3a434d;
 }
@@ -908,6 +908,9 @@ ul.plus-list-safety li:before {
 }
 ul.plus-list-life li:before {
   background: url(../../img/assets/icons/small/icon_visir_life.svg) center center no-repeat;
+}
+ul.plus-list-certification li:before {
+  background: url(../../img/assets/icons/small/icon_visir_certification.svg) center center no-repeat;
 }
 
 /*# sourceMappingURL=plus_icon_list.css.map */

@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1b82c1a-d1a6-446e-8f97-5f3401c9e80f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img/sections/legend_92/icon_01.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sections/legend_92/icon_02.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/legend_85/img-bg.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/grid.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/grid.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/grid.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/plus_icon_list.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/plus_icon_list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/plus_icon_list.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/plus_icon_list.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/plus_icon_list.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/plus_icon_list.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/main-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/base/vars/styles.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/base/vars/styles.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_dev_2.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_dev_2.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_84.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_84.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Sass File" />
         <option value="Pug File" />
+        <option value="Sass File" />
       </list>
     </option>
   </component>
@@ -44,7 +52,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "C:/Users/Popov/Desktop/BX MARKUP/img/sections/legend_84",
+    "last_opened_file_path": "C:/Users/Popov/Desktop/BX MARKUP/img/sections/legend_85",
     "list.type.of.created.stylesheet": "Sass",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -57,6 +65,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Popov\Desktop\BX MARKUP\img\sections\legend_85" />
       <recent name="C:\Users\Popov\Desktop\BX MARKUP\img\sections\legend_84" />
       <recent name="C:\Users\Popov\Desktop\BX MARKUP\img\sections\legend_83" />
       <recent name="C:\Users\Popov\Desktop\BX MARKUP\img\sections\legend_82" />
@@ -84,7 +93,7 @@
       <workItem from="1767967519373" duration="1760000" />
       <workItem from="1767969691106" duration="13257000" />
       <workItem from="1768050328168" duration="84000" />
-      <workItem from="1768172977414" duration="16597000" />
+      <workItem from="1768172977414" duration="22236000" />
     </task>
     <servers />
   </component>

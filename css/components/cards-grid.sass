@@ -1,0 +1,82 @@
+.cards-grid
+  &-01
+    display: grid !important
+    grid-template-columns: repeat(3, 1fr)
+    grid-template-areas: "el-01 el-02 el-03"
+
+    gap: 16px
+    align-items: stretch
+    justify-content: start
+
+    & > .card-neutral-white:nth-child(1)
+      grid-area: el-01
+      box-sizing: border-box
+    & > .card-neutral-white:nth-child(2)
+      grid-area: el-02
+      box-sizing: border-box
+    & > .card-neutral-white:nth-child(3)
+      grid-area: el-03
+      box-sizing: border-box
+
+    & > .card-neutral-white:nth-child(2)
+      & .img
+        object-fit: cover
+        height: 100%
+        position: relative
+        & img
+          height: 100%
+          object-position: bottom center !important
+          position: absolute
+
+@media(min-width: 1920px)
+  .cards-grid
+    &-01
+
+      & > .card-neutral-white:nth-child(1),
+      & > .card-neutral-white:nth-child(2),
+      & > .card-neutral-white:nth-child(3)
+        max-height: 443px
+
+@media(min-width: 1280px) and (max-width: 1920px)
+  .cards-grid
+    &-01
+      grid-template-columns: repeat(2, 1fr)
+      grid-template-areas: "el-02 el-01 el-01" "el-02 el-03 el-03"
+
+      //& > .card-neutral-white:nth-child(1),
+      //& > .card-neutral-white:nth-child(3)
+      //& > .card-neutral-white:nth-child(2)
+      //  max-height: 443px
+      //  max-height: 40vw
+
+      & .center-all
+        text-align: left
+
+@media(min-width: 640px) and (max-width: 959.5px)
+  .cards-grid
+    &-01
+      grid-template-columns: repeat(2, 1fr)
+      grid-template-areas: "el-01 el-02" "el-03 el-03"
+      align-items: stretch
+
+      & > .card-neutral-white:nth-child(2),
+      & > .card-neutral-white:nth-child(3)
+        //max-height: 340px
+
+        //max-height: 50vmax
+
+
+@media(min-width: 360px) and (max-width: 639.5px)
+  .cards-grid
+    &-01
+      grid-template-columns: 1fr
+      grid-template-areas: "el-01" "el-02" "el-03"
+
+      & > .card-neutral-white:nth-child(2)
+        & .img
+          object-fit: cover
+          max-height: 340px
+
+          & img
+            position: static
+
