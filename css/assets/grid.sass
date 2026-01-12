@@ -141,7 +141,8 @@
     margin-bottom: 4px !important
 
   &-16,
-  &-16.card-neutral-white
+  &-16.card-neutral-white,
+  &-16.card-neutral-white.col-lg-6:nth-last-child(2)
     margin-bottom: 16px !important
 
   &-20,
@@ -217,6 +218,9 @@
   &-4
     margin-bottom: 16px !important
 
+  &-6
+    margin-bottom: 20px !important
+
 
 
 .pb-design
@@ -260,6 +264,15 @@
     margin-bottom: 0 !important
 
 
+@media(max-width: 959.5px)
+  .mb-design,
+  .mb-design.card-neutral-white,
+  .card-neutral-white.col-xl-6:nth-of-type(2n).mb-design
+
+    &-6
+      padding-top: 20px !important
+
+
 @media(max-width: 639px)
   .mb-design,
   .mb-design.card-neutral-white,
@@ -274,6 +287,9 @@
 
     &-4
       margin-bottom: 8px !important
+
+    &-6
+      padding-top: 20px !important
 
 
 
@@ -333,7 +349,7 @@
 
 .flex-jcc
   display: flex
-  justify-content: center
+  justify-content: center !important
 
 .flex-jcfs
   display: flex
@@ -344,6 +360,10 @@
 .flex-jcsb
   display: flex
   justify-content: space-between
+
+.flex-aic
+  display: flex
+  align-items: center
 
 .flex-grow-1
   flex-grow: 1

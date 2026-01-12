@@ -428,3 +428,125 @@ $icon-size: 29px
         & span
           background: $hover_life_btn
 
+
+
+.btn-img-secondary
+
+
+  // BASE
+  &-white,
+  &-black,
+  &-outline,
+
+  // GRADIENTAL
+  &-primary,
+  &-horizontal-primary,
+
+  &-vertical-primary,
+
+  &-safety,
+  &-ecology,
+  &-surveys,
+  &-academy,
+  &-soft,
+  &-foundation,
+  &-journal,
+  &-certification,
+  &-people,
+  &-life
+    @include btn_base
+
+    & span
+      background: $color_neutral_white
+      color: $color_neutral_black
+
+    &:after
+      content: ''
+      width: $icon-size
+      height: $icon-size
+
+      //background-image: url(../../img/assets/icons/medium/btn_visir_base_transparent.svg)
+      background: black
+      -webkit-mask-image: url(../../img/assets/icons/medium/btn_visir_base_transparent.svg)
+      -webkit-mask-size: cover
+
+      position: absolute
+      right: 7px
+      top: 0
+      bottom: 0
+      margin: auto
+
+      //transition: all .35s ease-out
+
+
+    &:not(.btn-arrow)
+      &:hover
+        &:after
+          //transform: rotate(180deg)
+
+  // BASE
+
+
+  // GRADIENTAL
+  &-primary,
+  &-horizontal-primary
+    &:after
+      background: $gradient_horizontal_primary
+
+  &-vertical-primary
+    &:after
+      background: $gradient_vertical_primary
+
+
+
+
+  &-safety
+    &:after
+      background: $gradient_safety
+
+
+
+  &-ecology
+    &:after
+      background: $gradient_ecology
+
+
+  &-surveys
+    &:after
+      background: $gradient_surveys
+
+
+  &-academy
+    &:after
+      background: $gradient_academy
+
+
+  &-soft
+    &:after
+      background: $gradient_soft
+
+
+  &-foundation
+    &:after
+      background: $gradient_foundation
+
+
+  &-journal
+    &:after
+      background: $gradient_journal
+
+
+  &-certification
+    &:after
+      background: $gradient_certification
+
+
+  &-people
+    &:after
+      background: $gradient_people
+
+
+  &-life
+    &:after
+      background: $gradient_life
+

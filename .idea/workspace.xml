@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1b82c1a-d1a6-446e-8f97-5f3401c9e80f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img/sections/legend_82/img_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sections/legend_82/img_02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/pages/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_dev_2.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_dev_2.pug" afterDir="false" />
-    </list>
+    <list default="true" id="f1b82c1a-d1a6-446e-8f97-5f3401c9e80f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +30,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "C:/Users/Popov/Desktop/BX MARKUP/img/sections/legend_82",
+    "last_opened_file_path": "C:/Users/Popov/Desktop/BX MARKUP/img/sections/legend_83",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -47,6 +40,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Popov\Desktop\BX MARKUP\img\sections\legend_83" />
+      <recent name="C:\Users\Popov\Desktop\BX MARKUP\img\sections\legend_82" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -69,7 +68,7 @@
       <workItem from="1767967519373" duration="1760000" />
       <workItem from="1767969691106" duration="13257000" />
       <workItem from="1768050328168" duration="84000" />
-      <workItem from="1768172977414" duration="1029000" />
+      <workItem from="1768172977414" duration="6461000" />
     </task>
     <servers />
   </component>
