@@ -1,0 +1,17 @@
+.images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.images.x-5 .img {
+  position: static;
+  height: 72px;
+  width: auto;
+  margin-bottom: 0;
+}
+.images.x-5 .img img {
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=images.css.map */
