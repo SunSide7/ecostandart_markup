@@ -913,7 +913,7 @@
   color: #3a434d;
 }
 
-.btn-img-white, .btn-img-black, .btn-img-outline, .btn-img-primary, .btn-img-vertical-primary, .btn-img-horizontal-primary, .btn-img-primary, .btn-img-safety, .btn-img-ecology, .btn-img-surveys, .btn-img-academy, .btn-img-soft, .btn-img-foundation, .btn-img-journal, .btn-img-certification, .btn-img-people, .btn-img-life {
+.btn-img-white, .btn-img-white-safety, .btn-img-white-ecology, .btn-img-white-surveys, .btn-img-white-academy, .btn-img-white-soft, .btn-img-white-foundation, .btn-img-white-journal, .btn-img-white-certification, .btn-img-white-people, .btn-img-white-life, .btn-img-black, .btn-img-outline, .btn-img-primary, .btn-img-vertical-primary, .btn-img-horizontal-primary, .btn-img-primary, .btn-img-safety, .btn-img-ecology, .btn-img-surveys, .btn-img-academy, .btn-img-soft, .btn-img-foundation, .btn-img-journal, .btn-img-certification, .btn-img-people, .btn-img-life {
   display: inline-block;
   padding: 0;
   text-decoration: none;
@@ -931,7 +931,7 @@
   background: transparent;
   transition: all 0.35s ease-out;
 }
-.btn-img-white span, .btn-img-black span, .btn-img-outline span, .btn-img-primary span, .btn-img-vertical-primary span, .btn-img-horizontal-primary span, .btn-img-primary span, .btn-img-safety span, .btn-img-ecology span, .btn-img-surveys span, .btn-img-academy span, .btn-img-soft span, .btn-img-foundation span, .btn-img-journal span, .btn-img-certification span, .btn-img-people span, .btn-img-life span {
+.btn-img-white span, .btn-img-white-safety span, .btn-img-white-ecology span, .btn-img-white-surveys span, .btn-img-white-academy span, .btn-img-white-soft span, .btn-img-white-foundation span, .btn-img-white-journal span, .btn-img-white-certification span, .btn-img-white-people span, .btn-img-white-life span, .btn-img-black span, .btn-img-outline span, .btn-img-primary span, .btn-img-vertical-primary span, .btn-img-horizontal-primary span, .btn-img-primary span, .btn-img-safety span, .btn-img-ecology span, .btn-img-surveys span, .btn-img-academy span, .btn-img-soft span, .btn-img-foundation span, .btn-img-journal span, .btn-img-certification span, .btn-img-people span, .btn-img-life span {
   display: block;
   padding: 14.5px 24px;
   padding-right: 52px;
@@ -948,7 +948,7 @@
   -o-transition: all 0.55s ease-in-out;
   transition: all 0.55s ease-in-out;
 }
-.btn-img-white:after, .btn-img-black:after, .btn-img-outline:after, .btn-img-primary:after, .btn-img-vertical-primary:after, .btn-img-horizontal-primary:after, .btn-img-primary:after, .btn-img-safety:after, .btn-img-ecology:after, .btn-img-surveys:after, .btn-img-academy:after, .btn-img-soft:after, .btn-img-foundation:after, .btn-img-journal:after, .btn-img-certification:after, .btn-img-people:after, .btn-img-life:after {
+.btn-img-white:after, .btn-img-white-safety:after, .btn-img-white-ecology:after, .btn-img-white-surveys:after, .btn-img-white-academy:after, .btn-img-white-soft:after, .btn-img-white-foundation:after, .btn-img-white-journal:after, .btn-img-white-certification:after, .btn-img-white-people:after, .btn-img-white-life:after, .btn-img-black:after, .btn-img-outline:after, .btn-img-primary:after, .btn-img-vertical-primary:after, .btn-img-horizontal-primary:after, .btn-img-primary:after, .btn-img-safety:after, .btn-img-ecology:after, .btn-img-surveys:after, .btn-img-academy:after, .btn-img-soft:after, .btn-img-foundation:after, .btn-img-journal:after, .btn-img-certification:after, .btn-img-people:after, .btn-img-life:after {
   content: "";
   width: 29px;
   height: 29px;
@@ -959,24 +959,24 @@
   bottom: 0;
   margin: auto;
 }
-.btn-img-white.btn-arrow:after, .btn-img-black.btn-arrow:after, .btn-img-outline.btn-arrow:after, .btn-img-primary.btn-arrow:after, .btn-img-vertical-primary.btn-arrow:after, .btn-img-horizontal-primary.btn-arrow:after, .btn-img-primary.btn-arrow:after, .btn-img-safety.btn-arrow:after, .btn-img-ecology.btn-arrow:after, .btn-img-surveys.btn-arrow:after, .btn-img-academy.btn-arrow:after, .btn-img-soft.btn-arrow:after, .btn-img-foundation.btn-arrow:after, .btn-img-journal.btn-arrow:after, .btn-img-certification.btn-arrow:after, .btn-img-people.btn-arrow:after, .btn-img-life.btn-arrow:after {
+.btn-img-white.btn-arrow:after, .btn-img-white-safety.btn-arrow:after, .btn-img-white-ecology.btn-arrow:after, .btn-img-white-surveys.btn-arrow:after, .btn-img-white-academy.btn-arrow:after, .btn-img-white-soft.btn-arrow:after, .btn-img-white-foundation.btn-arrow:after, .btn-img-white-journal.btn-arrow:after, .btn-img-white-certification.btn-arrow:after, .btn-img-white-people.btn-arrow:after, .btn-img-white-life.btn-arrow:after, .btn-img-black.btn-arrow:after, .btn-img-outline.btn-arrow:after, .btn-img-primary.btn-arrow:after, .btn-img-vertical-primary.btn-arrow:after, .btn-img-horizontal-primary.btn-arrow:after, .btn-img-primary.btn-arrow:after, .btn-img-safety.btn-arrow:after, .btn-img-ecology.btn-arrow:after, .btn-img-surveys.btn-arrow:after, .btn-img-academy.btn-arrow:after, .btn-img-soft.btn-arrow:after, .btn-img-foundation.btn-arrow:after, .btn-img-journal.btn-arrow:after, .btn-img-certification.btn-arrow:after, .btn-img-people.btn-arrow:after, .btn-img-life.btn-arrow:after {
   background-image: url(../../img/assets/icons/medium/btn_arrow_up_white.svg);
 }
-.btn-img-white:not(.btn-arrow):after, .btn-img-black:not(.btn-arrow):after, .btn-img-outline:not(.btn-arrow):after, .btn-img-primary:not(.btn-arrow):after, .btn-img-vertical-primary:not(.btn-arrow):after, .btn-img-horizontal-primary:not(.btn-arrow):after, .btn-img-primary:not(.btn-arrow):after, .btn-img-safety:not(.btn-arrow):after, .btn-img-ecology:not(.btn-arrow):after, .btn-img-surveys:not(.btn-arrow):after, .btn-img-academy:not(.btn-arrow):after, .btn-img-soft:not(.btn-arrow):after, .btn-img-foundation:not(.btn-arrow):after, .btn-img-journal:not(.btn-arrow):after, .btn-img-certification:not(.btn-arrow):after, .btn-img-people:not(.btn-arrow):after, .btn-img-life:not(.btn-arrow):after {
+.btn-img-white:not(.btn-arrow):after, .btn-img-white-safety:not(.btn-arrow):after, .btn-img-white-ecology:not(.btn-arrow):after, .btn-img-white-surveys:not(.btn-arrow):after, .btn-img-white-academy:not(.btn-arrow):after, .btn-img-white-soft:not(.btn-arrow):after, .btn-img-white-foundation:not(.btn-arrow):after, .btn-img-white-journal:not(.btn-arrow):after, .btn-img-white-certification:not(.btn-arrow):after, .btn-img-white-people:not(.btn-arrow):after, .btn-img-white-life:not(.btn-arrow):after, .btn-img-black:not(.btn-arrow):after, .btn-img-outline:not(.btn-arrow):after, .btn-img-primary:not(.btn-arrow):after, .btn-img-vertical-primary:not(.btn-arrow):after, .btn-img-horizontal-primary:not(.btn-arrow):after, .btn-img-primary:not(.btn-arrow):after, .btn-img-safety:not(.btn-arrow):after, .btn-img-ecology:not(.btn-arrow):after, .btn-img-surveys:not(.btn-arrow):after, .btn-img-academy:not(.btn-arrow):after, .btn-img-soft:not(.btn-arrow):after, .btn-img-foundation:not(.btn-arrow):after, .btn-img-journal:not(.btn-arrow):after, .btn-img-certification:not(.btn-arrow):after, .btn-img-people:not(.btn-arrow):after, .btn-img-life:not(.btn-arrow):after {
   transform: rotate(0deg);
   transition: all 0.35s ease-out;
 }
-.btn-img-white[disabled], .btn-img-white.disabled, .btn-img-black[disabled], .btn-img-black.disabled, .btn-img-outline[disabled], .btn-img-outline.disabled, .btn-img-primary[disabled], .btn-img-primary.disabled, .btn-img-vertical-primary[disabled], .btn-img-vertical-primary.disabled, .btn-img-horizontal-primary[disabled], .btn-img-horizontal-primary.disabled, .btn-img-primary[disabled], .btn-img-primary.disabled, .btn-img-safety[disabled], .btn-img-safety.disabled, .btn-img-ecology[disabled], .btn-img-ecology.disabled, .btn-img-surveys[disabled], .btn-img-surveys.disabled, .btn-img-academy[disabled], .btn-img-academy.disabled, .btn-img-soft[disabled], .btn-img-soft.disabled, .btn-img-foundation[disabled], .btn-img-foundation.disabled, .btn-img-journal[disabled], .btn-img-journal.disabled, .btn-img-certification[disabled], .btn-img-certification.disabled, .btn-img-people[disabled], .btn-img-people.disabled, .btn-img-life[disabled], .btn-img-life.disabled {
+.btn-img-white[disabled], .btn-img-white.disabled, .btn-img-white-safety[disabled], .btn-img-white-safety.disabled, .btn-img-white-ecology[disabled], .btn-img-white-ecology.disabled, .btn-img-white-surveys[disabled], .btn-img-white-surveys.disabled, .btn-img-white-academy[disabled], .btn-img-white-academy.disabled, .btn-img-white-soft[disabled], .btn-img-white-soft.disabled, .btn-img-white-foundation[disabled], .btn-img-white-foundation.disabled, .btn-img-white-journal[disabled], .btn-img-white-journal.disabled, .btn-img-white-certification[disabled], .btn-img-white-certification.disabled, .btn-img-white-people[disabled], .btn-img-white-people.disabled, .btn-img-white-life[disabled], .btn-img-white-life.disabled, .btn-img-black[disabled], .btn-img-black.disabled, .btn-img-outline[disabled], .btn-img-outline.disabled, .btn-img-primary[disabled], .btn-img-primary.disabled, .btn-img-vertical-primary[disabled], .btn-img-vertical-primary.disabled, .btn-img-horizontal-primary[disabled], .btn-img-horizontal-primary.disabled, .btn-img-primary[disabled], .btn-img-primary.disabled, .btn-img-safety[disabled], .btn-img-safety.disabled, .btn-img-ecology[disabled], .btn-img-ecology.disabled, .btn-img-surveys[disabled], .btn-img-surveys.disabled, .btn-img-academy[disabled], .btn-img-academy.disabled, .btn-img-soft[disabled], .btn-img-soft.disabled, .btn-img-foundation[disabled], .btn-img-foundation.disabled, .btn-img-journal[disabled], .btn-img-journal.disabled, .btn-img-certification[disabled], .btn-img-certification.disabled, .btn-img-people[disabled], .btn-img-people.disabled, .btn-img-life[disabled], .btn-img-life.disabled {
   cursor: initial;
 }
-.btn-img-white[disabled]:after, .btn-img-white.disabled:after, .btn-img-black[disabled]:after, .btn-img-black.disabled:after, .btn-img-outline[disabled]:after, .btn-img-outline.disabled:after, .btn-img-primary[disabled]:after, .btn-img-primary.disabled:after, .btn-img-vertical-primary[disabled]:after, .btn-img-vertical-primary.disabled:after, .btn-img-horizontal-primary[disabled]:after, .btn-img-horizontal-primary.disabled:after, .btn-img-primary[disabled]:after, .btn-img-primary.disabled:after, .btn-img-safety[disabled]:after, .btn-img-safety.disabled:after, .btn-img-ecology[disabled]:after, .btn-img-ecology.disabled:after, .btn-img-surveys[disabled]:after, .btn-img-surveys.disabled:after, .btn-img-academy[disabled]:after, .btn-img-academy.disabled:after, .btn-img-soft[disabled]:after, .btn-img-soft.disabled:after, .btn-img-foundation[disabled]:after, .btn-img-foundation.disabled:after, .btn-img-journal[disabled]:after, .btn-img-journal.disabled:after, .btn-img-certification[disabled]:after, .btn-img-certification.disabled:after, .btn-img-people[disabled]:after, .btn-img-people.disabled:after, .btn-img-life[disabled]:after, .btn-img-life.disabled:after {
+.btn-img-white[disabled]:after, .btn-img-white.disabled:after, .btn-img-white-safety[disabled]:after, .btn-img-white-safety.disabled:after, .btn-img-white-ecology[disabled]:after, .btn-img-white-ecology.disabled:after, .btn-img-white-surveys[disabled]:after, .btn-img-white-surveys.disabled:after, .btn-img-white-academy[disabled]:after, .btn-img-white-academy.disabled:after, .btn-img-white-soft[disabled]:after, .btn-img-white-soft.disabled:after, .btn-img-white-foundation[disabled]:after, .btn-img-white-foundation.disabled:after, .btn-img-white-journal[disabled]:after, .btn-img-white-journal.disabled:after, .btn-img-white-certification[disabled]:after, .btn-img-white-certification.disabled:after, .btn-img-white-people[disabled]:after, .btn-img-white-people.disabled:after, .btn-img-white-life[disabled]:after, .btn-img-white-life.disabled:after, .btn-img-black[disabled]:after, .btn-img-black.disabled:after, .btn-img-outline[disabled]:after, .btn-img-outline.disabled:after, .btn-img-primary[disabled]:after, .btn-img-primary.disabled:after, .btn-img-vertical-primary[disabled]:after, .btn-img-vertical-primary.disabled:after, .btn-img-horizontal-primary[disabled]:after, .btn-img-horizontal-primary.disabled:after, .btn-img-primary[disabled]:after, .btn-img-primary.disabled:after, .btn-img-safety[disabled]:after, .btn-img-safety.disabled:after, .btn-img-ecology[disabled]:after, .btn-img-ecology.disabled:after, .btn-img-surveys[disabled]:after, .btn-img-surveys.disabled:after, .btn-img-academy[disabled]:after, .btn-img-academy.disabled:after, .btn-img-soft[disabled]:after, .btn-img-soft.disabled:after, .btn-img-foundation[disabled]:after, .btn-img-foundation.disabled:after, .btn-img-journal[disabled]:after, .btn-img-journal.disabled:after, .btn-img-certification[disabled]:after, .btn-img-certification.disabled:after, .btn-img-people[disabled]:after, .btn-img-people.disabled:after, .btn-img-life[disabled]:after, .btn-img-life.disabled:after {
   background-image: url(../../img/assets/icons/medium/btn_arrow_up_grey.svg);
 }
-.btn-img-white[disabled] span, .btn-img-white.disabled span, .btn-img-black[disabled] span, .btn-img-black.disabled span, .btn-img-outline[disabled] span, .btn-img-outline.disabled span, .btn-img-primary[disabled] span, .btn-img-primary.disabled span, .btn-img-vertical-primary[disabled] span, .btn-img-vertical-primary.disabled span, .btn-img-horizontal-primary[disabled] span, .btn-img-horizontal-primary.disabled span, .btn-img-primary[disabled] span, .btn-img-primary.disabled span, .btn-img-safety[disabled] span, .btn-img-safety.disabled span, .btn-img-ecology[disabled] span, .btn-img-ecology.disabled span, .btn-img-surveys[disabled] span, .btn-img-surveys.disabled span, .btn-img-academy[disabled] span, .btn-img-academy.disabled span, .btn-img-soft[disabled] span, .btn-img-soft.disabled span, .btn-img-foundation[disabled] span, .btn-img-foundation.disabled span, .btn-img-journal[disabled] span, .btn-img-journal.disabled span, .btn-img-certification[disabled] span, .btn-img-certification.disabled span, .btn-img-people[disabled] span, .btn-img-people.disabled span, .btn-img-life[disabled] span, .btn-img-life.disabled span {
+.btn-img-white[disabled] span, .btn-img-white.disabled span, .btn-img-white-safety[disabled] span, .btn-img-white-safety.disabled span, .btn-img-white-ecology[disabled] span, .btn-img-white-ecology.disabled span, .btn-img-white-surveys[disabled] span, .btn-img-white-surveys.disabled span, .btn-img-white-academy[disabled] span, .btn-img-white-academy.disabled span, .btn-img-white-soft[disabled] span, .btn-img-white-soft.disabled span, .btn-img-white-foundation[disabled] span, .btn-img-white-foundation.disabled span, .btn-img-white-journal[disabled] span, .btn-img-white-journal.disabled span, .btn-img-white-certification[disabled] span, .btn-img-white-certification.disabled span, .btn-img-white-people[disabled] span, .btn-img-white-people.disabled span, .btn-img-white-life[disabled] span, .btn-img-white-life.disabled span, .btn-img-black[disabled] span, .btn-img-black.disabled span, .btn-img-outline[disabled] span, .btn-img-outline.disabled span, .btn-img-primary[disabled] span, .btn-img-primary.disabled span, .btn-img-vertical-primary[disabled] span, .btn-img-vertical-primary.disabled span, .btn-img-horizontal-primary[disabled] span, .btn-img-horizontal-primary.disabled span, .btn-img-primary[disabled] span, .btn-img-primary.disabled span, .btn-img-safety[disabled] span, .btn-img-safety.disabled span, .btn-img-ecology[disabled] span, .btn-img-ecology.disabled span, .btn-img-surveys[disabled] span, .btn-img-surveys.disabled span, .btn-img-academy[disabled] span, .btn-img-academy.disabled span, .btn-img-soft[disabled] span, .btn-img-soft.disabled span, .btn-img-foundation[disabled] span, .btn-img-foundation.disabled span, .btn-img-journal[disabled] span, .btn-img-journal.disabled span, .btn-img-certification[disabled] span, .btn-img-certification.disabled span, .btn-img-people[disabled] span, .btn-img-people.disabled span, .btn-img-life[disabled] span, .btn-img-life.disabled span {
   background: #b7bbc3 !important;
   color: rgba(248, 248, 248, 0.2);
 }
-.btn-img-white:not(.btn-arrow):hover:after, .btn-img-black:not(.btn-arrow):hover:after, .btn-img-outline:not(.btn-arrow):hover:after, .btn-img-primary:not(.btn-arrow):hover:after, .btn-img-vertical-primary:not(.btn-arrow):hover:after, .btn-img-horizontal-primary:not(.btn-arrow):hover:after, .btn-img-primary:not(.btn-arrow):hover:after, .btn-img-safety:not(.btn-arrow):hover:after, .btn-img-ecology:not(.btn-arrow):hover:after, .btn-img-surveys:not(.btn-arrow):hover:after, .btn-img-academy:not(.btn-arrow):hover:after, .btn-img-soft:not(.btn-arrow):hover:after, .btn-img-foundation:not(.btn-arrow):hover:after, .btn-img-journal:not(.btn-arrow):hover:after, .btn-img-certification:not(.btn-arrow):hover:after, .btn-img-people:not(.btn-arrow):hover:after, .btn-img-life:not(.btn-arrow):hover:after {
+.btn-img-white:not(.btn-arrow):hover:after, .btn-img-white-safety:not(.btn-arrow):hover:after, .btn-img-white-ecology:not(.btn-arrow):hover:after, .btn-img-white-surveys:not(.btn-arrow):hover:after, .btn-img-white-academy:not(.btn-arrow):hover:after, .btn-img-white-soft:not(.btn-arrow):hover:after, .btn-img-white-foundation:not(.btn-arrow):hover:after, .btn-img-white-journal:not(.btn-arrow):hover:after, .btn-img-white-certification:not(.btn-arrow):hover:after, .btn-img-white-people:not(.btn-arrow):hover:after, .btn-img-white-life:not(.btn-arrow):hover:after, .btn-img-black:not(.btn-arrow):hover:after, .btn-img-outline:not(.btn-arrow):hover:after, .btn-img-primary:not(.btn-arrow):hover:after, .btn-img-vertical-primary:not(.btn-arrow):hover:after, .btn-img-horizontal-primary:not(.btn-arrow):hover:after, .btn-img-primary:not(.btn-arrow):hover:after, .btn-img-safety:not(.btn-arrow):hover:after, .btn-img-ecology:not(.btn-arrow):hover:after, .btn-img-surveys:not(.btn-arrow):hover:after, .btn-img-academy:not(.btn-arrow):hover:after, .btn-img-soft:not(.btn-arrow):hover:after, .btn-img-foundation:not(.btn-arrow):hover:after, .btn-img-journal:not(.btn-arrow):hover:after, .btn-img-certification:not(.btn-arrow):hover:after, .btn-img-people:not(.btn-arrow):hover:after, .btn-img-life:not(.btn-arrow):hover:after {
   transform: rotate(180deg);
 }
 .btn-img-black span {
@@ -1014,16 +1014,96 @@
 .btn-img-white:after {
   background-image: url(../../img/assets/icons/medium/btn_visir_primary.svg);
 }
+.btn-img-white-safety:after {
+  background-image: url(../../img/assets/icons/medium/btn_visir_safety.svg);
+}
+.btn-img-white-safety span {
+  color: #3a434d;
+}
+.btn-img-white-ecology:after {
+  background-image: url(../../img/assets/icons/medium/btn_visir_ecology.svg);
+}
+.btn-img-white-ecology span {
+  color: #3a434d;
+}
+.btn-img-white-surveys:after {
+  background-image: url(../../img/assets/icons/medium/btn_visir_surveys.svg);
+}
+.btn-img-white-surveys span {
+  color: #3a434d;
+}
+.btn-img-white-academy:after {
+  background-image: url(../../img/assets/icons/medium/btn_visir_academy.svg);
+}
+.btn-img-white-academy span {
+  color: #3a434d;
+}
+.btn-img-white-soft:after {
+  background-image: url(../../img/assets/icons/medium/btn_visir_soft.svg);
+}
+.btn-img-white-soft span {
+  color: #3a434d;
+}
+.btn-img-white-foundation:after {
+  background-image: url(../../img/assets/icons/medium/btn_visir_foundation.svg);
+}
+.btn-img-white-foundation span {
+  color: #3a434d;
+}
+.btn-img-white-journal:after {
+  background-image: url(../../img/assets/icons/medium/btn_visir_journal.svg);
+}
+.btn-img-white-journal span {
+  color: #3a434d;
+}
+.btn-img-white-certification:after {
+  background-image: url(../../img/assets/icons/medium/btn_visir_certification.svg);
+}
+.btn-img-white-certification span {
+  color: #3a434d;
+}
+.btn-img-white-people:after {
+  background-image: url(../../img/assets/icons/medium/btn_visir_people.svg);
+}
+.btn-img-white-people span {
+  color: #3a434d;
+}
+.btn-img-white-life:after {
+  background-image: url(../../img/assets/icons/medium/btn_visir_life.svg);
+}
+.btn-img-white-life span {
+  color: #3a434d;
+}
 .btn-img-white span {
   color: #3a434d;
 }
 
-.btn-white span,
-.btn-img-white span {
+.btn-white span, .btn-white-safety span, .btn-white-ecology span, .btn-white-surveys span, .btn-white-academy span, .btn-white-soft span, .btn-white-foundation span, .btn-white-journal span, .btn-white-certification span, .btn-white-people span, .btn-white-life span,
+.btn-img-white span,
+.btn-img-white-safety span,
+.btn-img-white-ecology span,
+.btn-img-white-surveys span,
+.btn-img-white-academy span,
+.btn-img-white-soft span,
+.btn-img-white-foundation span,
+.btn-img-white-journal span,
+.btn-img-white-certification span,
+.btn-img-white-people span,
+.btn-img-white-life span {
   background: #f8f8f8;
 }
-.btn-white:hover span,
-.btn-img-white:hover span {
+.btn-white:hover span, .btn-white-safety:hover span, .btn-white-ecology:hover span, .btn-white-surveys:hover span, .btn-white-academy:hover span, .btn-white-soft:hover span, .btn-white-foundation:hover span, .btn-white-journal:hover span, .btn-white-certification:hover span, .btn-white-people:hover span, .btn-white-life:hover span,
+.btn-img-white:hover span,
+.btn-img-white-safety:hover span,
+.btn-img-white-ecology:hover span,
+.btn-img-white-surveys:hover span,
+.btn-img-white-academy:hover span,
+.btn-img-white-soft:hover span,
+.btn-img-white-foundation:hover span,
+.btn-img-white-journal:hover span,
+.btn-img-white-certification:hover span,
+.btn-img-white-people:hover span,
+.btn-img-white-life:hover span {
   background: #f8f8f8;
 }
 .btn-black,

@@ -1,5 +1,24 @@
 document.addEventListener("DOMContentLoaded", function () {
-    var animationDuration = 2000;
+    let animationDuration = 2000; // значение по умолчанию для десктопа
+
+    // Создаем медиа-запрос для ширины до 959px
+    const mobileMediaQuery = window.matchMedia('(max-width: 959px)');
+
+    // Функция для обновления значения
+    function updateAnimationDuration() {
+        if (mobileMediaQuery.matches) {
+            animationDuration = 1200; // для мобильных устройств
+        } else {
+            animationDuration = 2000; // для десктопа
+        }
+        console.log('animationDuration updated to:', animationDuration);
+    }
+
+    // Инициализируем при загрузке
+    updateAnimationDuration();
+
+    // Слушаем изменение размера окна
+    mobileMediaQuery.addEventListener('change', updateAnimationDuration);
 
     function initElementAnimation(element, isDiagram) {
         var startValue, endValue;
