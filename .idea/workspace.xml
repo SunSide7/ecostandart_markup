@@ -5,16 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1b82c1a-d1a6-446e-8f97-5f3401c9e80f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/css/components/images.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sections/legend_84/img_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sections/legend_84/img_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sections/legend_84/img_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sections/legend_84/img_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sections/legend_84/img_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/components/card_band.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/components/cards/bend.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/components/cards/bend_mob.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_91.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/assets/grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/grid.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/assets/grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/grid.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/assets/grid.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/grid.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/text.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/text.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/diagram_round.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/diagram_round.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/input.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/input.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/menu_footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/menu_footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/menu_header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/menu_header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/calendar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/main-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/base/vars/styles.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/base/vars/styles.pug" afterDir="false" />
@@ -27,6 +31,14 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Sass File" />
+        <option value="Pug File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,6 +58,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
     "last_opened_file_path": "C:/Users/Popov/Desktop/BX MARKUP/img/sections/legend_84",
+    "list.type.of.created.stylesheet": "Sass",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -84,7 +97,7 @@
       <workItem from="1767967519373" duration="1760000" />
       <workItem from="1767969691106" duration="13257000" />
       <workItem from="1768050328168" duration="84000" />
-      <workItem from="1768172977414" duration="9727000" />
+      <workItem from="1768172977414" duration="15203000" />
     </task>
     <servers />
   </component>

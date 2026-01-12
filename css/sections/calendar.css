@@ -933,7 +933,7 @@
   font-weight: 500;
 }
 
-@media (min-width: 0px) and (max-width: 639.5px) {
+@media (min-width: 360px) and (max-width: 639.5px) {
   .h-sm-1 {
     font-family: "Wix Madefor Display", sans-serif !important;
     font-size: 52px !important;

@@ -1,0 +1,38 @@
+.card-band {
+  position: relative;
+}
+.card-band:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  top: -160px;
+  right: -120px;
+  width: 400px;
+  height: 400px;
+  background: url(../../img/components/cards/bend.svg) center center no-repeat;
+  background-size: 100%;
+}
+
+@media (min-width: 360px) and (max-width: 1279.5px) {
+  .card-band {
+    position: relative;
+  }
+  .card-band:after {
+    background: url(../../img/components/cards/bend_mob.svg) center center no-repeat;
+    top: initial;
+    bottom: -40px;
+    right: -78px;
+    width: 200px;
+    height: 200px;
+  }
+}
+@media (min-width: 360px) and (max-width: 639.5px) {
+  .card-band:after {
+    bottom: -64px;
+    right: -88px;
+  }
+}
+
+/*# sourceMappingURL=card_band.css.map */
