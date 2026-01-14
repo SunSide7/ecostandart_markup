@@ -972,28 +972,34 @@
   transform: translateY(-10px);
 }
 
-.card-icon {
+.card-icon,
+.card-icon-notice {
   position: relative;
 }
-.card-icon .img {
+.card-icon .img,
+.card-icon-notice .img {
   width: 24px;
   margin-bottom: 20px;
   position: relative;
   overflow: hidden;
 }
-.card-icon .img img {
+.card-icon .img img,
+.card-icon-notice .img img {
   height: 100%;
   object-fit: cover;
 }
-.card-icon p {
+.card-icon p,
+.card-icon-notice p {
   font-size: 16px;
   line-height: 22px;
   margin-bottom: 20px;
 }
-.card-icon.card-hover-life {
+.card-icon.card-hover-life,
+.card-icon-notice.card-hover-life {
   cursor: pointer;
 }
-.card-icon.card-hover-life:after {
+.card-icon.card-hover-life:after,
+.card-icon-notice.card-hover-life:after {
   content: "";
   display: block;
   width: 20px;
@@ -1006,11 +1012,21 @@
   right: 32px;
   opacity: 1;
 }
-.card-icon.card-hover-life:after, .card-icon.card-hover-life h4 {
+.card-icon.card-hover-life:after, .card-icon.card-hover-life h4,
+.card-icon-notice.card-hover-life:after,
+.card-icon-notice.card-hover-life h4 {
   transition: all 0.35s ease-out;
 }
-.card-icon.card-hover h4 {
+.card-icon.card-hover h4,
+.card-icon-notice.card-hover h4 {
   color: #3a434d;
+}
+.card-icon-notice .img,
+.card-icon-notice-notice .img {
+  position: absolute;
+  right: 32px;
+  width: 48px;
+  height: 48px;
 }
 
 .owl-carousel .owl-item .card-icon .img {
@@ -1067,6 +1083,13 @@
   }
   .card-hover-white:hover:after, .card-hover-life:hover:after {
     opacity: 1 !important;
+  }
+}
+@media (min-width: 360px) and (max-width: 639.5px) {
+  .card-icon-notice .img {
+    position: static;
+    width: 48px;
+    height: 48px;
   }
 }
 

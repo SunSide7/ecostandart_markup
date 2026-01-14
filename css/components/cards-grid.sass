@@ -30,6 +30,7 @@
 
   &-02
     display: grid !important
+    //grid-auto-rows: 1fr
     grid-template-columns: repeat(2, 1fr)
     grid-template-areas: "el-01 el-02" "el-01 el-03"
 
@@ -40,12 +41,15 @@
     & > .card-neutral-white:nth-child(1)
       grid-area: el-01
       box-sizing: border-box
+
+      //height: min-content
     & > .card-neutral-white:nth-child(2)
       grid-area: el-02
       box-sizing: border-box
     & > .card-neutral-white:nth-child(3)
       grid-area: el-03
       box-sizing: border-box
+      height: min-content
 
     & > .card-neutral-white:nth-child(2)
       & .img
@@ -54,8 +58,8 @@
         position: relative
         & img
           height: 100%
-          object-position: bottom center !important
-          position: absolute
+          object-position: center center !important
+          //position: absolute
 
 
 @media(min-width: 1920px)
@@ -70,7 +74,7 @@
     &-02
 
       & > .card-neutral-white:nth-child(2)
-        min-height: 440px
+        max-height: 300px
 
 
 
@@ -92,14 +96,14 @@
     &-02
 
       & > .card-neutral-white:nth-child(2)
-        min-height: 440px
+        max-height: 300px
 
 @media(min-width: 960px) and (max-width: 1280px)
   .cards-grid
     &-02
 
       & > .card-neutral-white:nth-child(2)
-        min-height: 440px
+        max-height: 420px
 
 @media(min-width: 640px) and (max-width: 959.5px)
   .cards-grid
@@ -116,7 +120,7 @@
       grid-template-areas: "el-01" "el-02" "el-03"
 
       & > .card-neutral-white:nth-child(2)
-        //min-height: 440px
+        max-height: 300px
 
 
 @media(min-width: 360px) and (max-width: 639.5px)

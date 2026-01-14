@@ -3,7 +3,8 @@
 
 $hover-img-position: 32px
 
-.card-icon
+.card-icon,
+.card-icon-notice
   position: relative
 
   .img
@@ -56,6 +57,13 @@ $hover-img-position: 32px
 
     & h4
       color: $color_neutral_black
+
+  &-notice
+    & .img
+      position: absolute
+      right: 32px
+      width: 48px
+      height: 48px
 
 
 
@@ -177,3 +185,11 @@ $hover-img-position: 32px
 //          &:after
 //            opacity: 1 !important
 
+@media(min-width: 360px) and (max-width: 639.5px)
+  .card-icon
+    &-notice
+      & .img
+        position: static
+        //right: 32px
+        width: 48px
+        height: 48px
