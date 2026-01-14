@@ -5,7 +5,183 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1b82c1a-d1a6-446e-8f97-5f3401c9e80f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/assets/tapes/tape_corner_primary.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/forms/journal_stand_1280.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/forms/journal_stand_1920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/forms/journal_stand_360.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/forms/journal_stand_640.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/pages/main_sprint_2_dev_mentalghost.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/pages/main_sprint_dev — копия.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/pages/main_sprint_dev_ascended.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/pages/main_sprint_dev_mentalghost.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_07.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_69.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_69.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_71.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_71.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_72.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_73.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_73.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_77.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_81.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_87.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_88.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/button.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/button.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/form.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/form.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/form.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/form.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/software.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/software.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/software.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/software.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/arrow_down_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/arrow_down_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/arrow_go_corner_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/arrow_go_corner_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/arrow_go_right_down_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/arrow_go_right_down_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/arrow_go_right_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/arrow_go_right_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/arrow_go_right_up_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/arrow_go_right_up_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/arrow_left_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/arrow_left_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/arrow_right_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/arrow_right_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/arrow_right_small_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/arrow_right_small_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/arrow_up_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/arrow_up_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/btn_arrow_up_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/btn_arrow_up_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/btn_visir_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/btn_visir_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_1c_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_1c_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_arrows_reload_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_arrows_reload_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_atom_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_atom_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_badge_check_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_badge_check_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_bank_card_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_bank_card_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_book_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_book_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_boxes_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_boxes_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_building_alt_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_building_alt_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_building_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_building_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_buildings_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_buildings_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_calendar_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_calendar_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_case_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_case_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_charts_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_charts_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_check_double_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_check_double_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_check_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_check_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_checklist_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_checklist_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_circle_check_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_circle_check_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_circle_info_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_circle_info_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_circle_question_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_circle_question_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_coinhands_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_coinhands_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_desktop_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_desktop_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_door_open_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_door_open_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_dumbbell_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_dumbbell_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_earth_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_earth_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_ecp_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_ecp_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_exit_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_exit_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_expand_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_expand_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_extinguisher_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_extinguisher_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_eye_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_eye_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_file_check_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_file_check_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_file_key_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_file_key_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_file_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_file_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_files_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_files_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_flag_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_flag_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_floor_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_floor_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_frame_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_frame_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_gift_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_gift_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_globe_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_globe_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_graduate_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_graduate_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_graphs_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_graphs_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_handshake_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_handshake_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_hospital_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_hospital_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_joystick_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_joystick_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_lamp_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_lamp_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_law_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_law_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_layers_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_layers_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_leaf-1_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_leaf-1_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_leaf_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_leaf_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_licence_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_licence_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_love_hand_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_love_hand_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_map_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_map_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_map_pin-1_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_map_pin-1_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_map_pin_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_map_pin_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_masks_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_masks_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_measure_add_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_measure_add_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_mechanism_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_mechanism_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_medic_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_medic_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_megaphone_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_megaphone_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_message_check_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_message_check_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_message_double_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_message_double_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_message_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_message_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_microscope_alt_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_microscope_alt_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_microscope_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_microscope_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_mintrud_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_mintrud_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_monitor_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_monitor_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_network_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_network_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_neural_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_neural_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_no_hg_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_no_hg_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_note_edit_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_note_edit_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_nuclear_plant_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_nuclear_plant_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_octagon_warning_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_octagon_warning_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_pc_mobile_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_pc_mobile_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_presentation_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_presentation_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_puzzle_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_puzzle_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_quotes_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_quotes_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_radiation_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_radiation_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_restaraunt_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_restaraunt_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_rubble_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_rubble_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_ruler_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_ruler_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_school_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_school_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_screw_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_screw_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_search_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_search_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_settings_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_settings_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_shield_check_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_shield_check_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_shield_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_shield_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_shield_warning_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_shield_warning_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_skolkovo_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_skolkovo_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_slash_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_slash_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_store_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_store_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_suitcase_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_suitcase_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_swatch_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_swatch_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_tag_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_tag_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_timer_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_timer_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_trash_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_trash_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_trees_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_trees_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_trend_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_trend_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_trending_up_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_trending_up_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_truck_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_truck_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_university_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_university_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_unplug_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_unplug_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_upload_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_upload_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_user_check_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_user_check_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_users_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_users_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_vegan_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_vegan_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_vial_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_vial_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_vibration_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_vibration_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_wall_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_wall_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_water_drops_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_water_drops_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_water_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_water_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_waves_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_waves_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_waypoints_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_waypoints_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_weight_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_weight_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_wind_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_wind_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_window_check_people_foundation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/assets/icons/medium/icon_window_check_people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/assets/rising_value.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/assets/rising_value.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/main-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/pages/index_page.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/index_page.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/pages/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/pages/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_2_dev_mentalghost.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_2_dev_mentalghost.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_dev.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_dev.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_dev.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_dev.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_dev_ascended.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_dev_ascended.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_dev_mentalghost.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_dev_mentalghost.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/footer.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/header.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/hero_main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/hero_main.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_12.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_12.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_16.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_16.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_36.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_36.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_42.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_42.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_66.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_66.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_7.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_07.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,21 +212,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "C:/Users/Popov/Desktop/BX MARKUP/img/sections/legend_70",
-    "list.type.of.created.stylesheet": "Sass",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "watcher.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Popov/Desktop/BX MARKUP/img/sections/legend_70&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;Sass&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Popov\Desktop\BX MARKUP\img\sections\legend_70" />
@@ -91,5 +267,8 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
