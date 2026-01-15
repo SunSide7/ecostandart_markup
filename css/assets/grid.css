@@ -102,12 +102,6 @@
   width: 100% !important;
 }
 
-.w-90p {
-  width: 90% !important;
-}
-
-
-
 .h-100p {
   height: 100% !important;
 }
@@ -327,9 +321,13 @@
   display: block !important;
 }
 
-.d-flex {
+.nobsp-d-flex {
   display: flex;
   flex-wrap: wrap;
+}
+
+.flex-nowrp {
+  flex-wrap: nowrap;
 }
 
 .flex-jcc {
@@ -367,12 +365,17 @@
   align-items: center;
 }
 
-.d-flex-w {
+.nobsp-d-flex-w {
   display: flex;
   flex-wrap: wrap;
 }
 
 .flex-no-wrp {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-w {
   display: flex;
   flex-wrap: nowrap;
 }
@@ -387,7 +390,7 @@
     flex-direction: column;
   }
 }
-.d-flex-col {
+.nobsp-d-flex-col {
   display: flex;
   flex-direction: column;
 }
