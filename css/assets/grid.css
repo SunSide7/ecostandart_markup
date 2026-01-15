@@ -305,20 +305,12 @@
     margin-bottom: 8px !important;
   }
 }
-.d-none {
-  display: none !important;
-}
-
 .of-hidden {
   overflow: hidden !important;
 }
 
 .of-initial {
   overflow: initial !important;
-}
-
-.d-block {
-  display: block !important;
 }
 
 .nobsp-d-flex {
