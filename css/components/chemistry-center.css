@@ -17,6 +17,9 @@
   }
 }
 @media (min-width: 960px) and (max-width: 1279.5px) {
+  .chemistry-center .card-neutral-white {
+    padding: 20px !important;
+  }
   .chemistry-center .no-card .icon-img {
     margin-bottom: 19px;
   }
