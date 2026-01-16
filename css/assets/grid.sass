@@ -101,10 +101,10 @@
   &--18
     top: -18px !important
 
-.m-0
+.nobsp-m-0
   margin: 0 !important
 
-.mr-0
+.nobsp-mr-0
   margin-right: 0 !important
 
 .p
@@ -114,12 +114,11 @@
   &-40
     padding: 40px
 
-.p
   &-32
     padding: 32px !important
 
 
-.pt
+.nobsp-pt
   &-0
     padding-top: 0
 
@@ -135,6 +134,18 @@
   &-40
     padding-top: 40px
 
+  &-16
+    padding-top: 16px !important
+
+  &-20
+    padding-top: 20px !important
+
+  &-32
+    padding-top: 32px !important
+
+  &-52
+    padding-top: 52px !important
+
 .w-100p
   width: 100% !important
 
@@ -142,10 +153,19 @@
   height: 100% !important
 
 
-.mb-0
-  margin-bottom: 0 !important
 
-.mb
+
+.nobsp-mt
+  &-80
+    margin-top: 80px !important
+
+  &-100
+    margin-top: 100px !important
+
+.nobsp-mb
+  &-0
+    margin-bottom: 0 !important
+
   &-4,
   &-4.card-neutral-white
     margin-bottom: 4px !important
@@ -167,29 +187,44 @@
   &-52.card-neutral-white
     margin-bottom: 52px !important
 
+  &-8
+    margin-bottom: 8px !important
+
 @media(min-width: 1920px)
   .mb-xxl
     &-72
       margin-bottom: 72px !important
 
-.pt
-  &-16
-    padding-top: 16px !important
 
-  &-20
-    padding-top: 20px !important
-
-  &-32
-    padding-top: 32px !important
-
-  &-52
-    padding-top: 52px !important
 
 @media(min-width: 360px) and (max-width: 639.5px)
   .mb-sm
     &-4,
     &-4.card-neutral-white
       margin-bottom: 4px !important
+
+    &-20
+      margin-bottom: 20px !important
+
+  .mt-sm
+    &-80
+      margin-top: 80px !important
+
+    &-100
+      margin-top: 100px !important
+
+  .brs-sm
+    &-26
+      border-radius: 26px !important
+
+    &-36
+      border-radius: 36px !important
+
+  .pt-sm
+    &-64
+      padding-top: 64px !important
+
+
 
 
 
@@ -213,8 +248,7 @@
 
 
 
-.mb-8
-  margin-bottom: 8px !important
+
 
 
 
@@ -424,7 +458,7 @@
     display: flex
     flex-wrap: nowrap
 
-  .d-flex-sm-col
+  .nobsp-d-flex-sm-col
     display: flex
     flex-direction: column
 

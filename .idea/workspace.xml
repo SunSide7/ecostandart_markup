@@ -9,6 +9,23 @@
       <change beforePath="$PROJECT_DIR$/css/assets/grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/grid.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/assets/grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/grid.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/assets/grid.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/grid.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/chemistry-center.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/chemistry-center.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/chemistry-center.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/chemistry-center.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/chemistry-center.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/chemistry-center.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_2_dev_ascended.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_2_dev_ascended.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_70.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_70.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_75.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_75.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_76.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_76.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_82.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_82.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_83.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_83.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_84.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_84.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_85.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_85.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_89.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_89.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_90.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_90.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_91.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_91.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_92.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_92.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +107,8 @@
       <workItem from="1768221767500" duration="2522000" />
       <workItem from="1768262590296" duration="596000" />
       <workItem from="1768476548878" duration="1113000" />
+      <workItem from="1768487615442" duration="5437000" />
+      <workItem from="1768568099844" duration="3567000" />
     </task>
     <servers />
   </component>
