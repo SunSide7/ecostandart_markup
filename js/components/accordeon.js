@@ -107,3 +107,22 @@ document.addEventListener('DOMContentLoaded', function() {
 
     window.addEventListener('resize', syncHeights);
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const humanAccordeons = document.querySelectorAll('.human-accordeons .accordeon');
+
+    humanAccordeons.forEach((humanAccordeon, index) => {
+        const title = humanAccordeon.querySelector('.human-accordeon-title');
+        const humanElement = document.querySelector(`.human-element-${index + 1}`);
+
+        humanAccordeon.addEventListener('click', function() {
+            if (humanElement) {
+                humanElement.classList.toggle('active', humanAccordeon.classList.contains('active'));
+            }
+
+            if (title) {
+                title.classList.toggle('active', humanAccordeon.classList.contains('active'));
+            }
+        });
+    });
+});
