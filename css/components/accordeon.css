@@ -104,9 +104,16 @@
   cursor: pointer;
 }
 .accordeon .arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transform: rotate(0deg);
   transition: all 0.35s ease-out;
   user-select: none;
+}
+.accordeon .arrow.w-48 {
+  width: 48px;
+  height: 48px;
 }
 .accordeon .accordeon-content {
   display: flex;

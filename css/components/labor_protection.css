@@ -1,0 +1,12 @@
+.labor-protection .card-icon .img + .nobsp-d-flex-col {
+  justify-content: space-between;
+  height: calc(100% - 24px - 20px);
+}
+
+@media (min-width: 360px) and (max-width: 640px) {
+  .labor-protection .card-icon .img + .nobsp-d-flex-col {
+    height: auto;
+  }
+}
+
+/*# sourceMappingURL=labor_protection.css.map */

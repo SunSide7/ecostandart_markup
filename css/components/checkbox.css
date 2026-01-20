@@ -946,5 +946,10 @@ input[type=checkbox].checkbox-02:focus,
 .checkbox-02:focus {
   outline: none;
 }
+input[type=checkbox].checkbox-02 + span,
+.checkbox-02 + span {
+  display: block;
+  max-width: 80%;
+}
 
 /*# sourceMappingURL=checkbox.css.map */

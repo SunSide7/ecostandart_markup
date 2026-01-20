@@ -118,6 +118,11 @@
     padding: 32px !important
 
 
+.nobsp-p-y
+  &-4
+    padding: 4px 0 !important
+
+
 .nobsp-pt
   &-0
     padding-top: 0
@@ -170,6 +175,9 @@
   &-4.card-neutral-white
     margin-bottom: 4px !important
 
+  &-14
+    margin-bottom: 14px !important
+
   &-16,
   &-16.card-neutral-white,
   &-16.card-neutral-white.col-lg-6:nth-last-child(2)
@@ -178,6 +186,12 @@
   &-20,
   &-20.card-neutral-white
     margin-bottom: 20px !important
+
+  &-24,
+  &-24.card-neutral-white
+    margin-bottom: 24px !important
+
+
 
   &-32,
   &-32.card-neutral-white
@@ -190,21 +204,49 @@
   &-8
     margin-bottom: 8px !important
 
+
+
+
 @media(min-width: 1920px)
-  .mb-xxl
+  .nobsp-mb-xxl
+    &-72
+      margin-bottom: 72px !important
+
+@media(min-width: 1280px) and (max-width: 1920px)
+  .nobsp-mb-xl
     &-72
       margin-bottom: 72px !important
 
 
-
-@media(min-width: 360px) and (max-width: 639.5px)
-  .mb-sm
+@media(min-width: 640px) and (max-width: 959.5px)
+  .nobsp-mb-md
     &-4,
     &-4.card-neutral-white
       margin-bottom: 4px !important
 
     &-20
       margin-bottom: 20px !important
+
+    &-24
+      margin-bottom: 24px !important
+
+    &-40
+      margin-bottom: 40px !important
+
+
+@media(min-width: 360px) and (max-width: 639.5px)
+  .nobsp-mb-sm
+    &-4,
+    &-4.card-neutral-white
+      margin-bottom: 4px !important
+
+    &-20
+      margin-bottom: 20px !important
+
+    &-24
+          margin-bottom: 24px !important
+
+
 
   .mt-sm
     &-80
@@ -225,6 +267,9 @@
       padding-top: 64px !important
 
 
+  .nobsp-p-sm
+    &-20
+      padding: 20px !important
 
 
 
@@ -305,6 +350,10 @@
       padding-top: 72px !important
 
 
+.nobsp-pb
+  &-56
+    padding-bottom: 56px !important
+
 
 
 
@@ -317,6 +366,18 @@
   & > div
     margin-bottom: 0 !important
 
+@media(min-width: 1920px)
+  .nobsp-pb-xxl
+    &-32
+      padding-bottom: 32px !important
+
+@media(min-width: 1280px) and (max-width: 1919.5px)
+  .nobsp-pb-xl
+    &-32
+      padding-bottom: 32px !important
+
+@media(max-width: 1280px)
+
 
 @media(max-width: 959.5px)
   .mb-design,
@@ -327,7 +388,7 @@
       padding-top: 20px !important
 
 
-@media(max-width: 639px)
+@media(max-width: 639.5px)
   .mb-design,
   .mb-design.card-neutral-white,
   .card-neutral-white.col-xl-6:nth-of-type(2n).mb-design
@@ -375,6 +436,9 @@
     &-5
       padding-top: 52px !important
 
+  .nobsp-pb-sm
+    &-20
+      padding-bottom: 20px !important
 
 
 
@@ -522,6 +586,10 @@ $cards-gap: 8px
         top: calc(50% + $cards-gap / 2)
         bottom: 0
 
+  .nobsp-d-flex-sm-col
+    display: flex
+    flex-direction: column
+
 @media(min-width: 640px) and (max-width: 960px)
   .v-col
     &-wrp
@@ -535,6 +603,10 @@ $cards-gap: 8px
         position: absolute
         top: calc(50% + $cards-gap / 2)
         bottom: 0
+
+  .nobsp-d-flex-md-col
+    display: flex
+    flex-direction: column
 
 
 @media(min-width: 960px) and (max-width: 1280px)
@@ -553,6 +625,11 @@ $cards-gap: 8px
         bottom: 0
 
 
+  .nobsp-d-flex-lg-col
+    display: flex
+    flex-direction: column
+
+
 @media(min-width: 1280px) and (max-width: 1919.5px)
   $cards-gap: 16px
   .v-col
@@ -567,6 +644,10 @@ $cards-gap: 8px
         position: absolute
         top: calc(50% + $cards-gap / 2)
         bottom: 0
+
+  .nobsp-d-flex-xl-col
+    display: flex
+    flex-direction: column
 
 
 @media(min-width: 1920px)
@@ -583,6 +664,10 @@ $cards-gap: 8px
         position: absolute
         top: calc(50% + $cards-gap / 2)
         bottom: 0
+
+  .nobsp-d-flex-xxl-col
+    display: flex
+    flex-direction: column
 
 .owl-carousel.owl-stage-pt-3
   & .owl-stage-outer

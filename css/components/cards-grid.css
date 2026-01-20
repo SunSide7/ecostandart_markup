@@ -62,6 +62,7 @@
 @media (min-width: 1920px) {
   .cards-grid-01 > .card-neutral-white:nth-child(1), .cards-grid-01 > .card-neutral-white:nth-child(2), .cards-grid-01 > .card-neutral-white:nth-child(3) {
     max-height: 443px;
+    min-height: 443px;
   }
   .cards-grid-02 > .card-neutral-white:nth-child(2) {
     max-height: 300px;
@@ -79,16 +80,27 @@
     max-height: 300px;
   }
 }
-@media (min-width: 960px) and (max-width: 1280px) {
+@media (min-width: 960px) and (max-width: 1279.5px) {
+  .cards-grid-01 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "el-01 el-02" "el-03 el-03";
+    align-items: stretch;
+  }
   .cards-grid-02 > .card-neutral-white:nth-child(2) {
     max-height: 420px;
   }
 }
 @media (min-width: 640px) and (max-width: 959.5px) {
   .cards-grid-01 {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "el-01 el-02" "el-03 el-03";
-    align-items: stretch;
+    grid-template-columns: 1fr;
+    grid-template-areas: "el-01" "el-02" "el-03";
+  }
+  .cards-grid-01 > .card-neutral-white:nth-child(2) .img {
+    object-fit: cover;
+    max-height: 340px;
+  }
+  .cards-grid-01 > .card-neutral-white:nth-child(2) .img img {
+    position: static;
   }
   .cards-grid-02 {
     grid-template-columns: 1fr;

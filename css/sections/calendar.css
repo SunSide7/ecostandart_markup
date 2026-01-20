@@ -1243,6 +1243,10 @@
     font-weight: 500 !important;
   }
 }
+.text-fw-bold {
+  font-weight: 600 !important;
+}
+
 .trans-ease {
   transition: ease !important;
 }

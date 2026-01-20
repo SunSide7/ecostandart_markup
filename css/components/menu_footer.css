@@ -1243,6 +1243,10 @@
     font-weight: 500 !important;
   }
 }
+.text-fw-bold {
+  font-weight: 600 !important;
+}
+
 .menu-footer {
   display: flex;
   flex-direction: column;

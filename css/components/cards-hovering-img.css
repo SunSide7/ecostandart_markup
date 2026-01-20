@@ -36,21 +36,24 @@
 .cards-hovering-img-x4 .chemestry-center-text {
   z-index: 20;
 }
-.cards-hovering-img-x3 .chemestry-center-text h4:not(.mb-0),
-.cards-hovering-img-x4 .chemestry-center-text h4:not(.mb-0) {
+.cards-hovering-img-x3 .chemestry-center-text h4:not(.nobsp-mb-0),
+.cards-hovering-img-x4 .chemestry-center-text h4:not(.nobsp-mb-0) {
   margin-bottom: 16px !important;
 }
 .cards-hovering-img-x3 .card-hover-white p,
 .cards-hovering-img-x4 .card-hover-white p {
   transition: all 0.85s ease-out;
-  max-height: 0;
-  overflow: hidden;
-  opacity: 0;
 }
 .cards-hovering-img-x3 .card-hover-white p.active,
 .cards-hovering-img-x4 .card-hover-white p.active {
   max-height: 200px;
   opacity: 1;
+}
+.cards-hovering-img-x3 .card-hover-white p:not(.active),
+.cards-hovering-img-x4 .card-hover-white p:not(.active) {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
 }
 .cards-hovering-img-x3 .card-icon-bg.active,
 .cards-hovering-img-x4 .card-icon-bg.active {

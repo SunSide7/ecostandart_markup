@@ -14,7 +14,8 @@
     flex-direction: column
     text-align: center
     align-items: center
-    padding: 43px 32px
+    //padding: 43px 32px
+    padding: 32px
 
     & .img
       margin-bottom: 32px
@@ -35,7 +36,7 @@
         //width: 100%
         height: 100%
         width: 100%
-        //object-fit: cover
+        object-fit: cover
 
     & p
       &:last-of-type
@@ -47,7 +48,8 @@
     &.text-left
       text-align: left
       align-items: start
-      padding: 43px 32px
+      //padding: 43px 32px
+      padding: 32px
 
 @media(max-width: 1279.5px)
   .cards-expertise
@@ -58,15 +60,49 @@
         height: 106px
         margin-bottom: 24px !important
 
+
+@media(min-width: 1920px)
+  .cards-expertise
+
+    & > .card-neutral-white
+      &:nth-last-child(1),
+      &:nth-last-child(2),
+      &:nth-last-child(3)
+        margin-bottom: 0
+
+@media(min-width: 1280px) and (max-width: 1919.5px)
+  .cards-expertise
+
+    & > .card-neutral-white
+      &:nth-last-child(1),
+      &:nth-last-child(2),
+      &:nth-last-child(3)
+        margin-bottom: 0 !important
+
+
 @media(min-width: 960px) and (max-width: 1279.5px)
   .cards-expertise
 
     & > .card-neutral-white
+      &:nth-last-child(1)
+        margin-bottom: 0 !important
+
+
+  .cards-expertise
+
+    & > .card-neutral-white
+      padding: 32px !important
       &:nth-child(5)
         margin-bottom: 16px !important
         margin-right: 0
       &:nth-child(4)
         margin-right: 16px
+
+      &:nth-child(1),
+      &:nth-child(2),
+      &:nth-child(3)
+        .img.w-100p
+          height: 200px
 
 @media(min-width: 640px) and (max-width: 959.5px)
   .cards-expertise
@@ -80,7 +116,11 @@
   .cards-expertise
 
     & > .card-neutral-white
-      padding: 20px !important
+      &:not(:last-child)
+        padding: 20px !important
+
+      .img.w-100p
+        height: 200px
 
       &:last-child
         & p

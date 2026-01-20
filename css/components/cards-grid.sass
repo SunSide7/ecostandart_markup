@@ -70,6 +70,7 @@
       & > .card-neutral-white:nth-child(2),
       & > .card-neutral-white:nth-child(3)
         max-height: 443px
+        min-height: 443px
 
     &-02
 
@@ -98,14 +99,7 @@
       & > .card-neutral-white:nth-child(2)
         max-height: 300px
 
-@media(min-width: 960px) and (max-width: 1280px)
-  .cards-grid
-    &-02
-
-      & > .card-neutral-white:nth-child(2)
-        max-height: 420px
-
-@media(min-width: 640px) and (max-width: 959.5px)
+@media(min-width: 960px) and (max-width: 1279.5px)
   .cards-grid
     &-01
       grid-template-columns: repeat(2, 1fr)
@@ -115,6 +109,26 @@
       & > .card-neutral-white:nth-child(2),
       & > .card-neutral-white:nth-child(3)
 
+    &-02
+
+      & > .card-neutral-white:nth-child(2)
+        max-height: 420px
+
+@media(min-width: 640px) and (max-width: 959.5px)
+  .cards-grid
+
+
+    &-01
+      grid-template-columns: 1fr
+      grid-template-areas: "el-01" "el-02" "el-03"
+
+      & > .card-neutral-white:nth-child(2)
+        & .img
+          object-fit: cover
+          max-height: 340px
+
+          & img
+            position: static
     &-02
       grid-template-columns: 1fr
       grid-template-areas: "el-01" "el-02" "el-03"

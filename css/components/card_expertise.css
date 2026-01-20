@@ -882,7 +882,7 @@
   flex-direction: column;
   text-align: center;
   align-items: center;
-  padding: 43px 32px;
+  padding: 32px;
 }
 .cards-expertise .card-neutral-white .img {
   margin-bottom: 32px;
@@ -902,6 +902,7 @@
 .cards-expertise .card-neutral-white .img img {
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 .cards-expertise .card-neutral-white p:last-of-type {
   margin-bottom: 0;
@@ -912,7 +913,7 @@
 .cards-expertise .card-neutral-white.text-left {
   text-align: left;
   align-items: start;
-  padding: 43px 32px;
+  padding: 32px;
 }
 
 @media (max-width: 1279.5px) {
@@ -924,13 +925,32 @@
     margin-bottom: 24px !important;
   }
 }
+@media (min-width: 1920px) {
+  .cards-expertise > .card-neutral-white:nth-last-child(1), .cards-expertise > .card-neutral-white:nth-last-child(2), .cards-expertise > .card-neutral-white:nth-last-child(3) {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1919.5px) {
+  .cards-expertise > .card-neutral-white:nth-last-child(1), .cards-expertise > .card-neutral-white:nth-last-child(2), .cards-expertise > .card-neutral-white:nth-last-child(3) {
+    margin-bottom: 0 !important;
+  }
+}
 @media (min-width: 960px) and (max-width: 1279.5px) {
+  .cards-expertise > .card-neutral-white:nth-last-child(1) {
+    margin-bottom: 0 !important;
+  }
+  .cards-expertise > .card-neutral-white {
+    padding: 32px !important;
+  }
   .cards-expertise > .card-neutral-white:nth-child(5) {
     margin-bottom: 16px !important;
     margin-right: 0;
   }
   .cards-expertise > .card-neutral-white:nth-child(4) {
     margin-right: 16px;
+  }
+  .cards-expertise > .card-neutral-white:nth-child(1) .img.w-100p, .cards-expertise > .card-neutral-white:nth-child(2) .img.w-100p, .cards-expertise > .card-neutral-white:nth-child(3) .img.w-100p {
+    height: 200px;
   }
 }
 @media (min-width: 640px) and (max-width: 959.5px) {
@@ -939,8 +959,11 @@
   }
 }
 @media (min-width: 360px) and (max-width: 639.5px) {
-  .cards-expertise > .card-neutral-white {
+  .cards-expertise > .card-neutral-white:not(:last-child) {
     padding: 20px !important;
+  }
+  .cards-expertise > .card-neutral-white .img.w-100p {
+    height: 200px;
   }
   .cards-expertise > .card-neutral-white:last-child p {
     padding-top: 0 !important;

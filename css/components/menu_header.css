@@ -1345,6 +1345,10 @@
     font-weight: 500 !important;
   }
 }
+.text-fw-bold {
+  font-weight: 600 !important;
+}
+
 .menu-link {
   position: relative;
   padding-bottom: 20px;

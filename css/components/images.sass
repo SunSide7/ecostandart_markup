@@ -14,3 +14,20 @@
       & img
         width: 100%
         height: 100%
+
+@media(min-width: 360px) and (max-width: 959.5px)
+  .images
+    &.x-5
+      flex-wrap: wrap
+
+@media(min-width: 640px) and (max-width: 959.5px)
+  .images
+    &.x-5
+      padding-top: 68px
+      padding-bottom: 68px
+
+@media(min-width: 360px) and (max-width: 639.5px)
+  .images
+    &.x-5
+      & .img:not(:last-child)
+        margin-bottom: 32px
