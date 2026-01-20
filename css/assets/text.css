@@ -7,21 +7,21 @@
 }
 .h-2 {
   font-family: "Wix Madefor Display", sans-serif;
-  font-size: 40px;
-  line-height: 50px;
-  font-weight: 600;
+  font-size: 40px !important;
+  line-height: 50px !important;
+  font-weight: 600 !important;
 }
 .h-3 {
   font-family: "Wix Madefor Display", sans-serif;
-  font-size: 28px;
-  line-height: 35px;
-  font-weight: 600;
+  font-size: 28px !important;
+  line-height: 35px !important;
+  font-weight: 600 !important;
 }
 .h-4 {
   font-family: "Wix Madefor Display", sans-serif;
-  font-size: 22px;
-  line-height: 28px;
-  font-weight: 600;
+  font-size: 22px !important;
+  line-height: 28px !important;
+  font-weight: 600 !important;
 }
 
 .text-body {
@@ -34,7 +34,7 @@
   font-family: "Manrope", sans-serif;
   font-size: 16px;
   line-height: 22px;
-  font-weight: 600;
+  font-weight: 600 !important;
 }
 .text-caption {
   font-family: "Manrope", sans-serif;
@@ -61,7 +61,7 @@
   font-weight: 500;
 }
 
-@media (min-width: 0px) {
+@media (min-width: 360px) and (max-width: 639.5px) {
   .h-sm-1 {
     font-family: "Wix Madefor Display", sans-serif !important;
     font-size: 52px !important;
@@ -370,6 +370,9 @@
     line-height: 14px !important;
     font-weight: 500 !important;
   }
+}
+.text-fw-bold {
+  font-weight: 600 !important;
 }
 
 /*# sourceMappingURL=text.css.map */

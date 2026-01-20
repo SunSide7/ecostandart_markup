@@ -474,11 +474,19 @@ $(document).ready(function() {
 
 
 
-    
-    
-    
 
 
+
+
+
+
+})
+
+$('.check-health-form-js').on('click', 'label', function(e) {
+    e.stopImmediatePropagation();
+    console.log('HEALTH LOG', $('.check-health-form-js input:checked').length)
+
+    $('#health-check-form-result').text($('.check-health-form-js input:checked').length)
 
 
 })
