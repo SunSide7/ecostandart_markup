@@ -1,0 +1,12 @@
+@media (min-width: 640px) {
+  .our-mission-photo {
+    height: 350px;
+  }
+}
+@media (min-width: 1920px) {
+  .our-mission-photo {
+    height: 545px;
+  }
+}
+
+/*# sourceMappingURL=our-mission.css.map */

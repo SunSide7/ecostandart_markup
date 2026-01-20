@@ -1,11 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e28d589-b2c6-4d7e-9a57-f5071ad1f8e9" name="Changes" comment="">
+    <list default="true" id="368292b6-5a71-4f27-a622-6d1570b4b7dd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/css/sections/our-mission.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/sections/our-mission.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/sections/our-mission.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/assets/others/full_team_palace.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_93.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_93.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/text.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/text.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/text.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/text.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/accordeon.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/accordeon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card_expertise.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_expertise.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/cards-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards-grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/cards-hovering-img.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards-hovering-img.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/checkbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/checkbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/chemistry-center.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/chemistry-center.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/h_cards_v2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/h_cards_v2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/images.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/images.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/labor_protection.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/labor_protection.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/plus_icon_list.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/plus_icon_list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/main-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/base/vars/styles.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/base/vars/styles.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_2_dev_ascended.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_2_dev_ascended.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_2_dev_mentalghost.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_2_dev_mentalghost.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_2_dev_mentalghost.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_2_dev_mentalghost.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_dev_ascended.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_dev_ascended.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_70.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_70.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_76.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_76.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_82.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_82.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_83.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_83.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_84.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_84.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_89.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_89.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_90.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_90.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_91.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_91.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_92.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_92.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,12 +53,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\php8\php.exe" />
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
   "associatedIndex": 5
 }]]></component>
-  <component name="ProjectId" id="38W0zKNt42FxzJkvHJdpzGlhRWf" />
+  <component name="ProjectId" id="38W5iraQIZMtdUXYQRu4JJMfjZx" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,7 +65,6 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dart.analysis.tool.window.visible": "false",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "watcher.settings",
     "vue.rearranger.settings.migration": "true"
@@ -48,12 +81,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8e28d589-b2c6-4d7e-9a57-f5071ad1f8e9" name="Changes" comment="" />
-      <created>1768900286220</created>
+      <changelist id="368292b6-5a71-4f27-a622-6d1570b4b7dd" name="Changes" comment="" />
+      <created>1768902616943</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1768900286220</updated>
-      <workItem from="1768900287114" duration="18000" />
+      <updated>1768902616943</updated>
+      <workItem from="1768902618726" duration="16000" />
     </task>
     <servers />
   </component>
