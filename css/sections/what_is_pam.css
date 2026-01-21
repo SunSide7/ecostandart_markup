@@ -1,0 +1,16 @@
+.pam-image {
+  height: 180px;
+}
+
+@media (min-width: 640px) {
+  .pam-image {
+    height: 240px;
+  }
+}
+@media (min-width: 960px) {
+  .pam-image {
+    height: auto;
+  }
+}
+
+/*# sourceMappingURL=what_is_pam.css.map */
