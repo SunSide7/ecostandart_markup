@@ -104,7 +104,8 @@
   }
   .cards-grid-02 {
     grid-template-columns: 1fr;
-    grid-template-areas: "el-01" "el-02" "el-03";
+    grid-template-areas: "el-01" "el-03" "el-02";
+    gap: 8px;
   }
   .cards-grid-02 > .card-neutral-white:nth-child(2) {
     max-height: 300px;
@@ -113,7 +114,7 @@
 @media (min-width: 360px) and (max-width: 639.5px) {
   .cards-grid-01 {
     grid-template-columns: 1fr;
-    grid-template-areas: "el-01" "el-02" "el-03";
+    grid-template-areas: "el-01" "el-03" "el-02";
   }
   .cards-grid-01 > .card-neutral-white:nth-child(2) .img {
     object-fit: cover;
@@ -125,6 +126,7 @@
   .cards-grid-02 {
     grid-template-columns: 1fr;
     grid-template-areas: "el-01" "el-02" "el-03";
+    gap: 8px;
   }
 }
 

@@ -482,11 +482,47 @@ $(document).ready(function() {
 
 })
 
-$('.check-health-form-js').on('click', 'label', function(e) {
-    e.stopImmediatePropagation();
-    console.log('HEALTH LOG', $('.check-health-form-js input:checked').length)
+
+
+
+function formPointsClicker() {
 
     $('#health-check-form-result').text($('.check-health-form-js input:checked').length)
 
+    if (
+        $('.check-health-form-js input:checked').length === 1 ||
+        $('.check-health-form-js input:checked').length === 21
+    ) {
+        $('#health-check-form-units').text('балл')
+    } else if (
+        $('.check-health-form-js input:checked').length === 2 ||
+        $('.check-health-form-js input:checked').length === 3 ||
+        $('.check-health-form-js input:checked').length === 4 ||
+        $('.check-health-form-js input:checked').length === 22 ||
+        $('.check-health-form-js input:checked').length === 23 ||
+        $('.check-health-form-js input:checked').length === 24
+    ) {
+        $('#health-check-form-units').text('балла')
+    } else {
+        $('#health-check-form-units').text('баллов')
+    }
+
+    if (
+        $('.check-health-form-js input:checked').length < 3
+    ) {
+        $('#health-check-form-result-text').text('вы в безопасности — вредные соединения не влияют на ваш организм.')
+    } else {
+        $('#health-check-form-result-text').text('вредные соединения уже оказывают влияние на ваш организм.')
+
+    }
+
+}
+
+formPointsClicker();
+
+$('.check-health-form-js').on('click', 'label', function(e) {
+    e.stopImmediatePropagation();
+
+    formPointsClicker()
 
 })

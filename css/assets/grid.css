@@ -170,6 +170,9 @@
   .nobsp-mb-md-4, .nobsp-mb-md-4.card-neutral-white {
     margin-bottom: 4px !important;
   }
+  .nobsp-mb-md-16.card-neutral-white.col-md-12 {
+    margin-bottom: 16px !important;
+  }
   .nobsp-mb-md-20 {
     margin-bottom: 20px !important;
   }
@@ -183,6 +186,9 @@
 @media (min-width: 360px) and (max-width: 639.5px) {
   .nobsp-mb-sm-4, .nobsp-mb-sm-4.card-neutral-white {
     margin-bottom: 4px !important;
+  }
+  .nobsp-mb-sm-16.card-neutral-white.col-md-12 {
+    margin-bottom: 16px !important;
   }
   .nobsp-mb-sm-20 {
     margin-bottom: 20px !important;
