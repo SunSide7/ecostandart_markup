@@ -112,8 +112,8 @@
   user-select: none;
 }
 .accordeon .arrow.w-48 {
-  width: 48px;
-  height: 48px;
+  min-width: 48px;
+  min-height: 48px;
 }
 .accordeon .accordeon-content {
   display: flex;

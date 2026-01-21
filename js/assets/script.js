@@ -85,7 +85,7 @@ $(document).ready(function() {
 
     // TARIFFS
     $('.cards-hovering-img-x4 .card-neutral-white').hover(hoverIn, hoverOut)
-    $('.cards-hovering-img-x4 .card-neutral-white').click(hoverIn, hoverOut)
+    // $('.cards-hovering-img-x4 .card-neutral-white').click(hoverIn, hoverOut)
 
 
 

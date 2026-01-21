@@ -9,10 +9,13 @@
   right: 0;
   top: -160px;
   right: -120px;
-  width: 400px;
-  height: 400px;
+  right-width: 400px;
+  right-height: 400px;
   background: url(../../img/components/cards/bend.svg) center center no-repeat;
   background-size: 100%;
+}
+.card-band-v2:after {
+  top: -230px;
 }
 
 @media (min-width: 360px) and (max-width: 1279.5px) {
@@ -32,6 +35,27 @@
   .card-band:after {
     bottom: -64px;
     right: -88px;
+  }
+}
+@media (min-width: 960px) and (max-width: 1279.5px) {
+  .card-band-v2:after {
+    right: -120px;
+    bottom: -10px;
+  }
+}
+@media (min-width: 640px) and (max-width: 959.5px) {
+  .card-band-v2:after {
+    right: -120px;
+    bottom: -10px;
+  }
+}
+@media (min-width: 360px) and (max-width: 639.5px) {
+  .card-band-v2:after {
+    right: -80px;
+    bottom: -80px;
+    width: 120px;
+    -webkit-background-size: 100%;
+    background-size: 100%;
   }
 }
 
