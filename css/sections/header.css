@@ -145,6 +145,186 @@
   transition: all 0.35s ease-out;
 }
 
+@media (min-width: 640px) {
+  .color-md-background-white {
+    color: #f2f2f2 !important;
+    transition: all 0.35s ease-out;
+  }
+  .color-md-white {
+    color: #f8f8f8 !important;
+    transition: all 0.35s ease-out;
+  }
+  .color-md-white-80 {
+    color: #f8f8f8;
+    opacity: 0.8;
+    transition: all 0.35s ease-out;
+  }
+  .color-md-white-50 {
+    color: #f8f8f8;
+    opacity: 0.5;
+    transition: all 0.35s ease-out;
+  }
+  .color-md-white-20 {
+    color: #f8f8f8;
+    opacity: 0.2;
+    transition: all 0.35s ease-out;
+  }
+  .color-md-error {
+    color: #FF4D25 !important;
+    transition: all 0.35s ease-out;
+  }
+  .color-md-light-grey {
+    color: #b7bbc3 !important;
+    transition: all 0.35s ease-out;
+  }
+  .color-md-grey {
+    color: #727882 !important;
+    transition: all 0.35s ease-out;
+  }
+  .color-md-dark-grey {
+    color: #4b535c !important;
+    transition: all 0.35s ease-out;
+  }
+  .color-md-black {
+    color: #3a434d !important;
+    transition: all 0.35s ease-out;
+  }
+}
+@media (min-width: 960px) {
+  .color-lg-background-white {
+    color: #f2f2f2 !important;
+    transition: all 0.35s ease-out;
+  }
+  .color-lg-white {
+    color: #f8f8f8 !important;
+    transition: all 0.35s ease-out;
+  }
+  .color-lg-white-80 {
+    color: #f8f8f8;
+    opacity: 0.8;
+    transition: all 0.35s ease-out;
+  }
+  .color-lg-white-50 {
+    color: #f8f8f8;
+    opacity: 0.5;
+    transition: all 0.35s ease-out;
+  }
+  .color-lg-white-20 {
+    color: #f8f8f8;
+    opacity: 0.2;
+    transition: all 0.35s ease-out;
+  }
+  .color-lg-error {
+    color: #FF4D25 !important;
+    transition: all 0.35s ease-out;
+  }
+  .color-lg-light-grey {
+    color: #b7bbc3 !important;
+    transition: all 0.35s ease-out;
+  }
+  .color-lg-grey {
+    color: #727882 !important;
+    transition: all 0.35s ease-out;
+  }
+  .color-lg-dark-grey {
+    color: #4b535c !important;
+    transition: all 0.35s ease-out;
+  }
+  .color-lg-black {
+    color: #3a434d !important;
+    transition: all 0.35s ease-out;
+  }
+}
+@media (min-width: 1280px) {
+  .color-xl-background-white {
+    color: #f2f2f2 !important;
+    transition: all 0.35s ease-out;
+  }
+  .color-xl-white {
+    color: #f8f8f8 !important;
+    transition: all 0.35s ease-out;
+  }
+  .color-xl-white-80 {
+    color: #f8f8f8;
+    opacity: 0.8;
+    transition: all 0.35s ease-out;
+  }
+  .color-xl-white-50 {
+    color: #f8f8f8;
+    opacity: 0.5;
+    transition: all 0.35s ease-out;
+  }
+  .color-xl-white-20 {
+    color: #f8f8f8;
+    opacity: 0.2;
+    transition: all 0.35s ease-out;
+  }
+  .color-xl-error {
+    color: #FF4D25 !important;
+    transition: all 0.35s ease-out;
+  }
+  .color-xl-light-grey {
+    color: #b7bbc3 !important;
+    transition: all 0.35s ease-out;
+  }
+  .color-xl-grey {
+    color: #727882 !important;
+    transition: all 0.35s ease-out;
+  }
+  .color-xl-dark-grey {
+    color: #4b535c !important;
+    transition: all 0.35s ease-out;
+  }
+  .color-xl-black {
+    color: #3a434d !important;
+    transition: all 0.35s ease-out;
+  }
+}
+@media (min-width: 1920px) {
+  .color-xxl-background-white {
+    color: #f2f2f2 !important;
+    transition: all 0.35s ease-out;
+  }
+  .color-xxl-white {
+    color: #f8f8f8 !important;
+    transition: all 0.35s ease-out;
+  }
+  .color-xxl-white-80 {
+    color: #f8f8f8;
+    opacity: 0.8;
+    transition: all 0.35s ease-out;
+  }
+  .color-xxl-white-50 {
+    color: #f8f8f8;
+    opacity: 0.5;
+    transition: all 0.35s ease-out;
+  }
+  .color-xxl-white-20 {
+    color: #f8f8f8;
+    opacity: 0.2;
+    transition: all 0.35s ease-out;
+  }
+  .color-xxl-error {
+    color: #FF4D25 !important;
+    transition: all 0.35s ease-out;
+  }
+  .color-xxl-light-grey {
+    color: #b7bbc3 !important;
+    transition: all 0.35s ease-out;
+  }
+  .color-xxl-grey {
+    color: #727882 !important;
+    transition: all 0.35s ease-out;
+  }
+  .color-xxl-dark-grey {
+    color: #4b535c !important;
+    transition: all 0.35s ease-out;
+  }
+  .color-xxl-black {
+    color: #3a434d !important;
+    transition: all 0.35s ease-out;
+  }
+}
 /* UNIVERSAL CLASSES - HOVER TEXT NEUTRAL COLORS */
 .hover-color-background-white:hover {
   color: #f2f2f2 !important;
