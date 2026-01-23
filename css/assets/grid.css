@@ -71,6 +71,10 @@
   height: 100% !important;
 }
 
+.nobsp-brs-26 {
+  border-radius: 26px !important;
+}
+
 @media (min-width: 640px) and (max-width: 959.5px) {
   .brs-sm-26 {
     border-radius: 26px !important;
