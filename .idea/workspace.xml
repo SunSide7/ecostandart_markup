@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d078353-38b4-40aa-b705-d10295940aba" name="Changes" comment="" />
+    <list default="true" id="368292b6-5a71-4f27-a622-6d1570b4b7dd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,17 +18,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\php8\php.exe" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
-  <component name="ProjectId" id="38bv9ZUBtWBisUfhd0eQFLOYEtI" />
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="38W5iraQIZMtdUXYQRu4JJMfjZx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
     "node.js.detected.package.eslint": "true",
@@ -38,6 +44,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Evan\Desktop\ecostandart-markup-carcass\img\sections\our_mission" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -49,16 +60,24 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6d078353-38b4-40aa-b705-d10295940aba" name="Changes" comment="" />
-      <created>1769080935108</created>
+      <changelist id="368292b6-5a71-4f27-a622-6d1570b4b7dd" name="Changes" comment="" />
+      <created>1768902616943</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1769080935108</updated>
-      <workItem from="1769080936137" duration="7933000" />
+      <updated>1768902616943</updated>
+      <workItem from="1768902618726" duration="7530000" />
+      <workItem from="1768984266607" duration="20789000" />
+      <workItem from="1769071092511" duration="104000" />
+      <workItem from="1769071598271" duration="24758000" />
+      <workItem from="1769147681982" duration="3197000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>

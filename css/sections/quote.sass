@@ -1,10 +1,14 @@
 @import ../assets/colors.sass
+.quote-portrait-1
+  width: 150px
+  height: 150px
 
 .quotes-1
   position: absolute
   align-self: end
   margin-top: -35px
   width: 144px
+  opacity: 90%
 
 .quotes-2
   position: absolute
@@ -12,6 +16,7 @@
   top: 0%
   left: 60%
   z-index: 2
+  opacity: 90%
 
 @media (min-width: 640px)
   .quotes-1
@@ -19,25 +24,29 @@
 
   .quotes-2
     width: 149px
-    top: -7%
-    left: 75.7%
+    top: -7.6%
+    left: 76.7%
 
 @media (min-width: 960px)
   .quotes-1
-    bottom: 79%
+    bottom: 79.2%
 
   .quotes-2
     width: 218px
     height: 182px
-    top: -18%
+    top: -20%
     left: 71%
 
 @media (min-width: 1280px)
-  .quote-portrait
+  .quote-portrait-1
+    width: 200px
+    height: 200px
+
+  .quote-portrait-2
     border: 13px $color_neutral_white solid
 
   .quotes-1
-    bottom: 74%
+    bottom: 76%
 
   .quotes-2
     width: 136px
@@ -48,7 +57,7 @@
 @media (min-width: 1920px)
   .quotes-1
     width: 166px
-    bottom: 62%
+    bottom: 65%
 
   .quotes-2
     left: 90%
