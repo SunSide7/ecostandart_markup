@@ -157,6 +157,10 @@
   padding-top: 72px !important;
 }
 
+.nobsp-pt-0 {
+  padding-top: 0 !important;
+}
+
 .nobsp-pb-56 {
   padding-bottom: 56px !important;
 }
@@ -278,6 +282,12 @@
 
 .flex-jcsb {
   display: flex;
+  justify-content: space-between;
+}
+
+.flex-col-jcsb {
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 

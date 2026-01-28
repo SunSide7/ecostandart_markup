@@ -1,0 +1,15 @@
+@media (min-width: 360px) and (max-width: 639.5px) {
+  .course_rent_pluses .btn-news {
+    width: 100%;
+  }
+  .course_rent_pluses .btn-news span {
+    padding: 12px;
+    font-size: 12px;
+    text-align: center;
+  }
+  .course_rent_pluses .img-slider-x3 {
+    margin-bottom: 0 !important;
+  }
+}
+
+/*# sourceMappingURL=course_rent_pluses.css.map */

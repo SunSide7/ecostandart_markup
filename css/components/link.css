@@ -889,7 +889,7 @@
   transition: all 0.35s ease-out;
 }
 .gradient-ecology.hoverable:hover {
-  background: linear-gradient(133deg, #cbf26e, #cbf26e, #cbf26e) !important;
+  background: linear-gradient(133deg, #4bbb24, #4bbb24, #4bbb24) !important;
 }
 .gradient-surveys {
   background: linear-gradient(132deg, #929292, #4b4b4b) !important;
@@ -991,7 +991,7 @@
   transition: all 0.35s ease-out;
 }
 .bg-gradient-ecology.hoverable:hover {
-  background: linear-gradient(133deg, #cbf26e, #cbf26e, #cbf26e) !important;
+  background: linear-gradient(133deg, #4bbb24, #4bbb24, #4bbb24) !important;
 }
 .bg-gradient-surveys {
   background: linear-gradient(132deg, #929292, #4b4b4b) !important;
@@ -1050,55 +1050,85 @@
   background: linear-gradient(128deg, #1cb8e4, #1cb8e4) !important;
 }
 
-a.link-safety {
+.link-safety {
   background-image: linear-gradient(128deg, #ffa734, #f24868);
   color: transparent;
   background-clip: text;
 }
-a.link-ecology {
+.link-safety:hover {
+  background-image: linear-gradient(128deg, #ffa734, #ffa734) !important;
+}
+.link-ecology {
   background-image: linear-gradient(133deg, #cbf26e, #74dd4f, #4bbb24);
   color: transparent;
   background-clip: text;
 }
-a.link-surveys {
+.link-ecology:hover {
+  background-image: linear-gradient(133deg, #4bbb24, #4bbb24, #4bbb24) !important;
+}
+.link-surveys {
   background-image: linear-gradient(132deg, #929292, #4b4b4b);
   color: transparent;
   background-clip: text;
 }
-a.link-academy {
+.link-surveys:hover {
+  background-image: linear-gradient(132deg, #929292, #929292) !important;
+}
+.link-academy {
   background-image: linear-gradient(131deg, #8cb7ff, #1069fe);
   color: transparent;
   background-clip: text;
 }
-a.link-soft {
+.link-academy:hover {
+  background-image: linear-gradient(131deg, #8cb7ff, #8cb7ff) !important;
+}
+.link-soft {
   background-image: linear-gradient(131deg, #c4cde1, #748aab);
   color: transparent;
   background-clip: text;
 }
-a.link-foundation {
+.link-soft:hover {
+  background-image: linear-gradient(131deg, #c4cde1, #c4cde1) !important;
+}
+.link-foundation {
   background-image: linear-gradient(to right, #ffad31, #ff6614);
   color: transparent;
   background-clip: text;
 }
-a.link-journal {
+.link-foundation:hover {
+  background-image: linear-gradient(to right, #ffad31, #ff6614) !important;
+}
+.link-journal {
   background-image: linear-gradient(147deg, #2fd8b1, #2f8672);
   color: transparent;
   background-clip: text;
 }
-a.link-certification {
+.link-journal:hover {
+  background-image: linear-gradient(147deg, #2fd8b1, #2fd8b1) !important;
+}
+.link-certification {
   background-image: linear-gradient(119deg, #3eb8a3, #175fab);
   color: transparent;
   background-clip: text;
 }
-a.link-people {
+.link-certification:hover {
+  background-image: linear-gradient(119deg, #3eb8a3, #3eb8a3) !important;
+}
+.link-people {
   background-image: linear-gradient(131deg, #a380ff, #3934c7);
   color: transparent;
   background-clip: text;
 }
-a.link-life {
+.link-people:hover {
+  background-image: linear-gradient(131deg, #a380ff, #a380ff) !important;
+}
+.link-life {
   background-image: linear-gradient(128deg, #1cb8e4, #1e6fd9);
   color: transparent;
   background-clip: text;
+}
+.link-life:hover {
+  background-image: linear-gradient(128deg, #1cb8e4, #1cb8e4) !important;
 }
 
 /*# sourceMappingURL=link.css.map */

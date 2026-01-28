@@ -13,16 +13,16 @@
       width: calc(100% - 404px - 24px)
       margin-right: 24px
     &-img
-      width: 404px
+      width: calc(404px - 32px / 2)
       -webkit-border-radius: 12px
       -moz-border-radius: 12px
       border-radius: 12px
       overflow: hidden
 
       position: absolute
-      right: 0
-      top: 0
-      bottom: 0
+      right: 32px
+      top: 32px
+      bottom: 32px
       margin: auto
 
       img
@@ -35,11 +35,12 @@
     &-item
       &-text,
       &-img
-        width: calc(50% - 24px / 2)
+        width: calc(50% - 24px / 2 - 32px / 2)
 
 //@media(max-width: 960px)
 
-@media(max-width: 960px)
+//@media(max-width: 960px)
+@media(max-width: 640px)
   .h-cards
     &-item
       flex-wrap: wrap
@@ -58,7 +59,6 @@
         position: static
         max-height: 50vw
 
-@media(max-width: 640px)
   .h-cards
     &-item
       display: flex
@@ -69,3 +69,17 @@
 
       &-img
         max-height: 50vw
+
+@media(max-width: 360px)
+  .h-cards
+    &-item
+      display: flex
+      margin-bottom: 8px
+      &:last-child
+        margin-bottom: 0
+
+
+      &-img
+        max-height: 50vw
+        min-height: 200px
+

@@ -889,7 +889,7 @@
   transition: all 0.35s ease-out;
 }
 .gradient-ecology.hoverable:hover {
-  background: linear-gradient(133deg, #cbf26e, #cbf26e, #cbf26e) !important;
+  background: linear-gradient(133deg, #4bbb24, #4bbb24, #4bbb24) !important;
 }
 .gradient-surveys {
   background: linear-gradient(132deg, #929292, #4b4b4b) !important;
@@ -991,7 +991,7 @@
   transition: all 0.35s ease-out;
 }
 .bg-gradient-ecology.hoverable:hover {
-  background: linear-gradient(133deg, #cbf26e, #cbf26e, #cbf26e) !important;
+  background: linear-gradient(133deg, #4bbb24, #4bbb24, #4bbb24) !important;
 }
 .bg-gradient-surveys {
   background: linear-gradient(132deg, #929292, #4b4b4b) !important;

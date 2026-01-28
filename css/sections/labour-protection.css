@@ -1,0 +1,20 @@
+@media (min-width: 640px) and (max-width: 959.5px) {
+  .labour-protection.img-slider-x4 .owl-nav {
+    padding-top: 32px;
+    padding-bottom: 0;
+  }
+  .labour-protection.img-slider-x4 .slide-item .img {
+    height: 205px;
+  }
+}
+@media (min-width: 360px) and (max-width: 639.5px) {
+  .labour-protection.img-slider-x4 .owl-nav {
+    padding-top: 20px;
+    padding-bottom: 0;
+  }
+  .labour-protection.img-slider-x4 .slide-item .img {
+    height: 205px;
+  }
+}
+
+/*# sourceMappingURL=labour-protection.css.map */
