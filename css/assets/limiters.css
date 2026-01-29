@@ -60,6 +60,15 @@
   .hover-sm-w-100:hover {
     width: 100% !important;
   }
+  .h-sm-auto {
+    height: auto !important;
+  }
+  .h-sm-100 {
+    height: 100% !important;
+  }
+  .hover-sm-h-100:hover {
+    height: 100% !important;
+  }
 }
 @media (min-width: 640px) {
   .clamp-line-md-1 {
@@ -86,7 +95,7 @@
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 4;
   }
-  .w-md-auto {
+  .h-md-auto {
     width: auto !important;
   }
   .w-md-100 {
@@ -94,6 +103,15 @@
   }
   .hover-md-w-100:hover {
     width: 100% !important;
+  }
+  .h-md-auto {
+    height: auto !important;
+  }
+  .h-md-100 {
+    height: 100% !important;
+  }
+  .hover-md-h-100:hover {
+    height: 100% !important;
   }
 }
 @media (min-width: 960px) {
@@ -130,6 +148,15 @@
   .hover-lg-w-100:hover {
     width: 100% !important;
   }
+  .h-lg-auto {
+    height: auto !important;
+  }
+  .h-lg-100 {
+    height: 100% !important;
+  }
+  .hover-lg-h-100:hover {
+    height: 100% !important;
+  }
 }
 @media (min-width: 1280px) {
   .clamp-line-xl-1 {
@@ -165,6 +192,15 @@
   .hover-xl-w-100:hover {
     width: 100% !important;
   }
+  .h-xl-auto {
+    height: auto !important;
+  }
+  .h-xl-100 {
+    height: 100% !important;
+  }
+  .hover-xl-h-100:hover {
+    height: 100% !important;
+  }
 }
 @media (min-width: 1920px) {
   .clamp-line-xxl-1 {
@@ -199,6 +235,15 @@
   }
   .hover-xxl-w-100:hover {
     width: 100% !important;
+  }
+  .h-xxl-auto {
+    height: auto !important;
+  }
+  .h-xxl-100 {
+    height: 100% !important;
+  }
+  .hover-xxl-h-100:hover {
+    height: 100% !important;
   }
 }
 

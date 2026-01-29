@@ -1107,8 +1107,9 @@
   .quotes-2 {
     width: 136px;
     height: 112px;
-    top: 4%;
-    left: 84.7%;
+    top: 85%;
+    left: 81.5%;
+    z-index: 0;
   }
 }
 @media (min-width: 1920px) {
@@ -1117,7 +1118,7 @@
     bottom: 65%;
   }
   .quotes-2 {
-    left: 90%;
+    left: 82.7%;
   }
 }
 

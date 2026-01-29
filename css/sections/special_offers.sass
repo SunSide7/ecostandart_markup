@@ -1,0 +1,49 @@
+.spec-offers-ellipse
+  top: -20px
+  left: -20px
+  width: calc(100% + 40px)
+  height: 155%
+
+@media (min-width: 640px)
+  .spec-offers-ellipse
+    top: -32px
+    left: -32px
+    width: calc(200%)
+    height: calc(100% + 64px)
+
+  .spec-offers-illustration
+    height: 150px
+
+  .spec-offers-text
+    width: 210px
+
+@media (min-width: 960px)
+  .spec-offers-ellipse
+    width: calc(140%)
+
+  .spec-offers-text
+    width: 498px
+
+@media (min-width: 1280px)
+  .spec-offers-text
+    width: 692px
+    &.alt
+      width: 100%
+
+  .spec-offers-illustration
+    height: 225px
+    &.alt
+      height: 150px !important
+
+  .spec-offers-ellipse.alt
+    top: -32px
+    left: -32px
+    width: calc(100% + 64px)
+    height: calc(120% + 40px)
+
+@media (min-width: 1920px)
+  .spec-offers-ellipse
+    width: calc(150%)
+
+  .spec-offers-text
+    width: 1007px

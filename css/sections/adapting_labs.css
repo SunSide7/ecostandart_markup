@@ -1,0 +1,11 @@
+.adapting-labs-photo {
+  height: 338px;
+}
+
+@media (min-width: 960px) {
+  .adapting-labs-photo {
+    height: auto;
+  }
+}
+
+/*# sourceMappingURL=adapting_labs.css.map */
