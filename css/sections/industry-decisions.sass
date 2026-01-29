@@ -1,0 +1,34 @@
+@import ../assets/colors.sass
+
+.industry-decisions
+  margin-top: -18px
+  &.news
+    & .owl-nav
+      padding-top: 32px !important
+      padding-bottom: 0
+
+    & .btn-news
+      position: absolute
+      bottom: 0px
+
+@media(min-width: 640px) and (max-width: 959.5px)
+  .industry-decisions
+    & .slide-item
+      background: $color_neutral_white
+
+    &.news
+      & .btn-news
+        bottom: 0px
+
+@media(min-width: 360px) and (max-width: 639.5px)
+  .industry-decisions
+    & .slide-item
+      background: $color_neutral_white
+
+    &.news
+      & .btn-news
+        position: absolute
+        bottom: 0px
+
+      & .owl-nav
+        padding-top: 20px !important

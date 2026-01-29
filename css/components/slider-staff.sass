@@ -8,6 +8,9 @@
     & .card-icon
       transition: 0.5s ease
 
+    & .card-img-bg
+      height: 240px
+
 
     &:hover
 
@@ -19,7 +22,29 @@
         & h4
           color: $color_neutral_black !important
 
-@media(max-width: 1280px)
+@media(max-width: 1919.5px)
+  .slider-staff
+
+    & .slide-item
+
+      & .card-img-bg
+        //transition: 0.5s ease
+        height: 200px
+
+@media(max-width: 1279.5px)
+  .slider-staff
+
+    & .slide-item
+
+      & .card-img-bg
+        //transition: 0.5s ease
+        height: 200px
+
+      & .staff-content
+        & .img,
+        & h4
+          //margin-bottom: 8px !important
+
   .slider-staff
 
     & .slide-item
@@ -28,7 +53,7 @@
         //transition: 0.5s ease
         height: 164px
 
-      & .staff-content
-        & .img,
-        & h4
-          margin-bottom: 8px !important
+@media(min-width: 360px) and (max-width: 639.5px)
+  .slider-staff
+    & .img
+      margin: 0 auto

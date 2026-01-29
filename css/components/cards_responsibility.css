@@ -3,6 +3,9 @@
   flex-wrap: wrap;
   position: relative;
 }
+.cards-responsibility .card-neutral-white, .cards-responsibility .card-img-bg {
+  border-radius: 36px;
+}
 
 @media (min-width: 960px) {
   .cards-responsibility .card-img-bg {
@@ -27,6 +30,9 @@
   }
 }
 @media (min-width: 360px) and (max-width: 639px) {
+  .cards-responsibility .card-neutral-white, .cards-responsibility .card-img-bg {
+    border-radius: 30px;
+  }
   .cards-responsibility > .card-neutral-white {
     margin-bottom: 16px;
   }

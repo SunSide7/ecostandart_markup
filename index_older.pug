@@ -1,0 +1,28 @@
+include pug/base/includes
+
+doctype html
+html.html(lang="ru")
+    +html-head('INDEX PAGE')
+    body.bg-color-background-white
+        include pug/sections/header
+
+        // DEV
+        //include pug/pages/main
+        //include pug/pages/index_page
+
+        // SPRINT 01
+        include pug/pages/main_sprint_dev
+        //include pug/pages/main_sprint_dev_mentalghost
+        //include pug/pages/main_sprint_dev_ascended
+
+        // SPRINT 02
+        //include pug/pages/main_sprint_2_dev
+        //include pug/pages/main_sprint_2_dev_mentalghost
+        //include pug/pages/main_sprint_2_dev_ascended
+
+        // DEV
+        //include pug/pages/ux
+
+        include pug/sections/footer
+
+        +scripts

@@ -20,9 +20,23 @@ $(document).ready(function() {
         console.log('hoverOutX3')
 
         if($(this).hasClass('card-icon-bg-img')) {
+
+
             $(this).removeClass('card-icon-bg-img')
             $(this).addClass('bg-gradient-safety')
             $(this).addClass('card-icon-bg')
+            // setTimeout(function() {
+
+            $('.cards-hovering-img-x3 .card-neutral-white:first-child').addClass('card-icon-bg-img')
+            $('.cards-hovering-img-x3 .card-neutral-white:first-child').removeClass('bg-gradient-safety')
+            $('.cards-hovering-img-x3 .card-neutral-white:first-child').removeClass('card-icon-bg')
+            $('.cards-hovering-img-x3 .card-neutral-white:first-child').find('p').addClass('active')
+            console.log('HOVER OUT', $('.cards-hovering-img-x4 .card-neutral-white:first-child'))
+            // }, 0)
+            // if($('.cards-hovering-img-x4 .card-neutral-white:first-child')[0] !== this) {
+            $(this).find('p').removeClass('active')
+            // }
+
         }
     }
 
@@ -30,7 +44,7 @@ $(document).ready(function() {
 
     // TARIFFS
     $('.cards-hovering-img-x3 .card-neutral-white').hover(hoverInX3, hoverOutX3)
-    $('.cards-hovering-img-x3 .card-neutral-white').click(hoverInX3, hoverOutX3)
+    // $('.cards-hovering-img-x3 .card-neutral-white').click(hoverInX3, hoverOutX3)
 
 
     function hoverIn() {
@@ -326,6 +340,40 @@ $(document).ready(function() {
         }
     })
 
+    $('.img-slider-x3_2').owlCarousel({
+        // loop:true,
+        margin:16,
+        nav:true,
+        dots: false,
+        navText: [
+            '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
+            '<path d="M4.75 0.749999L0.75 5.25L4.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '</svg>\n',
+            '<svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
+            '<path d="M0.750001 0.749999L4.75 5.25L0.75 9.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+            '</svg>',
+        ],
+        responsive:{
+            360: {
+                items: 1,
+            },
+            640: {
+                items: 2,
+            },
+            960: {
+                items: 3,
+            },
+            1280: {
+                items: 3,
+            },
+            1920: {
+                items: 3,
+            },
+        }
+    })
+
+
+
     $('.blog-slider').owlCarousel({
         // loop:true,
         margin:16,
@@ -347,7 +395,7 @@ $(document).ready(function() {
                 items: 1
             },
             960: {
-                items: 1
+                items: 3
             },
             1280: {
                 items: 1
@@ -477,7 +525,7 @@ $(document).ready(function() {
         $('#blog-slider-container').removeClass('container-fluid')
     }
 
-    new MobileDetect(setBlogSliderActive, setBlogSliderUnactive, 360, 960);
+    new MobileDetect(setBlogSliderActive, setBlogSliderUnactive, 360, 959.5);
 
 
 

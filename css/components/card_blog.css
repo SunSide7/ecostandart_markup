@@ -1227,11 +1227,13 @@
 }
 @media (min-width: 1920px) {
   .blog-slider {
+    padding-top: 64px;
     overflow: hidden;
   }
 }
 @media (min-width: 1280px) and (max-width: 1919.5px) {
   .blog-slider {
+    padding-top: 64px;
     overflow: hidden;
   }
 }

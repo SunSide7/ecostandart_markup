@@ -1053,6 +1053,9 @@
 .slider-staff .slide-item .card-img-bg, .slider-staff .slide-item .card-icon {
   transition: 0.5s ease;
 }
+.slider-staff .slide-item .card-img-bg {
+  height: 240px;
+}
 .slider-staff .slide-item:hover .card-img-bg, .slider-staff .slide-item:hover .card-icon {
   box-shadow: 0 5px 30px 1px rgba(0, 0, 0, 0.07) !important;
 }
@@ -1060,12 +1063,22 @@
   color: #3a434d !important;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1919.5px) {
+  .slider-staff .slide-item .card-img-bg {
+    height: 200px;
+  }
+}
+@media (max-width: 1279.5px) {
+  .slider-staff .slide-item .card-img-bg {
+    height: 200px;
+  }
   .slider-staff .slide-item .card-img-bg {
     height: 164px;
   }
-  .slider-staff .slide-item .staff-content .img, .slider-staff .slide-item .staff-content h4 {
-    margin-bottom: 8px !important;
+}
+@media (min-width: 360px) and (max-width: 639.5px) {
+  .slider-staff .img {
+    margin: 0 auto;
   }
 }
 

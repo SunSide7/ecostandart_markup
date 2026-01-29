@@ -1101,9 +1101,12 @@
     margin-bottom: 24px !important;
   }
 }
-@media (min-width: 360px) and (max-width: 640px) {
+@media (min-width: 360px) and (max-width: 639.5px) {
   .cards-policy > .card-neutral-white {
     padding: 20px !important;
+  }
+  .cards-policy .card-neutral-white .img {
+    margin-bottom: 20px;
   }
 }
 
