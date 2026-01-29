@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab620d31-86e9-4654-beab-2efde9bcac07" name="Changes" comment="">
+    <list default="true" id="72c2d68e-f3eb-4fb9-a653-38e49d09a608" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +21,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\php8\php.exe" />
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
+  "customColor": "",
+  "associatedIndex": 5
 }]]></component>
-  <component name="ProjectId" id="38w7fmi6I04rpolEBlSz1YmycDH" />
+  <component name="ProjectId" id="38wkMh79h9Z87WXyCWdTkO7csqM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,12 +49,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ab620d31-86e9-4654-beab-2efde9bcac07" name="Changes" comment="" />
-      <created>1769698886282</created>
+      <changelist id="72c2d68e-f3eb-4fb9-a653-38e49d09a608" name="Changes" comment="" />
+      <created>1769717975650</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1769698886282</updated>
-      <workItem from="1769698886678" duration="22000" />
+      <updated>1769717975650</updated>
+      <workItem from="1769717976743" duration="49000" />
     </task>
     <servers />
   </component>
