@@ -38,11 +38,6 @@
   padding-top: 52px;
 }
 
-@media (max-width: 1280px) {
-  .slider-cards .slider {
-    padding-top: 16px !important;
-  }
-}
 @media (max-width: 1279.5px) {
   .slider-cards .el-50:last-child {
     display: flex;
