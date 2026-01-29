@@ -9,8 +9,8 @@
   right: 0;
   top: -160px;
   right: -120px;
-  width: 400px;
-  height: 400px;
+  right-width: 400px;
+  right-height: 400px;
   background: url(../../img/components/cards/bend.svg) center center no-repeat;
   background-size: 100%;
 }

@@ -25,7 +25,7 @@
   top: 0;
   right: 0;
   height: 50vh;
-  width: calc(50vw + 125px);
+  width: calc(50vw + 130px);
   z-index: 1;
 }
 
@@ -33,7 +33,29 @@
   bottom: 0;
   right: 0;
   height: 50vh;
-  width: calc(50vw + 125px);
+  width: calc(50vw + 130px);
+}
+
+.hero-no-form-info {
+  bottom: 0;
+  right: 0;
+  height: calc(50vh + 5px);
+  width: calc(50vw + 35px);
+}
+
+.hero-no-form-title {
+  top: 0;
+  right: 0;
+  height: calc(50vh - 51px);
+  width: calc(50vw + 145px);
+  z-index: 1;
+}
+
+.hero-no-form-input {
+  bottom: 0;
+  right: 0;
+  height: calc(50vh + 51px);
+  width: calc(50vw + 145px);
 }
 
 @media (min-width: 640px) {
@@ -48,6 +70,19 @@
   .hero-main-input {
     height: calc(50vh - 150px);
     width: calc(50vw + 175px);
+  }
+  .hero-no-form-title {
+    top: 0;
+    right: 0;
+    height: calc(50vh + 156px);
+    width: calc(50vw + 145px);
+    z-index: 1;
+  }
+  .hero-no-form-input {
+    bottom: 0;
+    right: 0;
+    height: calc(50vh - 156px);
+    width: calc(50vw + 145px);
   }
 }
 @media (min-width: 960px) {
@@ -64,6 +99,18 @@
     height: calc(50vh + 0px);
     width: calc(50vw + 20px);
   }
+  .hero-no-form-title {
+    top: 0;
+    right: 0;
+    height: calc(50vh - 5px);
+    width: calc(50vw + 35px);
+    z-index: 1;
+  }
+  .hero-no-form-input {
+    left: 0;
+    height: calc(50vh + 5px);
+    width: calc(50vw - 35px);
+  }
 }
 @media (min-width: 1280px) {
   .hero-main-title {
@@ -78,6 +125,24 @@
     height: calc(50vh - 100px);
     width: calc(50vw + 50px);
   }
+  .hero-no-form-title {
+    top: 0;
+    right: 0;
+    height: calc(50vh + 77px);
+    width: calc(50vw + 59px);
+    z-index: 1;
+  }
+  .hero-no-form-input {
+    left: 0;
+    height: calc(50vh - 77px);
+    width: calc(50vw - 59px);
+  }
+  .hero-no-form-info {
+    bottom: 0;
+    right: 0;
+    height: calc(50vh - 77px);
+    width: calc(50vw + 59px);
+  }
 }
 @media (min-width: 1920px) {
   .hero-main-title {
@@ -91,6 +156,24 @@
   .hero-main-info {
     height: calc(50vh - 100px);
     width: calc(50vw + 140px);
+  }
+  .hero-no-form-title {
+    top: 0;
+    right: 0;
+    height: calc(50vh + 129px);
+    width: calc(50vw + 153px);
+    z-index: 1;
+  }
+  .hero-no-form-input {
+    left: 0;
+    height: calc(50vh - 129px);
+    width: calc(50vw - 153px);
+  }
+  .hero-no-form-info {
+    bottom: 0;
+    right: 0;
+    height: calc(50vh - 129px);
+    width: calc(50vw + 153px);
   }
 }
 

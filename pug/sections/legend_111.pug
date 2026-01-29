@@ -1,0 +1,70 @@
+.container.dev-title
+    h2.title-primary.title-section-name_dev(style="font-size: 60px;padding-top: 102px !important") <span>СЕКЦИЯ 111</span>
+
+section.section.overflow-hidden
+    .container
+        h2.title-primary.mb-16 <span>О компании</span>
+
+        p.pt-0.mb-md-52.text-body
+            span.color-light-grey Главная / 
+            span.color-black Об EcoStandard group
+
+        // Десктопная версия
+        .slider-project-mini.position-relative.d-none.d-lg-flex.overflow-hidden.br-36
+            // Первый фон
+            img.slider-bg-about-company.position-absolute.object-fit-cover.w-100.h-100(
+                src="img/sections/projects_slider/project_gazprom.jpg",
+                alt="Слайдер",
+                data-active="true"
+                style="filter: brightness(50%)"
+            )
+            // Второй фон для анимации
+            img.slider-bg-about-company.position-absolute.object-fit-cover.w-100.h-100(
+                src="img/sections/projects_slider/waterfall.jpg",
+                alt="Слайдер",
+                data-active="false"
+                style="filter: brightness(50%)"
+            )
+
+            .col-3.col-xl-5.col-xxl-7.ps-16.py-16
+
+            .d-flex.flex-column.col-9.col-xl-7.col-xxl-5.pe-16.py-16.br-20
+                .d-flex.flex-column.p-32.br-20.bg-color-white-20.bg-blur-30(style="min-height: 162px")
+                    .d-flex.gap-4
+                        span.pagination-dot.pagination-about-company.active(data-index="0")
+                        span.pagination-dot.pagination-about-company(data-index="1")
+                        span.pagination-dot.pagination-about-company(data-index="2")
+                    h4.h-4.mt-auto.clamp-line-4.mb-0.color-white.slider-title-about-company Группа компаний «Экостандарт» успешно работает по всей территории России и СНГ с 1997 года.
+
+                img.position-absolute.align-self-center.z-1(src="img/sections/projects_slider/divider_visir.svg" style="top: 165px")
+
+                .d-flex.flex-column.h-100.p-32.br-20.bg-color-white-20.bg-blur-30
+                    .d-flex.flex-column.flex-fill.gap-16.p-0
+                        p.color-white.slider-detail-title-about-company Мы являемся лидером в сфере экологической экспертизы и мониторинга, услуг в сфере охраны труда, инженерных изысканий, экологического проектирования и сертификации.
+                        p.color-light-grey.slider-detail-text-about-company Организация объединяет инженерные, консалтинговые и экспертные компании, являющиеся самостоятельными юридическими лицами.
+                    .d-flex.gap-8
+                        button.slider-prev-about-company.ghost-outline.medium
+                            img(src="img/assets/icons/small/arrow_left_white.svg")
+                        button.slider-next-about-company.ghost-outline.medium
+                            img(src="img/assets/icons/small/arrow_right_white.svg")
+
+    // Мобильная версия
+    .simple-slider.px-24.px-md-32.px-xxl-64
+        .d-flex.flex-nowrap.d-lg-none.gap-8.overflow-visible
+            .card-project.position-relative.overflow-hidden.h-100.p-0.br-30
+                img.position-absolute.object-fit-cover.w-100.h-100(src="img/sections/projects_slider/project_gazprom.jpg" style="filter: brightness(30%)" alt="alt")
+                .card-project-img.position-relative.d-flex.flex-column.p-16.h-100.z-1
+                .position-relative.d-flex.align-items-center.flex-column.p-16.z-1(style="background-color: #80838533; backdrop-filter: blur(100px); min-height: 100px")
+                    p.color-white.text-center.clamp-line-3 Стратегическое партнёрство с крупнейшей энергетической компанией
+
+            .card-project.position-relative.overflow-hidden.h-100.p-0.br-30
+                img.position-absolute.object-fit-cover.w-100.h-100(src="img/sections/projects_slider/project_rzhd.jpg" style="filter: brightness(30%)" alt="alt")
+                .card-project-img.position-relative.d-flex.flex-column.p-16.h-100.z-1
+                .position-relative.d-flex.align-items-center.flex-column.p-16.z-1(style="background-color: #80838533; backdrop-filter: blur(100px); min-height: 100px")
+                    p.color-white.text-center.clamp-line-3 Оценка воздействия на окружающую среду и разработка нормативной документации
+
+            .card-project.position-relative.overflow-hidden.h-100.p-0.br-30
+                img.position-absolute.object-fit-cover.w-100.h-100(src="img/sections/projects_slider/project_rosneft.png" style="filter: brightness(30%)" alt="alt")
+                .card-project-img.position-relative.d-flex.flex-column.p-16.h-100.z-1
+                .position-relative.d-flex.align-items-center.flex-column.p-16.z-1(style="background-color: #80838533; backdrop-filter: blur(100px); min-height: 100px")
+                    p.color-white.text-center.clamp-line-3 Бурение скважин, отбор проб и анализ грунтов для строительства объектов
