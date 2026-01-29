@@ -1,66 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="368292b6-5a71-4f27-a622-6d1570b4b7dd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/css/assets/grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/assets/grid_margin.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/grid_margin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/assets/grid_padding.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/grid_padding.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/breadcrumbs.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/breadcrumbs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/button.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_arrow.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_arrow.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_blog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_expertise.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_expertise.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_icon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_icon_bg_img.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_icon_bg_img.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_number.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_number.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_outer_icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_outer_icon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_policy.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_policy.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/cards-map.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards-map.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/cards_ecosystem_img.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards_ecosystem_img.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/cards_responsibility.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards_responsibility.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/cards_slider_1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards_slider_1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/cards_video.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards_video.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/checkbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/checkbox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/diagram_bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/diagram_bar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/diagram_round.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/diagram_round.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/divider.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/divider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/dropdown_filter.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown_filter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/dropdown_header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown_header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/dropdown_item.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown_item.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/ghost.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ghost.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/hero_asc.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/hero_asc.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/img-on-gray-bg.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/img-on-gray-bg.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/img_slider_1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/img_slider_1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/input.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/input.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/link.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/link.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/menu_footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/menu_footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/menu_header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/menu_header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/news.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/plus_icon_list.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/plus_icon_list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/search.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/slider-staff.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/slider-staff.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/slider_cards.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/slider_cards.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/tag.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/tag.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/tariffs.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/tariffs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/title.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/title.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sections/calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/calendar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sections/clients.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/clients.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sections/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sections/industry-decisions.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/industry-decisions.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sections/organism_affects.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/organism_affects.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sections/quote.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/quote.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sections/software.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/software.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_older.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_older.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/main-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_dev_ascended.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_dev_ascended.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_dev_mentalghost.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_dev_mentalghost.html" afterDir="false" />
+    <list default="true" id="ab620d31-86e9-4654-beab-2efde9bcac07" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,56 +15,27 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Sass File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\php8\php.exe" />
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 5
-}</component>
-  <component name="ProjectId" id="38W5iraQIZMtdUXYQRu4JJMfjZx" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="38w7fmi6I04rpolEBlSz1YmycDH" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Popov/Desktop/BX MARKUP/img/sections/legend_29&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;Sass&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Popov\Desktop\BX MARKUP\img\sections\legend_29" />
-      <recent name="C:\Users\Popov\Desktop\BX MARKUP\img\sections\legend_38" />
-      <recent name="C:\Users\Popov\Desktop\BX MARKUP\img\sections\legend_43" />
-      <recent name="C:\Users\Popov\Desktop\BX MARKUP\img\sections\legend_54" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Evan\Desktop\ecostandart-markup-carcass\img\sections\our_mission" />
-    </key>
-  </component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -131,28 +47,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="368292b6-5a71-4f27-a622-6d1570b4b7dd" name="Changes" comment="" />
-      <created>1768902616943</created>
+      <changelist id="ab620d31-86e9-4654-beab-2efde9bcac07" name="Changes" comment="" />
+      <created>1769698886282</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1768902616943</updated>
-      <workItem from="1768902618726" duration="7530000" />
-      <workItem from="1768984266607" duration="20789000" />
-      <workItem from="1769071092511" duration="104000" />
-      <workItem from="1769071598271" duration="24758000" />
-      <workItem from="1769147681982" duration="3197000" />
-      <workItem from="1769502935555" duration="8389000" />
-      <workItem from="1769603967243" duration="11404000" />
-      <workItem from="1769644883361" duration="17429000" />
-      <workItem from="1769696566249" duration="312000" />
+      <updated>1769698886282</updated>
+      <workItem from="1769698886678" duration="22000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
