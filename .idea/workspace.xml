@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b8ab271-fc0e-4595-adc9-c2f78da8fd73" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img/sections/legend_46/logo_01_02.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/news.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/news.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/news.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/news.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/news.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index_older.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_older.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index_older.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index_older.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_dev.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_dev.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_dev_ascended.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_dev_ascended.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_dev_ascended.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_dev_ascended.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_46.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_46.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_51.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_51.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "C:/Users/Popov/Desktop/BX MARKUP/img/sections/legend_63",
+    "last_opened_file_path": "C:/Users/Popov/Desktop/CODEPEN/CARDS SLIDER PLAYER",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1769765836977</updated>
-      <workItem from="1769765838079" duration="6943000" />
+      <workItem from="1769765838079" duration="12328000" />
     </task>
     <servers />
   </component>
