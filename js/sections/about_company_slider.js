@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const aboutCompanyData = [
         {
-            image: "img/sections/projects_slider/project_gazprom.jpg",
+            image: "img/sections/about_company_slider/01.jpg",
             title: "Группа компаний «Экостандарт» успешно работает по всей территории России и СНГ с 1997 года.",
             details: {
                 title: "Мы являемся лидером в сфере экологической экспертизы и мониторинга, услуг в сфере охраны труда, инженерных изысканий, экологического проектирования и сертификации.",
@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         },
         {
-            image: "img/sections/projects_slider/project_rzhd.jpg",
+            image: "img/sections/about_company_slider/02.jpg",
             title: "ГК «Экостандарт» включает в себя 20 филиалов и представительств по всей России.",
             details: {
                 title: "Экологическое проектирование",
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         },
         {
-            image: "img/sections/projects_slider/project_rosneft.png",
+            image: "img/sections/about_company_slider/03.jpg",
             title: "Профессиональная поддержка на всех этапах проекта",
             details: {
                 title: "Технический надзор",

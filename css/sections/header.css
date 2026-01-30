@@ -2228,6 +2228,10 @@
   outline-offset: -2px;
 }
 
+.br-0 {
+  border-radius: 0px !important;
+}
+
 .br-12 {
   border-radius: 12px;
 }
