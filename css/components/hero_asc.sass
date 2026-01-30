@@ -18,6 +18,13 @@
 
     transition: background .35s ease-out
 
+    & .hero-asc-subtitle
+      &:empty
+        display: none
+
+    & .hero-asc-btn-wrp
+      padding-top: 67px
+
     &.space-bottom-30
       & .hero-asc-subtitle
         margin-bottom: 30px
@@ -261,6 +268,11 @@
         right: 0
 
         margin: auto
+    &-title
+      padding-bottom: 67px
+
+    &-subtitle
+      padding-top: 67px
 
     &-nav
       right: calc((100% - 1792px) / 2) !important

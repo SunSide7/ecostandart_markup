@@ -35,7 +35,7 @@ function setVizierPos() {
 
     // $('.hero-asc-line-h').css('top', $('.hero-asc-scaffold .hero-asc-text-top')[0].clientHeight + scaffold.clientHeight - (title.clientHeight + +style.bottom.replace('px', '')) + 'px');
     // $('.hero-asc-line-v').css('left', $('.hero-asc-scaffold .hero-asc-text')[0].clientWidth + +style.marginLeft.replace('px', '') + +style.paddingLeft.replace('px', '') + 44 + 'px');
-    $('.hero-asc-line-cross').css('top', $('.hero-asc-scaffold .hero-asc-text-top')[0].clientHeight - ($('.hero-asc-line-cross')[0].clientHeight / 2) + scaffold.clientHeight - (title.clientHeight + +style.bottom.replace('px', '')) + 3 - 307 + 'px');
+    $('.hero-asc-line-cross').css('top', $('.hero-asc-scaffold .hero-asc-text-top')[0].clientHeight - $('.hero-asc-scaffold .hero-asc-title-top')[0].clientHeight - ($('.hero-asc-line-cross')[0].clientHeight / 2) + scaffold.clientHeight - (title.clientHeight + +style.bottom.replace('px', '')) + 3 - 307 + 30 + 'px');
     $('.hero-asc-line-cross').css('left', $('.hero-asc-scaffold .hero-asc-text')[0].clientWidth + +style.marginLeft.replace('px', '') + +style.paddingLeft.replace('px', '') - ($('.hero-asc-line-cross')[0].clientWidth / 2) + 3 + 44 - 482 + 'px');
 
 
@@ -140,6 +140,13 @@ $(window).on('resize', () => {
     }, 100)
 });
 
+
+
+
+
+
+
+
 $(window).on('wheel', () => {
     if(event.ctrlKey == true) {
         setVizierPos()
@@ -163,3 +170,52 @@ new MobileDetect(replaceNavActive, replaceNavUnactive, 340, 639.5);
 
 $('body').on('click', '.hero-asc-next', setNextContent)
 $('body').on('click', '.hero-asc-prev', setPrevContent)
+
+
+
+/* TOUCH EVENT START */
+// Элемент, на котором отслеживаем свайп
+const heroMainSwipeArea = document.querySelector('.hero-asc');
+
+let touchStartX = 0;
+let touchEndX = 0;
+let touchStartY = 0;
+let touchEndY = 0;
+
+// Минимальная дистанция для свайпа
+const minDistance = 50;
+
+heroMainSwipeArea.addEventListener('touchstart', e => {
+    touchStartX = e.changedTouches[0].screenX;
+    touchStartY = e.changedTouches[0].screenY;
+});
+
+heroMainSwipeArea.addEventListener('touchend', e => {
+    touchEndX = e.changedTouches[0].screenX;
+    touchEndY = e.changedTouches[0].screenY;
+    handleSwipe();
+});
+
+function handleSwipe() {
+    const diffX = touchEndX - touchStartX;
+    const diffY = touchEndY - touchStartY;
+
+    // Проверка, какой свайп длиннее (горизонтальный или вертикальный)
+    if (Math.abs(diffX) > Math.abs(diffY)) {
+        // Горизонтальный свайп
+        if (Math.abs(diffX) > minDistance) {
+            if (diffX > 0) {
+                setNextContent()
+                console.log('Свайп вправо');
+            }
+            else {
+                setPrevContent()
+                console.log('Свайп влево');
+            }
+        }
+    }
+}
+
+
+
+/* TOUCH EVENT END */

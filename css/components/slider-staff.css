@@ -1050,6 +1050,9 @@
   background: linear-gradient(128deg, #1cb8e4, #1cb8e4) !important;
 }
 
+.slider-staff .owl-stage {
+  padding-bottom: 24px !important;
+}
 .slider-staff .slide-item .card-img-bg, .slider-staff .slide-item .card-icon {
   transition: 0.5s ease;
 }

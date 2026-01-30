@@ -1066,6 +1066,12 @@
   overflow: hidden;
   transition: background 0.35s ease-out;
 }
+.hero-asc-scaffold .hero-asc-subtitle:empty {
+  display: none;
+}
+.hero-asc-scaffold .hero-asc-btn-wrp {
+  padding-top: 67px;
+}
 .hero-asc-scaffold.space-bottom-30 .hero-asc-subtitle {
   margin-bottom: 30px;
 }
@@ -1270,6 +1276,12 @@
     left: 0;
     right: 0;
     margin: auto;
+  }
+  .hero-asc-title {
+    padding-bottom: 67px;
+  }
+  .hero-asc-subtitle {
+    padding-top: 67px;
   }
   .hero-asc-nav {
     right: calc((100% - 1792px) / 2) !important;
