@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b8ab271-fc0e-4595-adc9-c2f78da8fd73" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/img/sections/legend_46/logo_01_02.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index_older.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_older.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_older.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index_older.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_dev.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_dev.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_dev_ascended.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_dev_ascended.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_54.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_54.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_dev_ascended.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_dev_ascended.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_46.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_46.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,11 +72,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1769765836977</updated>
-      <workItem from="1769765838079" duration="4769000" />
+      <workItem from="1769765838079" duration="6943000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="GitHub.CommitStatus" />
+      </list>
+    </option>
   </component>
 </project>
