@@ -17420,9 +17420,9 @@ textarea.form-control-lg {
   margin-bottom: 1.9375rem !important;
 }
 
-/*.mb-32 {*/
-/*  margin-bottom: 2rem !important;*/
-/*}*/
+.mb-32 {
+  margin-bottom: 2rem !important;
+}
 
 .mb-33 {
   margin-bottom: 2.0625rem !important;

@@ -1,18 +1,26 @@
 .we-in-news-img {
-  min-height: 183px;
   height: 183px;
 }
 
 @media (min-width: 640px) {
   .we-in-news-img {
-    min-height: 283px;
     height: 283px;
   }
 }
 @media (min-width: 960px) {
   .we-in-news-img {
-    min-height: 240px;
     height: 240px;
+  }
+  .we-in-news-title {
+    height: 56px;
+  }
+  .we-in-news-desc {
+    height: 66px;
+  }
+}
+@media (min-width: 1280px) {
+  .we-in-news-desc {
+    height: 88px;
   }
 }
 
