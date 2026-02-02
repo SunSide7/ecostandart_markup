@@ -745,6 +745,10 @@
   background-color: #44af8c !important;
   transition: all 0.35s ease-out;
 }
+.bg-color-primary-dark-green-10 {
+  background-color: rgba(68, 175, 140, 0.1) !important;
+  transition: all 0.35s ease-out;
+}
 .bg-color-safety {
   background-color: #F25B39 !important;
   transition: all 0.35s ease-out;
@@ -1050,7 +1054,7 @@
   background: linear-gradient(128deg, #1cb8e4, #1cb8e4) !important;
 }
 
-.tag-white, .tag-black, .tag-outline, .tag-safety, .tag-ecology, .tag-surveys, .tag-academy, .tag-soft, .tag-foundation, .tag-journal, .tag-certification, .tag-people, .tag-life {
+.tag-white, .tag-black, .tag-outline, .tag-primary, .tag-safety, .tag-ecology, .tag-surveys, .tag-academy, .tag-soft, .tag-foundation, .tag-journal, .tag-certification, .tag-people, .tag-life {
   display: inline-block;
   padding: 12px 24px;
   text-decoration: none;
@@ -1069,7 +1073,7 @@
   transition: all 0.35s ease-out;
   margin-right: 8px;
 }
-.tag-white:last-child, .tag-black:last-child, .tag-outline:last-child, .tag-safety:last-child, .tag-ecology:last-child, .tag-surveys:last-child, .tag-academy:last-child, .tag-soft:last-child, .tag-foundation:last-child, .tag-journal:last-child, .tag-certification:last-child, .tag-people:last-child, .tag-life:last-child {
+.tag-white:last-child, .tag-black:last-child, .tag-outline:last-child, .tag-primary:last-child, .tag-safety:last-child, .tag-ecology:last-child, .tag-surveys:last-child, .tag-academy:last-child, .tag-soft:last-child, .tag-foundation:last-child, .tag-journal:last-child, .tag-certification:last-child, .tag-people:last-child, .tag-life:last-child {
   margin-right: 0;
 }
 
@@ -1094,6 +1098,10 @@
   background: transparent;
   color: #3a434d;
   border: 1px solid #3a434d;
+}
+.tag-primary.active {
+  color: #f8f8f8;
+  background: #74dd4f;
 }
 .tag-safety.active {
   color: #f8f8f8;

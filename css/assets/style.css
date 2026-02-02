@@ -745,6 +745,10 @@
   background-color: #44af8c !important;
   transition: all 0.35s ease-out;
 }
+.bg-color-primary-dark-green-10 {
+  background-color: rgba(68, 175, 140, 0.1) !important;
+  transition: all 0.35s ease-out;
+}
 .bg-color-safety {
   background-color: #F25B39 !important;
   transition: all 0.35s ease-out;

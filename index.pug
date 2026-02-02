@@ -1,9 +1,9 @@
 include pug/base/includes
 
 doctype html
-html.html(lang="ru")
+html.html.h-100(lang="ru")
     +html-head('INDEX PAGE')
-    body.bg-color-background-white
+    body.bg-color-background-white.h-100
         //include pug/sections/header
 
         // DEV
@@ -12,12 +12,12 @@ html.html(lang="ru")
 
         // SPRINT 01
         //include pug/pages/main_sprint_dev
-        include pug/pages/main_sprint_dev_mentalghost
+        //include pug/pages/main_sprint_dev_mentalghost
         //include pug/pages/main_sprint_dev_ascended
 
         // SPRINT 02
-        include pug/pages/main_sprint_2_dev
-        //include pug/pages/main_sprint_2_dev_mentalghost
+        //include pug/pages/main_sprint_2_dev
+        include pug/pages/main_sprint_2_dev_mentalghost
         //include pug/pages/main_sprint_2_dev_ascended
 
         // DEV
