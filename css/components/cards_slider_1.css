@@ -1138,5 +1138,10 @@
     padding-top: 16px !important;
   }
 }
+@media (min-width: 960px) and (max-width: 1279.5px) {
+  .cards-slider .owl-stage-outer {
+    padding-left: 36px;
+  }
+}
 
 /*# sourceMappingURL=cards_slider_1.css.map */

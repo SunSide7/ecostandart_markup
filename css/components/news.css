@@ -1053,6 +1053,9 @@
 .news {
   position: relative;
 }
+.news .img-slider .owl-nav, .news .img-slider-x4 .owl-nav, .news .img-slider-x4_2 .owl-nav, .news .img-slider-x4_3 .owl-nav, .news .img-slider-x3 .owl-nav {
+  padding-top: 33.5px !important;
+}
 .news .btn-news {
   position: absolute;
   bottom: 20px;
@@ -1124,6 +1127,9 @@
     width: 100%;
     position: relative;
     margin-bottom: 48px;
+  }
+  .news .img-slider .owl-nav, .news .img-slider-x4 .owl-nav, .news .img-slider-x4_2 .owl-nav, .news .img-slider-x4_3 .owl-nav, .news .img-slider-x3 .owl-nav {
+    padding-top: 20px !important;
   }
 }
 @media (min-width: 640px) and (max-width: 959.5px) {

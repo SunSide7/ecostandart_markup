@@ -3,6 +3,13 @@
 .news
   position: relative
 
+  & .img-slider .owl-nav,
+  & .img-slider-x4 .owl-nav,
+  & .img-slider-x4_2 .owl-nav,
+  & .img-slider-x4_3 .owl-nav,
+  & .img-slider-x3 .owl-nav
+    padding-top: 33.5px !important
+
   & .btn-news
     position: absolute
     bottom: 20px
@@ -17,6 +24,7 @@
 
   & .owl-nav
     padding-bottom: 20px
+    //padding-bottom: 0 !important
 
   & .slide-item
     &:hover
@@ -86,6 +94,13 @@
       width: 100%
       position: relative
       margin-bottom: 48px
+
+    & .img-slider .owl-nav,
+    & .img-slider-x4 .owl-nav,
+    & .img-slider-x4_2 .owl-nav,
+    & .img-slider-x4_3 .owl-nav,
+    & .img-slider-x3 .owl-nav
+      padding-top: 20px !important
 
 
 @media(min-width: 640px) and (max-width: 959.5px)

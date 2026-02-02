@@ -1212,6 +1212,9 @@
   .cards-arrow {
     padding: 0 32px !important;
   }
+  .cards-arrow .card-arrow:nth-child(9), .cards-arrow .card-arrow:nth-child(10), .cards-arrow .card-arrow:nth-child(11), .cards-arrow .card-arrow:nth-child(12) {
+    margin-bottom: 0 !important;
+  }
 }
 @media (min-width: 640px) and (max-width: 959.5px) {
   .cards-arrow {
