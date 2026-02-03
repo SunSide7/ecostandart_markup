@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03bb46c6-0cbf-4079-9aba-1f7c2fe86fc5" name="Changes" comment="">
+    <list default="true" id="0ef87b7a-a7d7-4551-91d6-44597af64be3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sections/calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/calendar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sections/calendar.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/calendar.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/pages/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_2_dev_mentalghost.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_2_dev_mentalghost.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_dev_mentalghost.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_dev_mentalghost.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/hero_main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/hero_main.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_10.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_10.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_12.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_12.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/sections/legend_16.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_16.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +20,7 @@
   "customColor": "",
   "associatedIndex": 4
 }]]></component>
-  <component name="ProjectId" id="39AH9LuXkaftXjB9NFVtzTfD1Dh" />
+  <component name="ProjectId" id="39ChRlbiOVB7xaNuQdoaW19UfNW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,12 +45,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="03bb46c6-0cbf-4079-9aba-1f7c2fe86fc5" name="Changes" comment="" />
-      <created>1770131804167</created>
+      <changelist id="0ef87b7a-a7d7-4551-91d6-44597af64be3" name="Changes" comment="" />
+      <created>1770205956190</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1770131804167</updated>
-      <workItem from="1770131805243" duration="25000" />
+      <updated>1770205956190</updated>
+      <workItem from="1770205957006" duration="23000" />
     </task>
     <servers />
   </component>
