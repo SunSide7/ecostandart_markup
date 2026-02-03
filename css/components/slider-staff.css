@@ -1056,6 +1056,9 @@
 .slider-staff .slide-item .card-img-bg, .slider-staff .slide-item .card-icon {
   transition: 0.5s ease;
 }
+.slider-staff .slide-item .card-icon {
+  flex: 1;
+}
 .slider-staff .slide-item .card-img-bg {
   height: 240px;
 }

@@ -37,9 +37,6 @@
       &-img
         width: calc(50% - 24px / 2 - 32px / 2)
 
-//@media(max-width: 960px)
-
-//@media(max-width: 960px)
 @media(max-width: 640px)
   .h-cards
     &-item
@@ -83,3 +80,14 @@
         max-height: 50vw
         min-height: 200px
 
+@media(min-width: 1920px)
+  .h-cards-item
+
+    & > div
+      flex: 1
+
+    &-text
+      flex: 1
+
+    &-img
+      position: static

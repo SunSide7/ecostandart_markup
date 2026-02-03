@@ -6,6 +6,22 @@
   <component name="ChangeListManager">
     <list default="true" id="4b8ab271-fc0e-4595-adc9-c2f78da8fd73" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card_icon_bg_img.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_icon_bg_img.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card_icon_bg_img.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_icon_bg_img.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card_icon_bg_img.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_icon_bg_img.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/h_cards.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/h_cards.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/h_cards.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/h_cards.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/h_cards.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/h_cards.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/img_slider_1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/img_slider_1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/img_slider_1.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/img_slider_1.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/img_slider_1.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/img_slider_1.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/slider-staff.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/slider-staff.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/slider-staff.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/slider-staff.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/slider-staff.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/slider-staff.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_older.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_older.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_older.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index_older.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/assets/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/assets/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_dev_ascended.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_dev_ascended.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1769765836977</updated>
       <workItem from="1769765838079" duration="17329000" />
-      <workItem from="1770021548630" duration="9529000" />
+      <workItem from="1770021548630" duration="14734000" />
     </task>
     <servers />
   </component>

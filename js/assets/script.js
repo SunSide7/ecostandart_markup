@@ -375,6 +375,7 @@ $(document).ready(function() {
     $('.img-slider-x3_2').owlCarousel({
         // loop:true,
         margin:16,
+        autoHeight: true,
         nav:true,
         dots: false,
         navText: [

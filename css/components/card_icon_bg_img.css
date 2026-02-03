@@ -1160,6 +1160,11 @@
   object-fit: cover;
 }
 
+.cards-hovering-img-x3 .card-icon-bg-img .icon-img,
+.cards-hovering-img-x4 .card-icon-bg-img .icon-img {
+  width: 24px !important;
+}
+
 @media (min-width: 1920px) {
   .card-neutral-white.card-icon-bg, .card-neutral-white.card-icon-bg-img {
     height: 335px;

@@ -77,5 +77,16 @@
     min-height: 200px;
   }
 }
+@media (min-width: 1920px) {
+  .h-cards-item > div {
+    flex: 1;
+  }
+  .h-cards-item-text {
+    flex: 1;
+  }
+  .h-cards-item-img {
+    position: static;
+  }
+}
 
 /*# sourceMappingURL=h_cards.css.map */
