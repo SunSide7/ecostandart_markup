@@ -1,27 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b8ab271-fc0e-4595-adc9-c2f78da8fd73" name="Changes" comment="">
+    <list default="true" id="4e56d2bc-7768-4af2-b4a2-04fa932d5a8f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/css/assets/scale.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/assets/scale.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/assets/scale.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/sections/library_info_materials.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/sections/library_info_materials.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/sections/library_info_materials.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/cert_levels/bronze.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/cert_levels/diamond.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/cert_levels/gold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/cert_levels/platinum.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/cert_levels/silver.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/news_cards_list/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/news_cards_list/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/news_cards_list/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/news_cards_list/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/news_cards_list/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/news_cards_list/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/news_cards_list/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/news_cards_list/08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sections/news_multi_filter/news_multi_filter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index_3.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/components/simple_slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/sections/reviews.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_74.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_74.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_78.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_80.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_80.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_95.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_95.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_97.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pug/sections/legend_97.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/borders.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/borders.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/colors.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/colors.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/assets/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/breadcrumbs.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/breadcrumbs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/breadcrumbs.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/breadcrumbs.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/button.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/button.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card_arrow.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_arrow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card_base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card_blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_blog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card_blog.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_blog.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card_expertise.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_expertise.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card_expertise.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_expertise.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card_icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_icon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card_icon.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_icon.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/card_icon_bg_img.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_icon_bg_img.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_icon_bg_img.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_icon_bg_img.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/card_icon_bg_img.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_icon_bg_img.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/h_cards.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/h_cards.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/h_cards.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/h_cards.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/h_cards.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/h_cards.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card_number.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_number.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card_number.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_number.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card_outer_icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_outer_icon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card_outer_icon.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_outer_icon.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card_policy.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_policy.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/card_policy.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/card_policy.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/cards-map.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards-map.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/cards-map.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards-map.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/cards_ecosystem_img.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards_ecosystem_img.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/cards_ecosystem_img.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards_ecosystem_img.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/cards_slider_1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/cards_slider_1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/checkbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/checkbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/checkbox.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/checkbox.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/diagram_bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/diagram_bar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/diagram_bar.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/diagram_bar.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/diagram_round.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/diagram_round.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/divider.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/divider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/divider.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/divider.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/dropdown.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/dropdown_filter.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown_filter.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/dropdown_filter.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown_filter.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/dropdown_header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown_header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/dropdown_header.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown_header.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/dropdown_item.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown_item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/dropdown_item.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/dropdown_item.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/ghost.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ghost.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/ghost.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/ghost.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/hero_asc.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/hero_asc.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/hero_asc.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/hero_asc.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/img-on-gray-bg.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/img-on-gray-bg.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/img-on-gray-bg.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/img-on-gray-bg.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/img_slider_1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/img_slider_1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/img_slider_1.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/img_slider_1.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/img_slider_1.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/img_slider_1.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/input.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/input.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/link.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/link.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/link.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/link.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/menu_footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/menu_footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/menu_header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/menu_header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/news.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/plus_icon_list.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/plus_icon_list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/plus_icon_list.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/plus_icon_list.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/search.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/search.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/search.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/slider-staff.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/slider-staff.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/slider-staff.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/slider-staff.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/slider-staff.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/slider-staff.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_older.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_older.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_older.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index_older.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/assets/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/assets/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_dev_ascended.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_dev_ascended.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/tag.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/tag.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/tag.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/tag.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/tag.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/tag.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/tariffs.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/tariffs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/tariffs.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/tariffs.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/title.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/title.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/title.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/title.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/calendar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/clients.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/clients.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/clients.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/clients.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/header.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/header.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/industry-decisions.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/industry-decisions.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/industry-decisions.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/industry-decisions.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/organism_affects.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/organism_affects.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/organism_affects.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/organism_affects.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/quote.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/quote.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/quote.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/quote.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/software.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/software.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/software.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/sections/software.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_map_pin-1_academy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_map_pin-1_black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_map_pin-1_certification.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_map_pin-1_ecology.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_map_pin-1_foundation.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_map_pin-1_grey.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_map_pin-1_journal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_map_pin-1_life.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_map_pin-1_people.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_map_pin-1_primary.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_map_pin-1_safety.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_map_pin-1_soft.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_map_pin-1_surveys.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/assets/icons/medium/icon_map_pin-1_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/sections/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/sections/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/base/vars/scripts.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/base/vars/scripts.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/base/vars/styles.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/base/vars/styles.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_2_dev.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_2_dev.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_2_dev.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_2_dev.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_2_dev_mentalghost.html" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_2_dev_mentalghost.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_2_dev_mentalghost.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_2_dev_mentalghost.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_dev.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_dev.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/pages/main_sprint_dev_mentalghost.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/pages/main_sprint_dev_mentalghost.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/header.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/hero_no_form.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/hero_no_form.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_101.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_101.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_109.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_109.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_71.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_71.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_79.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_79.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pug/sections/legend_93.pug" beforeDir="false" afterPath="$PROJECT_DIR$/pug/sections/legend_93.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,22 +157,15 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Sass File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\php8\php.exe" />
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 4
-}</component>
-  <component name="ProjectId" id="38yJNJNbwU5p4iIXNEkOgBjIEV9" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="399mOSSMw0sPchaXKQroayqsnKB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,23 +174,11 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "C:/Users/Popov/Desktop/BX MARKUP/img/sections/legend_48",
-    "list.type.of.created.stylesheet": "Sass",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "watcher.settings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Popov\Desktop\BX MARKUP\img\sections\legend_48" />
-      <recent name="C:\Users\Popov\Desktop\BX MARKUP\img\sections\legend_63" />
-    </key>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -83,28 +190,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4b8ab271-fc0e-4595-adc9-c2f78da8fd73" name="Changes" comment="" />
-      <created>1769765836977</created>
+      <changelist id="4e56d2bc-7768-4af2-b4a2-04fa932d5a8f" name="Changes" comment="" />
+      <created>1770116631013</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1769765836977</updated>
-      <workItem from="1769765838079" duration="17329000" />
-      <workItem from="1770021548630" duration="14734000" />
+      <updated>1770116631013</updated>
+      <workItem from="1770116631895" duration="39000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ID_ORDER">
-      <list>
-        <option value="Default.Root" />
-        <option value="Default.Author" />
-        <option value="Default.Date" />
-        <option value="Default.Subject" />
-        <option value="GitHub.CommitStatus" />
-      </list>
-    </option>
   </component>
 </project>

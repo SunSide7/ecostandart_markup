@@ -497,7 +497,6 @@ document.addEventListener('DOMContentLoaded', function() {
         const menuText = element.textContent.trim();
 
         if (activeLevel1Item === menuText && isMenuOpen) {
-            closeMenu();
             return;
         }
 
@@ -505,7 +504,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const menuDataItem = menuData[menuText];
         if (!menuDataItem) {
-            closeMenu();
             return;
         }
 
@@ -669,6 +667,14 @@ document.addEventListener('DOMContentLoaded', function() {
             menuElement.querySelectorAll('.active').forEach(item => {
                 item.classList.remove('active');
             });
+        }
+    }
+
+    function closeMenu() {
+        if (headerMenu) {
+            isMenuOpen = false;
+            headerMenu.style = null;
+            
         }
     }
 
@@ -847,31 +853,55 @@ function updateFooterInfo(cityName) {
     const city = cityData[cityName];
     if (!city) return;
 
-    // Обновляем телефон
-    const phoneLink = document.querySelector('.footer-info-phone');
-    if (phoneLink) {
-        phoneLink.textContent = city.phone;
-        phoneLink.href = `tel:${city.phoneLink}`;
-    }
+    // Определяем все селекторы для поиска элементов
+    const selectors = {
+        phone: ['.footer-info-phone', '[data-city="phone"]', '.contact-phone'],
+        email: ['.footer-info-mail', '[data-city="email"]', '.contact-email'],
+        address: ['.footer-info-address', '[data-city="address"]', '.contact-address'],
+        worktime: ['.footer-info-time', '[data-city="worktime"]', '.contact-worktime'],
+        city: ['[data-city="name"]', '.current-city', '.city-name']
+    };
 
-    // Обновляем email
-    const emailLink = document.querySelector('.footer-info-mail');
-    if (emailLink) {
-        emailLink.textContent = city.email;
-        emailLink.href = `mailto:${city.email}`;
-    }
+    // Обновляем все элементы по селекторам
+    Object.entries(selectors).forEach(([type, selectorList]) => {
+        const query = selectorList.join(', ');
+        const elements = document.querySelectorAll(query);
 
-    // Обновляем адрес
-    const addressElement = document.querySelector('.footer-info-address');
-    if (addressElement) {
-        addressElement.textContent = city.addressFull;
-    }
+        elements.forEach(element => {
+            switch(type) {
+                case 'phone':
+                    element.textContent = city.phone;
+                    if (element.tagName === 'A') {
+                        element.href = `tel:${city.phoneLink}`;
+                    }
+                    break;
 
-    // Обновляем время работы
-    const workTimeElement = document.querySelector('.footer-info-time');
-    if (workTimeElement) {
-        workTimeElement.textContent = city.workTimeFull;
-    }
+                case 'email':
+                    element.textContent = city.email;
+                    if (element.tagName === 'A') {
+                        element.href = `mailto:${city.email}`;
+                    }
+                    break;
+
+                case 'address':
+                    // Проверяем какой формат адреса нужен
+                    if (element.classList.contains('short-address')) {
+                        element.textContent = city.address;
+                    } else {
+                        element.textContent = city.addressFull;
+                    }
+                    break;
+
+                case 'worktime':
+                    element.textContent = city.workTimeFull;
+                    break;
+
+                case 'city':
+                    element.textContent = cityName;
+                    break;
+            }
+        });
+    });
 
     // Обновляем активный город в футере
     updateActiveCityInFooter(cityName);
