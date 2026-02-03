@@ -1650,7 +1650,7 @@
   aspect-ratio: 1;
 }
 .grid-calendar > * {
-  height: 32px;
+  height: 20px;
   width: 32px;
   display: flex;
   align-items: center;
@@ -1794,6 +1794,14 @@
   background-size: 100%;
 }
 
+@media (min-width: 640px) {
+  .grid-days {
+    gap: 12px 30px;
+  }
+  .grid-calendar {
+    aspect-ratio: 2;
+  }
+}
 @media (min-width: 960px) {
   .grid-days {
     gap: 12px 30px;

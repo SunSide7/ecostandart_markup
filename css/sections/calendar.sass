@@ -87,7 +87,7 @@
   aspect-ratio: 1
 
   & > *
-    height: 32px
+    height: 20px
     width: 32px
     display: flex
     align-items: center
@@ -218,6 +218,13 @@
         margin-left: auto
         background-image: url(../../img/assets/icons/small/icon_check_white.svg)
         background-size: 100%
+
+@media (min-width: 640px)
+  .grid-days
+    gap: 12px 30px
+
+  .grid-calendar
+    aspect-ratio: 2
 
 @media (min-width: 960px)
   .grid-days
