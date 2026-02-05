@@ -12,43 +12,44 @@
   transform: translate(0, 43.5%)
   pointer-events: none
 
-.hero-main-info
-  bottom: 0
-  right: 0
-  height: 50vh
-  width: calc(50vw + 110px)
-
 .hero-main-title
   top: 0
   right: 0
-  height: 50vh
-  width: calc(50vw + 130px)
+  height: calc(100vh - 365px)
+  width: 86vw
   z-index: 1
 
 .hero-main-input
   bottom: 0
   right: 0
-  height: 50vh
-  width: calc(50vw + 130px)
+  height: 365px
+  width: 86vw
 
-.hero-no-form-info
+.hero-main-min-title
+  top: 0
+  right: 0
+  height: calc(100vh - 365px)
+  width: 86vw
+  z-index: 1
+
+.hero-main-min-input
   bottom: 0
   right: 0
-  height: calc(50vh + 5px)
-  width: calc(50vw + 35px)
+  height: 365px
+  width: 86vw
 
 .hero-no-form-title
   top: 0
   right: 0
-  height: calc(50vh - 51px)
-  width: calc(50vw + 145px)
+  height: 44.46vh
+  width: 90.28vw
   z-index: 1
 
 .hero-no-form-input
   bottom: 0
   right: 0
-  height: calc(50vh + 51px)
-  width: calc(50vw + 145px)
+  height: 55.54vh
+  width: 90.28vw
 
 @media (min-width: 640px)
   .hero-main-info-icon
@@ -56,112 +57,167 @@
     height: 24px
 
   .hero-main-title
-    height: calc(50vh + 150px)
-    width: calc(50vw + 175px)
+    height: calc(100vh - 308px)
+    width: 75vw
 
   .hero-main-input
-    height: calc(50vh - 150px)
-    width: calc(50vw + 175px)
+    height: 308px
+    width: 75vw
+
+  .hero-main-min-title
+    height: calc(100vh - 308px)
+    width: 75vw
+
+  .hero-main-min-input
+    height: 308px
+    width: 75vw
 
   .hero-no-form-title
     top: 0
     right: 0
-    height: calc(50vh + 156px)
-    width: calc(50vw + 145px)
+    height: calc(100vh - 324px)
+    width: 75vw
     z-index: 1
 
   .hero-no-form-input
     bottom: 0
     right: 0
-    height: calc(50vh - 156px)
-    width: calc(50vw + 145px)
+    height: 324px
+    width: 75vw
 
 @media (min-width: 960px)
   .hero-main-title
-    height: calc(50vh + 0px)
-    width: calc(50vw + 20px)
+    height: calc(100vh - 308px)
+    width: 49.17vw
 
   .hero-main-input
     left: 0
-    height: calc(50vh + 0px)
-    width: calc(50vw - 20px)
+    height: 308px
+    width: 50.83vw
 
   .hero-main-info
-    height: calc(50vh + 0px)
-    width: calc(50vw + 20px)
+    bottom: 0
+    right: 0
+    height: 308px
+    width: 49.17vw
+
+  .hero-main-min-title
+    height: calc(100vh - 237px)
+    width: 57.08vw
+
+  .hero-main-min-input
+    left: 0
+    height: 237px
+    width: 42.92vw
+
+  .hero-main-min-info
+    bottom: 0
+    right: 0
+    height: 237px
+    width: 57.08vw
 
   .hero-no-form-title
     top: 0
     right: 0
-    height: calc(50vh - 5px)
-    width: calc(50vw + 35px)
+    height: calc(100vh - 325px)
+    width: 53.6vw
     z-index: 1
 
   .hero-no-form-input
     left: 0
-    height: calc(50vh + 5px)
-    width: calc(50vw - 35px)
+    height: 325px
+    width: 46.4vw
+
+  .hero-no-form-info
+    bottom: 0
+    right: 0
+    height: 325px
+    width: 53.6vw
 
 @media (min-width: 1280px)
   .hero-main-title
-    height: calc(50vh + 100px)
-    width: calc(50vw + 50px)
+    height: calc(100vh - 308px)
+    width: 54.61vw
 
   .hero-main-input
-    height: calc(50vh - 100px)
-    width: calc(50vw - 50px)
+    height: 308px
+    width: 45.39vw
 
   .hero-main-info
-    height: calc(50vh - 100px)
-    width: calc(50vw + 50px)
+    height: 308px
+    width: 54.61vw
+
+  .hero-main-min-title
+    height: calc(100vh - 229px)
+    width: 54.61vw
+
+  .hero-main-min-input
+    height: 229px
+    width: 45.39vw
+
+  .hero-main-min-info
+    height: 229px
+    width: 54.61vw
 
   .hero-no-form-title
     top: 0
     right: 0
-    height: calc(50vh + 77px)
-    width: calc(50vw + 59px)
+    height: calc(100vh - 343px)
+    width: 54.6vw
     z-index: 1
 
   .hero-no-form-input
     left: 0
-    height: calc(50vh - 77px)
-    width: calc(50vw - 59px)
+    height: 343px
+    width: 45.4vw
 
   .hero-no-form-info
     bottom: 0
     right: 0
-    height: calc(50vh - 77px)
-    width: calc(50vw + 59px)
+    height: 343px
+    width: 54.6vw
 
 @media (min-width: 1920px)
   .hero-main-title
-    height: calc(50vh + 100px)
-    width: calc(50vw + 140px)
+    height: calc(100vh - 373px)
+    width: 57.97vw
 
   .hero-main-input
-    height: calc(50vh - 100px)
-    width: calc(50vw - 140px)
+    height: 373px
+    width: 42.03vw
 
   .hero-main-info
-    height: calc(50vh - 100px)
-    width: calc(50vw + 140px)
+    height: 373px
+    width: 57.97vw
+
+  .hero-main-min-title
+    height: calc(100vh - 373px)
+    width: 57.97vw
+
+  .hero-main-min-input
+    height: 373px
+    width: 42.03vw
+
+  .hero-main-min-info
+    height: 373px
+    width: 57.97vw
 
   .hero-no-form-title
     top: 0
     right: 0
-    height: calc(50vh + 129px)
-    width: calc(50vw + 153px)
+    height: calc(100vh - 411px)
+    width: 58vw
     z-index: 1
 
   .hero-no-form-input
     left: 0
-    height: calc(50vh - 129px)
-    width: calc(50vw - 153px)
+    height: 411px
+    width: 42vw
 
   .hero-no-form-info
     bottom: 0
     right: 0
-    height: calc(50vh - 129px)
-    width: calc(50vw + 153px)
+    height: 411px
+    width: 58vw
 
 

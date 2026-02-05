@@ -1,66 +1,137 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Инициализация всех форм
-    document.querySelectorAll('[class^="form-"]').forEach(formContainer => {
-        const form = formContainer.querySelector('form');
-        const submitBtn = formContainer.querySelector('button');
+    // Находим все input поля
+    const emailInputs = document.querySelectorAll('input[type="email"]');
+    const telInputs = document.querySelectorAll('input[type="tel"]');
 
-        if (!form || !submitBtn) return;
+    // Регулярные выражения для проверки
+    const emailPattern = /^[a-zA-Z0-9@._%+-]*$/; // Только латинские буквы, цифры и разрешенные символы для email
+    const telPattern = /^[\d+*#\s\-()]*$/; // Только цифры, +, *, #, пробелы, дефисы, скобки
 
-        // Функция проверки формы
-        function checkForm() {
-            const inputs = form.querySelectorAll('input');
-            let isValid = true;
+    // Функция валидации email
+    function validateEmail(input) {
+        const value = input.value;
+        const parent = input.closest('.input');
+        const errorElement = parent.querySelector('p');
 
-            inputs.forEach(input => {
-                const wrapper = input.closest('.input');
-                const value = input.value.trim();
-                const isRequired = input.getAttribute('placeholder')?.includes('*');
-
-                // Проверка обязательных полей
-                if (isRequired && !value) {
-                    isValid = false;
-                    wrapper.classList.add('error');
-                } else {
-                    wrapper.classList.remove('error');
-                }
-
-                // Простая валидация email
-                if (input.getAttribute('placeholder')?.toLowerCase().includes('email') && value) {
-                    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-                    if (!emailRegex.test(value)) {
-                        isValid = false;
-                        wrapper.classList.add('error');
-                    }
-                }
-
-                // Простая валидация телефона
-                if (input.getAttribute('placeholder')?.includes('+7') && value) {
-                    const phoneRegex = /^\+7\s?\(\d{3}\)\s?\d{3}-\d{2}-\d{2}$/;
-                    if (!phoneRegex.test(value)) {
-                        isValid = false;
-                        wrapper.classList.add('error');
-                    }
-                }
-            });
-
-            return isValid;
+        // Проверяем на недопустимые символы
+        if (!emailPattern.test(value)) {
+            parent.classList.add('error');
+            errorElement.textContent = 'ошибка';
+            return false;
+        } else {
+            parent.classList.remove('error');
+            errorElement.textContent = '';
+            return true;
         }
+    }
 
-        // Обработчики событий
-        form.querySelectorAll('input').forEach(input => {
-            input.addEventListener('input', checkForm);
-            input.addEventListener('blur', checkForm);
+    // Функция валидации телефона
+    function validateTel(input) {
+        const value = input.value;
+        const parent = input.closest('.input');
+        const errorElement = parent.querySelector('p');
+
+        // Проверяем на недопустимые символы
+        if (!telPattern.test(value)) {
+            parent.classList.add('error');
+            errorElement.textContent = 'ошибка';
+            return false;
+        } else {
+            parent.classList.remove('error');
+            errorElement.textContent = '';
+            return true;
+        }
+    }
+
+    // Обработчики для email полей
+    emailInputs.forEach(input => {
+        // Проверка при вводе
+        input.addEventListener('input', function() {
+            validateEmail(this);
         });
 
-        // Обработчик отправки
-        submitBtn.addEventListener('click', function(e) {
-            e.preventDefault();
-            if (checkForm()) {
-                formContainer.classList.add('active');
+        // Проверка при потере фокуса
+        input.addEventListener('blur', function() {
+            validateEmail(this);
+        });
+
+        // Предотвращаем ввод недопустимых символов
+        input.addEventListener('keypress', function(e) {
+            const char = e.key;
+
+            // Разрешаем управляющие клавиши
+            if (e.ctrlKey || e.altKey || e.metaKey) return;
+
+            // Разрешаем специальные клавиши
+            if ([
+                'Backspace', 'Delete', 'ArrowLeft', 'ArrowRight',
+                'ArrowUp', 'ArrowDown', 'Tab', 'Home', 'End',
+                'Enter', 'Escape'
+            ].includes(char)) return;
+
+            // Проверяем символ
+            if (!emailPattern.test(char)) {
+                e.preventDefault();
+                // Показываем ошибку сразу
+                const parent = this.closest('.input');
+                const errorElement = parent.querySelector('p');
+                parent.classList.add('error');
+                errorElement.textContent = 'ошибка';
             }
         });
 
-        // Инициализация
-        checkForm();
+        // Обработка вставки текста
+        input.addEventListener('paste', function(e) {
+            // Даем время на вставку, затем проверяем
+            setTimeout(() => {
+                validateEmail(this);
+            }, 10);
+        });
+    });
+
+    // Обработчики для телефонных полей
+    telInputs.forEach(input => {
+        // Проверка при вводе
+        input.addEventListener('input', function() {
+            validateTel(this);
+        });
+
+        // Проверка при потере фокуса
+        input.addEventListener('blur', function() {
+            validateTel(this);
+        });
+
+        // Предотвращаем ввод недопустимых символов
+        input.addEventListener('keypress', function(e) {
+            const char = e.key;
+
+            // Разрешаем управляющие клавиши
+            if (e.ctrlKey || e.altKey || e.metaKey) return;
+
+            // Разрешаем специальные клавиши
+            if ([
+                'Backspace', 'Delete', 'ArrowLeft', 'ArrowRight',
+                'ArrowUp', 'ArrowDown', 'Tab', 'Home', 'End',
+                'Enter', 'Escape'
+            ].includes(char)) return;
+
+            // Проверяем символ
+            if (!telPattern.test(char)) {
+                e.preventDefault();
+                // Показываем ошибку сразу
+                const parent = this.closest('.input');
+                const errorElement = parent.querySelector('p');
+                parent.classList.add('error');
+                errorElement.textContent = 'ошибка';
+            }
+        });
+
+        // Обработка вставки текста
+        input.addEventListener('paste', function(e) {
+            // Даем время на вставку, затем проверяем
+            setTimeout(() => {
+                validateTel(this);
+            }, 10);
+        });
     });
 });
